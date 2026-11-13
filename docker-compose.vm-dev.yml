@@ -1,0 +1,203 @@
+name: modular-housing-vm-dev
+
+x-node: &node
+  image: node:24-bookworm
+  working_dir: /workspace
+  volumes:
+    - ./:/workspace
+    - type: volume
+      source: root_node_modules
+      target: /workspace/node_modules
+      volume: { nocopy: true }
+    - type: volume
+      source: cms_node_modules
+      target: /workspace/apps/cms/node_modules
+      volume: { nocopy: true }
+    - type: volume
+      source: web_node_modules
+      target: /workspace/apps/web/node_modules
+      volume: { nocopy: true }
+    - type: volume
+      source: npm_cache
+      target: /root/.npm
+      volume: { nocopy: true }
+  networks: [dev]
+
+services:
+  # Install once; apps wait for completion instead of installing concurrently.
+  deps:
+    <<: *node
+    command: npm ci --include=dev --no-audit --no-fund
+    restart: "no"
+
+  postgres:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-modular_housing_dev}
+      POSTGRES_USER: ${POSTGRES_USER:-modular_dev}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-change-this-dev-password}
+    ports:
+      - "127.0.0.1:${POSTGRES_PORT:-5432}:5432"
+    volumes:
+      - postgres_dev_data:/var/lib/postgresql/data
+    healthcheck:
+      test:
+        [
+          "CMD-SHELL",
+          "pg_isready -U ${POSTGRES_USER:-modular_dev} -d ${POSTGRES_DB:-modular_housing_dev}"
+        ]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+    networks:
+      - dev
+
+  # Net Insight 保留的上游 MinIO 镜像，仅用于本地开发图片存储。
+  # 通过 1Panel 镜像缓存拉取；生产环境应改为已确认维护的 S3 兼容服务。
+  minio:
+    image: ${MINIO_IMAGE:-docker.1panel.live/netiedge/minio:RELEASE.2025-01-20T14-49-07Z}
+    restart: unless-stopped
+    command: server /data --console-address ":9001"
+    environment:
+      MINIO_ROOT_USER: ${MINIO_ROOT_USER:-minio-dev}
+      MINIO_ROOT_PASSWORD: ${MINIO_ROOT_PASSWORD:-change-this-minio-password}
+    ports:
+      - "${MINIO_API_PORT:-9000}:9000"
+      - "${MINIO_CONSOLE_PORT:-9001}:9001"
+    volumes:
+      - minio_dev_data:/data
+    networks:
+      - dev
+
+  minio-init:
+    image: ${MC_IMAGE:-docker.1panel.live/netiedge/minio-mc:RELEASE.2025-01-17T23-25-50Z}
+    restart: "no"
+    entrypoint: ["/bin/sh", "/init-storage.sh"]
+    environment:
+      MINIO_ROOT_USER: ${MINIO_ROOT_USER:-minio-dev}
+      MINIO_ROOT_PASSWORD: ${MINIO_ROOT_PASSWORD:-change-this-minio-password}
+      S3_BUCKET: ${S3_BUCKET:-modular-housing-dev}
+    volumes:
+      - ./deploy/dev/init-storage.sh:/init-storage.sh:ro
+    depends_on:
+      minio: { condition: service_started }
+    networks: [dev]
+
+  cms:
+    <<: *node
+    restart: unless-stopped
+    command: npm run dev:cms
+    environment:
+      NODE_ENV: development
+      HOST: 0.0.0.0
+      PORT: 1337
+      PUBLIC_URL: http://${VM_HOST:-localhost}:${CMS_PORT:-1337}
+      APP_KEYS: ${APP_KEYS:-dev-key-one,dev-key-two}
+      ADMIN_JWT_SECRET: ${ADMIN_JWT_SECRET:-dev-admin-jwt-secret-change-me}
+      API_TOKEN_SALT: ${API_TOKEN_SALT:-dev-api-token-salt-change-me}
+      TRANSFER_TOKEN_SALT: ${TRANSFER_TOKEN_SALT:-dev-transfer-token-salt-change-me}
+      ENCRYPTION_KEY: ${ENCRYPTION_KEY:-dev-encryption-key-change-me}
+      STRAPI_SERVER_TOKEN: ${STRAPI_SERVER_TOKEN:-dev-inquiry-secret-change-me}
+      TURNSTILE_SITE_KEY: ${TURNSTILE_SITE_KEY:-}
+      TURNSTILE_SECRET_KEY: ${TURNSTILE_SECRET_KEY:-}
+      TURNSTILE_EXPECTED_HOSTNAME: ${TURNSTILE_EXPECTED_HOSTNAME:-}
+      SEED_DEMO_CONTENT: ${SEED_DEMO_CONTENT:-true}
+      AUTO_TRANSLATE_ENABLED: ${AUTO_TRANSLATE_ENABLED:-false}
+      AUTO_TRANSLATE_API_URL: ${AUTO_TRANSLATE_API_URL:-}
+      AUTO_TRANSLATE_API_KEY: ${AUTO_TRANSLATE_API_KEY:-}
+      AUTO_TRANSLATE_MODEL: ${AUTO_TRANSLATE_MODEL:-}
+      AUTO_TRANSLATE_TIMEOUT_MS: ${AUTO_TRANSLATE_TIMEOUT_MS:-30000}
+      STRAPI_TELEMETRY_DISABLED: "true"
+      DATABASE_CLIENT: postgres
+      DATABASE_HOST: postgres
+      DATABASE_PORT: 5432
+      DATABASE_NAME: ${POSTGRES_DB:-modular_housing_dev}
+      DATABASE_USERNAME: ${POSTGRES_USER:-modular_dev}
+      DATABASE_PASSWORD: ${POSTGRES_PASSWORD:-change-this-dev-password}
+      S3_ENDPOINT: http://minio:9000
+      S3_BUCKET: ${S3_BUCKET:-modular-housing-dev}
+      S3_ACCESS_KEY: ${MINIO_ROOT_USER:-minio-dev}
+      S3_SECRET_KEY: ${MINIO_ROOT_PASSWORD:-change-this-minio-password}
+      S3_REGION: ${S3_REGION:-us-east-1}
+      S3_FORCE_PATH_STYLE: "true"
+      MEDIA_PUBLIC_URL: http://${VM_HOST:-localhost}:${MINIO_API_PORT:-9000}/${S3_BUCKET:-modular-housing-dev}
+    ports:
+      - "${CMS_PORT:-1337}:1337"
+    depends_on:
+      deps:
+        condition: service_completed_successfully
+      postgres:
+        condition: service_healthy
+      minio-init:
+        condition: service_completed_successfully
+    healthcheck:
+      test: ["CMD", "node", "-e", "fetch('http://127.0.0.1:1337/api/health').then(r => process.exit(r.ok ? 0 : 1)).catch(() => process.exit(1))"]
+      interval: 10s
+      timeout: 5s
+      start_period: 180s
+      retries: 12
+
+  web:
+    <<: *node
+    restart: unless-stopped
+    command: npm run dev:web
+    environment:
+      NODE_ENV: development
+      NEXT_TELEMETRY_DISABLED: "1"
+      PORT: 3000
+      HOSTNAME: 0.0.0.0
+      VM_HOST: ${VM_HOST:-localhost}
+      STRAPI_PUBLIC_URL: http://cms:1337
+      TRUST_PROXY: "false"
+      TURNSTILE_SITE_KEY: ${TURNSTILE_SITE_KEY:-}
+      STRAPI_SERVER_TOKEN: ${STRAPI_SERVER_TOKEN:-dev-inquiry-secret-change-me}
+    ports:
+      - "${WEB_PORT:-3000}:3000"
+    depends_on:
+      deps:
+        condition: service_completed_successfully
+      cms:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "node", "-e", "fetch('http://127.0.0.1:3000/api/health').then(r => process.exit(r.ok ? 0 : 1)).catch(() => process.exit(1))"]
+      interval: 15s
+      timeout: 10s
+      start_period: 60s
+      retries: 5
+
+  # 询盘邮件测试工具，不会真的发送邮件。
+  mailpit:
+    profiles: ["tools"]
+    image: axllent/mailpit:v1.21.8
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:${MAILPIT_SMTP_PORT:-1025}:1025"
+      - "${MAILPIT_UI_PORT:-8025}:8025"
+    networks:
+      - dev
+
+  # 可选数据库管理工具。
+  adminer:
+    profiles: ["tools"]
+    image: adminer:4
+    restart: unless-stopped
+    ports:
+      - "${ADMINER_PORT:-8080}:8080"
+    depends_on:
+      postgres:
+        condition: service_healthy
+    networks:
+      - dev
+
+volumes:
+  postgres_dev_data:
+  minio_dev_data:
+  root_node_modules:
+  web_node_modules:
+  cms_node_modules:
+  npm_cache:
+
+networks:
+  dev:
+    driver: bridge

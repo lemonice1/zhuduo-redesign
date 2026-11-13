@@ -1,0 +1,13 @@
+{
+  "faqs": [
+    ["Que peut-on personnaliser ?", "Nous pouvons étudier les agencements, les ouvertures, l’isolation, les finitions, les installations électriques, la plomberie et les conditions du terrain pour définir le module adapté."],
+    ["Pouvez-vous accompagner un projet à l’étranger ?", "Indiquez votre pays, l’usage du site et la quantité souhaitée. Nous préciserons les informations nécessaires pour définir la prochaine étape."],
+    ["Comment commencer ?", "Envoyez une courte présentation avec l’usage prévu, la quantité estimée et vos plans ou références. Notre équipe reviendra vers vous pour préciser les détails."],
+    ["Proposez-vous l’installation ?", "L’installation et la coordination locale dépendent du lieu et du périmètre du projet. Les responsabilités de livraison et d’installation sont définies au stade du devis."]
+  ],
+  "settings": {
+    "siteName": "ZhuDuo",
+    "contactEmail": "",
+    "footerNote": "Des espaces réfléchis, dès votre première idée."
+  }
+}

@@ -1,0 +1,3550 @@
+{
+  "version": "housing-catalogue-2026-11",
+  "source": {
+    "name": "铸多产品册.pdf",
+    "sha256": "56ddc171958d1253c67a6d8300ddebacce6344733fda7ada5ef85cd93a1eb045"
+  },
+  "categories": [
+    {
+      "sourceId": "expandable",
+      "key": "expandable-homes",
+      "slug": "expandable-houses",
+      "division": "modular-buildings",
+      "group": "none",
+      "nameZh": "拓展房",
+      "nameEn": "Expandable Container Houses",
+      "nameFr": "Maisons conteneurs extensibles",
+      "nameAr": "منازل حاويات قابلة للتوسعة",
+      "sortOrder": 0,
+      "visible": true
+    },
+    {
+      "sourceId": "folding",
+      "key": "folding-homes",
+      "slug": "folding-houses",
+      "division": "modular-buildings",
+      "group": "none",
+      "nameZh": "折叠房",
+      "nameEn": "Folding Container Houses",
+      "nameFr": "Maisons conteneurs pliables",
+      "nameAr": "منازل حاويات قابلة للطي",
+      "sortOrder": 10,
+      "visible": true
+    },
+    {
+      "sourceId": "flat-pack",
+      "key": "flat-pack-homes",
+      "slug": "flat-pack-buildings",
+      "division": "modular-buildings",
+      "group": "none",
+      "nameZh": "打包箱房",
+      "nameEn": "Flat Pack Container Houses",
+      "nameFr": "Maisons conteneurs en kit",
+      "nameAr": "منازل حاويات مسطحة التعبئة",
+      "sortOrder": 20,
+      "visible": true
+    },
+    {
+      "sourceId": "detachable",
+      "key": "detachable-homes",
+      "slug": "detachable-houses",
+      "division": "modular-buildings",
+      "group": "none",
+      "nameZh": "快拼箱房（可拆卸箱房）",
+      "nameEn": "Detachable Container Houses",
+      "nameFr": "Maisons conteneurs démontables",
+      "nameAr": "منازل حاويات قابلة للفك",
+      "sortOrder": 30,
+      "visible": true
+    },
+    {
+      "sourceId": "apple-cabin",
+      "key": "apple-cabins",
+      "slug": "apple-cabins",
+      "division": "modular-buildings",
+      "group": "none",
+      "nameZh": "苹果舱",
+      "nameEn": "Apple Cabins",
+      "nameFr": "Cabines Apple",
+      "nameAr": "كبائن آبل",
+      "sortOrder": 40,
+      "visible": true
+    },
+    {
+      "sourceId": "capsule",
+      "key": "space-capsules",
+      "slug": "space-capsules",
+      "division": "modular-buildings",
+      "group": "none",
+      "nameZh": "太空舱",
+      "nameEn": "Capsule Houses",
+      "nameFr": "Maisons capsules",
+      "nameAr": "منازل كبسولة",
+      "sortOrder": 50,
+      "visible": true
+    }
+  ],
+  "products": [
+    {
+      "slug": "expandable-20ft",
+      "categoryKey": "expandable-homes",
+      "sortOrder": 0,
+      "featured": true,
+      "media": [
+        {
+          "file": "images/expandable-20ft/main.jpg",
+          "sha256": "ccaf877f36df6ad927cc57187a8c22d3b0743f21d612cf290df305e039a4c071",
+          "caption": "20FT 拓展房外观",
+          "sourcePage": 6
+        },
+        {
+          "file": "images/expandable-20ft/layouts.jpg",
+          "sha256": "d6038ecd14825058069362b736ee85d78f7432e6e869a53fd6efc089384e46b9",
+          "caption": "20FT 四种户型（保留原页编号）",
+          "sourcePage": 6
+        },
+        {
+          "file": "images/expandable-20ft/views.jpg",
+          "sha256": "8f6556891e53dc3a8d5a7cf42bee819813be1bfda5b022812a1fe81f2f017f13",
+          "caption": "20FT 立面与剖面图",
+          "sourcePage": 6
+        },
+        {
+          "file": "images/expandable-20ft/interior-1.jpg",
+          "sha256": "fdc37262445a762275774ea8f78b12b95db028ffbb150578f4424d1a88665f7a",
+          "caption": "20FT 同页内饰展示 1",
+          "sourcePage": 6
+        },
+        {
+          "file": "images/expandable-20ft/interior-2.jpg",
+          "sha256": "bb7827a790f4355ccbb2bebf12b59114b9dddbd19d4751872443551a552b5c6e",
+          "caption": "20FT 同页内饰展示 2",
+          "sourcePage": 6
+        },
+        {
+          "file": "images/expandable-20ft/interior-3.jpg",
+          "sha256": "f95a4aa846b2e6425af053627861014560e4df9c45f0b207fe557b62b32dde45",
+          "caption": "20FT 同页内饰展示 3",
+          "sourcePage": 6
+        }
+      ],
+      "locales": {
+        "en": {
+          "title": "20FT Expandable Container House",
+          "category": "Expandable Container Houses",
+          "summary": "A factory-prefabricated expandable house with folding side modules for transport.",
+          "detail": "A factory-prefabricated expandable house with folding side modules for transport. Choose the layout, wall finishes, flooring, doors and windows for your project.\n\nSpecifications are based on the product catalogue. Final materials, layout and electrical requirements are confirmed in the agreed project configuration.\n\nExternal dimensions (L × W × H): 5900 × 6300 × 2480 mm\nInternal dimensions (L × W × H): 5300 × 6140 × 2240 mm\nFolded dimensions (L × W × H): 5900 × 2200 × 2480 mm\nApproximate weight: 3500 kg\nExternal wall panel (dimension sheet): 75 mm\nRoof panel (dimension sheet): 50 mm\nFloor plan options: 20FT-01, 20FT-02, 20FT-03, 20FT-04\nRoof, base and end beams / centre posts: Q235B steel, 2.5 mm\nSide wall frame / secondary frame: Q235B steel, 2.0 mm\nLifting fittings: Q235B steel, 4 mm\nFolding hinges: 13 mm galvanized hinges\nFrame finish: Electrostatic powder coating, white\nCentral module upper / lower tubes: 80 × 100 × 2.5 mm\nSide module upper / lower tubes: 40 × 60 × 2.0 mm\nOuter roof sheet: 0.5 mm galvanized sheet\nInterior ceiling: 0.35 mm, type 831 ceiling sheet\nInternal partitions: 65 mm EPS / steel sandwich panel or 65 mm glass wool\nBathroom dimensions: 1700 × 1500 mm, adjustable\nCentral floor board: 15 mm fire-resistant magnesium oxide board\nVoltage / frequency: 220 V / 50 Hz\nElectrical customization: US, European, Italian and Australian socket / voltage options\nSecurity door: 1 set; size, quantity and position adjustable\nWindows: 8 windows, 920 × 920 mm",
+          "customizableOptions": [
+            "Layout and room arrangement",
+            "PU, EPS, rock-wool or graphene insulation options",
+            "PVC / SPC flooring and wall finishes",
+            "Door, window and electrical socket options",
+            "Flat, mono-pitch or pitched roof options",
+            "Optional balcony, decking and solar panels"
+          ],
+          "productFaqs": []
+        },
+        "fr": {
+          "title": "Maison conteneur extensible 20FT",
+          "category": "Maisons conteneurs extensibles",
+          "summary": "Une maison extensible préfabriquée en usine, dont les modules latéraux se replient pour le transport.",
+          "detail": "Une maison extensible préfabriquée en usine, dont les modules latéraux se replient pour le transport. Choisissez l’agencement, les revêtements, le sol, les portes et les fenêtres pour votre projet.\n\nLes caractéristiques proviennent du catalogue produit. Les matériaux, l’agencement et les exigences électriques définitifs sont confirmés dans la configuration convenue du projet.\n\nDimensions extérieures (L × l × H): 5900 × 6300 × 2480 mm\nDimensions intérieures (L × l × H): 5300 × 6140 × 2240 mm\nDimensions repliées (L × l × H): 5900 × 2200 × 2480 mm\nPoids approximatif: 3500 kg\nPanneau extérieur (fiche de dimensions): 75 mm\nPanneau de toiture (fiche de dimensions): 50 mm\nPlans disponibles: 20FT-01, 20FT-02, 20FT-03, 20FT-04\nPoutres de toiture, de base et d’extrémité / poteaux centraux: Acier Q235B, 2.5 mm\nOssature latérale / secondaire: Acier Q235B, 2.0 mm\nPièces de levage: Acier Q235B, 4 mm\nCharnières de pliage: Charnières galvanisées de 13 mm\nFinition de l’ossature: Peinture électrostatique en poudre, blanche\nTubes supérieurs / inférieurs du module central: 80 × 100 × 2.5 mm\nTubes supérieurs / inférieurs des modules latéraux: 40 × 60 × 2.0 mm\nTôle extérieure de toiture: Tôle galvanisée de 0.5 mm\nPlafond intérieur: Tôle de plafond type 831, 0.35 mm\nCloisons intérieures: Panneau sandwich EPS / acier de 65 mm ou laine de verre de 65 mm\nDimensions de la salle d’eau: 1700 × 1500 mm, ajustable\nPanneau de plancher central: Panneau en oxyde de magnésium résistant au feu, 15 mm\nTension / fréquence: 220 V / 50 Hz\nPersonnalisation électrique: Prises et tensions selon les besoins américains, européens, italiens ou australiens\nPorte de sécurité: 1 ensemble ; dimensions, quantité et position ajustables\nFenêtres: 8 fenêtres, 920 × 920 mm",
+          "customizableOptions": [
+            "Agencement et répartition des pièces",
+            "Options d’isolation PU, EPS, laine de roche ou graphène",
+            "Sols PVC / SPC et finitions murales",
+            "Options de portes, fenêtres et prises électriques",
+            "Toiture plate, monopente ou à deux pentes",
+            "Balcon, terrasse et panneaux solaires en option"
+          ],
+          "productFaqs": []
+        },
+        "ar": {
+          "title": "منزل حاوية قابل للتوسعة 20FT",
+          "category": "منازل حاويات قابلة للتوسعة",
+          "summary": "منزل قابل للتوسعة مسبق التجهيز في المصنع، بوحدات جانبية تطوى للنقل.",
+          "detail": "منزل قابل للتوسعة مسبق التجهيز في المصنع، بوحدات جانبية تطوى للنقل. يمكن اختيار المخطط وكسوة الجدران والأرضيات والأبواب والنوافذ حسب المشروع.\n\nالمواصفات مستندة إلى كتالوج المنتجات. يتم تأكيد المواد والمخطط والمتطلبات الكهربائية النهائية ضمن التكوين المتفق عليه للمشروع.\n\nالأبعاد الخارجية (الطول × العرض × الارتفاع): 5900 × 6300 × 2480 mm\nالأبعاد الداخلية (الطول × العرض × الارتفاع): 5300 × 6140 × 2240 mm\nالأبعاد عند الطي (الطول × العرض × الارتفاع): 5900 × 2200 × 2480 mm\nالوزن التقريبي: 3500 kg\nلوح الجدار الخارجي (رسم الأبعاد): 75 mm\nلوح السقف (رسم الأبعاد): 50 mm\nخيارات المخطط: 20FT-01, 20FT-02, 20FT-03, 20FT-04\nعوارض السقف والقاعدة والأطراف / الأعمدة الوسطية: فولاذ Q235B، بسماكة 2.5 mm\nإطار الجدار الجانبي / الإطار الثانوي: فولاذ Q235B، بسماكة 2.0 mm\nوصلات الرفع: فولاذ Q235B، بسماكة 4 mm\nمفصلات الطي: مفصلات مجلفنة 13 mm\nطلاء الإطار: طلاء مسحوق كهروستاتيكي أبيض\nأنابيب الوحدة الوسطى العلوية / السفلية: 80 × 100 × 2.5 mm\nأنابيب الوحدات الجانبية العلوية / السفلية: 40 × 60 × 2.0 mm\nصفيحة السقف الخارجية: صفيحة مجلفنة 0.5 mm\nالسقف الداخلي: لوح سقف داخلي نوع 831 بسماكة 0.35 mm\nالقواطع الداخلية: لوح ساندويتش EPS / فولاذ 65 mm أو صوف زجاجي 65 mm\nأبعاد الحمام: 1700 × 1500 mm، قابل للتعديل\nلوح أرضية الوحدة الوسطى: لوح أكسيد مغنيسيوم مقاوم للحريق 15 mm\nالجهد / التردد: 220 V / 50 Hz\nتخصيص التجهيزات الكهربائية: خيارات مقابس وجهد أمريكية وأوروبية وإيطالية وأسترالية\nباب أمان: مجموعة واحدة؛ يمكن تعديل الحجم والعدد والموقع\nالنوافذ: 8 نوافذ، 920 × 920 mm",
+          "customizableOptions": [
+            "المخطط وتقسيم الغرف",
+            "خيارات عزل PU أو EPS أو صوف صخري أو جرافين",
+            "أرضيات PVC / SPC وتشطيبات الجدران",
+            "خيارات الأبواب والنوافذ والمقابس",
+            "سقف مسطح أو أحادي أو ثنائي الميل",
+            "شرفة وتراس وألواح شمسية اختيارية"
+          ],
+          "productFaqs": []
+        }
+      },
+      "sourceRecord": {
+        "id": "expandable-20ft",
+        "category": "expandable",
+        "name": "20FT 拓展房",
+        "english": "20FT Expandable Container House",
+        "model": "20FT",
+        "pdf_pages": [
+          6,
+          17
+        ],
+        "parameters": [
+          {
+            "name": "展开外尺寸（长 × 宽 × 高）",
+            "value": "5900 × 6300 × 2480 mm",
+            "pdf_page": 6,
+            "note": ""
+          },
+          {
+            "name": "内部尺寸（长 × 宽 × 高）",
+            "value": "5300 × 6140 × 2240 mm",
+            "pdf_page": 6,
+            "note": ""
+          },
+          {
+            "name": "折叠尺寸（长 × 宽 × 高）",
+            "value": "5900 × 2200 × 2480 mm",
+            "pdf_page": 6,
+            "note": ""
+          },
+          {
+            "name": "总重量",
+            "value": "约 3500 kg",
+            "pdf_page": 6,
+            "note": ""
+          },
+          {
+            "name": "外墙板（尺寸示意图标注）",
+            "value": "75 mm",
+            "pdf_page": 6,
+            "note": ""
+          },
+          {
+            "name": "屋面板（尺寸示意图标注）",
+            "value": "50 mm",
+            "pdf_page": 6,
+            "note": ""
+          },
+          {
+            "name": "户型编号",
+            "value": "20FT-01、20FT-02、20FT-03、20FT-04",
+            "pdf_page": 6,
+            "note": "属于同型号的户型选项，未作为四款独立产品。"
+          },
+          {
+            "name": "屋面梁 / 底梁 / 端边梁 / 中柱",
+            "value": "Q235B，厚 2.5 mm",
+            "pdf_page": 17,
+            "note": ""
+          },
+          {
+            "name": "侧墙框架 / 次框架",
+            "value": "Q235B，厚 2.0 mm",
+            "pdf_page": 17,
+            "note": ""
+          },
+          {
+            "name": "吊头",
+            "value": "Q235B，厚 4 mm",
+            "pdf_page": 17,
+            "note": ""
+          },
+          {
+            "name": "折叠铰链",
+            "value": "13 mm 镀锌铰链",
+            "pdf_page": 17,
+            "note": ""
+          },
+          {
+            "name": "框架表面涂层",
+            "value": "静电喷涂 / 白色塑粉（按册内表述）",
+            "pdf_page": 17,
+            "note": ""
+          },
+          {
+            "name": "中箱上下方管",
+            "value": "80 × 100 × 2.5 mm",
+            "pdf_page": 17,
+            "note": ""
+          },
+          {
+            "name": "侧箱上下方管",
+            "value": "40 × 60 × 2.0 mm",
+            "pdf_page": 17,
+            "note": ""
+          },
+          {
+            "name": "外顶板",
+            "value": "0.5 mm 镀锌板",
+            "pdf_page": 17,
+            "note": ""
+          },
+          {
+            "name": "内吊顶",
+            "value": "0.35 mm，831 型内吊顶板",
+            "pdf_page": 17,
+            "note": ""
+          },
+          {
+            "name": "中部屋面保温（规格表）",
+            "value": "65 mm 高强度 EPS / 钢板或 65 mm 玻璃棉",
+            "pdf_page": 17,
+            "note": "与尺寸页的屋面板厚度口径不同，待确认。"
+          },
+          {
+            "name": "侧墙及前后墙板（规格表）",
+            "value": "65 mm 高强度 EPS / 钢板或 65 mm 玻璃棉",
+            "pdf_page": 17,
+            "note": "与尺寸页的 75 mm 外墙板口径不同，待确认。"
+          },
+          {
+            "name": "内隔墙",
+            "value": "65 mm 高强度 EPS / 钢板或 65 mm 玻璃棉",
+            "pdf_page": 17,
+            "note": ""
+          },
+          {
+            "name": "卫生间尺寸",
+            "value": "1700 × 1500 mm，可调整",
+            "pdf_page": 17,
+            "note": ""
+          },
+          {
+            "name": "中央地板",
+            "value": "15 mm 防火玻镁板",
+            "pdf_page": 17,
+            "note": ""
+          },
+          {
+            "name": "电压 / 频率",
+            "value": "220 V / 50 Hz",
+            "pdf_page": 17,
+            "note": ""
+          },
+          {
+            "name": "照明 / 配电",
+            "value": "2 盏 LED 灯、2 盏吸顶灯、空调插座及 20 A 漏电保护器",
+            "pdf_page": 17,
+            "note": "原表其余插座数量文字语义不清，详见原页，不重新推算。"
+          },
+          {
+            "name": "电气定制",
+            "value": "可提供美标、欧标、意标、澳标等插座及电压配置",
+            "pdf_page": 17,
+            "note": ""
+          },
+          {
+            "name": "防盗门",
+            "value": "1 套，尺寸、数量及位置可调整",
+            "pdf_page": 17,
+            "note": ""
+          },
+          {
+            "name": "窗户",
+            "value": "8 扇，920 × 920 mm",
+            "pdf_page": 17,
+            "note": ""
+          },
+          {
+            "name": "Service Life（原字段）",
+            "value": "1 years",
+            "pdf_page": 17,
+            "note": "原文写为使用寿命，是否意指质保期需确认，未改写为 1 年质保。"
+          },
+          {
+            "name": "防火等级",
+            "value": "A 级（Rate A，册内标称）",
+            "pdf_page": 17,
+            "note": ""
+          },
+          {
+            "name": "抗震等级",
+            "value": "8 级（Grade 8，册内标称）",
+            "pdf_page": 17,
+            "note": ""
+          },
+          {
+            "name": "抗风等级",
+            "value": "10 级（Level 10，册内标称）",
+            "pdf_page": 17,
+            "note": ""
+          }
+        ],
+        "images": [
+          {
+            "file": "images/expandable-20ft/main.jpg",
+            "label": "20FT 拓展房外观",
+            "pdf_page": 6,
+            "kind": "embedded",
+            "xref": 381,
+            "width": 799,
+            "height": 385
+          },
+          {
+            "file": "images/expandable-20ft/layouts.jpg",
+            "label": "20FT 四种户型（保留原页编号）",
+            "pdf_page": 6,
+            "kind": "page_crop",
+            "rect": [
+              1120,
+              410,
+              2040,
+              1430
+            ],
+            "width": 1058,
+            "height": 1174
+          },
+          {
+            "file": "images/expandable-20ft/views.jpg",
+            "label": "20FT 立面与剖面图",
+            "pdf_page": 6,
+            "kind": "page_crop",
+            "rect": [
+              85,
+              875,
+              1040,
+              1410
+            ],
+            "width": 1099,
+            "height": 616
+          },
+          {
+            "file": "images/expandable-20ft/interior-1.jpg",
+            "label": "20FT 同页内饰展示 1",
+            "pdf_page": 6,
+            "kind": "embedded",
+            "xref": 382,
+            "width": 388,
+            "height": 293
+          },
+          {
+            "file": "images/expandable-20ft/interior-2.jpg",
+            "label": "20FT 同页内饰展示 2",
+            "pdf_page": 6,
+            "kind": "embedded",
+            "xref": 384,
+            "width": 388,
+            "height": 293
+          },
+          {
+            "file": "images/expandable-20ft/interior-3.jpg",
+            "label": "20FT 同页内饰展示 3",
+            "pdf_page": 6,
+            "kind": "embedded",
+            "xref": 383,
+            "width": 388,
+            "height": 293
+          }
+        ],
+        "notes": [
+          "尺寸页外墙板为 75 mm、屋面板为 50 mm；详细规格页另写 65 mm EPS/玻璃棉配置。两处口径未直接合并，需确认最终销售配置。"
+        ]
+      }
+    },
+    {
+      "slug": "expandable-30ft",
+      "categoryKey": "expandable-homes",
+      "sortOrder": 10,
+      "featured": true,
+      "media": [
+        {
+          "file": "images/expandable-30ft/main.jpg",
+          "sha256": "66759da64d174283ad6d988b3e5df19cc062eb169393c136305860d00d722186",
+          "caption": "30FT 拓展房外观",
+          "sourcePage": 7
+        },
+        {
+          "file": "images/expandable-30ft/layouts.jpg",
+          "sha256": "b3c06ca5fd2a889e5b0ee291abfc8d24a99cc3260039466ee3fdd9f4e847220f",
+          "caption": "30FT 四种户型（保留原页编号）",
+          "sourcePage": 7
+        },
+        {
+          "file": "images/expandable-30ft/views.jpg",
+          "sha256": "bd0c14938249373bb0a5f05b48e12c00be68563fe6f8477557f40397648d102e",
+          "caption": "30FT 立面与剖面图",
+          "sourcePage": 7
+        },
+        {
+          "file": "images/expandable-30ft/interior-1.jpg",
+          "sha256": "48528d65ffe3132229a77c5e7568bf40f055365650aa6599ec1e369fb0e9bba6",
+          "caption": "30FT 同页内饰展示 1",
+          "sourcePage": 7
+        },
+        {
+          "file": "images/expandable-30ft/interior-2.jpg",
+          "sha256": "d511a9d95f557f5fe13ceb8390ce694463802ffde20351b0ef210c5370f1a751",
+          "caption": "30FT 同页内饰展示 2",
+          "sourcePage": 7
+        },
+        {
+          "file": "images/expandable-30ft/interior-3.jpg",
+          "sha256": "c3b726af0724f9f6abb9544f22058845faeca475da2b4c131168b8fd4faea93d",
+          "caption": "30FT 同页内饰展示 3",
+          "sourcePage": 7
+        }
+      ],
+      "locales": {
+        "en": {
+          "title": "30FT Expandable Container House",
+          "category": "Expandable Container Houses",
+          "summary": "A factory-prefabricated expandable house with folding side modules for transport.",
+          "detail": "A factory-prefabricated expandable house with folding side modules for transport. Choose the layout, wall finishes, flooring, doors and windows for your project.\n\nSpecifications are based on the product catalogue. Final materials, layout and electrical requirements are confirmed in the agreed project configuration.\n\nExternal dimensions (L × W × H): 9000 × 6300 × 2480 mm\nInternal dimensions (L × W × H): 8500 × 6140 × 2240 mm\nFolded dimensions (L × W × H): 9000 × 2200 × 2480 mm\nApproximate weight: 4250 kg\nExternal wall panel (dimension sheet): 75 mm\nRoof panel (dimension sheet): 50 mm\nFloor plan options: 30FT-01, 30FT-02, 30FT-03, 30FT-04",
+          "customizableOptions": [
+            "Layout and room arrangement",
+            "PU, EPS, rock-wool or graphene insulation options",
+            "PVC / SPC flooring and wall finishes",
+            "Door, window and electrical socket options",
+            "Flat, mono-pitch or pitched roof options",
+            "Optional balcony, decking and solar panels"
+          ],
+          "productFaqs": []
+        },
+        "fr": {
+          "title": "Maison conteneur extensible 30FT",
+          "category": "Maisons conteneurs extensibles",
+          "summary": "Une maison extensible préfabriquée en usine, dont les modules latéraux se replient pour le transport.",
+          "detail": "Une maison extensible préfabriquée en usine, dont les modules latéraux se replient pour le transport. Choisissez l’agencement, les revêtements, le sol, les portes et les fenêtres pour votre projet.\n\nLes caractéristiques proviennent du catalogue produit. Les matériaux, l’agencement et les exigences électriques définitifs sont confirmés dans la configuration convenue du projet.\n\nDimensions extérieures (L × l × H): 9000 × 6300 × 2480 mm\nDimensions intérieures (L × l × H): 8500 × 6140 × 2240 mm\nDimensions repliées (L × l × H): 9000 × 2200 × 2480 mm\nPoids approximatif: 4250 kg\nPanneau extérieur (fiche de dimensions): 75 mm\nPanneau de toiture (fiche de dimensions): 50 mm\nPlans disponibles: 30FT-01, 30FT-02, 30FT-03, 30FT-04",
+          "customizableOptions": [
+            "Agencement et répartition des pièces",
+            "Options d’isolation PU, EPS, laine de roche ou graphène",
+            "Sols PVC / SPC et finitions murales",
+            "Options de portes, fenêtres et prises électriques",
+            "Toiture plate, monopente ou à deux pentes",
+            "Balcon, terrasse et panneaux solaires en option"
+          ],
+          "productFaqs": []
+        },
+        "ar": {
+          "title": "منزل حاوية قابل للتوسعة 30FT",
+          "category": "منازل حاويات قابلة للتوسعة",
+          "summary": "منزل قابل للتوسعة مسبق التجهيز في المصنع، بوحدات جانبية تطوى للنقل.",
+          "detail": "منزل قابل للتوسعة مسبق التجهيز في المصنع، بوحدات جانبية تطوى للنقل. يمكن اختيار المخطط وكسوة الجدران والأرضيات والأبواب والنوافذ حسب المشروع.\n\nالمواصفات مستندة إلى كتالوج المنتجات. يتم تأكيد المواد والمخطط والمتطلبات الكهربائية النهائية ضمن التكوين المتفق عليه للمشروع.\n\nالأبعاد الخارجية (الطول × العرض × الارتفاع): 9000 × 6300 × 2480 mm\nالأبعاد الداخلية (الطول × العرض × الارتفاع): 8500 × 6140 × 2240 mm\nالأبعاد عند الطي (الطول × العرض × الارتفاع): 9000 × 2200 × 2480 mm\nالوزن التقريبي: 4250 kg\nلوح الجدار الخارجي (رسم الأبعاد): 75 mm\nلوح السقف (رسم الأبعاد): 50 mm\nخيارات المخطط: 30FT-01, 30FT-02, 30FT-03, 30FT-04",
+          "customizableOptions": [
+            "المخطط وتقسيم الغرف",
+            "خيارات عزل PU أو EPS أو صوف صخري أو جرافين",
+            "أرضيات PVC / SPC وتشطيبات الجدران",
+            "خيارات الأبواب والنوافذ والمقابس",
+            "سقف مسطح أو أحادي أو ثنائي الميل",
+            "شرفة وتراس وألواح شمسية اختيارية"
+          ],
+          "productFaqs": []
+        }
+      },
+      "sourceRecord": {
+        "id": "expandable-30ft",
+        "category": "expandable",
+        "name": "30FT 拓展房",
+        "english": "30FT Expandable Container House",
+        "model": "30FT",
+        "pdf_pages": [
+          7
+        ],
+        "parameters": [
+          {
+            "name": "展开外尺寸（长 × 宽 × 高）",
+            "value": "9000 × 6300 × 2480 mm",
+            "pdf_page": 7,
+            "note": ""
+          },
+          {
+            "name": "内部尺寸（长 × 宽 × 高）",
+            "value": "8500 × 6140 × 2240 mm",
+            "pdf_page": 7,
+            "note": ""
+          },
+          {
+            "name": "折叠尺寸（长 × 宽 × 高）",
+            "value": "9000 × 2200 × 2480 mm",
+            "pdf_page": 7,
+            "note": ""
+          },
+          {
+            "name": "总重量",
+            "value": "约 4250 kg",
+            "pdf_page": 7,
+            "note": ""
+          },
+          {
+            "name": "外墙板（尺寸示意图标注）",
+            "value": "75 mm",
+            "pdf_page": 7,
+            "note": ""
+          },
+          {
+            "name": "屋面板（尺寸示意图标注）",
+            "value": "50 mm",
+            "pdf_page": 7,
+            "note": ""
+          },
+          {
+            "name": "户型编号",
+            "value": "30FT-01、30FT-02、30FT-03、30FT-04",
+            "pdf_page": 7,
+            "note": "属于同型号的户型选项，未作为四款独立产品。"
+          }
+        ],
+        "images": [
+          {
+            "file": "images/expandable-30ft/main.jpg",
+            "label": "30FT 拓展房外观",
+            "pdf_page": 7,
+            "kind": "embedded",
+            "xref": 389,
+            "width": 874,
+            "height": 324
+          },
+          {
+            "file": "images/expandable-30ft/layouts.jpg",
+            "label": "30FT 四种户型（保留原页编号）",
+            "pdf_page": 7,
+            "kind": "page_crop",
+            "rect": [
+              1120,
+              370,
+              2040,
+              1430
+            ],
+            "width": 1058,
+            "height": 1220
+          },
+          {
+            "file": "images/expandable-30ft/views.jpg",
+            "label": "30FT 立面与剖面图",
+            "pdf_page": 7,
+            "kind": "page_crop",
+            "rect": [
+              85,
+              875,
+              1040,
+              1410
+            ],
+            "width": 1099,
+            "height": 616
+          },
+          {
+            "file": "images/expandable-30ft/interior-1.jpg",
+            "label": "30FT 同页内饰展示 1",
+            "pdf_page": 7,
+            "kind": "embedded",
+            "xref": 393,
+            "width": 286,
+            "height": 286
+          },
+          {
+            "file": "images/expandable-30ft/interior-2.jpg",
+            "label": "30FT 同页内饰展示 2",
+            "pdf_page": 7,
+            "kind": "embedded",
+            "xref": 394,
+            "width": 288,
+            "height": 286
+          },
+          {
+            "file": "images/expandable-30ft/interior-3.jpg",
+            "label": "30FT 同页内饰展示 3",
+            "pdf_page": 7,
+            "kind": "embedded",
+            "xref": 395,
+            "width": 430,
+            "height": 287
+          }
+        ],
+        "notes": []
+      }
+    },
+    {
+      "slug": "expandable-40ft",
+      "categoryKey": "expandable-homes",
+      "sortOrder": 20,
+      "featured": true,
+      "media": [
+        {
+          "file": "images/expandable-40ft/main.jpg",
+          "sha256": "2d0836a4e7e954f7b3be4242b7d0b768874aa93d42b7a983c1bd59a7452e32c2",
+          "caption": "40FT 拓展房外观",
+          "sourcePage": 8
+        },
+        {
+          "file": "images/expandable-40ft/layouts.jpg",
+          "sha256": "0aee90a3437cee0331348622a1b0dff38012ba8eaf3b80486975c37fd77f0a38",
+          "caption": "40FT 四种户型（保留原页编号）",
+          "sourcePage": 8
+        },
+        {
+          "file": "images/expandable-40ft/views.jpg",
+          "sha256": "49158830ed9637f14f2771784fca86b1de500b4208ac7ef3ce4783668c4b3fa4",
+          "caption": "40FT 立面与剖面图",
+          "sourcePage": 8
+        },
+        {
+          "file": "images/expandable-40ft/interior-1.jpg",
+          "sha256": "6a55af115edb484ae669847b80714ff3ece75f26d6cef99d1f3384a5d2858e2a",
+          "caption": "40FT 同页内饰展示 1",
+          "sourcePage": 8
+        },
+        {
+          "file": "images/expandable-40ft/interior-2.jpg",
+          "sha256": "8649a787e876b524d2c5968f2d33bf007ac2d68f1620d8d1b74c642286c57251",
+          "caption": "40FT 同页内饰展示 2",
+          "sourcePage": 8
+        },
+        {
+          "file": "images/expandable-40ft/interior-3.jpg",
+          "sha256": "266069983ef7c681dc580771aa3e9d5987be2d11f34ea0d2c22e182d379ce79f",
+          "caption": "40FT 同页内饰展示 3",
+          "sourcePage": 8
+        }
+      ],
+      "locales": {
+        "en": {
+          "title": "40FT Expandable Container House",
+          "category": "Expandable Container Houses",
+          "summary": "A factory-prefabricated expandable house with folding side modules for transport.",
+          "detail": "A factory-prefabricated expandable house with folding side modules for transport. Choose the layout, wall finishes, flooring, doors and windows for your project.\n\nSpecifications are based on the product catalogue. Final materials, layout and electrical requirements are confirmed in the agreed project configuration.\n\nExternal dimensions (L × W × H): 11800 × 6300 × 2480 mm\nInternal dimensions (L × W × H): 11320 × 6140 × 2240 mm\nFolded dimensions (L × W × H): 11800 × 2200 × 2480 mm\nApproximate weight: 5300 kg\nExternal wall panel (dimension sheet): 75 mm\nRoof panel (dimension sheet): 50 mm\nFloor plan options: 40FT-01, 40FT-02, 40FT-03, 40FT-04\nRoof, base and end beams / centre posts: Q235B steel, 3.75 mm\nSide wall frame / secondary frame: Q235B steel, 2.0 mm\nLifting fittings: Q235B steel, 4 mm\nFolding hinges: 13 mm galvanized hinges\nFrame finish: Electrostatic powder coating, white\nCentral module upper / lower tubes: 80 × 100 × 2.5 mm\nSide module upper / lower tubes: 40 × 60 × 2.0 mm\nOuter roof sheet: 0.5 mm galvanized sheet\nInterior ceiling: 0.35 mm, type 831 ceiling sheet\nInternal partitions: 65 mm EPS / steel sandwich panel or 65 mm glass wool\nBathroom dimensions: 1700 × 1500 mm, adjustable\nCentral floor board: 15 mm fire-resistant magnesium oxide board\nVoltage / frequency: 220 V / 50 Hz\nElectrical customization: US, European, Italian and Australian socket / voltage options\nSecurity door: 1 set; size, quantity and position adjustable\nWindows: 10 windows, 920 × 920 mm",
+          "customizableOptions": [
+            "Layout and room arrangement",
+            "PU, EPS, rock-wool or graphene insulation options",
+            "PVC / SPC flooring and wall finishes",
+            "Door, window and electrical socket options",
+            "Flat, mono-pitch or pitched roof options",
+            "Optional balcony, decking and solar panels"
+          ],
+          "productFaqs": []
+        },
+        "fr": {
+          "title": "Maison conteneur extensible 40FT",
+          "category": "Maisons conteneurs extensibles",
+          "summary": "Une maison extensible préfabriquée en usine, dont les modules latéraux se replient pour le transport.",
+          "detail": "Une maison extensible préfabriquée en usine, dont les modules latéraux se replient pour le transport. Choisissez l’agencement, les revêtements, le sol, les portes et les fenêtres pour votre projet.\n\nLes caractéristiques proviennent du catalogue produit. Les matériaux, l’agencement et les exigences électriques définitifs sont confirmés dans la configuration convenue du projet.\n\nDimensions extérieures (L × l × H): 11800 × 6300 × 2480 mm\nDimensions intérieures (L × l × H): 11320 × 6140 × 2240 mm\nDimensions repliées (L × l × H): 11800 × 2200 × 2480 mm\nPoids approximatif: 5300 kg\nPanneau extérieur (fiche de dimensions): 75 mm\nPanneau de toiture (fiche de dimensions): 50 mm\nPlans disponibles: 40FT-01, 40FT-02, 40FT-03, 40FT-04\nPoutres de toiture, de base et d’extrémité / poteaux centraux: Acier Q235B, 3.75 mm\nOssature latérale / secondaire: Acier Q235B, 2.0 mm\nPièces de levage: Acier Q235B, 4 mm\nCharnières de pliage: Charnières galvanisées de 13 mm\nFinition de l’ossature: Peinture électrostatique en poudre, blanche\nTubes supérieurs / inférieurs du module central: 80 × 100 × 2.5 mm\nTubes supérieurs / inférieurs des modules latéraux: 40 × 60 × 2.0 mm\nTôle extérieure de toiture: Tôle galvanisée de 0.5 mm\nPlafond intérieur: Tôle de plafond type 831, 0.35 mm\nCloisons intérieures: Panneau sandwich EPS / acier de 65 mm ou laine de verre de 65 mm\nDimensions de la salle d’eau: 1700 × 1500 mm, ajustable\nPanneau de plancher central: Panneau en oxyde de magnésium résistant au feu, 15 mm\nTension / fréquence: 220 V / 50 Hz\nPersonnalisation électrique: Prises et tensions selon les besoins américains, européens, italiens ou australiens\nPorte de sécurité: 1 ensemble ; dimensions, quantité et position ajustables\nFenêtres: 10 fenêtres, 920 × 920 mm",
+          "customizableOptions": [
+            "Agencement et répartition des pièces",
+            "Options d’isolation PU, EPS, laine de roche ou graphène",
+            "Sols PVC / SPC et finitions murales",
+            "Options de portes, fenêtres et prises électriques",
+            "Toiture plate, monopente ou à deux pentes",
+            "Balcon, terrasse et panneaux solaires en option"
+          ],
+          "productFaqs": []
+        },
+        "ar": {
+          "title": "منزل حاوية قابل للتوسعة 40FT",
+          "category": "منازل حاويات قابلة للتوسعة",
+          "summary": "منزل قابل للتوسعة مسبق التجهيز في المصنع، بوحدات جانبية تطوى للنقل.",
+          "detail": "منزل قابل للتوسعة مسبق التجهيز في المصنع، بوحدات جانبية تطوى للنقل. يمكن اختيار المخطط وكسوة الجدران والأرضيات والأبواب والنوافذ حسب المشروع.\n\nالمواصفات مستندة إلى كتالوج المنتجات. يتم تأكيد المواد والمخطط والمتطلبات الكهربائية النهائية ضمن التكوين المتفق عليه للمشروع.\n\nالأبعاد الخارجية (الطول × العرض × الارتفاع): 11800 × 6300 × 2480 mm\nالأبعاد الداخلية (الطول × العرض × الارتفاع): 11320 × 6140 × 2240 mm\nالأبعاد عند الطي (الطول × العرض × الارتفاع): 11800 × 2200 × 2480 mm\nالوزن التقريبي: 5300 kg\nلوح الجدار الخارجي (رسم الأبعاد): 75 mm\nلوح السقف (رسم الأبعاد): 50 mm\nخيارات المخطط: 40FT-01, 40FT-02, 40FT-03, 40FT-04\nعوارض السقف والقاعدة والأطراف / الأعمدة الوسطية: فولاذ Q235B، بسماكة 3.75 mm\nإطار الجدار الجانبي / الإطار الثانوي: فولاذ Q235B، بسماكة 2.0 mm\nوصلات الرفع: فولاذ Q235B، بسماكة 4 mm\nمفصلات الطي: مفصلات مجلفنة 13 mm\nطلاء الإطار: طلاء مسحوق كهروستاتيكي أبيض\nأنابيب الوحدة الوسطى العلوية / السفلية: 80 × 100 × 2.5 mm\nأنابيب الوحدات الجانبية العلوية / السفلية: 40 × 60 × 2.0 mm\nصفيحة السقف الخارجية: صفيحة مجلفنة 0.5 mm\nالسقف الداخلي: لوح سقف داخلي نوع 831 بسماكة 0.35 mm\nالقواطع الداخلية: لوح ساندويتش EPS / فولاذ 65 mm أو صوف زجاجي 65 mm\nأبعاد الحمام: 1700 × 1500 mm، قابل للتعديل\nلوح أرضية الوحدة الوسطى: لوح أكسيد مغنيسيوم مقاوم للحريق 15 mm\nالجهد / التردد: 220 V / 50 Hz\nتخصيص التجهيزات الكهربائية: خيارات مقابس وجهد أمريكية وأوروبية وإيطالية وأسترالية\nباب أمان: مجموعة واحدة؛ يمكن تعديل الحجم والعدد والموقع\nالنوافذ: 10 نوافذ، 920 × 920 mm",
+          "customizableOptions": [
+            "المخطط وتقسيم الغرف",
+            "خيارات عزل PU أو EPS أو صوف صخري أو جرافين",
+            "أرضيات PVC / SPC وتشطيبات الجدران",
+            "خيارات الأبواب والنوافذ والمقابس",
+            "سقف مسطح أو أحادي أو ثنائي الميل",
+            "شرفة وتراس وألواح شمسية اختيارية"
+          ],
+          "productFaqs": []
+        }
+      },
+      "sourceRecord": {
+        "id": "expandable-40ft",
+        "category": "expandable",
+        "name": "40FT 拓展房",
+        "english": "40FT Expandable Container House",
+        "model": "40FT",
+        "pdf_pages": [
+          8,
+          18
+        ],
+        "parameters": [
+          {
+            "name": "展开外尺寸（长 × 宽 × 高）",
+            "value": "11800 × 6300 × 2480 mm",
+            "pdf_page": 8,
+            "note": ""
+          },
+          {
+            "name": "内部尺寸（长 × 宽 × 高）",
+            "value": "11320 × 6140 × 2240 mm",
+            "pdf_page": 8,
+            "note": ""
+          },
+          {
+            "name": "折叠尺寸（长 × 宽 × 高）",
+            "value": "11800 × 2200 × 2480 mm",
+            "pdf_page": 8,
+            "note": ""
+          },
+          {
+            "name": "总重量",
+            "value": "约 5300 kg",
+            "pdf_page": 8,
+            "note": ""
+          },
+          {
+            "name": "外墙板（尺寸示意图标注）",
+            "value": "75 mm",
+            "pdf_page": 8,
+            "note": ""
+          },
+          {
+            "name": "屋面板（尺寸示意图标注）",
+            "value": "50 mm",
+            "pdf_page": 8,
+            "note": ""
+          },
+          {
+            "name": "户型编号",
+            "value": "40FT-01、40FT-02、40FT-03、40FT-04",
+            "pdf_page": 8,
+            "note": "属于同型号的户型选项，未作为四款独立产品。"
+          },
+          {
+            "name": "屋面梁 / 底梁 / 端边梁 / 中柱",
+            "value": "Q235B，厚 3.75 mm",
+            "pdf_page": 18,
+            "note": ""
+          },
+          {
+            "name": "侧墙框架 / 次框架",
+            "value": "Q235B，厚 2.0 mm",
+            "pdf_page": 18,
+            "note": ""
+          },
+          {
+            "name": "吊头",
+            "value": "Q235B，厚 4 mm",
+            "pdf_page": 18,
+            "note": ""
+          },
+          {
+            "name": "折叠铰链",
+            "value": "13 mm 镀锌铰链",
+            "pdf_page": 18,
+            "note": ""
+          },
+          {
+            "name": "框架表面涂层",
+            "value": "静电喷涂 / 白色塑粉（按册内表述）",
+            "pdf_page": 18,
+            "note": ""
+          },
+          {
+            "name": "中箱上下方管",
+            "value": "80 × 100 × 2.5 mm",
+            "pdf_page": 18,
+            "note": ""
+          },
+          {
+            "name": "侧箱上下方管",
+            "value": "40 × 60 × 2.0 mm",
+            "pdf_page": 18,
+            "note": ""
+          },
+          {
+            "name": "外顶板",
+            "value": "0.5 mm 镀锌板",
+            "pdf_page": 18,
+            "note": ""
+          },
+          {
+            "name": "内吊顶",
+            "value": "0.35 mm，831 型内吊顶板",
+            "pdf_page": 18,
+            "note": ""
+          },
+          {
+            "name": "中部屋面保温（规格表）",
+            "value": "65 mm 高强度 EPS / 钢板或 65 mm 玻璃棉",
+            "pdf_page": 18,
+            "note": "与尺寸页的屋面板厚度口径不同，待确认。"
+          },
+          {
+            "name": "侧墙及前后墙板（规格表）",
+            "value": "65 mm 高强度 EPS / 钢板或 65 mm 玻璃棉",
+            "pdf_page": 18,
+            "note": "与尺寸页的 75 mm 外墙板口径不同，待确认。"
+          },
+          {
+            "name": "内隔墙",
+            "value": "65 mm 高强度 EPS / 钢板或 65 mm 玻璃棉",
+            "pdf_page": 18,
+            "note": ""
+          },
+          {
+            "name": "卫生间尺寸",
+            "value": "1700 × 1500 mm，可调整",
+            "pdf_page": 18,
+            "note": ""
+          },
+          {
+            "name": "中央地板",
+            "value": "15 mm 防火玻镁板",
+            "pdf_page": 18,
+            "note": ""
+          },
+          {
+            "name": "电压 / 频率",
+            "value": "220 V / 50 Hz",
+            "pdf_page": 18,
+            "note": ""
+          },
+          {
+            "name": "照明 / 配电",
+            "value": "2 盏 LED 灯、2 盏吸顶灯、空调插座及 20 A 漏电保护器",
+            "pdf_page": 18,
+            "note": "原表其余插座数量文字语义不清，详见原页，不重新推算。"
+          },
+          {
+            "name": "电气定制",
+            "value": "可提供美标、欧标、意标、澳标等插座及电压配置",
+            "pdf_page": 18,
+            "note": ""
+          },
+          {
+            "name": "防盗门",
+            "value": "1 套，尺寸、数量及位置可调整",
+            "pdf_page": 18,
+            "note": ""
+          },
+          {
+            "name": "窗户",
+            "value": "10 扇，920 × 920 mm",
+            "pdf_page": 18,
+            "note": ""
+          },
+          {
+            "name": "Service Life（原字段）",
+            "value": "1 years",
+            "pdf_page": 18,
+            "note": "原文写为使用寿命，是否意指质保期需确认，未改写为 1 年质保。"
+          },
+          {
+            "name": "防火等级",
+            "value": "A 级（Rate A，册内标称）",
+            "pdf_page": 18,
+            "note": ""
+          },
+          {
+            "name": "抗震等级",
+            "value": "8 级（Grade 8，册内标称）",
+            "pdf_page": 18,
+            "note": ""
+          },
+          {
+            "name": "抗风等级",
+            "value": "10 级（Level 10，册内标称）",
+            "pdf_page": 18,
+            "note": ""
+          }
+        ],
+        "images": [
+          {
+            "file": "images/expandable-40ft/main.jpg",
+            "label": "40FT 拓展房外观",
+            "pdf_page": 8,
+            "kind": "embedded",
+            "xref": 401,
+            "width": 832,
+            "height": 387
+          },
+          {
+            "file": "images/expandable-40ft/layouts.jpg",
+            "label": "40FT 四种户型（保留原页编号）",
+            "pdf_page": 8,
+            "kind": "page_crop",
+            "rect": [
+              1120,
+              370,
+              2040,
+              1430
+            ],
+            "width": 1058,
+            "height": 1220
+          },
+          {
+            "file": "images/expandable-40ft/views.jpg",
+            "label": "40FT 立面与剖面图",
+            "pdf_page": 8,
+            "kind": "page_crop",
+            "rect": [
+              85,
+              875,
+              1040,
+              1410
+            ],
+            "width": 1099,
+            "height": 616
+          },
+          {
+            "file": "images/expandable-40ft/interior-1.jpg",
+            "label": "40FT 同页内饰展示 1",
+            "pdf_page": 8,
+            "kind": "embedded",
+            "xref": 410,
+            "width": 357,
+            "height": 269
+          },
+          {
+            "file": "images/expandable-40ft/interior-2.jpg",
+            "label": "40FT 同页内饰展示 2",
+            "pdf_page": 8,
+            "kind": "embedded",
+            "xref": 412,
+            "width": 357,
+            "height": 269
+          },
+          {
+            "file": "images/expandable-40ft/interior-3.jpg",
+            "label": "40FT 同页内饰展示 3",
+            "pdf_page": 8,
+            "kind": "embedded",
+            "xref": 411,
+            "width": 357,
+            "height": 269
+          }
+        ],
+        "notes": [
+          "尺寸页外墙板为 75 mm、屋面板为 50 mm；详细规格页另写 65 mm EPS/玻璃棉配置。两处口径未直接合并，需确认最终销售配置。"
+        ]
+      }
+    },
+    {
+      "slug": "expandable-20ft-mini",
+      "categoryKey": "expandable-homes",
+      "sortOrder": 30,
+      "featured": true,
+      "media": [
+        {
+          "file": "images/expandable-20ft-mini/main.jpg",
+          "sha256": "1a907f058342725c8e3507134897087880d794a4de4d2e2976e415e49c30f6e9",
+          "caption": "20FT MINI 拓展房外观",
+          "sourcePage": 9
+        },
+        {
+          "file": "images/expandable-20ft-mini/layouts.jpg",
+          "sha256": "6729b2af09f30666326bb81877874b72eab725480650f0e395df215dd2dec138",
+          "caption": "20FT MINI 四种户型（保留原页编号）",
+          "sourcePage": 9
+        },
+        {
+          "file": "images/expandable-20ft-mini/views.jpg",
+          "sha256": "1d0826f911f4cd4217a2e8d9f30bef3454065e09bae83ce5964b2e4fa3ceb10c",
+          "caption": "20FT MINI 立面与剖面图",
+          "sourcePage": 9
+        },
+        {
+          "file": "images/expandable-20ft-mini/interior-1.jpg",
+          "sha256": "93feb92e8b52d78d6dbea06103e35354d6b9eb4a10524737c03f74936b2e65e9",
+          "caption": "20FT MINI 同页内饰展示 1",
+          "sourcePage": 9
+        },
+        {
+          "file": "images/expandable-20ft-mini/interior-2.jpg",
+          "sha256": "090dd573ee9db3f8ffbbdf1913a166b55c0177be547c88bbb82f21e88cbfcfb0",
+          "caption": "20FT MINI 同页内饰展示 2",
+          "sourcePage": 9
+        },
+        {
+          "file": "images/expandable-20ft-mini/interior-3.jpg",
+          "sha256": "33bcbd115a3aaa857faa2e7e90d580a6794bc8d00773df14effe7deef7fc67a0",
+          "caption": "20FT MINI 同页内饰展示 3",
+          "sourcePage": 9
+        }
+      ],
+      "locales": {
+        "en": {
+          "title": "20FT MINI Expandable Container House",
+          "category": "Expandable Container Houses",
+          "summary": "A factory-prefabricated expandable house with folding side modules for transport.",
+          "detail": "A factory-prefabricated expandable house with folding side modules for transport. Choose the layout, wall finishes, flooring, doors and windows for your project.\n\nSpecifications are based on the product catalogue. Final materials, layout and electrical requirements are confirmed in the agreed project configuration.\n\nExternal dimensions (L × W × H): 5900 × 4800 × 2480 mm\nInternal dimensions (L × W × H): 5300 × 4640 × 2240 mm\nFolded dimensions (L × W × H): 5900 × 700 × 2480 mm\nApproximate weight: 2100 kg\nExternal wall panel (dimension sheet): 75 mm\nRoof panel (dimension sheet): 50 mm\nFloor plan options: 20FTMINI-01, 20FTMINI-02, 20FTMINI-03, 20FTMINI-04",
+          "customizableOptions": [
+            "Layout and room arrangement",
+            "PU, EPS, rock-wool or graphene insulation options",
+            "PVC / SPC flooring and wall finishes",
+            "Door, window and electrical socket options",
+            "Flat, mono-pitch or pitched roof options",
+            "Optional balcony, decking and solar panels"
+          ],
+          "productFaqs": []
+        },
+        "fr": {
+          "title": "Maison conteneur extensible 20FT MINI",
+          "category": "Maisons conteneurs extensibles",
+          "summary": "Une maison extensible préfabriquée en usine, dont les modules latéraux se replient pour le transport.",
+          "detail": "Une maison extensible préfabriquée en usine, dont les modules latéraux se replient pour le transport. Choisissez l’agencement, les revêtements, le sol, les portes et les fenêtres pour votre projet.\n\nLes caractéristiques proviennent du catalogue produit. Les matériaux, l’agencement et les exigences électriques définitifs sont confirmés dans la configuration convenue du projet.\n\nDimensions extérieures (L × l × H): 5900 × 4800 × 2480 mm\nDimensions intérieures (L × l × H): 5300 × 4640 × 2240 mm\nDimensions repliées (L × l × H): 5900 × 700 × 2480 mm\nPoids approximatif: 2100 kg\nPanneau extérieur (fiche de dimensions): 75 mm\nPanneau de toiture (fiche de dimensions): 50 mm\nPlans disponibles: 20FTMINI-01, 20FTMINI-02, 20FTMINI-03, 20FTMINI-04",
+          "customizableOptions": [
+            "Agencement et répartition des pièces",
+            "Options d’isolation PU, EPS, laine de roche ou graphène",
+            "Sols PVC / SPC et finitions murales",
+            "Options de portes, fenêtres et prises électriques",
+            "Toiture plate, monopente ou à deux pentes",
+            "Balcon, terrasse et panneaux solaires en option"
+          ],
+          "productFaqs": []
+        },
+        "ar": {
+          "title": "منزل حاوية قابل للتوسعة 20FT MINI",
+          "category": "منازل حاويات قابلة للتوسعة",
+          "summary": "منزل قابل للتوسعة مسبق التجهيز في المصنع، بوحدات جانبية تطوى للنقل.",
+          "detail": "منزل قابل للتوسعة مسبق التجهيز في المصنع، بوحدات جانبية تطوى للنقل. يمكن اختيار المخطط وكسوة الجدران والأرضيات والأبواب والنوافذ حسب المشروع.\n\nالمواصفات مستندة إلى كتالوج المنتجات. يتم تأكيد المواد والمخطط والمتطلبات الكهربائية النهائية ضمن التكوين المتفق عليه للمشروع.\n\nالأبعاد الخارجية (الطول × العرض × الارتفاع): 5900 × 4800 × 2480 mm\nالأبعاد الداخلية (الطول × العرض × الارتفاع): 5300 × 4640 × 2240 mm\nالأبعاد عند الطي (الطول × العرض × الارتفاع): 5900 × 700 × 2480 mm\nالوزن التقريبي: 2100 kg\nلوح الجدار الخارجي (رسم الأبعاد): 75 mm\nلوح السقف (رسم الأبعاد): 50 mm\nخيارات المخطط: 20FTMINI-01, 20FTMINI-02, 20FTMINI-03, 20FTMINI-04",
+          "customizableOptions": [
+            "المخطط وتقسيم الغرف",
+            "خيارات عزل PU أو EPS أو صوف صخري أو جرافين",
+            "أرضيات PVC / SPC وتشطيبات الجدران",
+            "خيارات الأبواب والنوافذ والمقابس",
+            "سقف مسطح أو أحادي أو ثنائي الميل",
+            "شرفة وتراس وألواح شمسية اختيارية"
+          ],
+          "productFaqs": []
+        }
+      },
+      "sourceRecord": {
+        "id": "expandable-20ft-mini",
+        "category": "expandable",
+        "name": "20FT MINI 拓展房",
+        "english": "20FT MINI Expandable Container House",
+        "model": "20FT MINI",
+        "pdf_pages": [
+          9
+        ],
+        "parameters": [
+          {
+            "name": "展开外尺寸（长 × 宽 × 高）",
+            "value": "5900 × 4800 × 2480 mm",
+            "pdf_page": 9,
+            "note": ""
+          },
+          {
+            "name": "内部尺寸（长 × 宽 × 高）",
+            "value": "5300 × 4640 × 2240 mm",
+            "pdf_page": 9,
+            "note": ""
+          },
+          {
+            "name": "折叠尺寸（长 × 宽 × 高）",
+            "value": "5900 × 700 × 2480 mm",
+            "pdf_page": 9,
+            "note": ""
+          },
+          {
+            "name": "总重量",
+            "value": "约 2100 kg",
+            "pdf_page": 9,
+            "note": ""
+          },
+          {
+            "name": "外墙板（尺寸示意图标注）",
+            "value": "75 mm",
+            "pdf_page": 9,
+            "note": ""
+          },
+          {
+            "name": "屋面板（尺寸示意图标注）",
+            "value": "50 mm",
+            "pdf_page": 9,
+            "note": ""
+          },
+          {
+            "name": "户型编号",
+            "value": "20FTMINI-01、20FTMINI-02、20FTMINI-03、20FTMINI-04",
+            "pdf_page": 9,
+            "note": "属于同型号的户型选项，未作为四款独立产品。"
+          }
+        ],
+        "images": [
+          {
+            "file": "images/expandable-20ft-mini/main.jpg",
+            "label": "20FT MINI 拓展房外观",
+            "pdf_page": 9,
+            "kind": "embedded",
+            "xref": 417,
+            "width": 748,
+            "height": 366
+          },
+          {
+            "file": "images/expandable-20ft-mini/layouts.jpg",
+            "label": "20FT MINI 四种户型（保留原页编号）",
+            "pdf_page": 9,
+            "kind": "page_crop",
+            "rect": [
+              1120,
+              370,
+              2040,
+              1430
+            ],
+            "width": 1058,
+            "height": 1220
+          },
+          {
+            "file": "images/expandable-20ft-mini/views.jpg",
+            "label": "20FT MINI 立面与剖面图",
+            "pdf_page": 9,
+            "kind": "page_crop",
+            "rect": [
+              85,
+              875,
+              1040,
+              1410
+            ],
+            "width": 1099,
+            "height": 616
+          },
+          {
+            "file": "images/expandable-20ft-mini/interior-1.jpg",
+            "label": "20FT MINI 同页内饰展示 1",
+            "pdf_page": 9,
+            "kind": "embedded",
+            "xref": 418,
+            "width": 304,
+            "height": 304
+          },
+          {
+            "file": "images/expandable-20ft-mini/interior-2.jpg",
+            "label": "20FT MINI 同页内饰展示 2",
+            "pdf_page": 9,
+            "kind": "embedded",
+            "xref": 420,
+            "width": 304,
+            "height": 304
+          },
+          {
+            "file": "images/expandable-20ft-mini/interior-3.jpg",
+            "label": "20FT MINI 同页内饰展示 3",
+            "pdf_page": 9,
+            "kind": "embedded",
+            "xref": 419,
+            "width": 304,
+            "height": 304
+          }
+        ],
+        "notes": []
+      }
+    },
+    {
+      "slug": "expandable-10ft",
+      "categoryKey": "expandable-homes",
+      "sortOrder": 40,
+      "featured": true,
+      "media": [
+        {
+          "file": "images/expandable-10ft/main.jpg",
+          "sha256": "7fbb000aa54aaa7e33de89477ce90cba0d64c1aaf16c7c02a0aa9c429a34652c",
+          "caption": "10FT 拓展房外观",
+          "sourcePage": 10
+        },
+        {
+          "file": "images/expandable-10ft/layout.jpg",
+          "sha256": "739cbc58b59ca092b6faf085511f4a87e4d576a0f0cbcf540e46f4d67d24e745",
+          "caption": "10FT 平面与电气点位图",
+          "sourcePage": 10
+        },
+        {
+          "file": "images/expandable-10ft/views.jpg",
+          "sha256": "c9f6ccfc5a6ba1d4bd2f4d306b883229f370d5397a2d88ec5a91e01da04baf13",
+          "caption": "10FT 正、背、侧视图",
+          "sourcePage": 10
+        }
+      ],
+      "locales": {
+        "en": {
+          "title": "10FT Expandable Container House",
+          "category": "Expandable Container Houses",
+          "summary": "A factory-prefabricated expandable house with folding side modules for transport.",
+          "detail": "A factory-prefabricated expandable house with folding side modules for transport. Choose the layout, wall finishes, flooring, doors and windows for your project.\n\nSpecifications are based on the product catalogue. Final materials, layout and electrical requirements are confirmed in the agreed project configuration.\n\nExternal dimensions (L × W × H): 2950 × 6300 × 2480 mm\nInternal dimensions (L × W × H): 2650 × 6140 × 2240 mm\nFolded dimensions (L × W × H): 2950 × 700 × 2480 mm\nApproximate weight: 2100 kg",
+          "customizableOptions": [
+            "Layout and room arrangement",
+            "PU, EPS, rock-wool or graphene insulation options",
+            "PVC / SPC flooring and wall finishes",
+            "Door, window and electrical socket options",
+            "Flat, mono-pitch or pitched roof options",
+            "Optional balcony, decking and solar panels"
+          ],
+          "productFaqs": []
+        },
+        "fr": {
+          "title": "Maison conteneur extensible 10FT",
+          "category": "Maisons conteneurs extensibles",
+          "summary": "Une maison extensible préfabriquée en usine, dont les modules latéraux se replient pour le transport.",
+          "detail": "Une maison extensible préfabriquée en usine, dont les modules latéraux se replient pour le transport. Choisissez l’agencement, les revêtements, le sol, les portes et les fenêtres pour votre projet.\n\nLes caractéristiques proviennent du catalogue produit. Les matériaux, l’agencement et les exigences électriques définitifs sont confirmés dans la configuration convenue du projet.\n\nDimensions extérieures (L × l × H): 2950 × 6300 × 2480 mm\nDimensions intérieures (L × l × H): 2650 × 6140 × 2240 mm\nDimensions repliées (L × l × H): 2950 × 700 × 2480 mm\nPoids approximatif: 2100 kg",
+          "customizableOptions": [
+            "Agencement et répartition des pièces",
+            "Options d’isolation PU, EPS, laine de roche ou graphène",
+            "Sols PVC / SPC et finitions murales",
+            "Options de portes, fenêtres et prises électriques",
+            "Toiture plate, monopente ou à deux pentes",
+            "Balcon, terrasse et panneaux solaires en option"
+          ],
+          "productFaqs": []
+        },
+        "ar": {
+          "title": "منزل حاوية قابل للتوسعة 10FT",
+          "category": "منازل حاويات قابلة للتوسعة",
+          "summary": "منزل قابل للتوسعة مسبق التجهيز في المصنع، بوحدات جانبية تطوى للنقل.",
+          "detail": "منزل قابل للتوسعة مسبق التجهيز في المصنع، بوحدات جانبية تطوى للنقل. يمكن اختيار المخطط وكسوة الجدران والأرضيات والأبواب والنوافذ حسب المشروع.\n\nالمواصفات مستندة إلى كتالوج المنتجات. يتم تأكيد المواد والمخطط والمتطلبات الكهربائية النهائية ضمن التكوين المتفق عليه للمشروع.\n\nالأبعاد الخارجية (الطول × العرض × الارتفاع): 2950 × 6300 × 2480 mm\nالأبعاد الداخلية (الطول × العرض × الارتفاع): 2650 × 6140 × 2240 mm\nالأبعاد عند الطي (الطول × العرض × الارتفاع): 2950 × 700 × 2480 mm\nالوزن التقريبي: 2100 kg",
+          "customizableOptions": [
+            "المخطط وتقسيم الغرف",
+            "خيارات عزل PU أو EPS أو صوف صخري أو جرافين",
+            "أرضيات PVC / SPC وتشطيبات الجدران",
+            "خيارات الأبواب والنوافذ والمقابس",
+            "سقف مسطح أو أحادي أو ثنائي الميل",
+            "شرفة وتراس وألواح شمسية اختيارية"
+          ],
+          "productFaqs": []
+        }
+      },
+      "sourceRecord": {
+        "id": "expandable-10ft",
+        "category": "expandable",
+        "name": "10FT 拓展房",
+        "english": "10FT Expandable Container House",
+        "model": "10FT",
+        "pdf_pages": [
+          10
+        ],
+        "parameters": [
+          {
+            "name": "展开外尺寸（长 × 宽 × 高）",
+            "value": "2950 × 6300 × 2480 mm",
+            "pdf_page": 10,
+            "note": ""
+          },
+          {
+            "name": "内部尺寸（长 × 宽 × 高）",
+            "value": "2650 × 6140 × 2240 mm",
+            "pdf_page": 10,
+            "note": ""
+          },
+          {
+            "name": "折叠尺寸（长 × 宽 × 高）",
+            "value": "2950 × 700 × 2480 mm",
+            "pdf_page": 10,
+            "note": ""
+          },
+          {
+            "name": "总重量",
+            "value": "约 2100 kg",
+            "pdf_page": 10,
+            "note": ""
+          }
+        ],
+        "images": [
+          {
+            "file": "images/expandable-10ft/main.jpg",
+            "label": "10FT 拓展房外观",
+            "pdf_page": 10,
+            "kind": "embedded",
+            "xref": 425,
+            "width": 694,
+            "height": 694
+          },
+          {
+            "file": "images/expandable-10ft/layout.jpg",
+            "label": "10FT 平面与电气点位图",
+            "pdf_page": 10,
+            "kind": "page_crop",
+            "rect": [
+              90,
+              790,
+              1130,
+              1380
+            ],
+            "width": 1197,
+            "height": 679
+          },
+          {
+            "file": "images/expandable-10ft/views.jpg",
+            "label": "10FT 正、背、侧视图",
+            "pdf_page": 10,
+            "kind": "page_crop",
+            "rect": [
+              1120,
+              150,
+              2040,
+              1390
+            ],
+            "width": 1058,
+            "height": 1427
+          }
+        ],
+        "notes": []
+      }
+    },
+    {
+      "slug": "folding-standard",
+      "categoryKey": "folding-homes",
+      "sortOrder": 50,
+      "featured": true,
+      "media": [
+        {
+          "file": "images/folding-standard/main.jpg",
+          "sha256": "bc9725e7b7b2a93eed2b11625cd5f3f35f4d1b25c77399fd956060beafe029ef",
+          "caption": "折叠箱房外观",
+          "sourcePage": 19
+        },
+        {
+          "file": "images/folding-standard/installation.jpg",
+          "sha256": "a366784dd802d24929f29a4f7978588a2429158542ef2603f2106bcec19c54ea",
+          "caption": "折叠箱房展开步骤",
+          "sourcePage": 19
+        },
+        {
+          "file": "images/folding-standard/appearances.jpg",
+          "sha256": "b579733daac347da87d625572b52e1ca9cee830d2342450095be3ccde0c3106c",
+          "caption": "折叠箱房外观选项",
+          "sourcePage": 20
+        },
+        {
+          "file": "images/folding-standard/interiors.jpg",
+          "sha256": "6d5b2abd3f2457f3a881003d61acc33240e8f2c0943eb6bb2d55bc7750676bf8",
+          "caption": "折叠箱房室内展示",
+          "sourcePage": 20
+        },
+        {
+          "file": "images/folding-standard/layouts.jpg",
+          "sha256": "29d842416524fee3b9e31f384456fc6a1d87bc9f492a7ce11fb7554bd9a6f137",
+          "caption": "办公室 / 两卧一卫 / 休息室布局展示（图中文字为 20FT）",
+          "sourcePage": 20
+        },
+        {
+          "file": "images/folding-standard/structure.jpg",
+          "sha256": "10403f30b339a050038686ee13382f611193514521311076b84ef32dcb6b29d2",
+          "caption": "折叠箱房结构配件图",
+          "sourcePage": 20
+        },
+        {
+          "file": "images/folding-standard/construction.jpg",
+          "sha256": "5e0c5c37cbdede70421323fbc71e2b904d850fa72ef4c55143ced2c431625001",
+          "caption": "折叠箱房组合建筑展示",
+          "sourcePage": 20
+        }
+      ],
+      "locales": {
+        "en": {
+          "title": "Folding Container House",
+          "category": "Folding Container Houses",
+          "summary": "A folding container house that packs down to a low transport height.",
+          "detail": "A folding container house that packs down to a low transport height. Its steel frame, insulated wall panels and integrated fittings support accommodation and site-office configurations.\n\nSpecifications are based on the product catalogue. Final materials, layout and electrical requirements are confirmed in the agreed project configuration.\n\nExternal dimensions (L × W × H): 5800 × 2500 × 2450 mm\nInternal dimensions (L × W × H): 5650 × 2350 × 2230 mm\nFolded dimensions (L × W × H): 5800 × 2500 × 360 mm\nUpper main beams: Galvanized profiled steel tubes, 63 × 80 × 1.5 mm; 3 pcs\nLower main beams: Galvanized profiled steel tubes, 63 × 160 × 2.0 mm; 3 pcs\nRoof cross beams: Galvanized square tubes, 50 × 50 × 1.8 mm; 6 pcs\nFront / rear end beams: Galvanized profiled steel tubes, 63 × 80 × 1.5 mm; 4 pcs\nSide wall frame: Galvanized profiled steel tubes, 63 × 80 × 1.5 mm; 8 pcs\nSteel corner fittings: Steel plates, 200 × 100 × 15 mm; 8 pcs\nFolding hinges: 85 × 115 × 3 mm hinges, 304 stainless steel pins; 36 pcs\nFrame coating: High-gloss enamel coating\nExternal roofing: Type 104 colour-coated steel sheets, 0.5 mm; 6 sets\nInterior ceiling: Type 831 ceiling sheets, 0.326 mm; 7 pcs\nFlooring: 15 mm magnesium oxide boards; 5 pcs\nSide wall panels: 0.326 mm coated steel / 50 mm rock wool, 65 kg/m³; 8 panels\nFront / rear wall panels: 0.326 mm coated steel / 50 mm rock wool, 65 kg/m³; 6 panels\nWindows: Aluminium sliding security windows with screens, 950 × 1200 mm; 2 pcs\nDoor: Security door for folding house, 860 × 1980 mm; 1 pc\nElectrical equipment: 1 circuit breaker, 2 industrial plug / socket sets, 1 LED light, 1 AC socket and 1 switch\nRoof load: ≥50 kg/m²\nFloor load: ≥150 kg/m²\nWalkway load: ≥200 kg/m²\nLateral wall pressure: ≥80 kg/m²\nCustomization: Frame and colour options",
+          "customizableOptions": [
+            "Frame colour",
+            "Interior layout and fittings",
+            "Doors, windows and electrical requirements"
+          ],
+          "productFaqs": []
+        },
+        "fr": {
+          "title": "Maison conteneur pliable",
+          "category": "Maisons conteneurs pliables",
+          "summary": "Une maison conteneur pliable à faible hauteur de transport.",
+          "detail": "Une maison conteneur pliable à faible hauteur de transport. Son ossature acier, ses panneaux isolés et ses équipements intégrés conviennent aux configurations d’hébergement et de bureau de chantier.\n\nLes caractéristiques proviennent du catalogue produit. Les matériaux, l’agencement et les exigences électriques définitifs sont confirmés dans la configuration convenue du projet.\n\nDimensions extérieures (L × l × H): 5800 × 2500 × 2450 mm\nDimensions intérieures (L × l × H): 5650 × 2350 × 2230 mm\nDimensions repliées (L × l × H): 5800 × 2500 × 360 mm\nPoutres principales supérieures: Tubes profilés en acier galvanisé, 63 × 80 × 1.5 mm ; 3 pièces\nPoutres principales inférieures: Tubes profilés en acier galvanisé, 63 × 160 × 2.0 mm ; 3 pièces\nTraverses de toiture: Tubes carrés galvanisés, 50 × 50 × 1.8 mm ; 6 pièces\nPoutres d’extrémité avant / arrière: Tubes profilés en acier galvanisé, 63 × 80 × 1.5 mm ; 4 pièces\nOssature des murs latéraux: Tubes profilés en acier galvanisé, 63 × 80 × 1.5 mm ; 8 pièces\nPièces d’angle en acier: Plaques d’acier, 200 × 100 × 15 mm ; 8 pièces\nCharnières de pliage: Charnières 85 × 115 × 3 mm, axes en inox 304 ; 36 pièces\nRevêtement de l’ossature: Peinture émail brillante\nCouverture extérieure: Tôles d’acier prélaqué type 104, 0.5 mm ; 6 ensembles\nPlafond intérieur: Tôles de plafond type 831, 0.326 mm ; 7 pièces\nPlancher: Panneaux en oxyde de magnésium de 15 mm ; 5 pièces\nPanneaux des murs latéraux: Acier prélaqué 0.326 mm / laine de roche 50 mm, 65 kg/m³ ; 8 panneaux\nPanneaux avant / arrière: Acier prélaqué 0.326 mm / laine de roche 50 mm, 65 kg/m³ ; 6 panneaux\nFenêtres: Fenêtres coulissantes en aluminium avec moustiquaires, 950 × 1200 mm ; 2 pièces\nPorte: Porte de sécurité pour maison pliable, 860 × 1980 mm ; 1 pièce\nÉquipement électrique: 1 disjoncteur, 2 ensembles prise / fiche industriels, 1 lampe LED, 1 prise de climatisation et 1 interrupteur\nCharge de toiture: ≥50 kg/m²\nCharge du plancher: ≥150 kg/m²\nCharge de la coursive: ≥200 kg/m²\nPression latérale sur les murs: ≥80 kg/m²\nPersonnalisation: Options d’ossature et de couleur",
+          "customizableOptions": [
+            "Couleur de l’ossature",
+            "Agencement et équipements intérieurs",
+            "Portes, fenêtres et besoins électriques"
+          ],
+          "productFaqs": []
+        },
+        "ar": {
+          "title": "منزل حاوية قابل للطي",
+          "category": "منازل حاويات قابلة للطي",
+          "summary": "منزل حاوية قابل للطي بارتفاع منخفض أثناء النقل.",
+          "detail": "منزل حاوية قابل للطي بارتفاع منخفض أثناء النقل. يتيح الهيكل الفولاذي والألواح المعزولة والتجهيزات المتكاملة إعداد وحدات للسكن ومكاتب المواقع.\n\nالمواصفات مستندة إلى كتالوج المنتجات. يتم تأكيد المواد والمخطط والمتطلبات الكهربائية النهائية ضمن التكوين المتفق عليه للمشروع.\n\nالأبعاد الخارجية (الطول × العرض × الارتفاع): 5800 × 2500 × 2450 mm\nالأبعاد الداخلية (الطول × العرض × الارتفاع): 5650 × 2350 × 2230 mm\nالأبعاد عند الطي (الطول × العرض × الارتفاع): 5800 × 2500 × 360 mm\nالعوارض الرئيسية العلوية: أنابيب فولاذية مشكلة مجلفنة، 63 × 80 × 1.5 mm؛ 3 قطع\nالعوارض الرئيسية السفلية: أنابيب فولاذية مشكلة مجلفنة، 63 × 160 × 2.0 mm؛ 3 قطع\nعوارض السقف العرضية: أنابيب مربعة مجلفنة، 50 × 50 × 1.8 mm؛ 6 قطع\nعوارض الأطراف الأمامية / الخلفية: أنابيب فولاذية مشكلة مجلفنة، 63 × 80 × 1.5 mm؛ 4 قطع\nإطار الجدران الجانبية: أنابيب فولاذية مشكلة مجلفنة، 63 × 80 × 1.5 mm؛ 8 قطع\nوصلات الزوايا الفولاذية: ألواح فولاذ، 200 × 100 × 15 mm؛ 8 قطع\nمفصلات الطي: مفصلات 85 × 115 × 3 mm بمحاور ستانلس 304؛ 36 قطعة\nطلاء الإطار: طلاء مينا عالي اللمعان\nغطاء السقف الخارجي: صفائح فولاذ مطلية نوع 104 بسماكة 0.5 mm؛ 6 مجموعات\nالسقف الداخلي: صفائح سقف داخلي نوع 831 بسماكة 0.326 mm؛ 7 قطع\nالأرضية: ألواح أكسيد مغنيسيوم 15 mm؛ 5 قطع\nألواح الجدران الجانبية: فولاذ مطلي 0.326 mm / صوف صخري 50 mm بكثافة 65 kg/m³؛ 8 ألواح\nألواح الجدران الأمامية / الخلفية: فولاذ مطلي 0.326 mm / صوف صخري 50 mm بكثافة 65 kg/m³؛ 6 ألواح\nالنوافذ: نافذتان منزلاقتان من الألمنيوم مع شبك، 950 × 1200 mm\nالباب: باب أمان للمنزل القابل للطي، 860 × 1980 mm؛ قطعة واحدة\nالتجهيزات الكهربائية: قاطع واحد، ومجموعتان من المقابس الصناعية، ومصباح LED واحد، ومقبس تكييف واحد، ومفتاح واحد\nحمل السقف: ≥50 kg/m²\nحمل الأرضية: ≥150 kg/m²\nحمل الممر: ≥200 kg/m²\nالضغط الجانبي على الجدار: ≥80 kg/m²\nالتخصيص: خيارات الإطار والألوان",
+          "customizableOptions": [
+            "لون الإطار",
+            "المخطط والتجهيزات الداخلية",
+            "الأبواب والنوافذ والمتطلبات الكهربائية"
+          ],
+          "productFaqs": []
+        }
+      },
+      "sourceRecord": {
+        "id": "folding-standard",
+        "category": "folding",
+        "name": "标准折叠箱房",
+        "english": "Folding Container House",
+        "model": "册内未列独立型号",
+        "pdf_pages": [
+          19,
+          20,
+          21
+        ],
+        "parameters": [
+          {
+            "name": "展开外尺寸（长 × 宽 × 高）",
+            "value": "5800 × 2500 × 2450 mm",
+            "pdf_page": 21,
+            "note": ""
+          },
+          {
+            "name": "内部尺寸（长 × 宽 × 高）",
+            "value": "5650 × 2350 × 2230 mm",
+            "pdf_page": 21,
+            "note": ""
+          },
+          {
+            "name": "折叠尺寸（长 × 宽 × 高）",
+            "value": "5800 × 2500 × 360 mm",
+            "pdf_page": 21,
+            "note": ""
+          },
+          {
+            "name": "重量",
+            "value": "1.3~1.1 T",
+            "pdf_page": 21,
+            "note": "原表顺序如此，范围上下限待确认。"
+          },
+          {
+            "name": "上主梁",
+            "value": "异型镀锌钢凹凸管，63 × 80 × 1.5 mm；3 件",
+            "pdf_page": 21,
+            "note": ""
+          },
+          {
+            "name": "下主梁",
+            "value": "异型镀锌钢凹凸管，63 × 160 × 2.0 mm；3 件",
+            "pdf_page": 21,
+            "note": ""
+          },
+          {
+            "name": "顶横梁",
+            "value": "镀锌方管，50 × 50 × 1.8 mm；6 件",
+            "pdf_page": 21,
+            "note": ""
+          },
+          {
+            "name": "前后端梁",
+            "value": "异型镀锌钢凹凸管，63 × 80 × 1.5 mm；4 件",
+            "pdf_page": 21,
+            "note": ""
+          },
+          {
+            "name": "侧墙框架",
+            "value": "异型镀锌钢凹凸管，63 × 80 × 1.5 mm；8 件",
+            "pdf_page": 21,
+            "note": ""
+          },
+          {
+            "name": "底横梁",
+            "value": "镀锌方管，40 × 80 × 2.0 mm",
+            "pdf_page": 21,
+            "note": "数量栏原文为 4.5 Piece，待核对。"
+          },
+          {
+            "name": "铸钢对接角件",
+            "value": "钢板 200 × 100 × 15 mm；8 件",
+            "pdf_page": 21,
+            "note": ""
+          },
+          {
+            "name": "折叠铰链",
+            "value": "85 × 115 × 3 mm，轴柱为 304 不锈钢；36 件",
+            "pdf_page": 21,
+            "note": ""
+          },
+          {
+            "name": "框架涂层",
+            "value": "高光磁漆（原文 Cabaret high gloss enamel）",
+            "pdf_page": 21,
+            "note": ""
+          },
+          {
+            "name": "外屋面",
+            "value": "104 型彩钢瓦，0.5 mm；6 套",
+            "pdf_page": 21,
+            "note": ""
+          },
+          {
+            "name": "内吊顶",
+            "value": "831 型吊顶瓦，0.326 mm；7 件",
+            "pdf_page": 21,
+            "note": ""
+          },
+          {
+            "name": "屋面保温岩棉",
+            "value": "容重 60 kg/m³",
+            "pdf_page": 21,
+            "note": "原数量/体积说明为 14.5，原表单位混乱，详见规格原页。"
+          },
+          {
+            "name": "地板",
+            "value": "A 级防火玻镁板，15 mm；5 块",
+            "pdf_page": 21,
+            "note": ""
+          },
+          {
+            "name": "侧墙板",
+            "value": "0.326 mm 彩钢板 / 50 mm 岩棉 / 65 kg/m³；8 块",
+            "pdf_page": 21,
+            "note": ""
+          },
+          {
+            "name": "前后墙板",
+            "value": "0.326 mm 彩钢板 / 50 mm 岩棉 / 65 kg/m³；6 块",
+            "pdf_page": 21,
+            "note": ""
+          },
+          {
+            "name": "窗户",
+            "value": "铝合金防盗推拉窗，950 × 1200 mm，带纱窗；2 扇",
+            "pdf_page": 21,
+            "note": ""
+          },
+          {
+            "name": "门",
+            "value": "折叠箱房专用防盗门，860 × 1980 mm；1 扇",
+            "pdf_page": 21,
+            "note": ""
+          },
+          {
+            "name": "电气系统",
+            "value": "断路保护器 1 套、工业插头插座 2 套、单管 LED 灯 1 套、空调专用插座 1 套、开关 1 套",
+            "pdf_page": 21,
+            "note": ""
+          },
+          {
+            "name": "屋面荷载",
+            "value": "≥50 kg/m²",
+            "pdf_page": 21,
+            "note": ""
+          },
+          {
+            "name": "楼面承重",
+            "value": "≥150 kg/m²",
+            "pdf_page": 21,
+            "note": ""
+          },
+          {
+            "name": "走道承重",
+            "value": "≥200 kg/m²",
+            "pdf_page": 21,
+            "note": ""
+          },
+          {
+            "name": "墙侧压力",
+            "value": "≥80 kg/m²",
+            "pdf_page": 21,
+            "note": ""
+          },
+          {
+            "name": "防火等级",
+            "value": "A 级（Class A，册内标称）",
+            "pdf_page": 21,
+            "note": ""
+          },
+          {
+            "name": "Wall deformation coefficient（原字段）",
+            "value": "≤300 kg/m²",
+            "pdf_page": 21,
+            "note": "原字段名与单位不一致，按原文保留，待确认。"
+          },
+          {
+            "name": "抗震",
+            "value": "10 级（原文 10 earthquake resistance）",
+            "pdf_page": 21,
+            "note": ""
+          },
+          {
+            "name": "抗风",
+            "value": "10 级（原文 level 10 wind resistance）",
+            "pdf_page": 21,
+            "note": ""
+          },
+          {
+            "name": "安装展示",
+            "value": "4 步 / 4 分钟 / 1 间（产品册展示口径）",
+            "pdf_page": 19,
+            "note": ""
+          },
+          {
+            "name": "可定制",
+            "value": "框架、颜色等",
+            "pdf_page": 19,
+            "note": ""
+          },
+          {
+            "name": "用途/布局",
+            "value": "办公室、两卧一卫、休息室；布局图标为 20FT",
+            "pdf_page": 20,
+            "note": "未据此将标准规格表命名为独立的 20FT 型号。"
+          }
+        ],
+        "images": [
+          {
+            "file": "images/folding-standard/main.jpg",
+            "label": "折叠箱房外观",
+            "pdf_page": 19,
+            "kind": "embedded",
+            "xref": 657,
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "file": "images/folding-standard/installation.jpg",
+            "label": "折叠箱房展开步骤",
+            "pdf_page": 19,
+            "kind": "page_crop",
+            "rect": [
+              1160,
+              825,
+              2050,
+              1300
+            ],
+            "width": 1024,
+            "height": 547
+          },
+          {
+            "file": "images/folding-standard/appearances.jpg",
+            "label": "折叠箱房外观选项",
+            "pdf_page": 20,
+            "kind": "page_crop",
+            "rect": [
+              80,
+              200,
+              1040,
+              710
+            ],
+            "width": 1104,
+            "height": 587
+          },
+          {
+            "file": "images/folding-standard/interiors.jpg",
+            "label": "折叠箱房室内展示",
+            "pdf_page": 20,
+            "kind": "page_crop",
+            "rect": [
+              1150,
+              1075,
+              2050,
+              1400
+            ],
+            "width": 1036,
+            "height": 374
+          },
+          {
+            "file": "images/folding-standard/layouts.jpg",
+            "label": "办公室 / 两卧一卫 / 休息室布局展示（图中文字为 20FT）",
+            "pdf_page": 20,
+            "kind": "page_crop",
+            "rect": [
+              1150,
+              165,
+              2040,
+              470
+            ],
+            "width": 1024,
+            "height": 352
+          },
+          {
+            "file": "images/folding-standard/structure.jpg",
+            "label": "折叠箱房结构配件图",
+            "pdf_page": 20,
+            "kind": "page_crop",
+            "rect": [
+              1210,
+              505,
+              2005,
+              1040
+            ],
+            "width": 915,
+            "height": 616
+          },
+          {
+            "file": "images/folding-standard/construction.jpg",
+            "label": "折叠箱房组合建筑展示",
+            "pdf_page": 20,
+            "kind": "page_crop",
+            "rect": [
+              120,
+              880,
+              940,
+              1400
+            ],
+            "width": 943,
+            "height": 598
+          }
+        ],
+        "notes": [
+          "规格表中重量顺序、部分数量及单位存在疑点，均保留原文并附原页，未推算或更正。"
+        ]
+      }
+    },
+    {
+      "slug": "flat-pack-standard",
+      "categoryKey": "flat-pack-homes",
+      "sortOrder": 60,
+      "featured": true,
+      "media": [
+        {
+          "file": "images/flat-pack-standard/main.jpg",
+          "sha256": "b4d90ba53ef2f0333075f06ac99bebff627c96e3947c2a272479432fc7dc24cb",
+          "caption": "打包箱房外观",
+          "sourcePage": 22
+        },
+        {
+          "file": "images/flat-pack-standard/layouts.jpg",
+          "sha256": "8b9d354d3ec9133bb19b20a4912bd4491b658d6d19563b79f4c70755113693b5",
+          "caption": "两居 / 一居 / 卫生间 / 办公室布局",
+          "sourcePage": 22
+        },
+        {
+          "file": "images/flat-pack-standard/structure.jpg",
+          "sha256": "bfa7dd8c3e42312dd5fe071a3f060d8dfb874013cf97f914e8ba3bfb2aab247b",
+          "caption": "打包箱房结构配件图",
+          "sourcePage": 23
+        },
+        {
+          "file": "images/flat-pack-standard/transport.jpg",
+          "sha256": "ed54f8a1840b2d94acc5b7bad03466d0f6dae7602e87e00c6aacddbb67fa8c96",
+          "caption": "打包箱房运输图",
+          "sourcePage": 23
+        },
+        {
+          "file": "images/flat-pack-standard/interior-1.jpg",
+          "sha256": "c36e0f50217914ba02ec6756c64152987d7a314ac01b4e19507cfcf6fbb83764",
+          "caption": "打包箱房同页室内展示 1",
+          "sourcePage": 22
+        },
+        {
+          "file": "images/flat-pack-standard/interior-2.jpg",
+          "sha256": "826634ed024ac7b24ec7af8701b5955096018def1f8c707c2e0a8037744f8afe",
+          "caption": "打包箱房同页室内展示 2",
+          "sourcePage": 22
+        },
+        {
+          "file": "images/flat-pack-standard/interior-3.jpg",
+          "sha256": "88ef745182339a217a305fa273056f3a7666f50315a02057e0708578809dce66",
+          "caption": "打包箱房同页室内展示 3",
+          "sourcePage": 22
+        },
+        {
+          "file": "images/flat-pack-standard/interior-4.jpg",
+          "sha256": "6a9d4261202336697cb80c336348019493ca823bcaf698db564761da12230e09",
+          "caption": "打包箱房同页室内展示 4",
+          "sourcePage": 22
+        }
+      ],
+      "locales": {
+        "en": {
+          "title": "Flat Pack Container House",
+          "category": "Flat Pack Container Houses",
+          "summary": "A flat pack building system delivered as packaged structural components.",
+          "detail": "A flat pack building system delivered as packaged structural components. The catalogue includes residential, office and washroom layouts, with installation and logistics planned for each project.\n\nSpecifications are based on the product catalogue. Final materials, layout and electrical requirements are confirmed in the agreed project configuration.\n\nExternal dimensions (L × W × H): 5800 × 2438 × 2550 mm\nInternal dimensions (L × W × H): 5660 × 2180 × 2310 mm\nPacked dimensions (L × W × H): 5800 × 2438 × 710 mm\nMain frame: 2.5 mm galvanized steel; zinc coating 80 g/m²\nUpper longitudinal formed beams: 170 mm wide × 5380 mm long; 2 pcs\nUpper transverse formed beams: 170 mm wide × 2118 mm long; 2 pcs\nRoof C-section braces: C80 × 1.2 mm; 6 pcs\nRoof square tubes: 30 × 30 × 1.0 mm: 2 pcs; 20 × 20 × 1.0 mm: 1 pc\nLower longitudinal formed beams: 160 mm wide × 5380 mm long; 2 pcs\nLower transverse formed beams: 160 mm wide × 2118 mm long; 2 pcs\nWall panel base channels: 5630 mm: 2 pcs; 2690 mm: 2 pcs\nCorner posts: 2.5 mm galvanized posts, 210 × 150 × 2180 mm; 4 pcs\nPost connectors: 8.0 mm; 8 pcs\nReinforced L-section posts: 8 pcs\nUpper corner fittings: 3.5 mm galvanized fittings, 210 + 150 + 210 mm; 4 pcs\nLower corner fittings: 3.5 mm galvanized fittings, 210 + 150 + 160 mm; 4 pcs\nRoof sheets: 0.45 mm coated steel sheet, 360° seam, waterproof treatment\nRoof insulation: 75 mm glass wool, 14 kg/m³\nSurface finish: Baked paint / electrostatic powder coating\nBolts: Galvanized hex-socket bolts; 48 pcs\nDrain pipes: 50 mm; 4 pipes\nCeiling panels: Type 831 coated steel ceiling sheets, 0.35 mm\nCeiling trim: Ceiling angle trims; 3 pcs\nSubfloor: 18 mm calcium silicate boards; 5 pcs\nWall panels: 50 mm foam core, 12 kg/m³, with 0.28 mm steel sheet on each side\nDoor: Steel door with fire lock, 840 × 2030 mm; 1 set\nWindows: uPVC double-glazed security windows, 1130 × 1100 mm; 2 sets\nInstallation accessories: Screws, internal connectors and 1 roll of waterproof tape\nThermal conductivity: λ = 0.036 W/(m·K)\nSound insulation: ≥25 dB\nDrainage: Integrated internal drainage\nFloor load: 2.0 kN/m²\nRoof live load: 0.8 kN/m²\nWind load: 0.50 kN/m²\nDesign service life: 20 years\nLoading quantity per 40HQ: 6–8 units",
+          "customizableOptions": [
+            "Residential, office or washroom layouts",
+            "Interior fittings and finishes",
+            "Project-specific delivery and installation plan"
+          ],
+          "productFaqs": []
+        },
+        "fr": {
+          "title": "Maison conteneur en kit",
+          "category": "Maisons conteneurs en kit",
+          "summary": "Un système de bâtiment en kit livré sous forme de composants emballés.",
+          "detail": "Un système de bâtiment en kit livré sous forme de composants emballés. Le catalogue présente des configurations de logement, de bureau et de sanitaires ; montage et logistique sont adaptés au projet.\n\nLes caractéristiques proviennent du catalogue produit. Les matériaux, l’agencement et les exigences électriques définitifs sont confirmés dans la configuration convenue du projet.\n\nDimensions extérieures (L × l × H): 5800 × 2438 × 2550 mm\nDimensions intérieures (L × l × H): 5660 × 2180 × 2310 mm\nDimensions emballées (L × l × H): 5800 × 2438 × 710 mm\nOssature principale: Acier galvanisé de 2.5 mm ; zinc 80 g/m²\nPoutres profilées longitudinales supérieures: Largeur 170 mm × longueur 5380 mm ; 2 pièces\nPoutres profilées transversales supérieures: Largeur 170 mm × longueur 2118 mm ; 2 pièces\nEntretoises de toiture en C: C80 × 1.2 mm ; 6 pièces\nTubes carrés de toiture: 30 × 30 × 1.0 mm : 2 pièces ; 20 × 20 × 1.0 mm : 1 pièce\nPoutres profilées longitudinales inférieures: Largeur 160 mm × longueur 5380 mm ; 2 pièces\nPoutres profilées transversales inférieures: Largeur 160 mm × longueur 2118 mm ; 2 pièces\nRails de pied des panneaux muraux: 5630 mm : 2 pièces ; 2690 mm : 2 pièces\nPoteaux d’angle: Poteaux galvanisés de 2.5 mm, 210 × 150 × 2180 mm ; 4 pièces\nConnecteurs de poteaux: 8.0 mm ; 8 pièces\nPoteaux renforcés en L: 8 pièces\nPièces d’angle supérieures: Pièces galvanisées de 3.5 mm, 210 + 150 + 210 mm ; 4 pièces\nPièces d’angle inférieures: Pièces galvanisées de 3.5 mm, 210 + 150 + 160 mm ; 4 pièces\nTôles de toiture: Tôle prélaquée 0.45 mm, joint à 360°, traitement d’étanchéité\nIsolation de toiture: Laine de verre 75 mm, 14 kg/m³\nFinition de surface: Peinture cuite / thermolaquage électrostatique\nBoulons: Boulons galvanisés à six pans creux ; 48 pièces\nTuyaux d’évacuation: 50 mm ; 4 tuyaux\nPanneaux de plafond: Tôles de plafond en acier prélaqué type 831, 0.35 mm\nProfilés de finition du plafond: Cornières de plafond ; 3 pièces\nSupport de plancher: Panneaux en silicate de calcium de 18 mm ; 5 pièces\nPanneaux muraux: Âme en mousse 50 mm, 12 kg/m³, acier de 0.28 mm sur chaque face\nPorte: Porte en acier avec serrure coupe-feu, 840 × 2030 mm ; 1 ensemble\nFenêtres: Fenêtres de sécurité PVC à double vitrage, 1130 × 1100 mm ; 2 ensembles\nAccessoires de montage: Vis, connecteurs intérieurs et 1 rouleau de bande d’étanchéité\nConductivité thermique: λ = 0.036 W/(m·K)\nIsolation acoustique: ≥25 dB\nÉvacuation des eaux: Évacuation intérieure intégrée\nCharge du plancher: 2.0 kN/m²\nCharge d’exploitation de toiture: 0.8 kN/m²\nCharge de vent: 0.50 kN/m²\nDurée de vie de conception: 20 ans\nQuantité par conteneur 40HQ: 6–8 unités",
+          "customizableOptions": [
+            "Configurations de logement, bureau ou sanitaires",
+            "Équipements et finitions intérieurs",
+            "Plan de livraison et montage adapté au projet"
+          ],
+          "productFaqs": []
+        },
+        "ar": {
+          "title": "منزل حاوية مسطح التعبئة",
+          "category": "منازل حاويات مسطحة التعبئة",
+          "summary": "نظام بناء مسطح التعبئة يورد كمكونات إنشائية مجمعة.",
+          "detail": "نظام بناء مسطح التعبئة يورد كمكونات إنشائية مجمعة. يشمل الكتالوج مخططات للسكن والمكاتب والمرافق الصحية، مع تنظيم التركيب والنقل حسب المشروع.\n\nالمواصفات مستندة إلى كتالوج المنتجات. يتم تأكيد المواد والمخطط والمتطلبات الكهربائية النهائية ضمن التكوين المتفق عليه للمشروع.\n\nالأبعاد الخارجية (الطول × العرض × الارتفاع): 5800 × 2438 × 2550 mm\nالأبعاد الداخلية (الطول × العرض × الارتفاع): 5660 × 2180 × 2310 mm\nأبعاد التعبئة (الطول × العرض × الارتفاع): 5800 × 2438 × 710 mm\nالإطار الرئيسي: فولاذ مجلفن 2.5 mm؛ طلاء زنك 80 g/m²\nالعوارض المشكلة الطولية العلوية: عرض 170 mm × طول 5380 mm؛ قطعتان\nالعوارض المشكلة العرضية العلوية: عرض 170 mm × طول 2118 mm؛ قطعتان\nدعامات السقف بمقطع C: C80 × 1.2 mm؛ 6 قطع\nأنابيب السقف المربعة: 30 × 30 × 1.0 mm: قطعتان؛ 20 × 20 × 1.0 mm: قطعة واحدة\nالعوارض المشكلة الطولية السفلية: عرض 160 mm × طول 5380 mm؛ قطعتان\nالعوارض المشكلة العرضية السفلية: عرض 160 mm × طول 2118 mm؛ قطعتان\nقنوات قاعدة ألواح الجدران: 5630 mm: قطعتان؛ 2690 mm: قطعتان\nأعمدة الزوايا: أعمدة مجلفنة 2.5 mm، 210 × 150 × 2180 mm؛ 4 قطع\nوصلات الأعمدة: 8.0 mm؛ 8 قطع\nأعمدة مقواة بمقطع L: 8 قطع\nوصلات الزوايا العلوية: وصلات مجلفنة 3.5 mm، 210 + 150 + 210 mm؛ 4 قطع\nوصلات الزوايا السفلية: وصلات مجلفنة 3.5 mm، 210 + 150 + 160 mm؛ 4 قطع\nصفائح السقف: صفيحة فولاذ مطلية 0.45 mm، درزة 360° ومعالجة عزل مائي\nعزل السقف: صوف زجاجي 75 mm، بكثافة 14 kg/m³\nتشطيب السطح: دهان حراري / طلاء مسحوق كهروستاتيكي\nالبراغي: براغي مجلفنة سداسية التجويف؛ 48 قطعة\nأنابيب الصرف: 50 mm؛ 4 أنابيب\nألواح السقف الداخلي: ألواح سقف داخلي فولاذية مطلية نوع 831، 0.35 mm\nحواف السقف الداخلي: حواف زاوية للسقف الداخلي؛ 3 قطع\nقاعدة الأرضية: ألواح سيليكات الكالسيوم 18 mm؛ 5 قطع\nألواح الجدران: قلب رغوي 50 mm بكثافة 12 kg/m³ وصفيحة فولاذ 0.28 mm لكل جانب\nالباب: باب فولاذ بقفل مقاوم للحريق، 840 × 2030 mm؛ مجموعة واحدة\nالنوافذ: نافذتان أمان uPVC بزجاج مزدوج، 1130 × 1100 mm\nملحقات التركيب: براغي ووصلات داخلية ولفة واحدة من شريط العزل المائي\nالموصلية الحرارية: λ = 0.036 W/(m·K)\nالعزل الصوتي: ≥25 dB\nتصريف المياه: تصريف داخلي متكامل\nحمل الأرضية: 2.0 kN/m²\nحمل السقف الحي: 0.8 kN/m²\nحمل الرياح: 0.50 kN/m²\nالعمر التصميمي: 20 سنة\nعدد الوحدات في حاوية 40HQ: 6–8 وحدات",
+          "customizableOptions": [
+            "مخططات سكن أو مكاتب أو مرافق صحية",
+            "التجهيزات والتشطيبات الداخلية",
+            "خطة توريد وتركيب خاصة بالمشروع"
+          ],
+          "productFaqs": []
+        }
+      },
+      "sourceRecord": {
+        "id": "flat-pack-standard",
+        "category": "flat-pack",
+        "name": "标准打包箱房",
+        "english": "Flat Pack Container House",
+        "model": "册内未列独立型号",
+        "pdf_pages": [
+          22,
+          23,
+          24
+        ],
+        "parameters": [
+          {
+            "name": "展开外尺寸（长 × 宽 × 高）",
+            "value": "5800 × 2438 × 2550 mm",
+            "pdf_page": 24,
+            "note": ""
+          },
+          {
+            "name": "内部尺寸（长 × 宽 × 高）",
+            "value": "5660 × 2180 × 2310 mm",
+            "pdf_page": 24,
+            "note": ""
+          },
+          {
+            "name": "包装尺寸（长 × 宽 × 高）",
+            "value": "5800 × 2438 × 710 mm",
+            "pdf_page": 24,
+            "note": ""
+          },
+          {
+            "name": "主框架",
+            "value": "2.5 mm 镀锌钢；镀锌量 80 g/m²",
+            "pdf_page": 24,
+            "note": ""
+          },
+          {
+            "name": "顶部成型梁（纵向）",
+            "value": "170 mm 宽、5380 mm 长；2 件",
+            "pdf_page": 24,
+            "note": ""
+          },
+          {
+            "name": "顶部成型梁（横向）",
+            "value": "170 mm 宽、2118 mm 长；2 件",
+            "pdf_page": 24,
+            "note": ""
+          },
+          {
+            "name": "顶部 C 型横撑",
+            "value": "C80 × 1.2 mm；6 件",
+            "pdf_page": 24,
+            "note": ""
+          },
+          {
+            "name": "顶部方管",
+            "value": "30 × 30 × 1.0 mm；2 件；20 × 20 × 1.0 mm；1 件",
+            "pdf_page": 24,
+            "note": ""
+          },
+          {
+            "name": "底部成型梁（纵向）",
+            "value": "160 mm 宽、5380 mm 长；2 件",
+            "pdf_page": 24,
+            "note": ""
+          },
+          {
+            "name": "底部成型梁（横向）",
+            "value": "160 mm 宽、2118 mm 长；2 件",
+            "pdf_page": 24,
+            "note": ""
+          },
+          {
+            "name": "底部钢型材",
+            "value": "原文 steel profile 1.2m；9 件",
+            "pdf_page": 24,
+            "note": "尺寸/厚度单位不明确，待确认。"
+          },
+          {
+            "name": "墙板底部收边槽",
+            "value": "5630 mm；2 件；2690 mm；2 件",
+            "pdf_page": 24,
+            "note": ""
+          },
+          {
+            "name": "立柱",
+            "value": "2.5 mm 镀锌立柱，210 × 150 × 2180 mm；4 件",
+            "pdf_page": 24,
+            "note": ""
+          },
+          {
+            "name": "立柱连接件",
+            "value": "8.0 mm；8 件",
+            "pdf_page": 24,
+            "note": ""
+          },
+          {
+            "name": "加强 L 型柱",
+            "value": "8 件",
+            "pdf_page": 24,
+            "note": ""
+          },
+          {
+            "name": "上角件",
+            "value": "3.5 mm 镀锌角件，210 + 150 + 210 mm；4 件",
+            "pdf_page": 24,
+            "note": ""
+          },
+          {
+            "name": "下角件",
+            "value": "3.5 mm 镀锌角件，210 + 150 + 160 mm；4 件",
+            "pdf_page": 24,
+            "note": ""
+          },
+          {
+            "name": "屋面板",
+            "value": "0.45 mm 彩钢单瓦，360° 接缝，专用防水处理",
+            "pdf_page": 24,
+            "note": ""
+          },
+          {
+            "name": "顶部保温",
+            "value": "75 mm 玻璃棉，14 kg/m³",
+            "pdf_page": 24,
+            "note": ""
+          },
+          {
+            "name": "表面颜色处理",
+            "value": "烤漆 / 静电喷涂",
+            "pdf_page": 24,
+            "note": ""
+          },
+          {
+            "name": "螺栓",
+            "value": "镀锌内六角；48 件",
+            "pdf_page": 24,
+            "note": ""
+          },
+          {
+            "name": "排水管",
+            "value": "50 mm；4 根（原文 c50mm）",
+            "pdf_page": 24,
+            "note": ""
+          },
+          {
+            "name": "吊顶板",
+            "value": "0.35 mm、831 型彩钢集成吊顶板",
+            "pdf_page": 24,
+            "note": ""
+          },
+          {
+            "name": "吊顶收边",
+            "value": "吊顶角铁；3 件",
+            "pdf_page": 24,
+            "note": ""
+          },
+          {
+            "name": "地板基层",
+            "value": "18 mm 硅酸钙板；尺寸原文 1177 + 2820 mm；5 块",
+            "pdf_page": 24,
+            "note": ""
+          },
+          {
+            "name": "塑料地板",
+            "value": "1.6 cm（原文）",
+            "pdf_page": 24,
+            "note": "原表明确写 cm，未擅自改成 mm，需核对。"
+          },
+          {
+            "name": "墙板",
+            "value": "50 mm 泡沫板，双面钢板各 0.28 mm，泡沫容重 12 kg/m³",
+            "pdf_page": 24,
+            "note": ""
+          },
+          {
+            "name": "门",
+            "value": "钢门 840 × 2030 mm，带防火锁；1 套",
+            "pdf_page": 24,
+            "note": ""
+          },
+          {
+            "name": "窗",
+            "value": "塑钢防盗双玻窗 1130 × 1100 mm；2 套",
+            "pdf_page": 24,
+            "note": ""
+          },
+          {
+            "name": "电气附件",
+            "value": "2 盏 36 W LED 灯",
+            "pdf_page": 24,
+            "note": "原文带“100v corresponding to broadband”，电压含义不清，未作为确定额定电压。"
+          },
+          {
+            "name": "安装附件",
+            "value": "螺丝、箱体内连接件、1 卷防水贴",
+            "pdf_page": 24,
+            "note": ""
+          },
+          {
+            "name": "导热系数",
+            "value": "λ = 0.036 W/(m·K)",
+            "pdf_page": 24,
+            "note": ""
+          },
+          {
+            "name": "隔声",
+            "value": "≥25 dB",
+            "pdf_page": 24,
+            "note": ""
+          },
+          {
+            "name": "防水",
+            "value": "有组织内排水",
+            "pdf_page": 24,
+            "note": ""
+          },
+          {
+            "name": "地板承载",
+            "value": "2.0 kN/m²",
+            "pdf_page": 24,
+            "note": ""
+          },
+          {
+            "name": "屋面活荷载",
+            "value": "0.8 kN/m²",
+            "pdf_page": 24,
+            "note": ""
+          },
+          {
+            "name": "抗风荷载",
+            "value": "0.50 kN/m²",
+            "pdf_page": 24,
+            "note": ""
+          },
+          {
+            "name": "防火等级",
+            "value": "A 级（册内标称）",
+            "pdf_page": 24,
+            "note": ""
+          },
+          {
+            "name": "抗震等级",
+            "value": "8 级（册内标称）",
+            "pdf_page": 24,
+            "note": ""
+          },
+          {
+            "name": "设计使用期",
+            "value": "20 年",
+            "pdf_page": 24,
+            "note": ""
+          },
+          {
+            "name": "40HQ 装柜量",
+            "value": "6-8 套",
+            "pdf_page": 22,
+            "note": ""
+          },
+          {
+            "name": "用途/布局",
+            "value": "两居室、一居室、办公室、卫生间",
+            "pdf_page": 22,
+            "note": ""
+          }
+        ],
+        "images": [
+          {
+            "file": "images/flat-pack-standard/main.jpg",
+            "label": "打包箱房外观",
+            "pdf_page": 22,
+            "kind": "embedded",
+            "xref": 690,
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "file": "images/flat-pack-standard/layouts.jpg",
+            "label": "两居 / 一居 / 卫生间 / 办公室布局",
+            "pdf_page": 22,
+            "kind": "page_crop",
+            "rect": [
+              1130,
+              185,
+              2015,
+              745
+            ],
+            "width": 1019,
+            "height": 645
+          },
+          {
+            "file": "images/flat-pack-standard/structure.jpg",
+            "label": "打包箱房结构配件图",
+            "pdf_page": 23,
+            "kind": "page_crop",
+            "rect": [
+              80,
+              75,
+              1040,
+              870
+            ],
+            "width": 1104,
+            "height": 915
+          },
+          {
+            "file": "images/flat-pack-standard/transport.jpg",
+            "label": "打包箱房运输图",
+            "pdf_page": 23,
+            "kind": "page_crop",
+            "rect": [
+              80,
+              895,
+              1040,
+              1420
+            ],
+            "width": 1104,
+            "height": 604
+          },
+          {
+            "file": "images/flat-pack-standard/interior-1.jpg",
+            "label": "打包箱房同页室内展示 1",
+            "pdf_page": 22,
+            "kind": "embedded",
+            "xref": 682,
+            "width": 642,
+            "height": 428
+          },
+          {
+            "file": "images/flat-pack-standard/interior-2.jpg",
+            "label": "打包箱房同页室内展示 2",
+            "pdf_page": 22,
+            "kind": "embedded",
+            "xref": 685,
+            "width": 642,
+            "height": 428
+          },
+          {
+            "file": "images/flat-pack-standard/interior-3.jpg",
+            "label": "打包箱房同页室内展示 3",
+            "pdf_page": 22,
+            "kind": "embedded",
+            "xref": 684,
+            "width": 642,
+            "height": 428
+          },
+          {
+            "file": "images/flat-pack-standard/interior-4.jpg",
+            "label": "打包箱房同页室内展示 4",
+            "pdf_page": 22,
+            "kind": "embedded",
+            "xref": 683,
+            "width": 642,
+            "height": 428
+          }
+        ],
+        "notes": [
+          "原页个别尺寸、地板厚度及电气说明存在含糊或不寻常的单位；清单保留原文，未借用其他系列参数。"
+        ]
+      }
+    },
+    {
+      "slug": "detachable-standard",
+      "categoryKey": "detachable-homes",
+      "sortOrder": 70,
+      "featured": true,
+      "media": [
+        {
+          "file": "images/detachable-standard/main.jpg",
+          "sha256": "079d316aaabd41d1ccc05f60d4257c3ce718fb1d658ec8e17ebae032450f6ee0",
+          "caption": "快拼箱房外观",
+          "sourcePage": 25
+        },
+        {
+          "file": "images/detachable-standard/structure.jpg",
+          "sha256": "f73e977d011fea9692b5d0e91696ee230912b6dfdb2f354638574ff0c49592b1",
+          "caption": "快拼箱房结构配件图",
+          "sourcePage": 25
+        },
+        {
+          "file": "images/detachable-standard/transport.jpg",
+          "sha256": "fd0c499573b94121e5e1d38d9cbde3215f6021d877df40beaeb9b94943039485",
+          "caption": "快拼箱房运输图",
+          "sourcePage": 25
+        },
+        {
+          "file": "images/detachable-standard/examples.jpg",
+          "sha256": "257b7f5ae7c708a6119298a344c8d90e225c70bb794cf985bbaa05a3a314ae82",
+          "caption": "快拼箱房外观及组合案例展示",
+          "sourcePage": 26
+        }
+      ],
+      "locales": {
+        "en": {
+          "title": "Detachable Container House",
+          "category": "Detachable Container Houses",
+          "summary": "A detachable container building with galvanized steel components and rock-wool wall panels.",
+          "detail": "A detachable container building with galvanized steel components and rock-wool wall panels. Modules can be arranged for accommodation or workspaces, subject to project-specific structural design.\n\nSpecifications are based on the product catalogue. Final materials, layout and electrical requirements are confirmed in the agreed project configuration.\n\nExternal dimensions (L × W × H): 5950 × 3000 × 2800 mm\nInternal dimensions (L × W × H): 5750 × 2800 × 2500 mm\nThermal conductivity: λ = 0.048 W/(m·K)\nSound insulation: ≥30 dB\nWaterproofing grade: II\nFloor load: 2.0 kN/m²\nWind load: 0.60 kN/m²\nRoof load: 1.0 kN/m²\nMain frame: 2.3 mm galvanized steel\nCorner connectors: 4.0 mm\nRoof purlins: 1.5 mm galvanized steel\nUpper steel tubes: 1.2 mm galvanized steel\nLower steel tubes: 1.1 mm galvanized steel\nWall panels: 0.30 mm steel sheets on both sides + 50 mm rock wool\nRoofing: 0.45 mm steel sheet + 40 mm glass wool\nCeiling: 0.23 mm steel sheet\nFlooring: 18 mm cement board\nDoor: Steel security door, W925 × H2035 mm; 1 pc\nWindows: Sliding windows, W920 × H1200 mm; 2 pcs\nSurface finish: Electrostatic powder coating\nLoading quantity per 40HQ: 13–18 units\nModule arrangement: Relocatable and stackable modules",
+          "customizableOptions": [
+            "Module layout and arrangement",
+            "Interior finishes and fittings",
+            "Electrical configuration for the destination"
+          ],
+          "productFaqs": []
+        },
+        "fr": {
+          "title": "Maison conteneur démontable",
+          "category": "Maisons conteneurs démontables",
+          "summary": "Un bâtiment conteneur démontable à composants en acier galvanisé et panneaux muraux en laine de roche.",
+          "detail": "Un bâtiment conteneur démontable à composants en acier galvanisé et panneaux muraux en laine de roche. Les modules peuvent former des logements ou espaces de travail, selon l’étude structurelle du projet.\n\nLes caractéristiques proviennent du catalogue produit. Les matériaux, l’agencement et les exigences électriques définitifs sont confirmés dans la configuration convenue du projet.\n\nDimensions extérieures (L × l × H): 5950 × 3000 × 2800 mm\nDimensions intérieures (L × l × H): 5750 × 2800 × 2500 mm\nConductivité thermique: λ = 0.048 W/(m·K)\nIsolation acoustique: ≥30 dB\nClasse d’étanchéité: II\nCharge du plancher: 2.0 kN/m²\nCharge de vent: 0.60 kN/m²\nCharge de toiture: 1.0 kN/m²\nOssature principale: Acier galvanisé de 2.3 mm\nConnecteurs d’angle: 4.0 mm\nPannes de toiture: Acier galvanisé de 1.5 mm\nTubes en acier supérieurs: Acier galvanisé de 1.2 mm\nTubes en acier inférieurs: Acier galvanisé de 1.1 mm\nPanneaux muraux: Acier 0.30 mm sur les deux faces + laine de roche 50 mm\nToiture: Tôle d’acier 0.45 mm + laine de verre 40 mm\nPlafond: Tôle d’acier de 0.23 mm\nPlancher: Panneau de ciment de 18 mm\nPorte: Porte de sécurité en acier, L925 × H2035 mm ; 1 pièce\nFenêtres: Fenêtres coulissantes, L920 × H1200 mm ; 2 pièces\nFinition de surface: Thermolaquage électrostatique\nQuantité par conteneur 40HQ: 13–18 unités\nAgencement des modules: Modules déplaçables et empilables",
+          "customizableOptions": [
+            "Agencement et combinaison des modules",
+            "Finitions et équipements intérieurs",
+            "Configuration électrique du pays de destination"
+          ],
+          "productFaqs": []
+        },
+        "ar": {
+          "title": "منزل حاوية قابل للفك",
+          "category": "منازل حاويات قابلة للفك",
+          "summary": "مبنى حاويات قابل للفك بمكونات فولاذية مجلفنة وألواح جدران من الصوف الصخري.",
+          "detail": "مبنى حاويات قابل للفك بمكونات فولاذية مجلفنة وألواح جدران من الصوف الصخري. يمكن ترتيب الوحدات للسكن أو العمل وفق التصميم الإنشائي الخاص بالمشروع.\n\nالمواصفات مستندة إلى كتالوج المنتجات. يتم تأكيد المواد والمخطط والمتطلبات الكهربائية النهائية ضمن التكوين المتفق عليه للمشروع.\n\nالأبعاد الخارجية (الطول × العرض × الارتفاع): 5950 × 3000 × 2800 mm\nالأبعاد الداخلية (الطول × العرض × الارتفاع): 5750 × 2800 × 2500 mm\nالموصلية الحرارية: λ = 0.048 W/(m·K)\nالعزل الصوتي: ≥30 dB\nدرجة العزل المائي: II\nحمل الأرضية: 2.0 kN/m²\nحمل الرياح: 0.60 kN/m²\nحمل السقف: 1.0 kN/m²\nالإطار الرئيسي: فولاذ مجلفن 2.3 mm\nوصلات الزوايا: 4.0 mm\nمدادات السقف: فولاذ مجلفن 1.5 mm\nالأنابيب الفولاذية العلوية: فولاذ مجلفن 1.2 mm\nالأنابيب الفولاذية السفلية: فولاذ مجلفن 1.1 mm\nألواح الجدران: صفائح فولاذ 0.30 mm للجانبين + صوف صخري 50 mm\nالسقف: صفيحة فولاذ 0.45 mm + صوف زجاجي 40 mm\nالسقف الداخلي: صفيحة فولاذ 0.23 mm\nالأرضية: لوح أسمنتي 18 mm\nالباب: باب أمان فولاذي بعرض 925 × ارتفاع 2035 mm؛ قطعة واحدة\nالنوافذ: نافذتان منزلاقتان بعرض 920 × ارتفاع 1200 mm\nتشطيب السطح: طلاء مسحوق كهروستاتيكي\nعدد الوحدات في حاوية 40HQ: 13–18 وحدة\nترتيب الوحدات: وحدات قابلة للنقل والتكديس",
+          "customizableOptions": [
+            "مخطط وترتيب الوحدات",
+            "التشطيبات والتجهيزات الداخلية",
+            "تجهيز كهربائي حسب بلد الوجهة"
+          ],
+          "productFaqs": []
+        }
+      },
+      "sourceRecord": {
+        "id": "detachable-standard",
+        "category": "detachable",
+        "name": "标准快拼箱房（可拆卸箱房）",
+        "english": "Detachable Container House",
+        "model": "册内未列独立型号",
+        "pdf_pages": [
+          25,
+          26
+        ],
+        "parameters": [
+          {
+            "name": "展开外尺寸（长 × 宽 × 高）",
+            "value": "5950 × 3000 × 2800 mm",
+            "pdf_page": 26,
+            "note": ""
+          },
+          {
+            "name": "内部尺寸（长 × 宽 × 高）",
+            "value": "5750 × 2800 × 2500 mm",
+            "pdf_page": 26,
+            "note": ""
+          },
+          {
+            "name": "导热系数",
+            "value": "λ = 0.048 W/(m·K)",
+            "pdf_page": 26,
+            "note": ""
+          },
+          {
+            "name": "隔声",
+            "value": "≥30 dB",
+            "pdf_page": 26,
+            "note": ""
+          },
+          {
+            "name": "防水等级",
+            "value": "II",
+            "pdf_page": 26,
+            "note": ""
+          },
+          {
+            "name": "地面荷载",
+            "value": "2.0 kN/m²",
+            "pdf_page": 26,
+            "note": ""
+          },
+          {
+            "name": "抗风荷载",
+            "value": "0.60 kN/m²",
+            "pdf_page": 26,
+            "note": ""
+          },
+          {
+            "name": "防火等级",
+            "value": "A 级（册内标称）",
+            "pdf_page": 26,
+            "note": ""
+          },
+          {
+            "name": "抗震等级",
+            "value": "8 级（册内标称）",
+            "pdf_page": 26,
+            "note": ""
+          },
+          {
+            "name": "屋面荷载",
+            "value": "1.0 kN/m²",
+            "pdf_page": 26,
+            "note": ""
+          },
+          {
+            "name": "主体框架",
+            "value": "2.3 mm 镀锌钢",
+            "pdf_page": 26,
+            "note": ""
+          },
+          {
+            "name": "角部连接件",
+            "value": "4.0 mm",
+            "pdf_page": 26,
+            "note": ""
+          },
+          {
+            "name": "顶檩条",
+            "value": "1.5 mm 镀锌钢",
+            "pdf_page": 26,
+            "note": ""
+          },
+          {
+            "name": "顶部钢管",
+            "value": "1.2 mm 镀锌钢",
+            "pdf_page": 26,
+            "note": ""
+          },
+          {
+            "name": "底部钢管",
+            "value": "1.1 mm 镀锌钢",
+            "pdf_page": 26,
+            "note": ""
+          },
+          {
+            "name": "墙板",
+            "value": "双面 0.30 mm 钢板 + 50 mm 岩棉板",
+            "pdf_page": 26,
+            "note": ""
+          },
+          {
+            "name": "屋面",
+            "value": "0.45 mm 钢板 + 40 mm 玻璃棉",
+            "pdf_page": 26,
+            "note": ""
+          },
+          {
+            "name": "吊顶",
+            "value": "0.23 mm 钢板",
+            "pdf_page": 26,
+            "note": ""
+          },
+          {
+            "name": "地板",
+            "value": "18 mm 水泥板（原文 cement sanding board）",
+            "pdf_page": 26,
+            "note": ""
+          },
+          {
+            "name": "门",
+            "value": "W925 × H2035 mm 钢制防盗门；1 扇",
+            "pdf_page": 26,
+            "note": ""
+          },
+          {
+            "name": "窗",
+            "value": "W920 × H1200 mm 推拉窗；2 扇",
+            "pdf_page": 26,
+            "note": ""
+          },
+          {
+            "name": "表面处理",
+            "value": "静电喷涂",
+            "pdf_page": 26,
+            "note": ""
+          },
+          {
+            "name": "40HQ 装柜量",
+            "value": "13-18 套",
+            "pdf_page": 25,
+            "note": ""
+          },
+          {
+            "name": "组合方式",
+            "value": "可移动、可堆叠（册内描述）",
+            "pdf_page": 25,
+            "note": ""
+          }
+        ],
+        "images": [
+          {
+            "file": "images/detachable-standard/main.jpg",
+            "label": "快拼箱房外观",
+            "pdf_page": 25,
+            "kind": "embedded",
+            "xref": 704,
+            "width": 1672,
+            "height": 941
+          },
+          {
+            "file": "images/detachable-standard/structure.jpg",
+            "label": "快拼箱房结构配件图",
+            "pdf_page": 25,
+            "kind": "page_crop",
+            "rect": [
+              1110,
+              75,
+              2080,
+              900
+            ],
+            "width": 1116,
+            "height": 949
+          },
+          {
+            "file": "images/detachable-standard/transport.jpg",
+            "label": "快拼箱房运输图",
+            "pdf_page": 25,
+            "kind": "page_crop",
+            "rect": [
+              1100,
+              965,
+              2090,
+              1440
+            ],
+            "width": 1139,
+            "height": 547
+          },
+          {
+            "file": "images/detachable-standard/examples.jpg",
+            "label": "快拼箱房外观及组合案例展示",
+            "pdf_page": 26,
+            "kind": "page_crop",
+            "rect": [
+              1120,
+              125,
+              2075,
+              1480
+            ],
+            "width": 1099,
+            "height": 1559
+          }
+        ],
+        "notes": []
+      }
+    },
+    {
+      "slug": "apple-cabin-10ft",
+      "categoryKey": "apple-cabins",
+      "sortOrder": 80,
+      "featured": true,
+      "media": [
+        {
+          "file": "images/apple-cabin-10ft/main.jpg",
+          "sha256": "efa1988fd325161d0663cf34c645d003b12e86d9aeb60c9a675e02794ba40c89",
+          "caption": "10FT 苹果舱产品图（用户提供并确认）",
+          "sourcePage": null
+        }
+      ],
+      "locales": {
+        "en": {
+          "title": "10FT Apple Cabin",
+          "category": "Apple Cabins",
+          "summary": "An Apple Cabin with a compact prefabricated structure and configurable interior.",
+          "detail": "An Apple Cabin with a compact prefabricated structure and configurable interior. The catalogue offers choices of wall panels, glazing, doors and finishes for accommodation, hospitality and office uses.\n\nSpecifications are based on the product catalogue. Final materials, layout and electrical requirements are confirmed in the agreed project configuration.\n\nExternal dimensions (L × W × H): 2250 × 2150 × 2400 mm\nFloor area: 4.8 m²\nMain materials: Galvanized steel structure and sandwich wall panels\nSteel structure: Galvanized steel structure with corner castings\nMain beams: Galvanized steel\nColour options: White, grey, brown, custom colours or coloured cladding\nExternal walls: 75 mm EPS / graphene sandwich panels, or custom PU sandwich panels\nPartitions: 50 mm sandwich panels / 50 mm bamboo-wood fibre boards\nFlooring: Magnesium oxide board and timber subfloor, PVC / SPC finish\nDoor types: Hinged, sliding and security doors\nDoor material options: Thermally broken aluminium double-glazed, aluminium, aluminium-clad timber, steel or double-glazed doors\nWindow types: Casement, top-hung and sliding windows\nWindow material options: uPVC, double-glazed aluminium or thermally broken double-glazed aluminium windows\nApplications: Housing, hotels, offices and washrooms\nWarranty: 1 year\nThermal conductivity: 0.048 W/(m·K)\nSound insulation: ≥30 dB\nElectrical power: 12 kW\nWind load: 0.60 kN/m²",
+          "customizableOptions": [
+            "Wall insulation and colour options",
+            "Door and glazing options",
+            "Interior layout and PVC / SPC finishes"
+          ],
+          "productFaqs": []
+        },
+        "fr": {
+          "title": "Cabine Apple 10FT",
+          "category": "Cabines Apple",
+          "summary": "Une cabine Apple à structure préfabriquée compacte et intérieur configurable.",
+          "detail": "Une cabine Apple à structure préfabriquée compacte et intérieur configurable. Le catalogue propose des panneaux muraux, vitrages, portes et finitions pour le logement, l’hébergement et les bureaux.\n\nLes caractéristiques proviennent du catalogue produit. Les matériaux, l’agencement et les exigences électriques définitifs sont confirmés dans la configuration convenue du projet.\n\nDimensions extérieures (L × l × H): 2250 × 2150 × 2400 mm\nSurface au sol: 4.8 m²\nMatériaux principaux: Structure en acier galvanisé et panneaux muraux sandwich\nStructure en acier: Structure en acier galvanisé avec pièces d’angle moulées\nPoutres principales: Acier galvanisé\nCouleurs disponibles: Blanc, gris, brun, couleurs personnalisées ou bardage coloré\nMurs extérieurs: Panneaux sandwich EPS / graphène de 75 mm, ou PU sur mesure\nCloisons: Panneaux sandwich 50 mm / panneaux en fibres de bambou-bois 50 mm\nPlancher: Panneau en oxyde de magnésium et support bois, finition PVC / SPC\nTypes de portes: Portes battantes, coulissantes et de sécurité\nMatériaux des portes: Portes aluminium à rupture thermique et double vitrage, aluminium, bois-aluminium, acier ou double vitrage\nTypes de fenêtres: Fenêtres à battants, à projection et coulissantes\nMatériaux des fenêtres: Fenêtres PVC, aluminium à double vitrage ou aluminium à rupture thermique et double vitrage\nApplications: Logements, hôtels, bureaux et sanitaires\nGarantie: 1 an\nConductivité thermique: 0.048 W/(m·K)\nIsolation acoustique: ≥30 dB\nPuissance électrique: 12 kW\nCharge de vent: 0.60 kN/m²",
+          "customizableOptions": [
+            "Options d’isolation et de couleur des murs",
+            "Options de portes et vitrages",
+            "Agencement et finitions PVC / SPC"
+          ],
+          "productFaqs": []
+        },
+        "ar": {
+          "title": "كابينة آبل 10FT",
+          "category": "كبائن آبل",
+          "summary": "كابينة آبل بهيكل مدمج مسبق التجهيز وتصميم داخلي قابل للتخصيص.",
+          "detail": "كابينة آبل بهيكل مدمج مسبق التجهيز وتصميم داخلي قابل للتخصيص. يوفر الكتالوج خيارات للجدران والزجاج والأبواب والتشطيبات للسكن والضيافة والمكاتب.\n\nالمواصفات مستندة إلى كتالوج المنتجات. يتم تأكيد المواد والمخطط والمتطلبات الكهربائية النهائية ضمن التكوين المتفق عليه للمشروع.\n\nالأبعاد الخارجية (الطول × العرض × الارتفاع): 2250 × 2150 × 2400 mm\nمساحة الأرضية: 4.8 m²\nالمواد الرئيسية: هيكل فولاذي مجلفن وألواح جدران ساندويتش\nالهيكل الفولاذي: هيكل فولاذي مجلفن مع زوايا مصبوبة\nالعوارض الرئيسية: فولاذ مجلفن\nخيارات الألوان: أبيض ورمادي وبني وألوان مخصصة أو كسوة ملونة\nالجدران الخارجية: ألواح ساندويتش EPS / جرافين 75 mm أو ألواح PU مخصصة\nالقواطع: ألواح ساندويتش 50 mm / ألواح ألياف بامبو وخشب 50 mm\nالأرضية: لوح أكسيد مغنيسيوم وقاعدة خشبية بتشطيب PVC / SPC\nأنواع الأبواب: أبواب مفصلية ومنزلقة وأبواب أمان\nخيارات مواد الأبواب: أبواب ألمنيوم بعازل حراري وزجاج مزدوج أو ألمنيوم أو خشب مكسو بالألمنيوم أو فولاذ أو زجاج مزدوج\nأنواع النوافذ: نوافذ مفصلية وعلوية التعليق ومنزلقة\nخيارات مواد النوافذ: نوافذ uPVC أو ألمنيوم بزجاج مزدوج أو ألمنيوم بعازل حراري وزجاج مزدوج\nالاستخدامات: سكن وفنادق ومكاتب ومرافق صحية\nالضمان: سنة واحدة\nالموصلية الحرارية: 0.048 W/(m·K)\nالعزل الصوتي: ≥30 dB\nالقدرة الكهربائية: 12 kW\nحمل الرياح: 0.60 kN/m²",
+          "customizableOptions": [
+            "خيارات عزل الجدران والألوان",
+            "خيارات الأبواب والزجاج",
+            "المخطط وتشطيبات PVC / SPC"
+          ],
+          "productFaqs": []
+        }
+      },
+      "sourceRecord": {
+        "id": "apple-cabin-10ft",
+        "category": "apple-cabin",
+        "name": "10FT 苹果舱",
+        "english": "10FT Apple Cabin",
+        "model": "10FT",
+        "pdf_pages": [
+          27,
+          28
+        ],
+        "parameters": [
+          {
+            "name": "外尺寸（长 × 宽 × 高）",
+            "value": "2250 × 2150 × 2400 mm",
+            "pdf_page": 28,
+            "note": ""
+          },
+          {
+            "name": "建筑面积",
+            "value": "4.8 m²",
+            "pdf_page": 28,
+            "note": ""
+          },
+          {
+            "name": "适用人数",
+            "value": "册内未说明",
+            "pdf_page": 28,
+            "note": ""
+          },
+          {
+            "name": "主要材料（规格表）",
+            "value": "镀锌钢结构 + 夹芯墙板等",
+            "pdf_page": 28,
+            "note": ""
+          },
+          {
+            "name": "钢结构",
+            "value": "带角铸件的镀锌钢结构",
+            "pdf_page": 28,
+            "note": ""
+          },
+          {
+            "name": "主梁",
+            "value": "镀锌钢",
+            "pdf_page": 28,
+            "note": ""
+          },
+          {
+            "name": "颜色",
+            "value": "白色、灰色、棕色、定制色或彩色覆层",
+            "pdf_page": 28,
+            "note": ""
+          },
+          {
+            "name": "外墙",
+            "value": "75 mm EPS / 石墨烯夹芯板，或定制 PU 夹芯板",
+            "pdf_page": 28,
+            "note": ""
+          },
+          {
+            "name": "隔墙",
+            "value": "50 mm 夹芯板 / 50 mm 竹木纤维板",
+            "pdf_page": 28,
+            "note": ""
+          },
+          {
+            "name": "地板",
+            "value": "玻镁板及木基层，表面 PVC / SPC",
+            "pdf_page": 28,
+            "note": ""
+          },
+          {
+            "name": "门型",
+            "value": "平开门、推拉门、防盗门",
+            "pdf_page": 28,
+            "note": ""
+          },
+          {
+            "name": "门材质选项",
+            "value": "断桥铝双玻门、铝合金门、铝包木门、钢门、双玻门",
+            "pdf_page": 28,
+            "note": ""
+          },
+          {
+            "name": "窗型",
+            "value": "平开窗、上悬窗、推拉窗",
+            "pdf_page": 28,
+            "note": ""
+          },
+          {
+            "name": "窗材质选项",
+            "value": "塑钢窗、铝合金双玻窗、断桥铝双玻窗",
+            "pdf_page": 28,
+            "note": ""
+          },
+          {
+            "name": "电气配置",
+            "value": "按 3C / CE / UL / SAA 标准配置，含断路器、灯、开关、插座等（册内表述）",
+            "pdf_page": 28,
+            "note": ""
+          },
+          {
+            "name": "用途",
+            "value": "住房、酒店、办公室、卫生间等",
+            "pdf_page": 28,
+            "note": ""
+          },
+          {
+            "name": "质保",
+            "value": "1 年",
+            "pdf_page": 28,
+            "note": ""
+          },
+          {
+            "name": "认证栏",
+            "value": "CE、RoHS、CPR、ISO9001、SAA（册内列示）",
+            "pdf_page": 28,
+            "note": ""
+          },
+          {
+            "name": "抗震",
+            "value": "LV8（册内标称）",
+            "pdf_page": 27,
+            "note": ""
+          },
+          {
+            "name": "耐火时间",
+            "value": ">2 小时（册内标称）",
+            "pdf_page": 27,
+            "note": ""
+          },
+          {
+            "name": "导热系数",
+            "value": "0.048 W/(m·K)",
+            "pdf_page": 27,
+            "note": ""
+          },
+          {
+            "name": "屋面活荷载",
+            "value": "0.9 kN/W²（原文）",
+            "pdf_page": 27,
+            "note": "单位疑似排版错误，未擅自改为 kN/m²。"
+          },
+          {
+            "name": "隔声",
+            "value": "≥30 dB",
+            "pdf_page": 27,
+            "note": ""
+          },
+          {
+            "name": "用电功率",
+            "value": "12 kW",
+            "pdf_page": 27,
+            "note": ""
+          },
+          {
+            "name": "抗风荷载",
+            "value": "0.60 kN/m²",
+            "pdf_page": 27,
+            "note": ""
+          },
+          {
+            "name": "防水描述",
+            "value": "降水量 ≤20 mm/min 时无渗漏（按册内表述）",
+            "pdf_page": 27,
+            "note": ""
+          },
+          {
+            "name": "系统配置描述",
+            "value": "智能家居、水电工厂预装；简介另提铝制外壳",
+            "pdf_page": 27,
+            "note": "与规格表“夹芯墙板”描述口径不同，按具体配置确认。"
+          }
+        ],
+        "images": [
+          {
+            "file": "images/apple-cabin-10ft/main.jpg",
+            "label": "10FT 苹果舱产品图（用户提供并确认）",
+            "pdf_page": null,
+            "kind": "user_provided",
+            "source": "用户提供并确认对应苹果舱 10FT",
+            "width": 1517,
+            "height": 1046,
+            "sha256": "efa1988fd325161d0663cf34c645d003b12e86d9aeb60c9a675e02794ba40c89"
+          }
+        ],
+        "notes": [
+          "苹果舱系列性能项来自系列介绍页；未在册内分别测试或逐型号列示。",
+          "10FT 产品主图已由用户提供并确认；尺寸和面积沿用产品册，独立户型图仍待补充。"
+        ]
+      }
+    },
+    {
+      "slug": "apple-cabin-20ft",
+      "categoryKey": "apple-cabins",
+      "sortOrder": 90,
+      "featured": true,
+      "media": [
+        {
+          "file": "images/apple-cabin-20ft/main.jpg",
+          "sha256": "9fb4622147f7cacfadc32a5e3142a0d3371707992d491f957838a54f332f6fbb",
+          "caption": "20FT 苹果舱外观",
+          "sourcePage": 28
+        },
+        {
+          "file": "images/apple-cabin-20ft/layout-1.jpg",
+          "sha256": "a6dbf60f5c8b88cd03a69ccd51d85632e4e2170ab16101d521f1bb2424f74e4e",
+          "caption": "20FT 苹果舱平面图 1",
+          "sourcePage": 28
+        },
+        {
+          "file": "images/apple-cabin-20ft/layout-2.jpg",
+          "sha256": "336ae47e49c92b1ad0b241a192f5097b8baea6675cfe7a7ae6831308c167ba1d",
+          "caption": "20FT 苹果舱平面图 2",
+          "sourcePage": 28
+        }
+      ],
+      "locales": {
+        "en": {
+          "title": "20FT Apple Cabin",
+          "category": "Apple Cabins",
+          "summary": "An Apple Cabin with a compact prefabricated structure and configurable interior.",
+          "detail": "An Apple Cabin with a compact prefabricated structure and configurable interior. The catalogue offers choices of wall panels, glazing, doors and finishes for accommodation, hospitality and office uses.\n\nSpecifications are based on the product catalogue. Final materials, layout and electrical requirements are confirmed in the agreed project configuration.\n\nExternal dimensions (L × W × H): 5800 × 2150 × 2400 mm\nFloor area: 12.5 m²\nOccupancy: 1–2 people\nMain materials: Galvanized steel structure and sandwich wall panels\nSteel structure: Galvanized steel structure with corner castings\nMain beams: Galvanized steel\nColour options: White, grey, brown, custom colours or coloured cladding\nExternal walls: 75 mm EPS / graphene sandwich panels, or custom PU sandwich panels\nPartitions: 50 mm sandwich panels / 50 mm bamboo-wood fibre boards\nFlooring: Magnesium oxide board and timber subfloor, PVC / SPC finish\nDoor types: Hinged, sliding and security doors\nDoor material options: Thermally broken aluminium double-glazed, aluminium, aluminium-clad timber, steel or double-glazed doors\nWindow types: Casement, top-hung and sliding windows\nWindow material options: uPVC, double-glazed aluminium or thermally broken double-glazed aluminium windows\nApplications: Housing, hotels, offices and washrooms\nWarranty: 1 year\nThermal conductivity: 0.048 W/(m·K)\nSound insulation: ≥30 dB\nElectrical power: 12 kW\nWind load: 0.60 kN/m²",
+          "customizableOptions": [
+            "Wall insulation and colour options",
+            "Door and glazing options",
+            "Interior layout and PVC / SPC finishes"
+          ],
+          "productFaqs": []
+        },
+        "fr": {
+          "title": "Cabine Apple 20FT",
+          "category": "Cabines Apple",
+          "summary": "Une cabine Apple à structure préfabriquée compacte et intérieur configurable.",
+          "detail": "Une cabine Apple à structure préfabriquée compacte et intérieur configurable. Le catalogue propose des panneaux muraux, vitrages, portes et finitions pour le logement, l’hébergement et les bureaux.\n\nLes caractéristiques proviennent du catalogue produit. Les matériaux, l’agencement et les exigences électriques définitifs sont confirmés dans la configuration convenue du projet.\n\nDimensions extérieures (L × l × H): 5800 × 2150 × 2400 mm\nSurface au sol: 12.5 m²\nCapacité d’accueil: 1–2 personnes\nMatériaux principaux: Structure en acier galvanisé et panneaux muraux sandwich\nStructure en acier: Structure en acier galvanisé avec pièces d’angle moulées\nPoutres principales: Acier galvanisé\nCouleurs disponibles: Blanc, gris, brun, couleurs personnalisées ou bardage coloré\nMurs extérieurs: Panneaux sandwich EPS / graphène de 75 mm, ou PU sur mesure\nCloisons: Panneaux sandwich 50 mm / panneaux en fibres de bambou-bois 50 mm\nPlancher: Panneau en oxyde de magnésium et support bois, finition PVC / SPC\nTypes de portes: Portes battantes, coulissantes et de sécurité\nMatériaux des portes: Portes aluminium à rupture thermique et double vitrage, aluminium, bois-aluminium, acier ou double vitrage\nTypes de fenêtres: Fenêtres à battants, à projection et coulissantes\nMatériaux des fenêtres: Fenêtres PVC, aluminium à double vitrage ou aluminium à rupture thermique et double vitrage\nApplications: Logements, hôtels, bureaux et sanitaires\nGarantie: 1 an\nConductivité thermique: 0.048 W/(m·K)\nIsolation acoustique: ≥30 dB\nPuissance électrique: 12 kW\nCharge de vent: 0.60 kN/m²",
+          "customizableOptions": [
+            "Options d’isolation et de couleur des murs",
+            "Options de portes et vitrages",
+            "Agencement et finitions PVC / SPC"
+          ],
+          "productFaqs": []
+        },
+        "ar": {
+          "title": "كابينة آبل 20FT",
+          "category": "كبائن آبل",
+          "summary": "كابينة آبل بهيكل مدمج مسبق التجهيز وتصميم داخلي قابل للتخصيص.",
+          "detail": "كابينة آبل بهيكل مدمج مسبق التجهيز وتصميم داخلي قابل للتخصيص. يوفر الكتالوج خيارات للجدران والزجاج والأبواب والتشطيبات للسكن والضيافة والمكاتب.\n\nالمواصفات مستندة إلى كتالوج المنتجات. يتم تأكيد المواد والمخطط والمتطلبات الكهربائية النهائية ضمن التكوين المتفق عليه للمشروع.\n\nالأبعاد الخارجية (الطول × العرض × الارتفاع): 5800 × 2150 × 2400 mm\nمساحة الأرضية: 12.5 m²\nعدد الأشخاص: 1–2 أشخاص\nالمواد الرئيسية: هيكل فولاذي مجلفن وألواح جدران ساندويتش\nالهيكل الفولاذي: هيكل فولاذي مجلفن مع زوايا مصبوبة\nالعوارض الرئيسية: فولاذ مجلفن\nخيارات الألوان: أبيض ورمادي وبني وألوان مخصصة أو كسوة ملونة\nالجدران الخارجية: ألواح ساندويتش EPS / جرافين 75 mm أو ألواح PU مخصصة\nالقواطع: ألواح ساندويتش 50 mm / ألواح ألياف بامبو وخشب 50 mm\nالأرضية: لوح أكسيد مغنيسيوم وقاعدة خشبية بتشطيب PVC / SPC\nأنواع الأبواب: أبواب مفصلية ومنزلقة وأبواب أمان\nخيارات مواد الأبواب: أبواب ألمنيوم بعازل حراري وزجاج مزدوج أو ألمنيوم أو خشب مكسو بالألمنيوم أو فولاذ أو زجاج مزدوج\nأنواع النوافذ: نوافذ مفصلية وعلوية التعليق ومنزلقة\nخيارات مواد النوافذ: نوافذ uPVC أو ألمنيوم بزجاج مزدوج أو ألمنيوم بعازل حراري وزجاج مزدوج\nالاستخدامات: سكن وفنادق ومكاتب ومرافق صحية\nالضمان: سنة واحدة\nالموصلية الحرارية: 0.048 W/(m·K)\nالعزل الصوتي: ≥30 dB\nالقدرة الكهربائية: 12 kW\nحمل الرياح: 0.60 kN/m²",
+          "customizableOptions": [
+            "خيارات عزل الجدران والألوان",
+            "خيارات الأبواب والزجاج",
+            "المخطط وتشطيبات PVC / SPC"
+          ],
+          "productFaqs": []
+        }
+      },
+      "sourceRecord": {
+        "id": "apple-cabin-20ft",
+        "category": "apple-cabin",
+        "name": "20FT 苹果舱",
+        "english": "20FT Apple Cabin",
+        "model": "20FT",
+        "pdf_pages": [
+          27,
+          28
+        ],
+        "parameters": [
+          {
+            "name": "外尺寸（长 × 宽 × 高）",
+            "value": "5800 × 2150 × 2400 mm",
+            "pdf_page": 28,
+            "note": ""
+          },
+          {
+            "name": "建筑面积",
+            "value": "12.5 m²",
+            "pdf_page": 28,
+            "note": ""
+          },
+          {
+            "name": "适用人数",
+            "value": "1-2 人",
+            "pdf_page": 28,
+            "note": ""
+          },
+          {
+            "name": "主要材料（规格表）",
+            "value": "镀锌钢结构 + 夹芯墙板等",
+            "pdf_page": 28,
+            "note": ""
+          },
+          {
+            "name": "钢结构",
+            "value": "带角铸件的镀锌钢结构",
+            "pdf_page": 28,
+            "note": ""
+          },
+          {
+            "name": "主梁",
+            "value": "镀锌钢",
+            "pdf_page": 28,
+            "note": ""
+          },
+          {
+            "name": "颜色",
+            "value": "白色、灰色、棕色、定制色或彩色覆层",
+            "pdf_page": 28,
+            "note": ""
+          },
+          {
+            "name": "外墙",
+            "value": "75 mm EPS / 石墨烯夹芯板，或定制 PU 夹芯板",
+            "pdf_page": 28,
+            "note": ""
+          },
+          {
+            "name": "隔墙",
+            "value": "50 mm 夹芯板 / 50 mm 竹木纤维板",
+            "pdf_page": 28,
+            "note": ""
+          },
+          {
+            "name": "地板",
+            "value": "玻镁板及木基层，表面 PVC / SPC",
+            "pdf_page": 28,
+            "note": ""
+          },
+          {
+            "name": "门型",
+            "value": "平开门、推拉门、防盗门",
+            "pdf_page": 28,
+            "note": ""
+          },
+          {
+            "name": "门材质选项",
+            "value": "断桥铝双玻门、铝合金门、铝包木门、钢门、双玻门",
+            "pdf_page": 28,
+            "note": ""
+          },
+          {
+            "name": "窗型",
+            "value": "平开窗、上悬窗、推拉窗",
+            "pdf_page": 28,
+            "note": ""
+          },
+          {
+            "name": "窗材质选项",
+            "value": "塑钢窗、铝合金双玻窗、断桥铝双玻窗",
+            "pdf_page": 28,
+            "note": ""
+          },
+          {
+            "name": "电气配置",
+            "value": "按 3C / CE / UL / SAA 标准配置，含断路器、灯、开关、插座等（册内表述）",
+            "pdf_page": 28,
+            "note": ""
+          },
+          {
+            "name": "用途",
+            "value": "住房、酒店、办公室、卫生间等",
+            "pdf_page": 28,
+            "note": ""
+          },
+          {
+            "name": "质保",
+            "value": "1 年",
+            "pdf_page": 28,
+            "note": ""
+          },
+          {
+            "name": "认证栏",
+            "value": "CE、RoHS、CPR、ISO9001、SAA（册内列示）",
+            "pdf_page": 28,
+            "note": ""
+          },
+          {
+            "name": "抗震",
+            "value": "LV8（册内标称）",
+            "pdf_page": 27,
+            "note": ""
+          },
+          {
+            "name": "耐火时间",
+            "value": ">2 小时（册内标称）",
+            "pdf_page": 27,
+            "note": ""
+          },
+          {
+            "name": "导热系数",
+            "value": "0.048 W/(m·K)",
+            "pdf_page": 27,
+            "note": ""
+          },
+          {
+            "name": "屋面活荷载",
+            "value": "0.9 kN/W²（原文）",
+            "pdf_page": 27,
+            "note": "单位疑似排版错误，未擅自改为 kN/m²。"
+          },
+          {
+            "name": "隔声",
+            "value": "≥30 dB",
+            "pdf_page": 27,
+            "note": ""
+          },
+          {
+            "name": "用电功率",
+            "value": "12 kW",
+            "pdf_page": 27,
+            "note": ""
+          },
+          {
+            "name": "抗风荷载",
+            "value": "0.60 kN/m²",
+            "pdf_page": 27,
+            "note": ""
+          },
+          {
+            "name": "防水描述",
+            "value": "降水量 ≤20 mm/min 时无渗漏（按册内表述）",
+            "pdf_page": 27,
+            "note": ""
+          },
+          {
+            "name": "系统配置描述",
+            "value": "智能家居、水电工厂预装；简介另提铝制外壳",
+            "pdf_page": 27,
+            "note": "与规格表“夹芯墙板”描述口径不同，按具体配置确认。"
+          }
+        ],
+        "images": [
+          {
+            "file": "images/apple-cabin-20ft/main.jpg",
+            "label": "20FT 苹果舱外观",
+            "pdf_page": 28,
+            "kind": "embedded",
+            "xref": 743,
+            "width": 514,
+            "height": 514
+          },
+          {
+            "file": "images/apple-cabin-20ft/layout-1.jpg",
+            "label": "20FT 苹果舱平面图 1",
+            "pdf_page": 28,
+            "kind": "embedded",
+            "xref": 745,
+            "width": 637,
+            "height": 491
+          },
+          {
+            "file": "images/apple-cabin-20ft/layout-2.jpg",
+            "label": "20FT 苹果舱平面图 2",
+            "pdf_page": 28,
+            "kind": "embedded",
+            "xref": 748,
+            "width": 662,
+            "height": 403
+          }
+        ],
+        "notes": [
+          "苹果舱系列性能项来自系列介绍页；未在册内分别测试或逐型号列示。"
+        ]
+      }
+    },
+    {
+      "slug": "apple-cabin-40ft",
+      "categoryKey": "apple-cabins",
+      "sortOrder": 100,
+      "featured": true,
+      "media": [
+        {
+          "file": "images/apple-cabin-40ft/main.jpg",
+          "sha256": "ecfdc13b6de806b0f4f23cfa96a58dd29ab5340d53baca2cc54a4e18d05d8892",
+          "caption": "40FT 苹果舱外观",
+          "sourcePage": 28
+        },
+        {
+          "file": "images/apple-cabin-40ft/layout-1.jpg",
+          "sha256": "4f60234df65215eb12d78db451f13351236096d750f4966a97953b24ff32a144",
+          "caption": "40FT 苹果舱平面图 1",
+          "sourcePage": 28
+        }
+      ],
+      "locales": {
+        "en": {
+          "title": "40FT Apple Cabin",
+          "category": "Apple Cabins",
+          "summary": "An Apple Cabin with a compact prefabricated structure and configurable interior.",
+          "detail": "An Apple Cabin with a compact prefabricated structure and configurable interior. The catalogue offers choices of wall panels, glazing, doors and finishes for accommodation, hospitality and office uses.\n\nSpecifications are based on the product catalogue. Final materials, layout and electrical requirements are confirmed in the agreed project configuration.\n\nExternal dimensions (L × W × H): 11500 × 2150 × 2400 mm\nFloor area: 24.7 m²\nOccupancy: 2–4 people\nMain materials: Galvanized steel structure and sandwich wall panels\nSteel structure: Galvanized steel structure with corner castings\nMain beams: Galvanized steel\nColour options: White, grey, brown, custom colours or coloured cladding\nExternal walls: 75 mm EPS / graphene sandwich panels, or custom PU sandwich panels\nPartitions: 50 mm sandwich panels / 50 mm bamboo-wood fibre boards\nFlooring: Magnesium oxide board and timber subfloor, PVC / SPC finish\nDoor types: Hinged, sliding and security doors\nDoor material options: Thermally broken aluminium double-glazed, aluminium, aluminium-clad timber, steel or double-glazed doors\nWindow types: Casement, top-hung and sliding windows\nWindow material options: uPVC, double-glazed aluminium or thermally broken double-glazed aluminium windows\nApplications: Housing, hotels, offices and washrooms\nWarranty: 1 year\nThermal conductivity: 0.048 W/(m·K)\nSound insulation: ≥30 dB\nElectrical power: 12 kW\nWind load: 0.60 kN/m²",
+          "customizableOptions": [
+            "Wall insulation and colour options",
+            "Door and glazing options",
+            "Interior layout and PVC / SPC finishes"
+          ],
+          "productFaqs": []
+        },
+        "fr": {
+          "title": "Cabine Apple 40FT",
+          "category": "Cabines Apple",
+          "summary": "Une cabine Apple à structure préfabriquée compacte et intérieur configurable.",
+          "detail": "Une cabine Apple à structure préfabriquée compacte et intérieur configurable. Le catalogue propose des panneaux muraux, vitrages, portes et finitions pour le logement, l’hébergement et les bureaux.\n\nLes caractéristiques proviennent du catalogue produit. Les matériaux, l’agencement et les exigences électriques définitifs sont confirmés dans la configuration convenue du projet.\n\nDimensions extérieures (L × l × H): 11500 × 2150 × 2400 mm\nSurface au sol: 24.7 m²\nCapacité d’accueil: 2–4 personnes\nMatériaux principaux: Structure en acier galvanisé et panneaux muraux sandwich\nStructure en acier: Structure en acier galvanisé avec pièces d’angle moulées\nPoutres principales: Acier galvanisé\nCouleurs disponibles: Blanc, gris, brun, couleurs personnalisées ou bardage coloré\nMurs extérieurs: Panneaux sandwich EPS / graphène de 75 mm, ou PU sur mesure\nCloisons: Panneaux sandwich 50 mm / panneaux en fibres de bambou-bois 50 mm\nPlancher: Panneau en oxyde de magnésium et support bois, finition PVC / SPC\nTypes de portes: Portes battantes, coulissantes et de sécurité\nMatériaux des portes: Portes aluminium à rupture thermique et double vitrage, aluminium, bois-aluminium, acier ou double vitrage\nTypes de fenêtres: Fenêtres à battants, à projection et coulissantes\nMatériaux des fenêtres: Fenêtres PVC, aluminium à double vitrage ou aluminium à rupture thermique et double vitrage\nApplications: Logements, hôtels, bureaux et sanitaires\nGarantie: 1 an\nConductivité thermique: 0.048 W/(m·K)\nIsolation acoustique: ≥30 dB\nPuissance électrique: 12 kW\nCharge de vent: 0.60 kN/m²",
+          "customizableOptions": [
+            "Options d’isolation et de couleur des murs",
+            "Options de portes et vitrages",
+            "Agencement et finitions PVC / SPC"
+          ],
+          "productFaqs": []
+        },
+        "ar": {
+          "title": "كابينة آبل 40FT",
+          "category": "كبائن آبل",
+          "summary": "كابينة آبل بهيكل مدمج مسبق التجهيز وتصميم داخلي قابل للتخصيص.",
+          "detail": "كابينة آبل بهيكل مدمج مسبق التجهيز وتصميم داخلي قابل للتخصيص. يوفر الكتالوج خيارات للجدران والزجاج والأبواب والتشطيبات للسكن والضيافة والمكاتب.\n\nالمواصفات مستندة إلى كتالوج المنتجات. يتم تأكيد المواد والمخطط والمتطلبات الكهربائية النهائية ضمن التكوين المتفق عليه للمشروع.\n\nالأبعاد الخارجية (الطول × العرض × الارتفاع): 11500 × 2150 × 2400 mm\nمساحة الأرضية: 24.7 m²\nعدد الأشخاص: 2–4 أشخاص\nالمواد الرئيسية: هيكل فولاذي مجلفن وألواح جدران ساندويتش\nالهيكل الفولاذي: هيكل فولاذي مجلفن مع زوايا مصبوبة\nالعوارض الرئيسية: فولاذ مجلفن\nخيارات الألوان: أبيض ورمادي وبني وألوان مخصصة أو كسوة ملونة\nالجدران الخارجية: ألواح ساندويتش EPS / جرافين 75 mm أو ألواح PU مخصصة\nالقواطع: ألواح ساندويتش 50 mm / ألواح ألياف بامبو وخشب 50 mm\nالأرضية: لوح أكسيد مغنيسيوم وقاعدة خشبية بتشطيب PVC / SPC\nأنواع الأبواب: أبواب مفصلية ومنزلقة وأبواب أمان\nخيارات مواد الأبواب: أبواب ألمنيوم بعازل حراري وزجاج مزدوج أو ألمنيوم أو خشب مكسو بالألمنيوم أو فولاذ أو زجاج مزدوج\nأنواع النوافذ: نوافذ مفصلية وعلوية التعليق ومنزلقة\nخيارات مواد النوافذ: نوافذ uPVC أو ألمنيوم بزجاج مزدوج أو ألمنيوم بعازل حراري وزجاج مزدوج\nالاستخدامات: سكن وفنادق ومكاتب ومرافق صحية\nالضمان: سنة واحدة\nالموصلية الحرارية: 0.048 W/(m·K)\nالعزل الصوتي: ≥30 dB\nالقدرة الكهربائية: 12 kW\nحمل الرياح: 0.60 kN/m²",
+          "customizableOptions": [
+            "خيارات عزل الجدران والألوان",
+            "خيارات الأبواب والزجاج",
+            "المخطط وتشطيبات PVC / SPC"
+          ],
+          "productFaqs": []
+        }
+      },
+      "sourceRecord": {
+        "id": "apple-cabin-40ft",
+        "category": "apple-cabin",
+        "name": "40FT 苹果舱",
+        "english": "40FT Apple Cabin",
+        "model": "40FT",
+        "pdf_pages": [
+          27,
+          28
+        ],
+        "parameters": [
+          {
+            "name": "外尺寸（长 × 宽 × 高）",
+            "value": "11500 × 2150 × 2400 mm",
+            "pdf_page": 28,
+            "note": ""
+          },
+          {
+            "name": "建筑面积",
+            "value": "24.7 m²",
+            "pdf_page": 28,
+            "note": ""
+          },
+          {
+            "name": "适用人数",
+            "value": "2-4 人",
+            "pdf_page": 28,
+            "note": ""
+          },
+          {
+            "name": "主要材料（规格表）",
+            "value": "镀锌钢结构 + 夹芯墙板等",
+            "pdf_page": 28,
+            "note": ""
+          },
+          {
+            "name": "钢结构",
+            "value": "带角铸件的镀锌钢结构",
+            "pdf_page": 28,
+            "note": ""
+          },
+          {
+            "name": "主梁",
+            "value": "镀锌钢",
+            "pdf_page": 28,
+            "note": ""
+          },
+          {
+            "name": "颜色",
+            "value": "白色、灰色、棕色、定制色或彩色覆层",
+            "pdf_page": 28,
+            "note": ""
+          },
+          {
+            "name": "外墙",
+            "value": "75 mm EPS / 石墨烯夹芯板，或定制 PU 夹芯板",
+            "pdf_page": 28,
+            "note": ""
+          },
+          {
+            "name": "隔墙",
+            "value": "50 mm 夹芯板 / 50 mm 竹木纤维板",
+            "pdf_page": 28,
+            "note": ""
+          },
+          {
+            "name": "地板",
+            "value": "玻镁板及木基层，表面 PVC / SPC",
+            "pdf_page": 28,
+            "note": ""
+          },
+          {
+            "name": "门型",
+            "value": "平开门、推拉门、防盗门",
+            "pdf_page": 28,
+            "note": ""
+          },
+          {
+            "name": "门材质选项",
+            "value": "断桥铝双玻门、铝合金门、铝包木门、钢门、双玻门",
+            "pdf_page": 28,
+            "note": ""
+          },
+          {
+            "name": "窗型",
+            "value": "平开窗、上悬窗、推拉窗",
+            "pdf_page": 28,
+            "note": ""
+          },
+          {
+            "name": "窗材质选项",
+            "value": "塑钢窗、铝合金双玻窗、断桥铝双玻窗",
+            "pdf_page": 28,
+            "note": ""
+          },
+          {
+            "name": "电气配置",
+            "value": "按 3C / CE / UL / SAA 标准配置，含断路器、灯、开关、插座等（册内表述）",
+            "pdf_page": 28,
+            "note": ""
+          },
+          {
+            "name": "用途",
+            "value": "住房、酒店、办公室、卫生间等",
+            "pdf_page": 28,
+            "note": ""
+          },
+          {
+            "name": "质保",
+            "value": "1 年",
+            "pdf_page": 28,
+            "note": ""
+          },
+          {
+            "name": "认证栏",
+            "value": "CE、RoHS、CPR、ISO9001、SAA（册内列示）",
+            "pdf_page": 28,
+            "note": ""
+          },
+          {
+            "name": "抗震",
+            "value": "LV8（册内标称）",
+            "pdf_page": 27,
+            "note": ""
+          },
+          {
+            "name": "耐火时间",
+            "value": ">2 小时（册内标称）",
+            "pdf_page": 27,
+            "note": ""
+          },
+          {
+            "name": "导热系数",
+            "value": "0.048 W/(m·K)",
+            "pdf_page": 27,
+            "note": ""
+          },
+          {
+            "name": "屋面活荷载",
+            "value": "0.9 kN/W²（原文）",
+            "pdf_page": 27,
+            "note": "单位疑似排版错误，未擅自改为 kN/m²。"
+          },
+          {
+            "name": "隔声",
+            "value": "≥30 dB",
+            "pdf_page": 27,
+            "note": ""
+          },
+          {
+            "name": "用电功率",
+            "value": "12 kW",
+            "pdf_page": 27,
+            "note": ""
+          },
+          {
+            "name": "抗风荷载",
+            "value": "0.60 kN/m²",
+            "pdf_page": 27,
+            "note": ""
+          },
+          {
+            "name": "防水描述",
+            "value": "降水量 ≤20 mm/min 时无渗漏（按册内表述）",
+            "pdf_page": 27,
+            "note": ""
+          },
+          {
+            "name": "系统配置描述",
+            "value": "智能家居、水电工厂预装；简介另提铝制外壳",
+            "pdf_page": 27,
+            "note": "与规格表“夹芯墙板”描述口径不同，按具体配置确认。"
+          }
+        ],
+        "images": [
+          {
+            "file": "images/apple-cabin-40ft/main.jpg",
+            "label": "40FT 苹果舱外观",
+            "pdf_page": 28,
+            "kind": "embedded",
+            "xref": 744,
+            "width": 592,
+            "height": 592
+          },
+          {
+            "file": "images/apple-cabin-40ft/layout-1.jpg",
+            "label": "40FT 苹果舱平面图 1",
+            "pdf_page": 28,
+            "kind": "embedded",
+            "xref": 746,
+            "width": 1086,
+            "height": 430
+          }
+        ],
+        "notes": [
+          "苹果舱系列性能项来自系列介绍页；未在册内分别测试或逐型号列示。"
+        ]
+      }
+    },
+    {
+      "slug": "capsule-house-07",
+      "categoryKey": "space-capsules",
+      "sortOrder": 110,
+      "featured": true,
+      "media": [
+        {
+          "file": "images/capsule-house-07/overview.jpg",
+          "sha256": "6628c4d5df28cd0fb7c0560a8fc1f22a54ee1f67d5f8b652692bf9f6f487cb47",
+          "caption": "太空舱同页总览外观图（图片未单独标明 07）",
+          "sourcePage": 29
+        },
+        {
+          "file": "images/capsule-house-07/layout.jpg",
+          "sha256": "8782775aaa30194052d074efb295373437297aac6c37bc4de9199a90466c615e",
+          "caption": "太空舱同页户型图",
+          "sourcePage": 29
+        },
+        {
+          "file": "images/capsule-house-07/interior-1.jpg",
+          "sha256": "6be7c853d60c881547bbfec97364da3cb423d2b0d7f24d5971ae1b80b439d5b4",
+          "caption": "太空舱系列内饰展示 1（未逐图标明型号）",
+          "sourcePage": 30
+        },
+        {
+          "file": "images/capsule-house-07/interior-2.jpg",
+          "sha256": "75c38ab8cd1bc3cba80b2bede2b72d151d5ab91a4c68629fc5e5270c685afe55",
+          "caption": "太空舱系列内饰展示 2（未逐图标明型号）",
+          "sourcePage": 30
+        },
+        {
+          "file": "images/capsule-house-07/interior-3.jpg",
+          "sha256": "30c7716b39a7949a0d5ebb47157e4854f252e4171ee84cac08d44ff7fe29aee0",
+          "caption": "太空舱系列内饰展示 3（未逐图标明型号）",
+          "sourcePage": 30
+        },
+        {
+          "file": "images/capsule-house-07/interior-4.jpg",
+          "sha256": "85f95168cd0b9a8751384908e832ad8a72a51c260aee36c0a700ce188074e7b0",
+          "caption": "太空舱系列内饰展示 4（未逐图标明型号）",
+          "sourcePage": 30
+        },
+        {
+          "file": "images/capsule-house-07/interior-5.jpg",
+          "sha256": "9d50e429a9500552349ea28be86ae7636a67103a9000ace1ea022a800f987758",
+          "caption": "太空舱系列内饰展示 5（未逐图标明型号）",
+          "sourcePage": 30
+        },
+        {
+          "file": "images/capsule-house-07/interior-6.jpg",
+          "sha256": "d46f91bba4437e77dc8c9f592877ab6425edf29cf3ff68f880e07c555dc07627",
+          "caption": "太空舱系列内饰展示 6（未逐图标明型号）",
+          "sourcePage": 30
+        }
+      ],
+      "locales": {
+        "en": {
+          "title": "Capsule House-07",
+          "category": "Capsule Houses",
+          "summary": "Capsule House-07 combines a galvanized steel structure, aluminium cladding and insulated glazing.",
+          "detail": "Capsule House-07 combines a galvanized steel structure, aluminium cladding and insulated glazing. Configure the interior, smart controls and services for your accommodation project. Gallery images include capsule-series reference interiors.\n\nSpecifications are based on the product catalogue. Final materials, layout and electrical requirements are confirmed in the agreed project configuration.\n\nExternal dimensions (L × W × H): 11500 × 3300 × 3300 mm\nFloor area (catalogue): 38 m² (catalogue figure)\nWeight: 9 t\nColour options: White, grey, brown, custom colours or coloured cladding\nMain materials: Galvanized steel structure and insulated aluminium panels\nSteel structure: Q235 galvanized steel structure with corner castings\nExterior cladding: Aluminium panels\nInsulation: PUR insulation panels\nExternal glazing: 6 + 18A + 6 mm LOW-E insulating glass, or 6 + 6 mm coated laminated glass\nFlooring: Engineered wood flooring\nDoor: Smart access control system\nSmart controls: Lighting, curtains, HVAC and multi-scene control panels\nApplications: Housing, hotels, guest accommodation, camping, retail and offices\nWarranty: 1 year",
+          "customizableOptions": [
+            "Interior layout and finishes",
+            "Smart lighting, curtains and HVAC controls",
+            "Project-specific electrical and plumbing configuration"
+          ],
+          "productFaqs": []
+        },
+        "fr": {
+          "title": "Maison capsule 07",
+          "category": "Maisons capsules",
+          "summary": "La Capsule House-07 associe structure en acier galvanisé, bardage aluminium et vitrage isolant.",
+          "detail": "La Capsule House-07 associe structure en acier galvanisé, bardage aluminium et vitrage isolant. L’intérieur, les commandes intelligentes et les équipements sont configurables. La galerie inclut des intérieurs de référence de la série capsule.\n\nLes caractéristiques proviennent du catalogue produit. Les matériaux, l’agencement et les exigences électriques définitifs sont confirmés dans la configuration convenue du projet.\n\nDimensions extérieures (L × l × H): 11500 × 3300 × 3300 mm\nSurface au sol (catalogue): 38 m² (valeur du catalogue)\nPoids: 9 t\nCouleurs disponibles: Blanc, gris, brun, couleurs personnalisées ou bardage coloré\nMatériaux principaux: Structure en acier galvanisé et panneaux isolants en aluminium\nStructure en acier: Structure Q235 en acier galvanisé avec pièces d’angle moulées\nBardage extérieur: Panneaux en aluminium\nIsolation: Panneaux isolants PUR\nVitrage extérieur: Vitrage isolant LOW-E 6 + 18A + 6 mm, ou verre feuilleté traité 6 + 6 mm\nPlancher: Parquet contrecollé\nPorte: Système de contrôle d’accès intelligent\nCommandes intelligentes: Éclairage, rideaux, climatisation / chauffage et panneaux multiscénarios\nApplications: Logements, hôtels, hébergements touristiques, camping, commerces et bureaux\nGarantie: 1 an",
+          "customizableOptions": [
+            "Agencement et finitions intérieurs",
+            "Commandes intelligentes de l’éclairage, des rideaux et de la climatisation",
+            "Configuration électrique et plomberie adaptée au projet"
+          ],
+          "productFaqs": []
+        },
+        "ar": {
+          "title": "منزل كبسولة 07",
+          "category": "منازل كبسولة",
+          "summary": "يجمع منزل الكبسولة 07 بين هيكل فولاذي مجلفن وكسوة ألمنيوم وزجاج عازل.",
+          "detail": "يجمع منزل الكبسولة 07 بين هيكل فولاذي مجلفن وكسوة ألمنيوم وزجاج عازل. يمكن تخصيص الداخل والتحكم الذكي والتجهيزات. تتضمن الصور نماذج داخلية مرجعية من سلسلة الكبسولة.\n\nالمواصفات مستندة إلى كتالوج المنتجات. يتم تأكيد المواد والمخطط والمتطلبات الكهربائية النهائية ضمن التكوين المتفق عليه للمشروع.\n\nالأبعاد الخارجية (الطول × العرض × الارتفاع): 11500 × 3300 × 3300 mm\nمساحة الأرضية (الكتالوج): 38 m² (حسب الكتالوج)\nالوزن: 9 t\nخيارات الألوان: أبيض ورمادي وبني وألوان مخصصة أو كسوة ملونة\nالمواد الرئيسية: هيكل فولاذي مجلفن وألواح ألمنيوم معزولة\nالهيكل الفولاذي: هيكل فولاذي Q235 مجلفن مع زوايا مصبوبة\nالكسوة الخارجية: ألواح ألمنيوم\nالعزل: ألواح عزل PUR\nالزجاج الخارجي: زجاج عازل LOW-E بمقاس 6 + 18A + 6 mm أو زجاج مصفح مطلي 6 + 6 mm\nالأرضية: أرضيات خشبية مركبة\nالباب: نظام تحكم ذكي بالدخول\nالتحكم الذكي: الإضاءة والستائر والتكييف والتدفئة ولوحات تحكم متعددة المشاهد\nالاستخدامات: سكن وفنادق وضيافة وتخييم وتجارة ومكاتب\nالضمان: سنة واحدة",
+          "customizableOptions": [
+            "المخطط والتشطيبات الداخلية",
+            "تحكم ذكي بالإضاءة والستائر والتكييف",
+            "تجهيزات كهرباء وسباكة خاصة بالمشروع"
+          ],
+          "productFaqs": []
+        }
+      },
+      "sourceRecord": {
+        "id": "capsule-house-07",
+        "category": "capsule",
+        "name": "太空舱 Capsule House-07",
+        "english": "Capsule House-07",
+        "model": "Capsule House-07",
+        "pdf_pages": [
+          29,
+          30
+        ],
+        "parameters": [
+          {
+            "name": "展开尺寸（长 × 宽 × 高）",
+            "value": "11.5 × 3.3 × 3.3 m（即 11500 × 3300 × 3300 mm）",
+            "pdf_page": 29,
+            "note": ""
+          },
+          {
+            "name": "总面积",
+            "value": "38 m²（册内标称）",
+            "pdf_page": 29,
+            "note": ""
+          },
+          {
+            "name": "重量",
+            "value": "9 吨",
+            "pdf_page": 29,
+            "note": ""
+          },
+          {
+            "name": "颜色",
+            "value": "白色、灰色、棕色、定制色或彩色覆层",
+            "pdf_page": 29,
+            "note": ""
+          },
+          {
+            "name": "主要材料",
+            "value": "镀锌钢结构 + 铝制保温板等",
+            "pdf_page": 29,
+            "note": ""
+          },
+          {
+            "name": "钢结构",
+            "value": "Q235 镀锌钢结构，含角铸件",
+            "pdf_page": 29,
+            "note": ""
+          },
+          {
+            "name": "外饰板",
+            "value": "铝板",
+            "pdf_page": 29,
+            "note": ""
+          },
+          {
+            "name": "保温",
+            "value": "PUR 板",
+            "pdf_page": 29,
+            "note": ""
+          },
+          {
+            "name": "外玻璃",
+            "value": "6 + 18A + 6 mm LOW-E 中空玻璃，或 6 + 6 mm 镀膜夹层玻璃（按原文）",
+            "pdf_page": 29,
+            "note": ""
+          },
+          {
+            "name": "地板",
+            "value": "复合木地板",
+            "pdf_page": 29,
+            "note": ""
+          },
+          {
+            "name": "门",
+            "value": "智能门禁系统",
+            "pdf_page": 29,
+            "note": ""
+          },
+          {
+            "name": "智能控制",
+            "value": "灯光、窗帘、暖通空调、多场景控制面板等",
+            "pdf_page": 29,
+            "note": ""
+          },
+          {
+            "name": "电气配置",
+            "value": "按 3C / CE / UL / SAA 标准配置，含断路器、灯、开关、插座等（册内表述）",
+            "pdf_page": 29,
+            "note": ""
+          },
+          {
+            "name": "用途",
+            "value": "住房、酒店、民宿、露营、商业、办公等",
+            "pdf_page": 29,
+            "note": ""
+          },
+          {
+            "name": "质保",
+            "value": "1 年",
+            "pdf_page": 29,
+            "note": ""
+          },
+          {
+            "name": "认证栏",
+            "value": "CE、RoHS、CPR、ISO9001、SAA 等（册内列示）",
+            "pdf_page": 29,
+            "note": ""
+          }
+        ],
+        "images": [
+          {
+            "file": "images/capsule-house-07/overview.jpg",
+            "label": "太空舱同页总览外观图（图片未单独标明 07）",
+            "pdf_page": 29,
+            "kind": "embedded",
+            "xref": 754,
+            "width": 1216,
+            "height": 784
+          },
+          {
+            "file": "images/capsule-house-07/layout.jpg",
+            "label": "太空舱同页户型图",
+            "pdf_page": 29,
+            "kind": "embedded",
+            "xref": 755,
+            "width": 1364,
+            "height": 546
+          },
+          {
+            "file": "images/capsule-house-07/interior-1.jpg",
+            "label": "太空舱系列内饰展示 1（未逐图标明型号）",
+            "pdf_page": 30,
+            "kind": "embedded",
+            "xref": 761,
+            "width": 1364,
+            "height": 711
+          },
+          {
+            "file": "images/capsule-house-07/interior-2.jpg",
+            "label": "太空舱系列内饰展示 2（未逐图标明型号）",
+            "pdf_page": 30,
+            "kind": "embedded",
+            "xref": 762,
+            "width": 607,
+            "height": 335
+          },
+          {
+            "file": "images/capsule-house-07/interior-3.jpg",
+            "label": "太空舱系列内饰展示 3（未逐图标明型号）",
+            "pdf_page": 30,
+            "kind": "embedded",
+            "xref": 763,
+            "width": 639,
+            "height": 751
+          },
+          {
+            "file": "images/capsule-house-07/interior-4.jpg",
+            "label": "太空舱系列内饰展示 4（未逐图标明型号）",
+            "pdf_page": 30,
+            "kind": "embedded",
+            "xref": 764,
+            "width": 1273,
+            "height": 711
+          },
+          {
+            "file": "images/capsule-house-07/interior-5.jpg",
+            "label": "太空舱系列内饰展示 5（未逐图标明型号）",
+            "pdf_page": 30,
+            "kind": "embedded",
+            "xref": 765,
+            "width": 1364,
+            "height": 751
+          },
+          {
+            "file": "images/capsule-house-07/interior-6.jpg",
+            "label": "太空舱系列内饰展示 6（未逐图标明型号）",
+            "pdf_page": 30,
+            "kind": "embedded",
+            "xref": 766,
+            "width": 607,
+            "height": 405
+          }
+        ],
+        "notes": [
+          "规格表只完整列出 Capsule House-07，不能将同页 D5 / D9 / D6 / D2 等展示款自动视作相同尺寸与配置。",
+          "同页 D7 图示与 Capsule House-07 是否为同一型号，产品册未明确写出映射，未自动合并名称。"
+        ]
+      }
+    }
+  ]
+}

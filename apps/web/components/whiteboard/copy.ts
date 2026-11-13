@@ -1,0 +1,60 @@
+const en = {
+  preview: "Design preview", demo: "Inquiries are demonstrations", current: "Current website", menu: "Menu", close: "Close menu",
+  home: "Home", product: "Product", project: "Project", collection: "Our Products", explore: "Explore the collection",
+  heroTop: "BUILT AROUND YOUR WORLD", heroOne: "Space to live.", heroTwo: "Power to grow.",
+  heroNote: "Modular buildings and electrical equipment. Thoughtfully made, for the places and possibilities ahead.",
+  scroll: "Discover ZHUDUO", housing: "Modular buildings", electrical: "Electrical equipment", inquire: "Start a project",
+  housingNote: "More room for possibility.", electricalNote: "Powering what comes next.", inquireNote: "Tell us what you have in mind.",
+  entryTitle: "Where do we begin?", featured: "A FEW POSSIBILITIES", featuredTitle: "Made for the way", featuredItalic: "you build.",
+  allHousing: "View all buildings", allElectrical: "View all equipment", detail: "Explore product", introTop: "ONE PARTNER. MORE POSSIBILITIES.",
+  introTitle: "From a first idea", introItalic: "to a place in the world.", introAction: "Get to know us", video: "Watch our company film", play: "Play video", pause: "Pause video",
+  factsTop: "ZHUDUO, IN PERSPECTIVE", founded: "Established", factory: "Factory area", markets: "Export markets", countries: "Countries",
+  certificates: "Credentials that matter.", certNote: "Explore our certifications", certificate: "View certificate", exhibition: "NEXT STOP", dubai: "To Dubai.",
+  contactTop: "SOMETHING IN MIND?", contactOne: "Great projects start", contactTwo: "with a conversation.",
+  contactNote: "Tell us about the product, the place and the possibilities. We will take it from there.", address: "Beijing, China", navigation: "Explore", contact: "Get in touch",
+  productPreview: "Product design preview", projectPreview: "Project design preview", productBack: "Back to collections", projectBack: "Explore our projects",
+  projectTitle: "Built for", projectItalic: "life in Australia.", projectScope: "40FT EXPANDABLE HOUSES · 100 UNITS", projectRead: "Discover the project",
+  productTitle: "Room for", productItalic: "a different way of living.", productScope: "40FT EXPANDABLE HOUSE", productRead: "Discover the details",
+  menuNote: "Buildings. Energy. Possibility.", previewPages: "Explore this design", formalPages: "Full catalogue & company", backTop: "Back to top",
+  housingLabel: "BUILDINGS", electricalLabel: "ENERGY", request: "Inquiry", company: "Zhuduo (Beijing) Technology Co., Ltd."
+};
+type Copy = { [K in keyof typeof en]: string };
+const fr: Copy = {
+  preview: "Aperçu du design", demo: "Demandes en démonstration", current: "Site actuel", menu: "Menu", close: "Fermer le menu",
+  home: "Accueil", product: "Produit", project: "Projet", collection: "Nos collections", explore: "Explorer la collection",
+  heroTop: "CONÇU AUTOUR DE VOTRE MONDE", heroOne: "L’espace pour vivre.", heroTwo: "L’énergie pour grandir.",
+  heroNote: "Bâtiments modulaires et équipements électriques. Une fabrication attentive, pour les lieux et les possibilités de demain.",
+  scroll: "Découvrir ZHUDUO", housing: "Bâtiments modulaires", electrical: "Équipements électriques", inquire: "Parlons de votre projet",
+  housingNote: "De l’espace pour vos idées.", electricalNote: "L’énergie de vos projets.", inquireNote: "Dites-nous ce que vous imaginez.",
+  entryTitle: "Par où commencer ?", featured: "QUELQUES POSSIBILITÉS", featuredTitle: "Pensés pour", featuredItalic: "vos projets.",
+  allHousing: "Tous les bâtiments", allElectrical: "Tous les équipements", detail: "Découvrir le produit", introTop: "UN PARTENAIRE. PLUS DE POSSIBILITÉS.",
+  introTitle: "D’une première idée", introItalic: "à une place dans le monde.", introAction: "Faisons connaissance", video: "Voir notre film", play: "Lire la vidéo", pause: "Mettre en pause",
+  factsTop: "ZHUDUO EN PERSPECTIVE", founded: "Création", factory: "Surface de l’usine", markets: "Marchés à l’export", countries: "Pays",
+  certificates: "Des garanties qui comptent.", certNote: "Découvrir nos certifications", certificate: "Voir le certificat", exhibition: "PROCHAINE ÉTAPE", dubai: "Vers Dubaï.",
+  contactTop: "UN PROJET EN TÊTE ?", contactOne: "Les beaux projets naissent", contactTwo: "d’une conversation.",
+  contactNote: "Parlez-nous du produit, du lieu et de vos idées. Construisons la suite ensemble.", address: "Pékin, Chine", navigation: "Explorer", contact: "Contactez-nous",
+  productPreview: "Aperçu du produit", projectPreview: "Aperçu du projet", productBack: "Retour aux collections", projectBack: "Découvrir nos projets",
+  projectTitle: "Un nouveau lieu", projectItalic: "de vie en Australie.", projectScope: "MAISONS EXTENSIBLES 40 PIEDS · 100 UNITÉS", projectRead: "Découvrir le projet",
+  productTitle: "L’espace pour", productItalic: "une autre façon de vivre.", productScope: "MAISON EXTENSIBLE 40 PIEDS", productRead: "Découvrir les détails",
+  menuNote: "Bâtiments. Énergie. Possibilités.", previewPages: "Explorer ce design", formalPages: "Catalogue complet et entreprise", backTop: "Haut de page",
+  housingLabel: "BÂTIMENTS", electricalLabel: "ÉNERGIE", request: "Demande", company: "Zhuduo (Beijing) Technology Co., Ltd."
+};
+const ar: Copy = {
+  preview: "معاينة التصميم", demo: "الاستفسارات للتجربة فقط", current: "الموقع الحالي", menu: "القائمة", close: "إغلاق القائمة",
+  home: "الرئيسية", product: "المنتج", project: "المشروع", collection: "مجموعاتنا", explore: "استكشف المجموعة",
+  heroTop: "مصمم حول عالمك", heroOne: "مساحة للحياة.", heroTwo: "طاقة للنمو.", heroNote: "مبانٍ معيارية ومعدات كهربائية. تصنيع مدروس للأماكن والإمكانات القادمة.",
+  scroll: "اكتشف ZHUDUO", housing: "المباني المعيارية", electrical: "المعدات الكهربائية", inquire: "ابدأ مشروعك",
+  housingNote: "مساحة أوسع للإمكانات.", electricalNote: "طاقة لما هو قادم.", inquireNote: "أخبرنا بما يدور في ذهنك.",
+  entryTitle: "من أين نبدأ؟", featured: "بعض الإمكانات", featuredTitle: "صنعناها", featuredItalic: "لطريقتك في البناء.",
+  allHousing: "جميع المباني", allElectrical: "جميع المعدات", detail: "استكشف المنتج", introTop: "شريك واحد. إمكانات أكثر.",
+  introTitle: "من الفكرة الأولى", introItalic: "إلى مكان في العالم.", introAction: "تعرف علينا", video: "شاهد فيلم الشركة", play: "تشغيل الفيديو", pause: "إيقاف الفيديو مؤقتاً",
+  factsTop: "لمحة عن ZHUDUO", founded: "سنة التأسيس", factory: "مساحة المصنع", markets: "أسواق التصدير", countries: "دولة",
+  certificates: "اعتمادات تهمك.", certNote: "استكشف شهاداتنا", certificate: "عرض الشهادة", exhibition: "المحطة القادمة", dubai: "إلى دبي.",
+  contactTop: "هل لديك مشروع؟", contactOne: "المشاريع الرائعة تبدأ", contactTwo: "بمحادثة.", contactNote: "أخبرنا عن المنتج والمكان والإمكانات. لنخطط للخطوة التالية معاً.",
+  address: "بكين، الصين", navigation: "استكشف", contact: "تواصل معنا", productPreview: "معاينة تصميم المنتج", projectPreview: "معاينة تصميم المشروع",
+  productBack: "العودة إلى المجموعات", projectBack: "استكشف مشاريعنا", projectTitle: "صممت", projectItalic: "للحياة في أستراليا.",
+  projectScope: "منازل قابلة للتوسعة 40 قدماً · 100 وحدة", projectRead: "اكتشف المشروع", productTitle: "مساحة", productItalic: "لطريقة مختلفة للحياة.",
+  productScope: "منزل قابل للتوسعة 40 قدماً", productRead: "اكتشف التفاصيل", menuNote: "مبانٍ. طاقة. إمكانات.", previewPages: "استكشف هذا التصميم",
+  formalPages: "الكتالوج الكامل والشركة", backTop: "العودة للأعلى", housingLabel: "المباني", electricalLabel: "الطاقة", request: "استفسار", company: "Zhuduo (Beijing) Technology Co., Ltd."
+};
+export const whiteboardCopy: Record<"en" | "fr" | "ar", Copy> = { en, fr, ar };

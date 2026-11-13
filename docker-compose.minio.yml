@@ -1,0 +1,70 @@
+# Add to the production Compose file. The ECS guide uses its existing host Nginx.
+services:
+  minio:
+    image: zhuduo-minio:2025-10-15-source
+    build:
+      context: .
+      dockerfile: deploy/minio/Dockerfile
+      target: server
+    restart: unless-stopped
+    environment:
+      MINIO_ROOT_USER: ${MINIO_ROOT_USER:?Set MINIO_ROOT_USER}
+      MINIO_ROOT_PASSWORD: ${MINIO_ROOT_PASSWORD:?Set MINIO_ROOT_PASSWORD}
+      MINIO_REGION_NAME: ${S3_REGION:-us-east-1}
+      MINIO_BROWSER: 'off'
+    ports: ['127.0.0.1:19000:9000']
+    volumes:
+      - type: bind
+        source: ${MINIO_DATA_DIR:?Set absolute MINIO_DATA_DIR}
+        target: /data
+        bind:
+          create_host_path: false
+    # Docker does not publish host ports for internal-only containers.
+    # Use a dedicated bridge for the loopback binding; keep CMS traffic on storage.
+    networks: [storage, storage_host]
+    read_only: true
+    tmpfs: ['/tmp:rw,noexec,nosuid,size=64m']
+    cap_drop: [ALL]
+    security_opt: [no-new-privileges:true]
+    healthcheck:
+      test: [CMD, curl, --fail, --silent, http://127.0.0.1:9000/minio/health/ready]
+      interval: 10s
+      timeout: 5s
+      start_period: 30s
+      retries: 12
+
+  minio-init:
+    image: zhuduo-minio-mc:2025-08-13-source
+    build:
+      context: .
+      dockerfile: deploy/minio/Dockerfile
+      target: client
+    entrypoint: [/bin/sh, /usr/local/bin/init-storage.sh]
+    restart: 'no'
+    environment:
+      MINIO_ROOT_USER: ${MINIO_ROOT_USER:?Set MINIO_ROOT_USER}
+      MINIO_ROOT_PASSWORD: ${MINIO_ROOT_PASSWORD:?Set MINIO_ROOT_PASSWORD}
+      S3_BUCKET: ${S3_BUCKET:?Set S3_BUCKET}
+      S3_ACCESS_KEY: ${S3_ACCESS_KEY:?Set separate CMS S3_ACCESS_KEY}
+      S3_SECRET_KEY: ${S3_SECRET_KEY:?Set separate CMS S3_SECRET_KEY}
+    networks: [storage]
+    depends_on:
+      minio: { condition: service_healthy }
+    read_only: true
+    tmpfs: ['/tmp:rw,noexec,nosuid,size=64m']
+    cap_drop: [ALL]
+    security_opt: [no-new-privileges:true]
+
+  cms:
+    environment:
+      S3_ENDPOINT: http://minio:9000
+      S3_FORCE_PATH_STYLE: 'true'
+    networks: [storage]
+    depends_on:
+      minio-init: { condition: service_completed_successfully }
+
+networks:
+  storage:
+    internal: true
+  storage_host:
+    driver: bridge

@@ -1,0 +1,272 @@
+{
+  "note": "Source and prepared asset provenance. Media IDs and URLs must be allocated by the target CMS; these files are currently published only in the local development CMS.",
+  "media": [
+    {
+      "key": "australia-project-cover",
+      "source": "E:\\铸多\\拓展房工程案例\\拓展房工程案例\\1 (13).png",
+      "sourceSha256": "a5146b040e701a057e07e9a86a92c64a2f8b9b366937c38183445cbed97fe4ec",
+      "originalDimensions": [
+        1024,
+        1024
+      ],
+      "file": "australia-project-cover.webp",
+      "mime": "image/webp",
+      "caption": "Australia expandable housing project — supplied project photograph.",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "bytes": 297176,
+      "sha256": "51b1908a273bc7990707f11879ca5bc6c49b7c267d18038b2a449f1ba6b7595d"
+    },
+    {
+      "key": "expandable-40ft-exterior",
+      "source": "E:\\铸多\\业务端\\2.产品资料\\3.产品图片+资料\\40FT\\40FT（黑框+白木纹+两侧无窗）\\30 (4).jpg",
+      "sourceSha256": "05666f6c796ffd3e33c30869c8aa259df3e58b415a5aa4082c2aa409c524e444",
+      "originalDimensions": [
+        4032,
+        3024
+      ],
+      "file": "expandable-40ft-exterior.webp",
+      "mime": "image/webp",
+      "caption": "40ft expandable house exterior — standard product reference; finishes may differ from the Australia delivery.",
+      "dimensions": [
+        1600,
+        1200
+      ],
+      "bytes": 241836,
+      "sha256": "e9f6079b6bab9646a20ae9686ce23e16e0546ec20a7acbec71e19a52efa29f15"
+    },
+    {
+      "key": "expandable-40ft-interior",
+      "source": "E:\\铸多\\业务端\\2.产品资料\\3.产品图片+资料\\40FT\\40FT（黑框+红木纹）\\40尺双翼内观.jpg",
+      "sourceSha256": "f1e6c3fe0c285cea83aff3bf66947c4fefd56bdaac92065f2cd81b01f38b0562",
+      "originalDimensions": [
+        3072,
+        4096
+      ],
+      "file": "expandable-40ft-interior.webp",
+      "mime": "image/webp",
+      "caption": "40ft expandable house interior — standard product reference.",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "bytes": 166122,
+      "sha256": "52b7eae505f6d14a9e7636165ae9dcd9203585a4962c5a6f6e0040c5627f048c"
+    },
+    {
+      "key": "expandable-bathroom-detail",
+      "source": "E:\\铸多\\业务端\\2.产品资料\\3.产品图片+资料\\40FT\\40FT（黑框+红木纹+露台安装）\\IMG-4349.jpg",
+      "sourceSha256": "b9ad3afa84f67f99e7a76a1896a2d86fbf8c36602945e2cbea0487aa99d0564e",
+      "originalDimensions": [
+        3024,
+        4032
+      ],
+      "file": "expandable-bathroom-detail.webp",
+      "mime": "image/webp",
+      "caption": "Bathroom fittings — 40ft product configuration reference.",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "bytes": 117914,
+      "sha256": "6a7fea5d44d1ec4046291beb3725ce153da7694803c9947b33c659daa7dacb8e"
+    },
+    {
+      "key": "expandable-kitchen-detail",
+      "source": "E:\\铸多\\业务端\\2.产品资料\\3.产品图片+资料\\40FT\\40FT（黑框+红木纹+露台安装）\\IMG-4355.jpg",
+      "sourceSha256": "d7a27972b61a1f67e18a2a81408a024386babb049026f1078e2515c1a6c93df8",
+      "originalDimensions": [
+        3024,
+        4032
+      ],
+      "file": "expandable-kitchen-detail.webp",
+      "mime": "image/webp",
+      "caption": "Kitchen cabinetry and worktop — 40ft product configuration reference.",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "bytes": 188666,
+      "sha256": "0bacc986f27fd0f0eae6a4d5035721e7f0dd56852c1726b4ab93343e15463263"
+    },
+    {
+      "key": "expandable-door-detail",
+      "source": "E:\\铸多\\业务端\\2.产品资料\\3.产品图片+资料\\40FT\\40FT（黑框+红木纹+露台安装）\\IMG-4357.jpg",
+      "sourceSha256": "547efe55bb80c264992d39da9925d6ead281ce2ea6a4fb316995ab0ea568a7bb",
+      "originalDimensions": [
+        3024,
+        4032
+      ],
+      "file": "expandable-door-detail.webp",
+      "mime": "image/webp",
+      "caption": "Glazed entrance door — 40ft product configuration reference.",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "bytes": 198088,
+      "sha256": "312ff0cd25ded37ac1c540217cce508eac916f720313c9366986164ee262a75a"
+    },
+    {
+      "key": "expandable-ceiling-detail",
+      "source": "E:\\铸多\\业务端\\2.产品资料\\3.产品图片+资料\\40FT\\40FT（黑框+红木纹+露台安装）\\IMG-4368.jpg",
+      "sourceSha256": "fceeb0fe3001c1fd824264dd1b0994069272a69d59745ba97f2fc2bf858b4029",
+      "originalDimensions": [
+        4032,
+        3024
+      ],
+      "file": "expandable-ceiling-detail.webp",
+      "mime": "image/webp",
+      "caption": "Ceiling finish and lighting — 40ft product configuration reference.",
+      "dimensions": [
+        1600,
+        1200
+      ],
+      "bytes": 87746,
+      "sha256": "bccea5fdd584e428953948a9572cdebbb22b5a21997783f06dba3272e432cd21"
+    },
+    {
+      "key": "expandable-production-frame",
+      "source": "E:\\铸多\\业务端\\5.工厂+运输资料\\1.工厂图片视频\\内景\\焊接车间\\总.jpg",
+      "sourceSha256": "3fce257f43435fcbb456f753d0d986c8b975702c13de2ca91475d8d3d48a5a3b",
+      "originalDimensions": [
+        4160,
+        2340
+      ],
+      "file": "expandable-production-frame.webp",
+      "mime": "image/webp",
+      "caption": "Steel frame preparation — general factory reference.",
+      "dimensions": [
+        1600,
+        900
+      ],
+      "bytes": 199892,
+      "sha256": "9232560fb3b16f1046bc6ddc9c529a5218d93f164854ac5426a6718fe7d310b6"
+    },
+    {
+      "key": "expandable-production-assembly",
+      "source": "E:\\铸多\\业务端\\5.工厂+运输资料\\1.工厂图片视频\\内景\\焊接车间\\焊接+总.jpg",
+      "sourceSha256": "98d2dfe0d0b2bf798d88c13878b51f327380b804a43957a39327258bb93e9cc3",
+      "originalDimensions": [
+        4160,
+        2340
+      ],
+      "file": "expandable-production-assembly.webp",
+      "mime": "image/webp",
+      "caption": "Panel and floor assembly — general factory reference.",
+      "dimensions": [
+        1600,
+        900
+      ],
+      "bytes": 251534,
+      "sha256": "de5c0701a1448161180210c167f9dc7017c7f67b2217bc4c0909c8ac88f18e5b"
+    },
+    {
+      "key": "expandable-production-finishing",
+      "source": "E:\\铸多\\业务端\\5.工厂+运输资料\\1.工厂图片视频\\内景\\拼装车间\\拼装+地板.jpg",
+      "sourceSha256": "dc7cdddc89fb32f76d4135c5360b4065455275b2ac8a0edabc0c9cd425577c5c",
+      "originalDimensions": [
+        4160,
+        2340
+      ],
+      "file": "expandable-production-finishing.webp",
+      "mime": "image/webp",
+      "caption": "House assembly and finishing — general factory reference.",
+      "dimensions": [
+        1600,
+        900
+      ],
+      "bytes": 248886,
+      "sha256": "a1cabd265a272264d8d783c92cbd12928b7b9f001d9662981887a0767b03ae64"
+    },
+    {
+      "key": "expandable-related-porch",
+      "source": "E:\\铸多\\拓展房工程案例\\拓展房工程案例\\1 (16).png",
+      "sourceSha256": "8b372e5eafc7c433b9dd31415ce7c1a22a59df01e8c6943bd6b89c0bc43e1970",
+      "originalDimensions": [
+        1536,
+        784
+      ],
+      "file": "expandable-related-porch.webp",
+      "mime": "image/webp",
+      "caption": "Expandable house with a covered porch — related case archive reference; not a record of this delivery.",
+      "dimensions": [
+        1536,
+        784
+      ],
+      "bytes": 156314,
+      "sha256": "44bccc9634a7b1a7052da29b68b1c85af1b4185816bcd76c81205138c8e7fba3"
+    },
+    {
+      "key": "expandable-related-exterior",
+      "source": "E:\\铸多\\拓展房工程案例\\拓展房工程案例\\1 (18).png",
+      "sourceSha256": "f257d7463c81c82936ddee39a5f2809aeeadd43b9d2dec7daa78757eb31b0987",
+      "originalDimensions": [
+        1280,
+        960
+      ],
+      "file": "expandable-related-exterior.webp",
+      "mime": "image/webp",
+      "caption": "Expandable housing exterior — related case archive reference; configuration and location vary.",
+      "dimensions": [
+        1280,
+        960
+      ],
+      "bytes": 206610,
+      "sha256": "e0f150147c5d4015112854689ad6aa1df8fb28bc74f6788f9e86f9e08a5687dd"
+    },
+    {
+      "key": "expandable-container-loading",
+      "source": "E:\\铸多\\业务端\\5.工厂+运输资料\\2.运输图片视频\\运输\\0077094833c3f79e14b62cb6946c2b32.jpg",
+      "sourceSha256": "008886e9aed88fd0732b75371c17cdfe3c82c7f9f83191f6d06c14705b83d17c",
+      "originalDimensions": [
+        1279,
+        1706
+      ],
+      "file": "expandable-container-loading.webp",
+      "mime": "image/webp",
+      "caption": "Folded housing unit loaded into a freight container — general logistics reference.",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "bytes": 216324,
+      "sha256": "9139548e2a2861122ff29f1c918a812e410d81b15762ff5348d4a9493339d769"
+    },
+    {
+      "key": "expandable-container-transport",
+      "source": "E:\\铸多\\业务端\\5.工厂+运输资料\\2.运输图片视频\\运输\\535d60c85f526ab4c8256e99deb5ecc4.jpg",
+      "sourceSha256": "a51cc7546de568b1e25d522ab783fc3d4e7b2bd1fc57afd23ecb546ff6553e12",
+      "originalDimensions": [
+        1279,
+        1706
+      ],
+      "file": "expandable-container-transport.webp",
+      "mime": "image/webp",
+      "caption": "Container transport — general logistics reference.",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "bytes": 191726,
+      "sha256": "f171f83e66a078a7c5b8d5179ce80cb24a8ef31ad79ced02576ffa276978d74a"
+    },
+    {
+      "key": "expandable-40ft-video",
+      "source": "E:\\铸多\\业务端\\2.产品资料\\3.产品图片+资料\\40FT\\40FT（黑框+白色夹芯板）\\侧开门白色40尺双翼扩展房.mp4",
+      "sourceSha256": "6da4353b70b5be8e7591d6b9e07cb9b785f5cd9062d3a96f1fe649ef2834c65e",
+      "file": "expandable-40ft-product-walkthrough.mp4",
+      "mime": "video/mp4",
+      "caption": "40ft expandable house walkthrough — standard product reference, not footage of the Australia delivery.",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "durationSeconds": 74.1,
+      "bytes": 13735064,
+      "sha256": "5205ece7203e6156a81e765bfe4cd593aba9752365038035378bdf4867913fab"
+    }
+  ]
+}

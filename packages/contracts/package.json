@@ -1,0 +1,18 @@
+{
+  "name": "@modular/contracts",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "types": "./src/index.d.ts",
+  "exports": {
+    ".": "./src/index.js",
+    "./demo-content.json": "./demo-content.json",
+    "./company-products.json": "./company-products.json",
+    "./product-taxonomy.json": "./product-taxonomy.json",
+    "./company-products.ar.json": "./company-products.ar.json",
+    "./site-content.ar.json": "./site-content.ar.json",
+    "./company-products.fr.json": "./company-products.fr.json",
+    "./site-content.fr.json": "./site-content.fr.json",
+    "./managed-product-categories.json": "./managed-product-categories.json"
+  }
+}

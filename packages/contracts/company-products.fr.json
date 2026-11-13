@@ -1,0 +1,1101 @@
+{
+  "expandable-20ft": {
+    "title": "Maison conteneur extensible 20FT",
+    "category": "Maisons conteneurs extensibles",
+    "summary": "Maison extensible 20FT, de 5900 × 6320 × 2430 mm après déploiement, pour 2–4 personnes selon la brochure.",
+    "detail": "Dimensions déployées (L × l × H) : 5900 × 6320 × 2430 mm.\nAvant déploiement : 5900 × 2300 × 2430 mm.\nPoids indiqué : 4,5 tonnes.\nCapacité : 2–4 personnes.\nPuissance électrique indiquée : 12 kW.\nCette configuration suit la brochure dédiée aux maisons extensibles. D’autres brochures présentent des configurations différentes ; les spécifications finales doivent être convenues avant commande.",
+    "options": [
+      "Quatre variantes de plan",
+      "Styles de panneaux et couleurs d’ossature",
+      "Sols PVC / SPC, portes et fenêtres"
+    ]
+  },
+  "space-capsule-d7": {
+    "title": "Capsule habitable D7",
+    "category": "Capsules habitables",
+    "summary": "Une capsule allongée avec chambre, salon et balcon panoramique. Dimensions indiquées : 11500 × 3300 × 3300 mm.",
+    "detail": "Dimensions extérieures (L × l × H) : 11500 × 3300 × 3300 mm.\nCapacité indiquée : 2 personnes.\nPoids approximatif : 9 tonnes.\nOssature en acier, panneaux extérieurs en aluminium et isolation en polyuréthane de 100 mm. La brochure présente des vitrages isolants, un éclairage intérieur, des commandes intégrées et une climatisation gainable. Les spécifications finales sont confirmées avant commande.",
+    "options": [
+      "Ossature en acier et panneaux en aluminium",
+      "Isolation en polyuréthane de 100 mm",
+      "Commandes intégrées et climatisation gainable"
+    ]
+  },
+  "expandable-30ft": {
+    "title": "Maison conteneur extensible 30FT",
+    "category": "Maisons conteneurs extensibles",
+    "summary": "Habitat modulaire pliable de 9000 × 6300 × 2480 mm à l’extérieur, avec quatre agencements proposés dans la brochure.",
+    "detail": "Dimensions extérieures (L × l × H) : 9000 × 6300 × 2480 mm.\nDimensions intérieures : 8540 × 6140 × 2240 mm.\nDimensions repliées : 9000 × 2200 × 2480 mm.\nPoids approximatif : 4 250 kg.\nPréfabrication en usine avec parois latérales repliables pour le transport. La brochure propose quatre plans et plusieurs choix de panneaux, sols, portes et fenêtres. L’agencement final et les accessoires sont confirmés pour votre projet.",
+    "options": [
+      "Quatre variantes de plan",
+      "Styles de panneaux et couleurs d’ossature",
+      "Sols PVC / SPC, portes et fenêtres"
+    ]
+  },
+  "expandable-40ft": {
+    "title": "Maison conteneur extensible 40FT",
+    "category": "Maisons conteneurs extensibles",
+    "summary": "Maison extensible 40FT, de 11380 × 6320 × 2430 mm après déploiement, pour 4–6 personnes selon la brochure.",
+    "detail": "Dimensions déployées (L × l × H) : 11380 × 6320 × 2430 mm.\nAvant déploiement : 11380 × 2300 × 2430 mm.\nPoids indiqué : 7,9 tonnes.\nCapacité : 4–6 personnes.\nPuissance électrique indiquée : 12 kW.\nCette configuration suit la brochure dédiée aux maisons extensibles. D’autres brochures présentent des configurations différentes ; les spécifications finales doivent être convenues avant commande.",
+    "options": [
+      "Quatre variantes de plan",
+      "Styles de panneaux et couleurs d’ossature",
+      "Sols PVC / SPC, portes et fenêtres"
+    ]
+  },
+  "expandable-20ft-mini": {
+    "title": "Maison conteneur extensible 20FT MINI",
+    "category": "Maisons conteneurs extensibles",
+    "summary": "Habitat modulaire pliable de 5900 × 4800 × 2480 mm à l’extérieur, avec quatre agencements proposés dans la brochure.",
+    "detail": "Dimensions extérieures (L × l × H) : 5900 × 4800 × 2480 mm.\nDimensions intérieures : 5460 × 4640 × 2240 mm.\nDimensions repliées : 5900 × 700 × 2480 mm.\nPoids approximatif : 2 100 kg.\nPréfabrication en usine avec parois latérales repliables pour le transport. La brochure propose quatre plans et plusieurs choix de panneaux, sols, portes et fenêtres. L’agencement final et les accessoires sont confirmés pour votre projet.",
+    "options": [
+      "Quatre variantes de plan",
+      "Styles de panneaux et couleurs d’ossature",
+      "Sols PVC / SPC, portes et fenêtres"
+    ]
+  },
+  "apple-cabin-ac01": {
+    "title": "Cabine Apple AC01",
+    "category": "Cabines Apple",
+    "summary": "Cabine Apple AC01 avec vues extérieures et plans ; capacité indiquée : 1–2 personnes.",
+    "detail": "Dimensions indiquées : 5800 × 2150 × 2400 mm.\nCapacité indiquée : 1–2 personnes.\nL’agencement, les finitions, les ouvertures et les équipements sont définis pour chaque projet.",
+    "options": [
+      "Agencement et finitions intérieures",
+      "Panneaux extérieurs, ouvertures et configuration de la salle de bains"
+    ]
+  },
+  "apple-cabin-ac02": {
+    "title": "Cabine Apple AC02",
+    "category": "Cabines Apple",
+    "summary": "Cabine Apple AC02 avec vues extérieures et plans ; capacité indiquée : 1–2 personnes.",
+    "detail": "Dimensions indiquées : 5800 × 2150 × 2400 mm.\nCapacité indiquée : 1–2 personnes.\nL’agencement, les finitions, les ouvertures et les équipements sont définis pour chaque projet.",
+    "options": [
+      "Agencement et finitions intérieures",
+      "Panneaux extérieurs, ouvertures et configuration de la salle de bains"
+    ]
+  },
+  "apple-cabin-ac03": {
+    "title": "Cabine Apple AC03",
+    "category": "Cabines Apple",
+    "summary": "Cabine Apple AC03 avec vues extérieures et plans ; capacité indiquée : 1–2 personnes.",
+    "detail": "Dimensions indiquées : 5800 × 2150 × 2400 mm.\nCapacité indiquée : 1–2 personnes.\nLa brochure annonce 24,9 m² alors que les dimensions d’un module correspondent à une emprise plus petite ; confirmez l’assemblage des modules avant commande.",
+    "options": [
+      "Agencement et finitions intérieures",
+      "Panneaux extérieurs, ouvertures et configuration de la salle de bains"
+    ]
+  },
+  "apple-cabin-ac04": {
+    "title": "Cabine Apple AC04",
+    "category": "Cabines Apple",
+    "summary": "Cabine Apple AC04 avec vues extérieures et plans ; capacité indiquée : 2–4 personnes.",
+    "detail": "Premier niveau : 11500 × 2150 × 2400 mm. Second niveau : 5800 × 2150 × 2400 mm.\nCapacité indiquée : 2–4 personnes.\nL’agencement, les finitions, les ouvertures et les équipements sont définis pour chaque projet.",
+    "options": [
+      "Agencement et finitions intérieures",
+      "Panneaux extérieurs, ouvertures et configuration de la salle de bains"
+    ]
+  },
+  "apple-cabin-ac05": {
+    "title": "Cabine Apple AC05",
+    "category": "Cabines Apple",
+    "summary": "Cabine Apple AC05 avec vues extérieures et plans ; capacité indiquée : 2–4 personnes.",
+    "detail": "La brochure présente un agencement sur deux niveaux. Confirmez les dimensions assemblées pour votre terrain.\nCapacité indiquée : 2–4 personnes.\nL’agencement, les finitions, les ouvertures et les équipements sont définis pour chaque projet.",
+    "options": [
+      "Agencement et finitions intérieures",
+      "Panneaux extérieurs, ouvertures et configuration de la salle de bains"
+    ]
+  },
+  "apple-cabin-ac06": {
+    "title": "Cabine Apple AC06",
+    "category": "Cabines Apple",
+    "summary": "Cabine Apple AC06 avec vues extérieures et plans ; capacité indiquée : 2–4 personnes.",
+    "detail": "Dimensions indiquées : 11500 × 2150 × 2400 mm.\nCapacité indiquée : 2–4 personnes.\nL’agencement, les finitions, les ouvertures et les équipements sont définis pour chaque projet.",
+    "options": [
+      "Agencement et finitions intérieures",
+      "Panneaux extérieurs, ouvertures et configuration de la salle de bains"
+    ]
+  },
+  "apple-cabin-ae01": {
+    "title": "Cabine Apple AE01",
+    "category": "Cabines Apple",
+    "summary": "Cabine Apple AE01 avec vues extérieures et plans ; capacité indiquée : 1 personne.",
+    "detail": "Dimensions indiquées : 2250 × 2150 × 2400 mm.\nCapacité indiquée : 1 personne.\nL’agencement, les finitions, les ouvertures et les équipements sont définis pour chaque projet.",
+    "options": [
+      "Agencement et finitions intérieures",
+      "Panneaux extérieurs, ouvertures et configuration de la salle de bains"
+    ]
+  },
+  "folding-house-z": {
+    "title": "Maison pliable de type Z",
+    "category": "Maisons conteneurs pliables",
+    "summary": "Maison pliable de type Z ; dimensions indiquées : 2438 × 5850 × 2620 mm, pour 1–2 personnes.",
+    "detail": "Dimensions indiquées : 2438 × 5850 × 2620 mm.\nCapacité : 1–2 personnes.\nPuissance électrique indiquée : 12 kW.\nConfirmez les panneaux, les ouvertures, les sols, l’agencement intérieur et le transport pour votre projet.",
+    "options": []
+  },
+  "folding-house-y": {
+    "title": "Maison pliable de type Y",
+    "category": "Maisons conteneurs pliables",
+    "summary": "Maison pliable de type Y ; dimensions indiquées : 2438 × 5900 × 2340 mm, pour 1–2 personnes.",
+    "detail": "Dimensions indiquées : 2438 × 5900 × 2340 mm.\nCapacité : 1–2 personnes.\nPuissance électrique indiquée : 12 kW.\nConfirmez les panneaux, les ouvertures, les sols, l’agencement intérieur et le transport pour votre projet.",
+    "options": []
+  },
+  "detachable-house": {
+    "title": "Maison conteneur démontable",
+    "category": "Maisons conteneurs démontables",
+    "summary": "Maison conteneur démontable ; dimensions indiquées : 3000 × 6000 × 2896 mm, pour 1–2 personnes.",
+    "detail": "Dimensions indiquées : 3000 × 6000 × 2896 mm.\nCapacité : 1–2 personnes.\nPuissance électrique indiquée : 12 kW.\nConfirmez les panneaux, les ouvertures, les sols, l’agencement intérieur et le transport pour votre projet.",
+    "options": []
+  },
+  "flat-pack-house": {
+    "title": "Maison conteneur en kit",
+    "category": "Maisons conteneurs en kit",
+    "summary": "Maison conteneur en kit ; dimensions indiquées : 2438 × 5950 × 2896 mm, pour 1–2 personnes.",
+    "detail": "Dimensions indiquées : 2438 × 5950 × 2896 mm.\nCapacité : 1–2 personnes.\nPuissance électrique indiquée : 12 kW.\nConfirmez les panneaux, les ouvertures, les sols, l’agencement intérieur et le transport pour votre projet.",
+    "options": []
+  },
+  "solar-container-house": {
+    "title": "Maison conteneur solaire autonome",
+    "category": "Maisons conteneurs solaires",
+    "summary": "Une maison conteneur équipée d’un système solaire autonome en toiture, présentée dans notre brochure.",
+    "detail": "La brochure présente une maison conteneur avec panneaux solaires en toiture.\nConfirmez la puissance du système, le stockage, les normes électriques, les dimensions de la maison et les charges pour votre projet.",
+    "options": []
+  },
+  "substation-yb": {
+    "title": "Poste de transformation de type européen YB",
+    "category": "Postes de transformation compacts",
+    "summary": "Poste de transformation de type européen YB, présenté dans la documentation produits de notre entreprise.",
+    "detail": "Produit : Poste de transformation de type européen YB.\nConfirmez la puissance, le rapport de transformation, l’isolation, le refroidissement, les raccordements et les normes applicables dans la spécification convenue et sur la plaque signalétique.",
+    "options": []
+  },
+  "substation-zgs11": {
+    "title": "Poste de transformation de type américain ZGS11",
+    "category": "Postes de transformation compacts",
+    "summary": "Poste de transformation de type américain ZGS11, présenté dans la documentation produits de notre entreprise.",
+    "detail": "Produit : Poste de transformation de type américain ZGS11.\nConfirmez la puissance, le rapport de transformation, l’isolation, le refroidissement, les raccordements et les normes applicables dans la spécification convenue et sur la plaque signalétique.",
+    "options": []
+  },
+  "substation-combined": {
+    "title": "Poste de transformation combiné",
+    "category": "Postes de transformation compacts",
+    "summary": "Poste de transformation combiné, présenté dans la documentation produits de notre entreprise.",
+    "detail": "Produit : Poste de transformation combiné.\nConfirmez la puissance, le rapport de transformation, l’isolation, le refroidissement, les raccordements et les normes applicables dans la spécification convenue et sur la plaque signalétique.",
+    "options": []
+  },
+  "substation-prefabricated": {
+    "title": "Poste de transformation en cabine préfabriquée",
+    "category": "Postes de transformation compacts",
+    "summary": "Poste de transformation en cabine préfabriquée, présenté dans la documentation produits de notre entreprise.",
+    "detail": "Produit : Poste de transformation en cabine préfabriquée.\nConfirmez la puissance, le rapport de transformation, l’isolation, le refroidissement, les raccordements et les normes applicables dans la spécification convenue et sur la plaque signalétique.",
+    "options": []
+  },
+  "oil-immersed-transformer": {
+    "title": "Gamme de transformateurs immergés dans l’huile",
+    "category": "Transformateurs de distribution",
+    "summary": "Gamme de transformateurs immergés dans l’huile, présenté dans la documentation produits de notre entreprise.",
+    "detail": "Produit : Gamme de transformateurs immergés dans l’huile.\nConfirmez la puissance, le rapport de transformation, l’isolation, le refroidissement, les raccordements et les normes applicables dans la spécification convenue et sur la plaque signalétique.",
+    "options": []
+  },
+  "dry-type-transformer": {
+    "title": "Gamme de transformateurs secs",
+    "category": "Transformateurs de distribution",
+    "summary": "Gamme de transformateurs secs, présenté dans la documentation produits de notre entreprise.",
+    "detail": "Produit : Gamme de transformateurs secs.\nConfirmez la puissance, le rapport de transformation, l’isolation, le refroidissement, les raccordements et les normes applicables dans la spécification convenue et sur la plaque signalétique.",
+    "options": []
+  },
+  "scb10-10kv-1000kva": {
+    "title": "1000 kVA / 10 kV SC(B)10 Transformateur sec",
+    "category": "Transformateurs de distribution",
+    "summary": "1000 kVA / 10 kV SC(B)10 Transformateur sec, présenté dans la documentation produits de notre entreprise.",
+    "detail": "Produit : 1000 kVA / 10 kV SC(B)10 Transformateur sec.\nPuissance indiquée : 1000 kVA\nClasse de tension indiquée : 10 kV.\nConfirmez la puissance, le rapport de transformation, l’isolation, le refroidissement, les raccordements et les normes applicables dans la spécification convenue et sur la plaque signalétique.",
+    "options": [
+      "Puissance indiquée : 1000 kVA",
+      "Classe de tension indiquée : 10 kV"
+    ]
+  },
+  "scb10-10kv-100kva": {
+    "title": "100 kVA / 10 kV SC(B)10 Transformateur sec",
+    "category": "Transformateurs de distribution",
+    "summary": "100 kVA / 10 kV SC(B)10 Transformateur sec, présenté dans la documentation produits de notre entreprise.",
+    "detail": "Produit : 100 kVA / 10 kV SC(B)10 Transformateur sec.\nPuissance indiquée : 100 kVA\nClasse de tension indiquée : 10 kV.\nConfirmez la puissance, le rapport de transformation, l’isolation, le refroidissement, les raccordements et les normes applicables dans la spécification convenue et sur la plaque signalétique.",
+    "options": [
+      "Puissance indiquée : 100 kVA",
+      "Classe de tension indiquée : 10 kV"
+    ]
+  },
+  "scb10-10kv-250kva": {
+    "title": "250 kVA / 10 kV SC(B)10 Transformateur sec",
+    "category": "Transformateurs de distribution",
+    "summary": "250 kVA / 10 kV SC(B)10 Transformateur sec, présenté dans la documentation produits de notre entreprise.",
+    "detail": "Produit : 250 kVA / 10 kV SC(B)10 Transformateur sec.\nPuissance indiquée : 250 kVA\nClasse de tension indiquée : 10 kV.\nConfirmez la puissance, le rapport de transformation, l’isolation, le refroidissement, les raccordements et les normes applicables dans la spécification convenue et sur la plaque signalétique.",
+    "options": [
+      "Puissance indiquée : 250 kVA",
+      "Classe de tension indiquée : 10 kV"
+    ]
+  },
+  "scb10-10kv-30kva": {
+    "title": "30 kVA / 10 kV SC(B)10 Transformateur sec",
+    "category": "Transformateurs de distribution",
+    "summary": "30 kVA / 10 kV SC(B)10 Transformateur sec, présenté dans la documentation produits de notre entreprise.",
+    "detail": "Produit : 30 kVA / 10 kV SC(B)10 Transformateur sec.\nPuissance indiquée : 30 kVA\nClasse de tension indiquée : 10 kV.\nConfirmez la puissance, le rapport de transformation, l’isolation, le refroidissement, les raccordements et les normes applicables dans la spécification convenue et sur la plaque signalétique.",
+    "options": [
+      "Puissance indiquée : 30 kVA",
+      "Classe de tension indiquée : 10 kV"
+    ]
+  },
+  "scb10-10kv-500kva": {
+    "title": "500 kVA / 10 kV SC(B)10 Transformateur sec",
+    "category": "Transformateurs de distribution",
+    "summary": "500 kVA / 10 kV SC(B)10 Transformateur sec, présenté dans la documentation produits de notre entreprise.",
+    "detail": "Produit : 500 kVA / 10 kV SC(B)10 Transformateur sec.\nPuissance indiquée : 500 kVA\nClasse de tension indiquée : 10 kV.\nConfirmez la puissance, le rapport de transformation, l’isolation, le refroidissement, les raccordements et les normes applicables dans la spécification convenue et sur la plaque signalétique.",
+    "options": [
+      "Puissance indiquée : 500 kVA",
+      "Classe de tension indiquée : 10 kV"
+    ]
+  },
+  "scb10-20kv-1000kva": {
+    "title": "1000 kVA / 20 kV SC(B)10 Transformateur sec",
+    "category": "Transformateurs de distribution",
+    "summary": "1000 kVA / 20 kV SC(B)10 Transformateur sec, présenté dans la documentation produits de notre entreprise.",
+    "detail": "Produit : 1000 kVA / 20 kV SC(B)10 Transformateur sec.\nPuissance indiquée : 1000 kVA\nClasse de tension indiquée : 20 kV.\nConfirmez la puissance, le rapport de transformation, l’isolation, le refroidissement, les raccordements et les normes applicables dans la spécification convenue et sur la plaque signalétique.",
+    "options": [
+      "Puissance indiquée : 1000 kVA",
+      "Classe de tension indiquée : 20 kV"
+    ]
+  },
+  "scb10-20kv-100kva": {
+    "title": "100 kVA / 20 kV SC(B)10 Transformateur sec",
+    "category": "Transformateurs de distribution",
+    "summary": "100 kVA / 20 kV SC(B)10 Transformateur sec, présenté dans la documentation produits de notre entreprise.",
+    "detail": "Produit : 100 kVA / 20 kV SC(B)10 Transformateur sec.\nPuissance indiquée : 100 kVA\nClasse de tension indiquée : 20 kV.\nConfirmez la puissance, le rapport de transformation, l’isolation, le refroidissement, les raccordements et les normes applicables dans la spécification convenue et sur la plaque signalétique.",
+    "options": [
+      "Puissance indiquée : 100 kVA",
+      "Classe de tension indiquée : 20 kV"
+    ]
+  },
+  "scb10-20kv-250kva": {
+    "title": "250 kVA / 20 kV SC(B)10 Transformateur sec",
+    "category": "Transformateurs de distribution",
+    "summary": "250 kVA / 20 kV SC(B)10 Transformateur sec, présenté dans la documentation produits de notre entreprise.",
+    "detail": "Produit : 250 kVA / 20 kV SC(B)10 Transformateur sec.\nPuissance indiquée : 250 kVA\nClasse de tension indiquée : 20 kV.\nConfirmez la puissance, le rapport de transformation, l’isolation, le refroidissement, les raccordements et les normes applicables dans la spécification convenue et sur la plaque signalétique.",
+    "options": [
+      "Puissance indiquée : 250 kVA",
+      "Classe de tension indiquée : 20 kV"
+    ]
+  },
+  "scb10-20kv-30kva": {
+    "title": "30 kVA / 20 kV SC(B)10 Transformateur sec",
+    "category": "Transformateurs de distribution",
+    "summary": "30 kVA / 20 kV SC(B)10 Transformateur sec, présenté dans la documentation produits de notre entreprise.",
+    "detail": "Produit : 30 kVA / 20 kV SC(B)10 Transformateur sec.\nPuissance indiquée : 30 kVA\nClasse de tension indiquée : 20 kV.\nConfirmez la puissance, le rapport de transformation, l’isolation, le refroidissement, les raccordements et les normes applicables dans la spécification convenue et sur la plaque signalétique.",
+    "options": [
+      "Puissance indiquée : 30 kVA",
+      "Classe de tension indiquée : 20 kV"
+    ]
+  },
+  "scb10-20kv-500kva": {
+    "title": "500 kVA / 20 kV SC(B)10 Transformateur sec",
+    "category": "Transformateurs de distribution",
+    "summary": "500 kVA / 20 kV SC(B)10 Transformateur sec, présenté dans la documentation produits de notre entreprise.",
+    "detail": "Produit : 500 kVA / 20 kV SC(B)10 Transformateur sec.\nPuissance indiquée : 500 kVA\nClasse de tension indiquée : 20 kV.\nConfirmez la puissance, le rapport de transformation, l’isolation, le refroidissement, les raccordements et les normes applicables dans la spécification convenue et sur la plaque signalétique.",
+    "options": [
+      "Puissance indiquée : 500 kVA",
+      "Classe de tension indiquée : 20 kV"
+    ]
+  },
+  "scb10-35kv-1000kva": {
+    "title": "1000 kVA / 35 kV SC(B)10 Transformateur sec",
+    "category": "Transformateurs de distribution",
+    "summary": "1000 kVA / 35 kV SC(B)10 Transformateur sec, présenté dans la documentation produits de notre entreprise.",
+    "detail": "Produit : 1000 kVA / 35 kV SC(B)10 Transformateur sec.\nPuissance indiquée : 1000 kVA\nClasse de tension indiquée : 35 kV.\nConfirmez la puissance, le rapport de transformation, l’isolation, le refroidissement, les raccordements et les normes applicables dans la spécification convenue et sur la plaque signalétique.",
+    "options": [
+      "Puissance indiquée : 1000 kVA",
+      "Classe de tension indiquée : 35 kV"
+    ]
+  },
+  "scb10-35kv-100kva": {
+    "title": "100 kVA / 35 kV SC(B)10 Transformateur sec",
+    "category": "Transformateurs de distribution",
+    "summary": "100 kVA / 35 kV SC(B)10 Transformateur sec, présenté dans la documentation produits de notre entreprise.",
+    "detail": "Produit : 100 kVA / 35 kV SC(B)10 Transformateur sec.\nPuissance indiquée : 100 kVA\nClasse de tension indiquée : 35 kV.\nConfirmez la puissance, le rapport de transformation, l’isolation, le refroidissement, les raccordements et les normes applicables dans la spécification convenue et sur la plaque signalétique.",
+    "options": [
+      "Puissance indiquée : 100 kVA",
+      "Classe de tension indiquée : 35 kV"
+    ]
+  },
+  "scb10-35kv-250kva": {
+    "title": "250 kVA / 35 kV SC(B)10 Transformateur sec",
+    "category": "Transformateurs de distribution",
+    "summary": "250 kVA / 35 kV SC(B)10 Transformateur sec, présenté dans la documentation produits de notre entreprise.",
+    "detail": "Produit : 250 kVA / 35 kV SC(B)10 Transformateur sec.\nPuissance indiquée : 250 kVA\nClasse de tension indiquée : 35 kV.\nConfirmez la puissance, le rapport de transformation, l’isolation, le refroidissement, les raccordements et les normes applicables dans la spécification convenue et sur la plaque signalétique.",
+    "options": [
+      "Puissance indiquée : 250 kVA",
+      "Classe de tension indiquée : 35 kV"
+    ]
+  },
+  "scb10-35kv-30kva": {
+    "title": "30 kVA / 35 kV SC(B)10 Transformateur sec",
+    "category": "Transformateurs de distribution",
+    "summary": "30 kVA / 35 kV SC(B)10 Transformateur sec, présenté dans la documentation produits de notre entreprise.",
+    "detail": "Produit : 30 kVA / 35 kV SC(B)10 Transformateur sec.\nPuissance indiquée : 30 kVA\nClasse de tension indiquée : 35 kV.\nConfirmez la puissance, le rapport de transformation, l’isolation, le refroidissement, les raccordements et les normes applicables dans la spécification convenue et sur la plaque signalétique.",
+    "options": [
+      "Puissance indiquée : 30 kVA",
+      "Classe de tension indiquée : 35 kV"
+    ]
+  },
+  "scb10-35kv-500kva": {
+    "title": "500 kVA / 35 kV SC(B)10 Transformateur sec",
+    "category": "Transformateurs de distribution",
+    "summary": "500 kVA / 35 kV SC(B)10 Transformateur sec, présenté dans la documentation produits de notre entreprise.",
+    "detail": "Produit : 500 kVA / 35 kV SC(B)10 Transformateur sec.\nPuissance indiquée : 500 kVA\nClasse de tension indiquée : 35 kV.\nConfirmez la puissance, le rapport de transformation, l’isolation, le refroidissement, les raccordements et les normes applicables dans la spécification convenue et sur la plaque signalétique.",
+    "options": [
+      "Puissance indiquée : 500 kVA",
+      "Classe de tension indiquée : 35 kV"
+    ]
+  },
+  "scb13-10kv-100kva": {
+    "title": "100 kVA / 10 kV SC(B)13 Transformateur sec",
+    "category": "Transformateurs de distribution",
+    "summary": "100 kVA / 10 kV SC(B)13 Transformateur sec, présenté dans la documentation produits de notre entreprise.",
+    "detail": "Produit : 100 kVA / 10 kV SC(B)13 Transformateur sec.\nPuissance indiquée : 100 kVA\nClasse de tension indiquée : 10 kV.\nConfirmez la puissance, le rapport de transformation, l’isolation, le refroidissement, les raccordements et les normes applicables dans la spécification convenue et sur la plaque signalétique.",
+    "options": [
+      "Puissance indiquée : 100 kVA",
+      "Classe de tension indiquée : 10 kV"
+    ]
+  },
+  "scb13-10kv-1250kva": {
+    "title": "1250 kVA / 10 kV SC(B)13 Transformateur sec",
+    "category": "Transformateurs de distribution",
+    "summary": "1250 kVA / 10 kV SC(B)13 Transformateur sec, présenté dans la documentation produits de notre entreprise.",
+    "detail": "Produit : 1250 kVA / 10 kV SC(B)13 Transformateur sec.\nPuissance indiquée : 1250 kVA\nClasse de tension indiquée : 10 kV.\nConfirmez la puissance, le rapport de transformation, l’isolation, le refroidissement, les raccordements et les normes applicables dans la spécification convenue et sur la plaque signalétique.",
+    "options": [
+      "Puissance indiquée : 1250 kVA",
+      "Classe de tension indiquée : 10 kV"
+    ]
+  },
+  "scb13-10kv-2500kva": {
+    "title": "2500 kVA / 10 kV SC(B)13 Transformateur sec",
+    "category": "Transformateurs de distribution",
+    "summary": "2500 kVA / 10 kV SC(B)13 Transformateur sec, présenté dans la documentation produits de notre entreprise.",
+    "detail": "Produit : 2500 kVA / 10 kV SC(B)13 Transformateur sec.\nPuissance indiquée : 2500 kVA\nClasse de tension indiquée : 10 kV.\nConfirmez la puissance, le rapport de transformation, l’isolation, le refroidissement, les raccordements et les normes applicables dans la spécification convenue et sur la plaque signalétique.",
+    "options": [
+      "Puissance indiquée : 2500 kVA",
+      "Classe de tension indiquée : 10 kV"
+    ]
+  },
+  "scb13-10kv-30kva": {
+    "title": "30 kVA / 10 kV SC(B)13 Transformateur sec",
+    "category": "Transformateurs de distribution",
+    "summary": "30 kVA / 10 kV SC(B)13 Transformateur sec, présenté dans la documentation produits de notre entreprise.",
+    "detail": "Produit : 30 kVA / 10 kV SC(B)13 Transformateur sec.\nPuissance indiquée : 30 kVA\nClasse de tension indiquée : 10 kV.\nConfirmez la puissance, le rapport de transformation, l’isolation, le refroidissement, les raccordements et les normes applicables dans la spécification convenue et sur la plaque signalétique.",
+    "options": [
+      "Puissance indiquée : 30 kVA",
+      "Classe de tension indiquée : 10 kV"
+    ]
+  },
+  "scb13-10kv-500kva": {
+    "title": "500 kVA / 10 kV SC(B)13 Transformateur sec",
+    "category": "Transformateurs de distribution",
+    "summary": "500 kVA / 10 kV SC(B)13 Transformateur sec, présenté dans la documentation produits de notre entreprise.",
+    "detail": "Produit : 500 kVA / 10 kV SC(B)13 Transformateur sec.\nPuissance indiquée : 500 kVA\nClasse de tension indiquée : 10 kV.\nConfirmez la puissance, le rapport de transformation, l’isolation, le refroidissement, les raccordements et les normes applicables dans la spécification convenue et sur la plaque signalétique.",
+    "options": [
+      "Puissance indiquée : 500 kVA",
+      "Classe de tension indiquée : 10 kV"
+    ]
+  },
+  "scb13-20kv-100kva": {
+    "title": "100 kVA / 20 kV SC(B)13 Transformateur sec",
+    "category": "Transformateurs de distribution",
+    "summary": "100 kVA / 20 kV SC(B)13 Transformateur sec, présenté dans la documentation produits de notre entreprise.",
+    "detail": "Produit : 100 kVA / 20 kV SC(B)13 Transformateur sec.\nPuissance indiquée : 100 kVA\nClasse de tension indiquée : 20 kV.\nConfirmez la puissance, le rapport de transformation, l’isolation, le refroidissement, les raccordements et les normes applicables dans la spécification convenue et sur la plaque signalétique.",
+    "options": [
+      "Puissance indiquée : 100 kVA",
+      "Classe de tension indiquée : 20 kV"
+    ]
+  },
+  "scb13-20kv-1250kva": {
+    "title": "1250 kVA / 20 kV SC(B)13 Transformateur sec",
+    "category": "Transformateurs de distribution",
+    "summary": "1250 kVA / 20 kV SC(B)13 Transformateur sec, présenté dans la documentation produits de notre entreprise.",
+    "detail": "Produit : 1250 kVA / 20 kV SC(B)13 Transformateur sec.\nPuissance indiquée : 1250 kVA\nClasse de tension indiquée : 20 kV.\nConfirmez la puissance, le rapport de transformation, l’isolation, le refroidissement, les raccordements et les normes applicables dans la spécification convenue et sur la plaque signalétique.",
+    "options": [
+      "Puissance indiquée : 1250 kVA",
+      "Classe de tension indiquée : 20 kV"
+    ]
+  },
+  "scb13-20kv-2500kva": {
+    "title": "2500 kVA / 20 kV SC(B)13 Transformateur sec",
+    "category": "Transformateurs de distribution",
+    "summary": "2500 kVA / 20 kV SC(B)13 Transformateur sec, présenté dans la documentation produits de notre entreprise.",
+    "detail": "Produit : 2500 kVA / 20 kV SC(B)13 Transformateur sec.\nPuissance indiquée : 2500 kVA\nClasse de tension indiquée : 20 kV.\nConfirmez la puissance, le rapport de transformation, l’isolation, le refroidissement, les raccordements et les normes applicables dans la spécification convenue et sur la plaque signalétique.",
+    "options": [
+      "Puissance indiquée : 2500 kVA",
+      "Classe de tension indiquée : 20 kV"
+    ]
+  },
+  "scb13-20kv-30kva": {
+    "title": "30 kVA / 20 kV SC(B)13 Transformateur sec",
+    "category": "Transformateurs de distribution",
+    "summary": "30 kVA / 20 kV SC(B)13 Transformateur sec, présenté dans la documentation produits de notre entreprise.",
+    "detail": "Produit : 30 kVA / 20 kV SC(B)13 Transformateur sec.\nPuissance indiquée : 30 kVA\nClasse de tension indiquée : 20 kV.\nConfirmez la puissance, le rapport de transformation, l’isolation, le refroidissement, les raccordements et les normes applicables dans la spécification convenue et sur la plaque signalétique.",
+    "options": [
+      "Puissance indiquée : 30 kVA",
+      "Classe de tension indiquée : 20 kV"
+    ]
+  },
+  "scb13-20kv-500kva": {
+    "title": "500 kVA / 20 kV SC(B)13 Transformateur sec",
+    "category": "Transformateurs de distribution",
+    "summary": "500 kVA / 20 kV SC(B)13 Transformateur sec, présenté dans la documentation produits de notre entreprise.",
+    "detail": "Produit : 500 kVA / 20 kV SC(B)13 Transformateur sec.\nPuissance indiquée : 500 kVA\nClasse de tension indiquée : 20 kV.\nConfirmez la puissance, le rapport de transformation, l’isolation, le refroidissement, les raccordements et les normes applicables dans la spécification convenue et sur la plaque signalétique.",
+    "options": [
+      "Puissance indiquée : 500 kVA",
+      "Classe de tension indiquée : 20 kV"
+    ]
+  },
+  "scb13-35kv-100kva": {
+    "title": "100 kVA / 35 kV SC(B)13 Transformateur sec",
+    "category": "Transformateurs de distribution",
+    "summary": "100 kVA / 35 kV SC(B)13 Transformateur sec, présenté dans la documentation produits de notre entreprise.",
+    "detail": "Produit : 100 kVA / 35 kV SC(B)13 Transformateur sec.\nPuissance indiquée : 100 kVA\nClasse de tension indiquée : 35 kV.\nConfirmez la puissance, le rapport de transformation, l’isolation, le refroidissement, les raccordements et les normes applicables dans la spécification convenue et sur la plaque signalétique.",
+    "options": [
+      "Puissance indiquée : 100 kVA",
+      "Classe de tension indiquée : 35 kV"
+    ]
+  },
+  "scb13-35kv-1250kva": {
+    "title": "1250 kVA / 35 kV SC(B)13 Transformateur sec",
+    "category": "Transformateurs de distribution",
+    "summary": "1250 kVA / 35 kV SC(B)13 Transformateur sec, présenté dans la documentation produits de notre entreprise.",
+    "detail": "Produit : 1250 kVA / 35 kV SC(B)13 Transformateur sec.\nPuissance indiquée : 1250 kVA\nClasse de tension indiquée : 35 kV.\nConfirmez la puissance, le rapport de transformation, l’isolation, le refroidissement, les raccordements et les normes applicables dans la spécification convenue et sur la plaque signalétique.",
+    "options": [
+      "Puissance indiquée : 1250 kVA",
+      "Classe de tension indiquée : 35 kV"
+    ]
+  },
+  "scb13-35kv-2500kva": {
+    "title": "2500 kVA / 35 kV SC(B)13 Transformateur sec",
+    "category": "Transformateurs de distribution",
+    "summary": "2500 kVA / 35 kV SC(B)13 Transformateur sec, présenté dans la documentation produits de notre entreprise.",
+    "detail": "Produit : 2500 kVA / 35 kV SC(B)13 Transformateur sec.\nPuissance indiquée : 2500 kVA\nClasse de tension indiquée : 35 kV.\nConfirmez la puissance, le rapport de transformation, l’isolation, le refroidissement, les raccordements et les normes applicables dans la spécification convenue et sur la plaque signalétique.",
+    "options": [
+      "Puissance indiquée : 2500 kVA",
+      "Classe de tension indiquée : 35 kV"
+    ]
+  },
+  "scb13-35kv-30kva": {
+    "title": "30 kVA / 35 kV SC(B)13 Transformateur sec",
+    "category": "Transformateurs de distribution",
+    "summary": "30 kVA / 35 kV SC(B)13 Transformateur sec, présenté dans la documentation produits de notre entreprise.",
+    "detail": "Produit : 30 kVA / 35 kV SC(B)13 Transformateur sec.\nPuissance indiquée : 30 kVA\nClasse de tension indiquée : 35 kV.\nConfirmez la puissance, le rapport de transformation, l’isolation, le refroidissement, les raccordements et les normes applicables dans la spécification convenue et sur la plaque signalétique.",
+    "options": [
+      "Puissance indiquée : 30 kVA",
+      "Classe de tension indiquée : 35 kV"
+    ]
+  },
+  "scb13-35kv-500kva": {
+    "title": "500 kVA / 35 kV SC(B)13 Transformateur sec",
+    "category": "Transformateurs de distribution",
+    "summary": "500 kVA / 35 kV SC(B)13 Transformateur sec, présenté dans la documentation produits de notre entreprise.",
+    "detail": "Produit : 500 kVA / 35 kV SC(B)13 Transformateur sec.\nPuissance indiquée : 500 kVA\nClasse de tension indiquée : 35 kV.\nConfirmez la puissance, le rapport de transformation, l’isolation, le refroidissement, les raccordements et les normes applicables dans la spécification convenue et sur la plaque signalétique.",
+    "options": [
+      "Puissance indiquée : 500 kVA",
+      "Classe de tension indiquée : 35 kV"
+    ]
+  },
+  "scb14-10kv-1000kva": {
+    "title": "1000 kVA / 10 kV SC(B)14 Transformateur sec",
+    "category": "Transformateurs de distribution",
+    "summary": "1000 kVA / 10 kV SC(B)14 Transformateur sec, présenté dans la documentation produits de notre entreprise.",
+    "detail": "Produit : 1000 kVA / 10 kV SC(B)14 Transformateur sec.\nPuissance indiquée : 1000 kVA\nClasse de tension indiquée : 10 kV.\nConfirmez la puissance, le rapport de transformation, l’isolation, le refroidissement, les raccordements et les normes applicables dans la spécification convenue et sur la plaque signalétique.",
+    "options": [
+      "Puissance indiquée : 1000 kVA",
+      "Classe de tension indiquée : 10 kV"
+    ]
+  },
+  "scb14-10kv-1250kva": {
+    "title": "1250 kVA / 10 kV SC(B)14 Transformateur sec",
+    "category": "Transformateurs de distribution",
+    "summary": "1250 kVA / 10 kV SC(B)14 Transformateur sec, présenté dans la documentation produits de notre entreprise.",
+    "detail": "Produit : 1250 kVA / 10 kV SC(B)14 Transformateur sec.\nPuissance indiquée : 1250 kVA\nClasse de tension indiquée : 10 kV.\nConfirmez la puissance, le rapport de transformation, l’isolation, le refroidissement, les raccordements et les normes applicables dans la spécification convenue et sur la plaque signalétique.",
+    "options": [
+      "Puissance indiquée : 1250 kVA",
+      "Classe de tension indiquée : 10 kV"
+    ]
+  },
+  "scb14-10kv-2500kva": {
+    "title": "2500 kVA / 10 kV SC(B)14 Transformateur sec",
+    "category": "Transformateurs de distribution",
+    "summary": "2500 kVA / 10 kV SC(B)14 Transformateur sec, présenté dans la documentation produits de notre entreprise.",
+    "detail": "Produit : 2500 kVA / 10 kV SC(B)14 Transformateur sec.\nPuissance indiquée : 2500 kVA\nClasse de tension indiquée : 10 kV.\nConfirmez la puissance, le rapport de transformation, l’isolation, le refroidissement, les raccordements et les normes applicables dans la spécification convenue et sur la plaque signalétique.",
+    "options": [
+      "Puissance indiquée : 2500 kVA",
+      "Classe de tension indiquée : 10 kV"
+    ]
+  },
+  "scb14-10kv-30kva": {
+    "title": "30 kVA / 10 kV SC(B)14 Transformateur sec",
+    "category": "Transformateurs de distribution",
+    "summary": "30 kVA / 10 kV SC(B)14 Transformateur sec, présenté dans la documentation produits de notre entreprise.",
+    "detail": "Produit : 30 kVA / 10 kV SC(B)14 Transformateur sec.\nPuissance indiquée : 30 kVA\nClasse de tension indiquée : 10 kV.\nConfirmez la puissance, le rapport de transformation, l’isolation, le refroidissement, les raccordements et les normes applicables dans la spécification convenue et sur la plaque signalétique.",
+    "options": [
+      "Puissance indiquée : 30 kVA",
+      "Classe de tension indiquée : 10 kV"
+    ]
+  },
+  "scb14-10kv-500kva": {
+    "title": "500 kVA / 10 kV SC(B)14 Transformateur sec",
+    "category": "Transformateurs de distribution",
+    "summary": "500 kVA / 10 kV SC(B)14 Transformateur sec, présenté dans la documentation produits de notre entreprise.",
+    "detail": "Produit : 500 kVA / 10 kV SC(B)14 Transformateur sec.\nPuissance indiquée : 500 kVA\nClasse de tension indiquée : 10 kV.\nConfirmez la puissance, le rapport de transformation, l’isolation, le refroidissement, les raccordements et les normes applicables dans la spécification convenue et sur la plaque signalétique.",
+    "options": [
+      "Puissance indiquée : 500 kVA",
+      "Classe de tension indiquée : 10 kV"
+    ]
+  },
+  "scb14-20kv-1000kva": {
+    "title": "1000 kVA / 20 kV SC(B)14 Transformateur sec",
+    "category": "Transformateurs de distribution",
+    "summary": "1000 kVA / 20 kV SC(B)14 Transformateur sec, présenté dans la documentation produits de notre entreprise.",
+    "detail": "Produit : 1000 kVA / 20 kV SC(B)14 Transformateur sec.\nPuissance indiquée : 1000 kVA\nClasse de tension indiquée : 20 kV.\nConfirmez la puissance, le rapport de transformation, l’isolation, le refroidissement, les raccordements et les normes applicables dans la spécification convenue et sur la plaque signalétique.",
+    "options": [
+      "Puissance indiquée : 1000 kVA",
+      "Classe de tension indiquée : 20 kV"
+    ]
+  },
+  "scb14-20kv-1250kva": {
+    "title": "1250 kVA / 20 kV SC(B)14 Transformateur sec",
+    "category": "Transformateurs de distribution",
+    "summary": "1250 kVA / 20 kV SC(B)14 Transformateur sec, présenté dans la documentation produits de notre entreprise.",
+    "detail": "Produit : 1250 kVA / 20 kV SC(B)14 Transformateur sec.\nPuissance indiquée : 1250 kVA\nClasse de tension indiquée : 20 kV.\nConfirmez la puissance, le rapport de transformation, l’isolation, le refroidissement, les raccordements et les normes applicables dans la spécification convenue et sur la plaque signalétique.",
+    "options": [
+      "Puissance indiquée : 1250 kVA",
+      "Classe de tension indiquée : 20 kV"
+    ]
+  },
+  "scb14-20kv-2500kva": {
+    "title": "2500 kVA / 20 kV SC(B)14 Transformateur sec",
+    "category": "Transformateurs de distribution",
+    "summary": "2500 kVA / 20 kV SC(B)14 Transformateur sec, présenté dans la documentation produits de notre entreprise.",
+    "detail": "Produit : 2500 kVA / 20 kV SC(B)14 Transformateur sec.\nPuissance indiquée : 2500 kVA\nClasse de tension indiquée : 20 kV.\nConfirmez la puissance, le rapport de transformation, l’isolation, le refroidissement, les raccordements et les normes applicables dans la spécification convenue et sur la plaque signalétique.",
+    "options": [
+      "Puissance indiquée : 2500 kVA",
+      "Classe de tension indiquée : 20 kV"
+    ]
+  },
+  "scb14-20kv-30kva": {
+    "title": "30 kVA / 20 kV SC(B)14 Transformateur sec",
+    "category": "Transformateurs de distribution",
+    "summary": "30 kVA / 20 kV SC(B)14 Transformateur sec, présenté dans la documentation produits de notre entreprise.",
+    "detail": "Produit : 30 kVA / 20 kV SC(B)14 Transformateur sec.\nPuissance indiquée : 30 kVA\nClasse de tension indiquée : 20 kV.\nConfirmez la puissance, le rapport de transformation, l’isolation, le refroidissement, les raccordements et les normes applicables dans la spécification convenue et sur la plaque signalétique.",
+    "options": [
+      "Puissance indiquée : 30 kVA",
+      "Classe de tension indiquée : 20 kV"
+    ]
+  },
+  "scb14-20kv-500kva": {
+    "title": "500 kVA / 20 kV SC(B)14 Transformateur sec",
+    "category": "Transformateurs de distribution",
+    "summary": "500 kVA / 20 kV SC(B)14 Transformateur sec, présenté dans la documentation produits de notre entreprise.",
+    "detail": "Produit : 500 kVA / 20 kV SC(B)14 Transformateur sec.\nPuissance indiquée : 500 kVA\nClasse de tension indiquée : 20 kV.\nConfirmez la puissance, le rapport de transformation, l’isolation, le refroidissement, les raccordements et les normes applicables dans la spécification convenue et sur la plaque signalétique.",
+    "options": [
+      "Puissance indiquée : 500 kVA",
+      "Classe de tension indiquée : 20 kV"
+    ]
+  },
+  "scb14-35kv-1000kva": {
+    "title": "1000 kVA / 35 kV SC(B)14 Transformateur sec",
+    "category": "Transformateurs de distribution",
+    "summary": "1000 kVA / 35 kV SC(B)14 Transformateur sec, présenté dans la documentation produits de notre entreprise.",
+    "detail": "Produit : 1000 kVA / 35 kV SC(B)14 Transformateur sec.\nPuissance indiquée : 1000 kVA\nClasse de tension indiquée : 35 kV.\nConfirmez la puissance, le rapport de transformation, l’isolation, le refroidissement, les raccordements et les normes applicables dans la spécification convenue et sur la plaque signalétique.",
+    "options": [
+      "Puissance indiquée : 1000 kVA",
+      "Classe de tension indiquée : 35 kV"
+    ]
+  },
+  "scb14-35kv-1250kva": {
+    "title": "1250 kVA / 35 kV SC(B)14 Transformateur sec",
+    "category": "Transformateurs de distribution",
+    "summary": "1250 kVA / 35 kV SC(B)14 Transformateur sec, présenté dans la documentation produits de notre entreprise.",
+    "detail": "Produit : 1250 kVA / 35 kV SC(B)14 Transformateur sec.\nPuissance indiquée : 1250 kVA\nClasse de tension indiquée : 35 kV.\nConfirmez la puissance, le rapport de transformation, l’isolation, le refroidissement, les raccordements et les normes applicables dans la spécification convenue et sur la plaque signalétique.",
+    "options": [
+      "Puissance indiquée : 1250 kVA",
+      "Classe de tension indiquée : 35 kV"
+    ]
+  },
+  "scb14-35kv-2500kva": {
+    "title": "2500 kVA / 35 kV SC(B)14 Transformateur sec",
+    "category": "Transformateurs de distribution",
+    "summary": "2500 kVA / 35 kV SC(B)14 Transformateur sec, présenté dans la documentation produits de notre entreprise.",
+    "detail": "Produit : 2500 kVA / 35 kV SC(B)14 Transformateur sec.\nPuissance indiquée : 2500 kVA\nClasse de tension indiquée : 35 kV.\nConfirmez la puissance, le rapport de transformation, l’isolation, le refroidissement, les raccordements et les normes applicables dans la spécification convenue et sur la plaque signalétique.",
+    "options": [
+      "Puissance indiquée : 2500 kVA",
+      "Classe de tension indiquée : 35 kV"
+    ]
+  },
+  "scb14-35kv-30kva": {
+    "title": "30 kVA / 35 kV SC(B)14 Transformateur sec",
+    "category": "Transformateurs de distribution",
+    "summary": "30 kVA / 35 kV SC(B)14 Transformateur sec, présenté dans la documentation produits de notre entreprise.",
+    "detail": "Produit : 30 kVA / 35 kV SC(B)14 Transformateur sec.\nPuissance indiquée : 30 kVA\nClasse de tension indiquée : 35 kV.\nConfirmez la puissance, le rapport de transformation, l’isolation, le refroidissement, les raccordements et les normes applicables dans la spécification convenue et sur la plaque signalétique.",
+    "options": [
+      "Puissance indiquée : 30 kVA",
+      "Classe de tension indiquée : 35 kV"
+    ]
+  },
+  "scb14-35kv-500kva": {
+    "title": "500 kVA / 35 kV SC(B)14 Transformateur sec",
+    "category": "Transformateurs de distribution",
+    "summary": "500 kVA / 35 kV SC(B)14 Transformateur sec, présenté dans la documentation produits de notre entreprise.",
+    "detail": "Produit : 500 kVA / 35 kV SC(B)14 Transformateur sec.\nPuissance indiquée : 500 kVA\nClasse de tension indiquée : 35 kV.\nConfirmez la puissance, le rapport de transformation, l’isolation, le refroidissement, les raccordements et les normes applicables dans la spécification convenue et sur la plaque signalétique.",
+    "options": [
+      "Puissance indiquée : 500 kVA",
+      "Classe de tension indiquée : 35 kV"
+    ]
+  },
+  "oil-10kv-1000kva": {
+    "title": "1000 kVA / 10 kV Transformateur immergé dans l’huile",
+    "category": "Transformateurs de distribution",
+    "summary": "1000 kVA / 10 kV Transformateur immergé dans l’huile, présenté dans la documentation produits de notre entreprise.",
+    "detail": "Produit : 1000 kVA / 10 kV Transformateur immergé dans l’huile.\nPuissance indiquée : 1000 kVA\nClasse de tension indiquée : 10 kV.\nConfirmez la puissance, le rapport de transformation, l’isolation, le refroidissement, les raccordements et les normes applicables dans la spécification convenue et sur la plaque signalétique.",
+    "options": [
+      "Puissance indiquée : 1000 kVA",
+      "Classe de tension indiquée : 10 kV"
+    ]
+  },
+  "oil-10kv-125kva": {
+    "title": "125 kVA / 10 kV Transformateur immergé dans l’huile",
+    "category": "Transformateurs de distribution",
+    "summary": "125 kVA / 10 kV Transformateur immergé dans l’huile, présenté dans la documentation produits de notre entreprise.",
+    "detail": "Produit : 125 kVA / 10 kV Transformateur immergé dans l’huile.\nPuissance indiquée : 125 kVA\nClasse de tension indiquée : 10 kV.\nConfirmez la puissance, le rapport de transformation, l’isolation, le refroidissement, les raccordements et les normes applicables dans la spécification convenue et sur la plaque signalétique.",
+    "options": [
+      "Puissance indiquée : 125 kVA",
+      "Classe de tension indiquée : 10 kV"
+    ]
+  },
+  "oil-10kv-2000kva": {
+    "title": "2000 kVA / 10 kV Transformateur immergé dans l’huile",
+    "category": "Transformateurs de distribution",
+    "summary": "2000 kVA / 10 kV Transformateur immergé dans l’huile, présenté dans la documentation produits de notre entreprise.",
+    "detail": "Produit : 2000 kVA / 10 kV Transformateur immergé dans l’huile.\nPuissance indiquée : 2000 kVA\nClasse de tension indiquée : 10 kV.\nConfirmez la puissance, le rapport de transformation, l’isolation, le refroidissement, les raccordements et les normes applicables dans la spécification convenue et sur la plaque signalétique.",
+    "options": [
+      "Puissance indiquée : 2000 kVA",
+      "Classe de tension indiquée : 10 kV"
+    ]
+  },
+  "oil-10kv-200kva": {
+    "title": "200 kVA / 10 kV Transformateur immergé dans l’huile",
+    "category": "Transformateurs de distribution",
+    "summary": "200 kVA / 10 kV Transformateur immergé dans l’huile, présenté dans la documentation produits de notre entreprise.",
+    "detail": "Produit : 200 kVA / 10 kV Transformateur immergé dans l’huile.\nPuissance indiquée : 200 kVA\nClasse de tension indiquée : 10 kV.\nConfirmez la puissance, le rapport de transformation, l’isolation, le refroidissement, les raccordements et les normes applicables dans la spécification convenue et sur la plaque signalétique.",
+    "options": [
+      "Puissance indiquée : 200 kVA",
+      "Classe de tension indiquée : 10 kV"
+    ]
+  },
+  "oil-10kv-2500kva": {
+    "title": "2500 kVA / 10 kV Transformateur immergé dans l’huile",
+    "category": "Transformateurs de distribution",
+    "summary": "2500 kVA / 10 kV Transformateur immergé dans l’huile, présenté dans la documentation produits de notre entreprise.",
+    "detail": "Produit : 2500 kVA / 10 kV Transformateur immergé dans l’huile.\nPuissance indiquée : 2500 kVA\nClasse de tension indiquée : 10 kV.\nConfirmez la puissance, le rapport de transformation, l’isolation, le refroidissement, les raccordements et les normes applicables dans la spécification convenue et sur la plaque signalétique.",
+    "options": [
+      "Puissance indiquée : 2500 kVA",
+      "Classe de tension indiquée : 10 kV"
+    ]
+  },
+  "oil-10kv-250kva": {
+    "title": "250 kVA / 10 kV Transformateur immergé dans l’huile",
+    "category": "Transformateurs de distribution",
+    "summary": "250 kVA / 10 kV Transformateur immergé dans l’huile, présenté dans la documentation produits de notre entreprise.",
+    "detail": "Produit : 250 kVA / 10 kV Transformateur immergé dans l’huile.\nPuissance indiquée : 250 kVA\nClasse de tension indiquée : 10 kV.\nConfirmez la puissance, le rapport de transformation, l’isolation, le refroidissement, les raccordements et les normes applicables dans la spécification convenue et sur la plaque signalétique.",
+    "options": [
+      "Puissance indiquée : 250 kVA",
+      "Classe de tension indiquée : 10 kV"
+    ]
+  },
+  "oil-10kv-30kva": {
+    "title": "30 kVA / 10 kV Transformateur immergé dans l’huile",
+    "category": "Transformateurs de distribution",
+    "summary": "30 kVA / 10 kV Transformateur immergé dans l’huile, présenté dans la documentation produits de notre entreprise.",
+    "detail": "Produit : 30 kVA / 10 kV Transformateur immergé dans l’huile.\nPuissance indiquée : 30 kVA\nClasse de tension indiquée : 10 kV.\nConfirmez la puissance, le rapport de transformation, l’isolation, le refroidissement, les raccordements et les normes applicables dans la spécification convenue et sur la plaque signalétique.",
+    "options": [
+      "Puissance indiquée : 30 kVA",
+      "Classe de tension indiquée : 10 kV"
+    ]
+  },
+  "oil-10kv-315kva": {
+    "title": "315 kVA / 10 kV Transformateur immergé dans l’huile",
+    "category": "Transformateurs de distribution",
+    "summary": "315 kVA / 10 kV Transformateur immergé dans l’huile, présenté dans la documentation produits de notre entreprise.",
+    "detail": "Produit : 315 kVA / 10 kV Transformateur immergé dans l’huile.\nPuissance indiquée : 315 kVA\nClasse de tension indiquée : 10 kV.\nConfirmez la puissance, le rapport de transformation, l’isolation, le refroidissement, les raccordements et les normes applicables dans la spécification convenue et sur la plaque signalétique.",
+    "options": [
+      "Puissance indiquée : 315 kVA",
+      "Classe de tension indiquée : 10 kV"
+    ]
+  },
+  "oil-10kv-400kva": {
+    "title": "400 kVA / 10 kV Transformateur immergé dans l’huile",
+    "category": "Transformateurs de distribution",
+    "summary": "400 kVA / 10 kV Transformateur immergé dans l’huile, présenté dans la documentation produits de notre entreprise.",
+    "detail": "Produit : 400 kVA / 10 kV Transformateur immergé dans l’huile.\nPuissance indiquée : 400 kVA\nClasse de tension indiquée : 10 kV.\nConfirmez la puissance, le rapport de transformation, l’isolation, le refroidissement, les raccordements et les normes applicables dans la spécification convenue et sur la plaque signalétique.",
+    "options": [
+      "Puissance indiquée : 400 kVA",
+      "Classe de tension indiquée : 10 kV"
+    ]
+  },
+  "oil-10kv-500kva": {
+    "title": "500 kVA / 10 kV Transformateur immergé dans l’huile",
+    "category": "Transformateurs de distribution",
+    "summary": "500 kVA / 10 kV Transformateur immergé dans l’huile, présenté dans la documentation produits de notre entreprise.",
+    "detail": "Produit : 500 kVA / 10 kV Transformateur immergé dans l’huile.\nPuissance indiquée : 500 kVA\nClasse de tension indiquée : 10 kV.\nConfirmez la puissance, le rapport de transformation, l’isolation, le refroidissement, les raccordements et les normes applicables dans la spécification convenue et sur la plaque signalétique.",
+    "options": [
+      "Puissance indiquée : 500 kVA",
+      "Classe de tension indiquée : 10 kV"
+    ]
+  },
+  "oil-10kv-800kva": {
+    "title": "800 kVA / 10 kV Transformateur immergé dans l’huile",
+    "category": "Transformateurs de distribution",
+    "summary": "800 kVA / 10 kV Transformateur immergé dans l’huile, présenté dans la documentation produits de notre entreprise.",
+    "detail": "Produit : 800 kVA / 10 kV Transformateur immergé dans l’huile.\nPuissance indiquée : 800 kVA\nClasse de tension indiquée : 10 kV.\nConfirmez la puissance, le rapport de transformation, l’isolation, le refroidissement, les raccordements et les normes applicables dans la spécification convenue et sur la plaque signalétique.",
+    "options": [
+      "Puissance indiquée : 800 kVA",
+      "Classe de tension indiquée : 10 kV"
+    ]
+  },
+  "oil-10kv-80kva": {
+    "title": "80 kVA / 10 kV Transformateur immergé dans l’huile",
+    "category": "Transformateurs de distribution",
+    "summary": "80 kVA / 10 kV Transformateur immergé dans l’huile, présenté dans la documentation produits de notre entreprise.",
+    "detail": "Produit : 80 kVA / 10 kV Transformateur immergé dans l’huile.\nPuissance indiquée : 80 kVA\nClasse de tension indiquée : 10 kV.\nConfirmez la puissance, le rapport de transformation, l’isolation, le refroidissement, les raccordements et les normes applicables dans la spécification convenue et sur la plaque signalétique.",
+    "options": [
+      "Puissance indiquée : 80 kVA",
+      "Classe de tension indiquée : 10 kV"
+    ]
+  },
+  "oil-20kv-1000kva": {
+    "title": "1000 kVA / 20 kV Transformateur immergé dans l’huile",
+    "category": "Transformateurs de distribution",
+    "summary": "1000 kVA / 20 kV Transformateur immergé dans l’huile, présenté dans la documentation produits de notre entreprise.",
+    "detail": "Produit : 1000 kVA / 20 kV Transformateur immergé dans l’huile.\nPuissance indiquée : 1000 kVA\nClasse de tension indiquée : 20 kV.\nConfirmez la puissance, le rapport de transformation, l’isolation, le refroidissement, les raccordements et les normes applicables dans la spécification convenue et sur la plaque signalétique.",
+    "options": [
+      "Puissance indiquée : 1000 kVA",
+      "Classe de tension indiquée : 20 kV"
+    ]
+  },
+  "oil-20kv-125kva": {
+    "title": "125 kVA / 20 kV Transformateur immergé dans l’huile",
+    "category": "Transformateurs de distribution",
+    "summary": "125 kVA / 20 kV Transformateur immergé dans l’huile, présenté dans la documentation produits de notre entreprise.",
+    "detail": "Produit : 125 kVA / 20 kV Transformateur immergé dans l’huile.\nPuissance indiquée : 125 kVA\nClasse de tension indiquée : 20 kV.\nConfirmez la puissance, le rapport de transformation, l’isolation, le refroidissement, les raccordements et les normes applicables dans la spécification convenue et sur la plaque signalétique.",
+    "options": [
+      "Puissance indiquée : 125 kVA",
+      "Classe de tension indiquée : 20 kV"
+    ]
+  },
+  "oil-20kv-2000kva": {
+    "title": "2000 kVA / 20 kV Transformateur immergé dans l’huile",
+    "category": "Transformateurs de distribution",
+    "summary": "2000 kVA / 20 kV Transformateur immergé dans l’huile, présenté dans la documentation produits de notre entreprise.",
+    "detail": "Produit : 2000 kVA / 20 kV Transformateur immergé dans l’huile.\nPuissance indiquée : 2000 kVA\nClasse de tension indiquée : 20 kV.\nConfirmez la puissance, le rapport de transformation, l’isolation, le refroidissement, les raccordements et les normes applicables dans la spécification convenue et sur la plaque signalétique.",
+    "options": [
+      "Puissance indiquée : 2000 kVA",
+      "Classe de tension indiquée : 20 kV"
+    ]
+  },
+  "oil-20kv-200kva": {
+    "title": "200 kVA / 20 kV Transformateur immergé dans l’huile",
+    "category": "Transformateurs de distribution",
+    "summary": "200 kVA / 20 kV Transformateur immergé dans l’huile, présenté dans la documentation produits de notre entreprise.",
+    "detail": "Produit : 200 kVA / 20 kV Transformateur immergé dans l’huile.\nPuissance indiquée : 200 kVA\nClasse de tension indiquée : 20 kV.\nConfirmez la puissance, le rapport de transformation, l’isolation, le refroidissement, les raccordements et les normes applicables dans la spécification convenue et sur la plaque signalétique.",
+    "options": [
+      "Puissance indiquée : 200 kVA",
+      "Classe de tension indiquée : 20 kV"
+    ]
+  },
+  "oil-20kv-2500kva": {
+    "title": "2500 kVA / 20 kV Transformateur immergé dans l’huile",
+    "category": "Transformateurs de distribution",
+    "summary": "2500 kVA / 20 kV Transformateur immergé dans l’huile, présenté dans la documentation produits de notre entreprise.",
+    "detail": "Produit : 2500 kVA / 20 kV Transformateur immergé dans l’huile.\nPuissance indiquée : 2500 kVA\nClasse de tension indiquée : 20 kV.\nConfirmez la puissance, le rapport de transformation, l’isolation, le refroidissement, les raccordements et les normes applicables dans la spécification convenue et sur la plaque signalétique.",
+    "options": [
+      "Puissance indiquée : 2500 kVA",
+      "Classe de tension indiquée : 20 kV"
+    ]
+  },
+  "oil-20kv-250kva": {
+    "title": "250 kVA / 20 kV Transformateur immergé dans l’huile",
+    "category": "Transformateurs de distribution",
+    "summary": "250 kVA / 20 kV Transformateur immergé dans l’huile, présenté dans la documentation produits de notre entreprise.",
+    "detail": "Produit : 250 kVA / 20 kV Transformateur immergé dans l’huile.\nPuissance indiquée : 250 kVA\nClasse de tension indiquée : 20 kV.\nConfirmez la puissance, le rapport de transformation, l’isolation, le refroidissement, les raccordements et les normes applicables dans la spécification convenue et sur la plaque signalétique.",
+    "options": [
+      "Puissance indiquée : 250 kVA",
+      "Classe de tension indiquée : 20 kV"
+    ]
+  },
+  "oil-20kv-30kva": {
+    "title": "30 kVA / 20 kV Transformateur immergé dans l’huile",
+    "category": "Transformateurs de distribution",
+    "summary": "30 kVA / 20 kV Transformateur immergé dans l’huile, présenté dans la documentation produits de notre entreprise.",
+    "detail": "Produit : 30 kVA / 20 kV Transformateur immergé dans l’huile.\nPuissance indiquée : 30 kVA\nClasse de tension indiquée : 20 kV.\nConfirmez la puissance, le rapport de transformation, l’isolation, le refroidissement, les raccordements et les normes applicables dans la spécification convenue et sur la plaque signalétique.",
+    "options": [
+      "Puissance indiquée : 30 kVA",
+      "Classe de tension indiquée : 20 kV"
+    ]
+  },
+  "oil-20kv-315kva": {
+    "title": "315 kVA / 20 kV Transformateur immergé dans l’huile",
+    "category": "Transformateurs de distribution",
+    "summary": "315 kVA / 20 kV Transformateur immergé dans l’huile, présenté dans la documentation produits de notre entreprise.",
+    "detail": "Produit : 315 kVA / 20 kV Transformateur immergé dans l’huile.\nPuissance indiquée : 315 kVA\nClasse de tension indiquée : 20 kV.\nConfirmez la puissance, le rapport de transformation, l’isolation, le refroidissement, les raccordements et les normes applicables dans la spécification convenue et sur la plaque signalétique.",
+    "options": [
+      "Puissance indiquée : 315 kVA",
+      "Classe de tension indiquée : 20 kV"
+    ]
+  },
+  "oil-20kv-400kva": {
+    "title": "400 kVA / 20 kV Transformateur immergé dans l’huile",
+    "category": "Transformateurs de distribution",
+    "summary": "400 kVA / 20 kV Transformateur immergé dans l’huile, présenté dans la documentation produits de notre entreprise.",
+    "detail": "Produit : 400 kVA / 20 kV Transformateur immergé dans l’huile.\nPuissance indiquée : 400 kVA\nClasse de tension indiquée : 20 kV.\nConfirmez la puissance, le rapport de transformation, l’isolation, le refroidissement, les raccordements et les normes applicables dans la spécification convenue et sur la plaque signalétique.",
+    "options": [
+      "Puissance indiquée : 400 kVA",
+      "Classe de tension indiquée : 20 kV"
+    ]
+  },
+  "oil-20kv-500kva": {
+    "title": "500 kVA / 20 kV Transformateur immergé dans l’huile",
+    "category": "Transformateurs de distribution",
+    "summary": "500 kVA / 20 kV Transformateur immergé dans l’huile, présenté dans la documentation produits de notre entreprise.",
+    "detail": "Produit : 500 kVA / 20 kV Transformateur immergé dans l’huile.\nPuissance indiquée : 500 kVA\nClasse de tension indiquée : 20 kV.\nConfirmez la puissance, le rapport de transformation, l’isolation, le refroidissement, les raccordements et les normes applicables dans la spécification convenue et sur la plaque signalétique.",
+    "options": [
+      "Puissance indiquée : 500 kVA",
+      "Classe de tension indiquée : 20 kV"
+    ]
+  },
+  "oil-20kv-800kva": {
+    "title": "800 kVA / 20 kV Transformateur immergé dans l’huile",
+    "category": "Transformateurs de distribution",
+    "summary": "800 kVA / 20 kV Transformateur immergé dans l’huile, présenté dans la documentation produits de notre entreprise.",
+    "detail": "Produit : 800 kVA / 20 kV Transformateur immergé dans l’huile.\nPuissance indiquée : 800 kVA\nClasse de tension indiquée : 20 kV.\nConfirmez la puissance, le rapport de transformation, l’isolation, le refroidissement, les raccordements et les normes applicables dans la spécification convenue et sur la plaque signalétique.",
+    "options": [
+      "Puissance indiquée : 800 kVA",
+      "Classe de tension indiquée : 20 kV"
+    ]
+  },
+  "oil-20kv-80kva": {
+    "title": "80 kVA / 20 kV Transformateur immergé dans l’huile",
+    "category": "Transformateurs de distribution",
+    "summary": "80 kVA / 20 kV Transformateur immergé dans l’huile, présenté dans la documentation produits de notre entreprise.",
+    "detail": "Produit : 80 kVA / 20 kV Transformateur immergé dans l’huile.\nPuissance indiquée : 80 kVA\nClasse de tension indiquée : 20 kV.\nConfirmez la puissance, le rapport de transformation, l’isolation, le refroidissement, les raccordements et les normes applicables dans la spécification convenue et sur la plaque signalétique.",
+    "options": [
+      "Puissance indiquée : 80 kVA",
+      "Classe de tension indiquée : 20 kV"
+    ]
+  },
+  "oil-35kv-10000kva": {
+    "title": "10000 kVA / 35 kV Transformateur immergé dans l’huile",
+    "category": "Transformateurs de distribution",
+    "summary": "10000 kVA / 35 kV Transformateur immergé dans l’huile, présenté dans la documentation produits de notre entreprise.",
+    "detail": "Produit : 10000 kVA / 35 kV Transformateur immergé dans l’huile.\nPuissance indiquée : 10000 kVA\nClasse de tension indiquée : 35 kV.\nConfirmez la puissance, le rapport de transformation, l’isolation, le refroidissement, les raccordements et les normes applicables dans la spécification convenue et sur la plaque signalétique.",
+    "options": [
+      "Puissance indiquée : 10000 kVA",
+      "Classe de tension indiquée : 35 kV"
+    ]
+  },
+  "oil-35kv-1000kva": {
+    "title": "1000 kVA / 35 kV Transformateur immergé dans l’huile",
+    "category": "Transformateurs de distribution",
+    "summary": "1000 kVA / 35 kV Transformateur immergé dans l’huile, présenté dans la documentation produits de notre entreprise.",
+    "detail": "Produit : 1000 kVA / 35 kV Transformateur immergé dans l’huile.\nPuissance indiquée : 1000 kVA\nClasse de tension indiquée : 35 kV.\nConfirmez la puissance, le rapport de transformation, l’isolation, le refroidissement, les raccordements et les normes applicables dans la spécification convenue et sur la plaque signalétique.",
+    "options": [
+      "Puissance indiquée : 1000 kVA",
+      "Classe de tension indiquée : 35 kV"
+    ]
+  },
+  "oil-35kv-1600kva": {
+    "title": "1600 kVA / 35 kV Transformateur immergé dans l’huile",
+    "category": "Transformateurs de distribution",
+    "summary": "1600 kVA / 35 kV Transformateur immergé dans l’huile, présenté dans la documentation produits de notre entreprise.",
+    "detail": "Produit : 1600 kVA / 35 kV Transformateur immergé dans l’huile.\nPuissance indiquée : 1600 kVA\nClasse de tension indiquée : 35 kV.\nConfirmez la puissance, le rapport de transformation, l’isolation, le refroidissement, les raccordements et les normes applicables dans la spécification convenue et sur la plaque signalétique.",
+    "options": [
+      "Puissance indiquée : 1600 kVA",
+      "Classe de tension indiquée : 35 kV"
+    ]
+  },
+  "oil-35kv-20000kva": {
+    "title": "20000 kVA / 35 kV Transformateur immergé dans l’huile",
+    "category": "Transformateurs de distribution",
+    "summary": "20000 kVA / 35 kV Transformateur immergé dans l’huile, présenté dans la documentation produits de notre entreprise.",
+    "detail": "Produit : 20000 kVA / 35 kV Transformateur immergé dans l’huile.\nPuissance indiquée : 20000 kVA\nClasse de tension indiquée : 35 kV.\nConfirmez la puissance, le rapport de transformation, l’isolation, le refroidissement, les raccordements et les normes applicables dans la spécification convenue et sur la plaque signalétique.",
+    "options": [
+      "Puissance indiquée : 20000 kVA",
+      "Classe de tension indiquée : 35 kV"
+    ]
+  },
+  "oil-35kv-2000kva": {
+    "title": "2000 kVA / 35 kV Transformateur immergé dans l’huile",
+    "category": "Transformateurs de distribution",
+    "summary": "2000 kVA / 35 kV Transformateur immergé dans l’huile, présenté dans la documentation produits de notre entreprise.",
+    "detail": "Produit : 2000 kVA / 35 kV Transformateur immergé dans l’huile.\nPuissance indiquée : 2000 kVA\nClasse de tension indiquée : 35 kV.\nConfirmez la puissance, le rapport de transformation, l’isolation, le refroidissement, les raccordements et les normes applicables dans la spécification convenue et sur la plaque signalétique.",
+    "options": [
+      "Puissance indiquée : 2000 kVA",
+      "Classe de tension indiquée : 35 kV"
+    ]
+  },
+  "oil-35kv-31500kva": {
+    "title": "31500 kVA / 35 kV Transformateur immergé dans l’huile",
+    "category": "Transformateurs de distribution",
+    "summary": "31500 kVA / 35 kV Transformateur immergé dans l’huile, présenté dans la documentation produits de notre entreprise.",
+    "detail": "Produit : 31500 kVA / 35 kV Transformateur immergé dans l’huile.\nPuissance indiquée : 31500 kVA\nClasse de tension indiquée : 35 kV.\nConfirmez la puissance, le rapport de transformation, l’isolation, le refroidissement, les raccordements et les normes applicables dans la spécification convenue et sur la plaque signalétique.",
+    "options": [
+      "Puissance indiquée : 31500 kVA",
+      "Classe de tension indiquée : 35 kV"
+    ]
+  },
+  "oil-35kv-3150kva": {
+    "title": "3150 kVA / 35 kV Transformateur immergé dans l’huile",
+    "category": "Transformateurs de distribution",
+    "summary": "3150 kVA / 35 kV Transformateur immergé dans l’huile, présenté dans la documentation produits de notre entreprise.",
+    "detail": "Produit : 3150 kVA / 35 kV Transformateur immergé dans l’huile.\nPuissance indiquée : 3150 kVA\nClasse de tension indiquée : 35 kV.\nConfirmez la puissance, le rapport de transformation, l’isolation, le refroidissement, les raccordements et les normes applicables dans la spécification convenue et sur la plaque signalétique.",
+    "options": [
+      "Puissance indiquée : 3150 kVA",
+      "Classe de tension indiquée : 35 kV"
+    ]
+  },
+  "oil-35kv-4000kva": {
+    "title": "4000 kVA / 35 kV Transformateur immergé dans l’huile",
+    "category": "Transformateurs de distribution",
+    "summary": "4000 kVA / 35 kV Transformateur immergé dans l’huile, présenté dans la documentation produits de notre entreprise.",
+    "detail": "Produit : 4000 kVA / 35 kV Transformateur immergé dans l’huile.\nPuissance indiquée : 4000 kVA\nClasse de tension indiquée : 35 kV.\nConfirmez la puissance, le rapport de transformation, l’isolation, le refroidissement, les raccordements et les normes applicables dans la spécification convenue et sur la plaque signalétique.",
+    "options": [
+      "Puissance indiquée : 4000 kVA",
+      "Classe de tension indiquée : 35 kV"
+    ]
+  },
+  "oil-35kv-5000kva": {
+    "title": "5000 kVA / 35 kV Transformateur immergé dans l’huile",
+    "category": "Transformateurs de distribution",
+    "summary": "5000 kVA / 35 kV Transformateur immergé dans l’huile, présenté dans la documentation produits de notre entreprise.",
+    "detail": "Produit : 5000 kVA / 35 kV Transformateur immergé dans l’huile.\nPuissance indiquée : 5000 kVA\nClasse de tension indiquée : 35 kV.\nConfirmez la puissance, le rapport de transformation, l’isolation, le refroidissement, les raccordements et les normes applicables dans la spécification convenue et sur la plaque signalétique.",
+    "options": [
+      "Puissance indiquée : 5000 kVA",
+      "Classe de tension indiquée : 35 kV"
+    ]
+  },
+  "oil-35kv-8000kva": {
+    "title": "8000 kVA / 35 kV Transformateur immergé dans l’huile",
+    "category": "Transformateurs de distribution",
+    "summary": "8000 kVA / 35 kV Transformateur immergé dans l’huile, présenté dans la documentation produits de notre entreprise.",
+    "detail": "Produit : 8000 kVA / 35 kV Transformateur immergé dans l’huile.\nPuissance indiquée : 8000 kVA\nClasse de tension indiquée : 35 kV.\nConfirmez la puissance, le rapport de transformation, l’isolation, le refroidissement, les raccordements et les normes applicables dans la spécification convenue et sur la plaque signalétique.",
+    "options": [
+      "Puissance indiquée : 8000 kVA",
+      "Classe de tension indiquée : 35 kV"
+    ]
+  },
+  "power-transformer-110kv": {
+    "title": "Gamme de transformateurs de puissance 110 kV",
+    "category": "Transformateurs de puissance",
+    "summary": "Gamme de transformateurs de puissance 110 kV, présenté dans la documentation produits de notre entreprise.",
+    "detail": "Produit : Gamme de transformateurs de puissance 110 kV.\nConfirmez la puissance, le rapport de transformation, l’isolation, le refroidissement, les raccordements et les normes applicables dans la spécification convenue et sur la plaque signalétique.",
+    "options": []
+  },
+  "power-110kv-12500kva": {
+    "title": "12500 kVA / 110 kV Transformateur de puissance",
+    "category": "Transformateurs de puissance",
+    "summary": "12500 kVA / 110 kV Transformateur de puissance, présenté dans la documentation produits de notre entreprise.",
+    "detail": "Produit : 12500 kVA / 110 kV Transformateur de puissance.\nPuissance figurant sur l’image : 12500 kVA\nClasse de tension figurant sur l’image : 110 kV.\nConfirmez la puissance, le rapport de transformation, l’isolation, le refroidissement, les raccordements et les normes applicables dans la spécification convenue et sur la plaque signalétique.",
+    "options": [
+      "Puissance figurant sur l’image : 12500 kVA",
+      "Classe de tension figurant sur l’image : 110 kV"
+    ]
+  },
+  "power-110kv-80000kva": {
+    "title": "80000 kVA / 110 kV Transformateur de puissance",
+    "category": "Transformateurs de puissance",
+    "summary": "80000 kVA / 110 kV Transformateur de puissance, présenté dans la documentation produits de notre entreprise.",
+    "detail": "Produit : 80000 kVA / 110 kV Transformateur de puissance.\nPuissance figurant sur l’image : 80000 kVA\nClasse de tension figurant sur l’image : 110 kV.\nConfirmez la puissance, le rapport de transformation, l’isolation, le refroidissement, les raccordements et les normes applicables dans la spécification convenue et sur la plaque signalétique.",
+    "options": [
+      "Puissance figurant sur l’image : 80000 kVA",
+      "Classe de tension figurant sur l’image : 110 kV"
+    ]
+  },
+  "power-110kv-20000kva": {
+    "title": "20000 kVA / 110 kV Transformateur de puissance",
+    "category": "Transformateurs de puissance",
+    "summary": "20000 kVA / 110 kV Transformateur de puissance, présenté dans la documentation produits de notre entreprise.",
+    "detail": "Produit : 20000 kVA / 110 kV Transformateur de puissance.\nPuissance figurant sur l’image : 20000 kVA\nClasse de tension figurant sur l’image : 110 kV.\nConfirmez la puissance, le rapport de transformation, l’isolation, le refroidissement, les raccordements et les normes applicables dans la spécification convenue et sur la plaque signalétique.",
+    "options": [
+      "Puissance figurant sur l’image : 20000 kVA",
+      "Classe de tension figurant sur l’image : 110 kV"
+    ]
+  },
+  "power-110kv-16000kva": {
+    "title": "16000 kVA / 110 kV Transformateur de puissance",
+    "category": "Transformateurs de puissance",
+    "summary": "16000 kVA / 110 kV Transformateur de puissance, présenté dans la documentation produits de notre entreprise.",
+    "detail": "Produit : 16000 kVA / 110 kV Transformateur de puissance.\nPuissance figurant sur l’image : 16000 kVA\nClasse de tension figurant sur l’image : 110 kV.\nConfirmez la puissance, le rapport de transformation, l’isolation, le refroidissement, les raccordements et les normes applicables dans la spécification convenue et sur la plaque signalétique.",
+    "options": [
+      "Puissance figurant sur l’image : 16000 kVA",
+      "Classe de tension figurant sur l’image : 110 kV"
+    ]
+  },
+  "power-110kv-31500kva": {
+    "title": "31500 kVA / 110 kV Transformateur de puissance",
+    "category": "Transformateurs de puissance",
+    "summary": "31500 kVA / 110 kV Transformateur de puissance, présenté dans la documentation produits de notre entreprise.",
+    "detail": "Produit : 31500 kVA / 110 kV Transformateur de puissance.\nPuissance figurant sur l’image : 31500 kVA\nClasse de tension figurant sur l’image : 110 kV.\nConfirmez la puissance, le rapport de transformation, l’isolation, le refroidissement, les raccordements et les normes applicables dans la spécification convenue et sur la plaque signalétique.",
+    "options": [
+      "Puissance figurant sur l’image : 31500 kVA",
+      "Classe de tension figurant sur l’image : 110 kV"
+    ]
+  },
+  "power-110kv-6300kva": {
+    "title": "6300 kVA / 110 kV Transformateur de puissance",
+    "category": "Transformateurs de puissance",
+    "summary": "6300 kVA / 110 kV Transformateur de puissance, présenté dans la documentation produits de notre entreprise.",
+    "detail": "Produit : 6300 kVA / 110 kV Transformateur de puissance.\nPuissance figurant sur l’image : 6300 kVA\nClasse de tension figurant sur l’image : 110 kV.\nConfirmez la puissance, le rapport de transformation, l’isolation, le refroidissement, les raccordements et les normes applicables dans la spécification convenue et sur la plaque signalétique.",
+    "options": [
+      "Puissance figurant sur l’image : 6300 kVA",
+      "Classe de tension figurant sur l’image : 110 kV"
+    ]
+  },
+  "power-110kv-10000kva": {
+    "title": "10000 kVA / 110 kV Transformateur de puissance",
+    "category": "Transformateurs de puissance",
+    "summary": "10000 kVA / 110 kV Transformateur de puissance, présenté dans la documentation produits de notre entreprise.",
+    "detail": "Produit : 10000 kVA / 110 kV Transformateur de puissance.\nPuissance figurant sur l’image : 10000 kVA\nClasse de tension figurant sur l’image : 110 kV.\nConfirmez la puissance, le rapport de transformation, l’isolation, le refroidissement, les raccordements et les normes applicables dans la spécification convenue et sur la plaque signalétique.",
+    "options": [
+      "Puissance figurant sur l’image : 10000 kVA",
+      "Classe de tension figurant sur l’image : 110 kV"
+    ]
+  },
+  "power-110kv-63000kva": {
+    "title": "63000 kVA / 110 kV Transformateur de puissance",
+    "category": "Transformateurs de puissance",
+    "summary": "63000 kVA / 110 kV Transformateur de puissance, présenté dans la documentation produits de notre entreprise.",
+    "detail": "Produit : 63000 kVA / 110 kV Transformateur de puissance.\nPuissance figurant sur l’image : 63000 kVA\nClasse de tension figurant sur l’image : 110 kV.\nConfirmez la puissance, le rapport de transformation, l’isolation, le refroidissement, les raccordements et les normes applicables dans la spécification convenue et sur la plaque signalétique.",
+    "options": [
+      "Puissance figurant sur l’image : 63000 kVA",
+      "Classe de tension figurant sur l’image : 110 kV"
+    ]
+  },
+  "power-110kv-25000kva": {
+    "title": "25000 kVA / 110 kV Transformateur de puissance",
+    "category": "Transformateurs de puissance",
+    "summary": "25000 kVA / 110 kV Transformateur de puissance, présenté dans la documentation produits de notre entreprise.",
+    "detail": "Produit : 25000 kVA / 110 kV Transformateur de puissance.\nPuissance figurant sur l’image : 25000 kVA\nClasse de tension figurant sur l’image : 110 kV.\nConfirmez la puissance, le rapport de transformation, l’isolation, le refroidissement, les raccordements et les normes applicables dans la spécification convenue et sur la plaque signalétique.",
+    "options": [
+      "Puissance figurant sur l’image : 25000 kVA",
+      "Classe de tension figurant sur l’image : 110 kV"
+    ]
+  },
+  "power-110kv-8000kva": {
+    "title": "8000 kVA / 110 kV Transformateur de puissance",
+    "category": "Transformateurs de puissance",
+    "summary": "8000 kVA / 110 kV Transformateur de puissance, présenté dans la documentation produits de notre entreprise.",
+    "detail": "Produit : 8000 kVA / 110 kV Transformateur de puissance.\nPuissance figurant sur l’image : 8000 kVA\nClasse de tension figurant sur l’image : 110 kV.\nConfirmez la puissance, le rapport de transformation, l’isolation, le refroidissement, les raccordements et les normes applicables dans la spécification convenue et sur la plaque signalétique.",
+    "options": [
+      "Puissance figurant sur l’image : 8000 kVA",
+      "Classe de tension figurant sur l’image : 110 kV"
+    ]
+  }
+}

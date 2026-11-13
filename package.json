@@ -1,0 +1,29 @@
+{
+  "name": "modular-housing-site",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": [
+    "apps/web",
+    "apps/cms",
+    "packages/contracts"
+  ],
+  "scripts": {
+    "dev:web": "npm --workspace @modular/web run dev",
+    "dev:cms": "npm --workspace @modular/cms run develop",
+    "build:web": "npm --workspace @modular/web run build",
+    "build:cms": "npm --workspace @modular/cms run build",
+    "test": "node --test tests/contracts/*.test.mjs apps/cms/tests/*.test.mjs apps/web/tests/*.test.mjs tests/deployment/*.test.mjs",
+    "test:contracts": "node --test tests/contracts/*.test.mjs",
+    "test:cms": "node --test apps/cms/tests/*.test.mjs",
+    "test:smoke": "node tests/smoke/web-smoke.mjs",
+    "test:catalogue-browser": "node tests/smoke/catalogue-browser.mjs",
+    "test:arabic-browser": "node tests/smoke/arabic-browser.mjs",
+    "test:site-browser": "node tests/smoke/site-browser.mjs"
+  },
+  "engines": {
+    "node": ">=20 <27"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.2"
+  }
+}

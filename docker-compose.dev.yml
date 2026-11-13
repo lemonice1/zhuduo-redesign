@@ -1,0 +1,76 @@
+name: modular-housing-dev
+
+services:
+  # Strapi 的开发数据库
+  postgres:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-modular_housing_dev}
+      POSTGRES_USER: ${POSTGRES_USER:-modular_dev}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-change-this-dev-password}
+    ports:
+      - "${POSTGRES_PORT:-5432}:5432"
+    volumes:
+      - postgres_dev_data:/var/lib/postgresql/data
+    healthcheck:
+      test:
+        [
+          "CMD-SHELL",
+          "pg_isready -U ${POSTGRES_USER:-modular_dev} -d ${POSTGRES_DB:-modular_housing_dev}"
+        ]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+    networks:
+      - dev
+
+  # 本地开发图片存储。若使用云厂商 S3 或已有 MinIO，可删除/停用此服务。
+  # 通过 1Panel 镜像缓存使用 Net Insight 保留的上游固定版本镜像，仅用于开发。
+  minio:
+    profiles: ["storage"]
+    image: ${MINIO_IMAGE:-docker.1panel.live/netiedge/minio:RELEASE.2025-01-20T14-49-07Z}
+    restart: unless-stopped
+    command: server /data --console-address ":9001"
+    environment:
+      MINIO_ROOT_USER: ${MINIO_ROOT_USER:-minio-dev}
+      MINIO_ROOT_PASSWORD: ${MINIO_ROOT_PASSWORD:-change-this-minio-password}
+    ports:
+      - "${MINIO_API_PORT:-9000}:9000"
+      - "${MINIO_CONSOLE_PORT:-9001}:9001"
+    volumes:
+      - minio_dev_data:/data
+    networks:
+      - dev
+
+  # 用于测试 Strapi/网站发出的询盘邮件，不会真的发给客户。
+  mailpit:
+    profiles: ["mail"]
+    image: axllent/mailpit:v1.21.8
+    restart: unless-stopped
+    ports:
+      - "${MAILPIT_SMTP_PORT:-1025}:1025"
+      - "${MAILPIT_UI_PORT:-8025}:8025"
+    networks:
+      - dev
+
+  # 可选数据库查看工具：docker compose --profile tools up -d adminer
+  adminer:
+    profiles: ["tools"]
+    image: adminer:4
+    restart: unless-stopped
+    ports:
+      - "${ADMINER_PORT:-8080}:8080"
+    depends_on:
+      postgres:
+        condition: service_healthy
+    networks:
+      - dev
+
+volumes:
+  postgres_dev_data:
+  minio_dev_data:
+
+networks:
+  dev:
+    driver: bridge

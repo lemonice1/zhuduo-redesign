@@ -1,0 +1,3 @@
+# Backup is executed by Linux Bash; preserve LF even in Windows worktrees.
+deploy/backup/*.sh text eol=lf
+deploy/minio/*.sh text eol=lf

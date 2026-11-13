@@ -1,0 +1,32 @@
+{
+  "source": "E:/whiteboard-clone",
+  "sha256": {
+    "index.html": "8616cd7343b27585c4894df07b4507beba4595ac1397a4b1aba2628afb69d13c",
+    "work.html": "34eff097e64eebe85281af92dfea94bf2670c1d54577936b6a389cb10d8a634d",
+    "case-studies--ted-conferences-event-platform.html": "394d1ffb500517223dcfe31b6644cb840f571422662637d79c8b6ebc94915841",
+    "about.html": "c65d9940e46828b96377b64a26671465f94b25955af4d9131575aba6f78fd913"
+  },
+  "templates": [
+    "navProduct",
+    "navCompany",
+    "nav",
+    "hero",
+    "services",
+    "credential",
+    "credentials",
+    "card",
+    "feature",
+    "stats",
+    "listing",
+    "filter",
+    "detailHero",
+    "featureHero",
+    "detailFacts",
+    "detailBody",
+    "detailImage",
+    "aboutHero",
+    "footerLink",
+    "footer"
+  ],
+  "purpose": "Local ZHUDUO design preview; existing CMS and inquiry components retained."
+}

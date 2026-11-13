@@ -1,0 +1,45 @@
+{
+  "kind": "singleType",
+  "collectionName": "tech_documents_electrical",
+  "info": {
+    "singularName": "technical-documents-electrical",
+    "pluralName": "technical-documents-electrical-pages",
+    "displayName": "Electrical Equipment Documents"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "summary": {
+      "type": "text",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "documents": {
+      "type": "component",
+      "repeatable": true,
+      "component": "documents.download",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}

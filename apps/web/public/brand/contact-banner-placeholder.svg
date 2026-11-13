@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="720" viewBox="0 0 1920 720" fill="none">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1680" y2="720" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#868b86"/><stop offset="1" stop-color="#c2b7a8"/>
+    </linearGradient>
+    <linearGradient id="wall" x1="610" y1="152" x2="1780" y2="650" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#c6c2b8"/><stop offset="1" stop-color="#8a8e88"/>
+    </linearGradient>
+    <pattern id="panels" width="86" height="130" patternUnits="userSpaceOnUse">
+      <path d="M0 0H86V130" stroke="#fff" stroke-opacity=".2"/>
+    </pattern>
+  </defs>
+  <path fill="url(#sky)" d="M0 0h1920v720H0z"/>
+  <path fill="#68756d" fill-opacity=".55" d="M0 385 460 345 885 395 1445 332 1920 360v360H0z"/>
+  <path fill="url(#wall)" d="m655 201 791-81 378 150v328l-1169-26z"/>
+  <path fill="#b3b6ad" d="m655 201 260 113v280l-260-22z"/>
+  <path fill="url(#panels)" d="m915 314 909-44v328l-909-4z"/>
+  <path fill="#d3d0c5" d="m622 197 826-91 416 158-949 66z"/>
+  <path fill="#64716c" d="m975 357 194-9v216l-194-2zm242-12 194-9v231l-194-2zm242-12 194-9v246l-194-2z"/>
+  <path stroke="#c9cbc1" stroke-width="6" d="m1072 352 1 211m241-222 1 226m241-238 1 241"/>
+  <path stroke="#f1eee5" stroke-opacity=".4" stroke-width="3" d="m977 460 674 2M694 303l170 67m-170 81 170 45"/>
+  <path fill="#dbd4c6" fill-opacity=".6" d="m0 635 860-44 1060 15v114H0z"/>
+  <path stroke="#f4eee4" stroke-opacity=".18" d="m0 720 920-120m200 120 260-111m400 111-140-110"/>
+</svg>

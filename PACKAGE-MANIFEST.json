@@ -1,0 +1,2996 @@
+{
+  "name": "ZHUDUO Whiteboard redesign source package",
+  "packagedAt": "2026-11-12T16:56:22.347992+08:00",
+  "branch": "wyh",
+  "baseCommit": "8c85b958ac8f4755ec985a25ed6fef25ad43f0a3",
+  "includesUncommittedChanges": true,
+  "previewEntry": "/preview/whiteboard?lang=en",
+  "databaseAndUploadedMediaIncluded": false,
+  "files": [
+    {
+      "path": ".dockerignore",
+      "bytes": 333,
+      "sha256": "d47717c50b4dbcdc74631f6f2521ecf309bc9947cd2217192985856962247a60"
+    },
+    {
+      "path": ".env.dev.example",
+      "bytes": 912,
+      "sha256": "76296f81302a6ab8f441388d6c3059cf9154d4f3998a29bd476c2c0ab6d28736"
+    },
+    {
+      "path": ".env.example",
+      "bytes": 1603,
+      "sha256": "544f86d6c7652fe4aba998bc749e883b02f457a18e168e7ce69e09ea579e7e6b"
+    },
+    {
+      "path": ".env.vm-dev.example",
+      "bytes": 1509,
+      "sha256": "a51f23293748e768975b107b75bfbf57030c60093b7aedeea7359be2a85f8ed5"
+    },
+    {
+      "path": ".gitattributes",
+      "bytes": 139,
+      "sha256": "215384fdff24190d2811d2a61b6ab38a4b8f2ca7a435b278f901e5ef89663295"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 416,
+      "sha256": "d79fdafffdff87e7e3943f093d16dd60e2b11784467aa2df8c76737b958e1e64"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4754,
+      "sha256": "cf44ed33068e0324bd7661aafbf3f594246a1b853bd7953e451d410491e5a3b1"
+    },
+    {
+      "path": "apps/cms/Dockerfile",
+      "bytes": 1802,
+      "sha256": "005aeff2bd0275dac995fbdf66f3cbc73950c1747dada3d5075a12facd530b09"
+    },
+    {
+      "path": "apps/cms/README.md",
+      "bytes": 6196,
+      "sha256": "db8b0a3339c96a8ad128abec025e2c31354df35281193a473810ef8d33ff30f6"
+    },
+    {
+      "path": "apps/cms/config/admin.js",
+      "bytes": 445,
+      "sha256": "633d5b5640700b8f2fc820b5b9c6d358bf0bf5ec462b941bb1159442df25be14"
+    },
+    {
+      "path": "apps/cms/config/api.js",
+      "bytes": 175,
+      "sha256": "ead5c4aad33121d9b7a861e2c3da068471e5c5de140473096c8fa2664e34fcea"
+    },
+    {
+      "path": "apps/cms/config/auto-translate.js",
+      "bytes": 287,
+      "sha256": "ebe8e870d29150b2c5168188e7869987436a760ea0ecab582c36c20bc05a2891"
+    },
+    {
+      "path": "apps/cms/config/database.js",
+      "bytes": 696,
+      "sha256": "d5fce10c2efecdf7cbd8ca156ae548d90e7e6a363dd7d15a737965be65ee8e52"
+    },
+    {
+      "path": "apps/cms/config/middlewares.js",
+      "bytes": 794,
+      "sha256": "f7241b8d91552387a982d6cba1c77bd6ae95022291d15ecc20e786ad54db3c64"
+    },
+    {
+      "path": "apps/cms/config/plugins.js",
+      "bytes": 784,
+      "sha256": "4a21ba1a50f6fda123cc60eea38793a28c68d8ebfcae24de9cec762b34925982"
+    },
+    {
+      "path": "apps/cms/config/server.js",
+      "bytes": 445,
+      "sha256": "5647c11568082aa9090f4df7bde4b376fdc975eceaaab3fdd42e0a495ab4d3b7"
+    },
+    {
+      "path": "apps/cms/database/migrations/2026.10.10T00.00.00.inquiry-follow-up-status.js",
+      "bytes": 701,
+      "sha256": "250fb9f3330727b05dbf2e2e688cd2582ea3664326ae4a25da013304e63d4317"
+    },
+    {
+      "path": "apps/cms/package.json",
+      "bytes": 868,
+      "sha256": "794f8f5f51f56acc0b9b239cc5afb6a0555f1db1e57e336730c1d670e810224f"
+    },
+    {
+      "path": "apps/cms/scripts/backfill-arabic.cjs",
+      "bytes": 37,
+      "sha256": "bac6df7086bdd913e357f3bbc425f490c89f31de76dd4247fe63a2ccd054488c"
+    },
+    {
+      "path": "apps/cms/scripts/backfill-language.cjs",
+      "bytes": 1455,
+      "sha256": "b9015b2c2c74cc99b53bda30fa6188b2cdc1a25a68869a77aa00f6b5a4333bbd"
+    },
+    {
+      "path": "apps/cms/scripts/import-company-products.cjs",
+      "bytes": 3199,
+      "sha256": "e8fafc637efcaebffe80be2dbbaef90be0ab5e9ff61f4463fa6c169dbfc9ec21"
+    },
+    {
+      "path": "apps/cms/scripts/replace-housing-catalogue.cjs",
+      "bytes": 13547,
+      "sha256": "6589f02bf3ca13f3b48fd5f16769a754c68e4eccf2d912e325ace15785b11ee3"
+    },
+    {
+      "path": "apps/cms/scripts/strapi-shutdown.cjs",
+      "bytes": 739,
+      "sha256": "bb7d17f98e6799200b5eed002c1edabaedbad3961f5e30520aea6d0fe8061f55"
+    },
+    {
+      "path": "apps/cms/src/admin/app.js",
+      "bytes": 1523,
+      "sha256": "b6817931d695396c5258b6d425ee2234214e564ec365266dd7c56677026a108d"
+    },
+    {
+      "path": "apps/cms/src/admin/product-editor-data.mjs",
+      "bytes": 6506,
+      "sha256": "327939028c952f9c90131501a02c57e13db1f52af57047d21e7d1581b50b7463"
+    },
+    {
+      "path": "apps/cms/src/admin/product-editor.jsx",
+      "bytes": 11336,
+      "sha256": "0b0ed0ad23e9118a2a55f6e1d7c8d5653369824c74521b57593e3f53d40084c6"
+    },
+    {
+      "path": "apps/cms/src/admin/project-editor-data.mjs",
+      "bytes": 4756,
+      "sha256": "dd77e4b8377df281069a20adc81c81d30b30a9fd25e0e0d70a56e6147466b378"
+    },
+    {
+      "path": "apps/cms/src/admin/project-editor.jsx",
+      "bytes": 1986,
+      "sha256": "33a796d4b9c10c85565b283cf21d0f6c14e2e68e978e796609de39a456fce2ed"
+    },
+    {
+      "path": "apps/cms/src/api/application-commercial-temporary-buildings/content-types/application-commercial-temporary-buildings/schema.json",
+      "bytes": 1000,
+      "sha256": "0a322aee482428f3986fee5ec469f43d120cab47a3a2e3840e724455a2fdf497"
+    },
+    {
+      "path": "apps/cms/src/api/application-commercial-temporary-buildings/controllers/application-commercial-temporary-buildings.ts",
+      "bytes": 169,
+      "sha256": "2b2753ccecc33bdfbea2737dc1b449ed2c4ea1594c3aa838af6ee1f76baa8642"
+    },
+    {
+      "path": "apps/cms/src/api/application-commercial-temporary-buildings/routes/application-commercial-temporary-buildings.ts",
+      "bytes": 213,
+      "sha256": "8b78416d858e63d04ef1069dccb5d06c1a5adbc214932862561abd0ad900f48a"
+    },
+    {
+      "path": "apps/cms/src/api/application-energy-utilities/content-types/application-energy-utilities/schema.json",
+      "bytes": 954,
+      "sha256": "03395a20e2ab20759eb93683c0611712a3e94feb6510a258d5106c1d83c3cca5"
+    },
+    {
+      "path": "apps/cms/src/api/application-energy-utilities/controllers/application-energy-utilities.ts",
+      "bytes": 155,
+      "sha256": "854b8da318b95be345b115b4b5e267d7009aa9478596612bbd82851f5a5b2fd9"
+    },
+    {
+      "path": "apps/cms/src/api/application-energy-utilities/routes/application-energy-utilities.ts",
+      "bytes": 185,
+      "sha256": "610d3e8b168b17f15d933d1f8367db034e3b099d1f77e177367ccf605822d3ab"
+    },
+    {
+      "path": "apps/cms/src/api/application-industrial-projects/content-types/application-industrial-projects/schema.json",
+      "bytes": 964,
+      "sha256": "c3477e14c66a34bd7b8d33b51455a5fc9c9ce4a690c37317f06ece48f846cce7"
+    },
+    {
+      "path": "apps/cms/src/api/application-industrial-projects/controllers/application-industrial-projects.ts",
+      "bytes": 158,
+      "sha256": "34f7062527e6908adf0e7a3057502330532549562fb024f5cc414a9a376d285c"
+    },
+    {
+      "path": "apps/cms/src/api/application-industrial-projects/routes/application-industrial-projects.ts",
+      "bytes": 191,
+      "sha256": "ae2597878545e7ad98f849dc2c5520a905b31d92c35e8cc9a4f50537ceae59f0"
+    },
+    {
+      "path": "apps/cms/src/api/application-residential-hospitality/content-types/application-residential-hospitality/schema.json",
+      "bytes": 982,
+      "sha256": "4b3c7eb629f3a634673fd73447cc5d9a0a10d6683f37c3a6966a6c1c614580b8"
+    },
+    {
+      "path": "apps/cms/src/api/application-residential-hospitality/controllers/application-residential-hospitality.ts",
+      "bytes": 162,
+      "sha256": "684a0e35c060682ac60d3c69929cc6e1b2062b5a4596843d7e9f89fba8b1a41a"
+    },
+    {
+      "path": "apps/cms/src/api/application-residential-hospitality/routes/application-residential-hospitality.ts",
+      "bytes": 199,
+      "sha256": "ba52993998e090eb5279e33e0bcbc0d3caaf66435f75f957ca5d0017f66eeaa3"
+    },
+    {
+      "path": "apps/cms/src/api/article/content-types/article/schema.json",
+      "bytes": 798,
+      "sha256": "2235adc579563b19b67ead6a271784a0da016b180cb1ac8003e20dde933ef091"
+    },
+    {
+      "path": "apps/cms/src/api/article/controllers/article.ts",
+      "bytes": 136,
+      "sha256": "7a0a7f53067b8283914947fd173bdc1a6539f19f536d10e0d9dad14a925869e1"
+    },
+    {
+      "path": "apps/cms/src/api/article/routes/article.ts",
+      "bytes": 140,
+      "sha256": "12874180412b106bee8ecada84e0a2dac7d18016de4497442cd993d6828002be"
+    },
+    {
+      "path": "apps/cms/src/api/certificate/content-types/certificate/schema.json",
+      "bytes": 825,
+      "sha256": "c1b9f13485f28dc5edee2f16e343db5f0f481367e199778f43b8bc885cf74eb0"
+    },
+    {
+      "path": "apps/cms/src/api/certificate/controllers/certificate.ts",
+      "bytes": 140,
+      "sha256": "ff77b4fed3140485e579729a05d67a9d3bd969607cb729cdbff2685fd1c47cb0"
+    },
+    {
+      "path": "apps/cms/src/api/certificate/routes/certificate.ts",
+      "bytes": 148,
+      "sha256": "4e7992914204ab81e53e910e13c26313b488b136a47236578ec595adbae7db8d"
+    },
+    {
+      "path": "apps/cms/src/api/faq/content-types/faq/schema.json",
+      "bytes": 536,
+      "sha256": "71e579e8b60acbd803088c999a2cd94a06353917845abae9809a050f2b52b6ba"
+    },
+    {
+      "path": "apps/cms/src/api/faq/controllers/faq.ts",
+      "bytes": 132,
+      "sha256": "4d1929c8214ebd5d4009e084b9028629f42b58414f088d810e7af9260790b42f"
+    },
+    {
+      "path": "apps/cms/src/api/faq/routes/faq.ts",
+      "bytes": 132,
+      "sha256": "345a83b371e5c96dfcdc20da8d22cf6e798217ca11456283300a7f3fb49b1eb8"
+    },
+    {
+      "path": "apps/cms/src/api/inquiry/content-types/inquiry/schema.json",
+      "bytes": 768,
+      "sha256": "f9a06394f58195a57f7b8aa9d3e9fb5cdfa76fc49aa6febade11e73a6cdcd960"
+    },
+    {
+      "path": "apps/cms/src/api/inquiry/controllers/inquiry.ts",
+      "bytes": 1062,
+      "sha256": "34bac2fd01b2a690fad58f2c697e8e401f16bac948c1cb31e14a827ff2009616"
+    },
+    {
+      "path": "apps/cms/src/api/inquiry/routes/health.ts",
+      "bytes": 178,
+      "sha256": "49acfef28454b2cdcf3a006e0c81e867287052c1c8fb19dc2f662e64737fc0f4"
+    },
+    {
+      "path": "apps/cms/src/api/inquiry/routes/inquiry.ts",
+      "bytes": 256,
+      "sha256": "9d53e066a3e0f5d1b473d1773413eb3cdc0c505634ef95d8815520e9728d9c2b"
+    },
+    {
+      "path": "apps/cms/src/api/inquiry/services/inquiry.ts",
+      "bytes": 1118,
+      "sha256": "ae1bcc85c948e2c9aac6da09a886b70693cd0f3a940c6c42f8b52995832a45fc"
+    },
+    {
+      "path": "apps/cms/src/api/inquiry/validators/inquiry.ts",
+      "bytes": 2293,
+      "sha256": "8f5faf75ae0472c046ffa30cbbc1f5cbaae74b4ed9182345cb837ce7cbb9ec4c"
+    },
+    {
+      "path": "apps/cms/src/api/product-category/content-types/product-category/schema.json",
+      "bytes": 1024,
+      "sha256": "0a2bdceb3d1527fbf92cb761026abf62c572ba8f381360efbb811658b6700923"
+    },
+    {
+      "path": "apps/cms/src/api/product-category/controllers/product-category.ts",
+      "bytes": 143,
+      "sha256": "c6544c6874184a07bbc3283778d62a1be932560df3ecd6ff6551723da8c8726c"
+    },
+    {
+      "path": "apps/cms/src/api/product-category/routes/product-category.ts",
+      "bytes": 157,
+      "sha256": "8dbecb8786c7963f4f877803100d5029ae6c3dcfffe49e4ae20f22db83f76b0e"
+    },
+    {
+      "path": "apps/cms/src/api/product/content-types/product/schema.json",
+      "bytes": 1598,
+      "sha256": "92a2b2292b6daaf665ce6b06a346eeff2fd162aea1ce7453998159ca8d5cc3e4"
+    },
+    {
+      "path": "apps/cms/src/api/product/controllers/product.ts",
+      "bytes": 136,
+      "sha256": "9418494d5b53bb578e6c0bf2f35059c752ff94c79bc1d1bcef3b55445ef31c6e"
+    },
+    {
+      "path": "apps/cms/src/api/product/routes/product.ts",
+      "bytes": 140,
+      "sha256": "2c1f32ffe7076f3c303b5fe7c1cbb6b37d62b18e042712f1e810fa909399f0a7"
+    },
+    {
+      "path": "apps/cms/src/api/project-case/content-types/project-case/schema.json",
+      "bytes": 3567,
+      "sha256": "6b15924593ee4bb3128c8c29c4899afbcfdf7368852a1c4ac6ebe17f6eaf248b"
+    },
+    {
+      "path": "apps/cms/src/api/project-case/controllers/project-case.ts",
+      "bytes": 141,
+      "sha256": "f77d9d930ea7b6e4a835b1d13536a5f4068642386f3144e49ba70db57b8ff99f"
+    },
+    {
+      "path": "apps/cms/src/api/project-case/routes/project-case.ts",
+      "bytes": 331,
+      "sha256": "9ff0f7daa3b94a2ee104ae64b9e20dc9b8d4b844d166432a4dce61401662feb2"
+    },
+    {
+      "path": "apps/cms/src/api/site-setting/content-types/site-setting/schema.json",
+      "bytes": 1432,
+      "sha256": "70fca448d219a0c96dc6ec46309eda9a0b2fa77577a426961649388de045b6f2"
+    },
+    {
+      "path": "apps/cms/src/api/site-setting/controllers/site-setting.ts",
+      "bytes": 3887,
+      "sha256": "d856ea1129c49297db6935634b8d19cdc553212744f47c90578103a543e2d519"
+    },
+    {
+      "path": "apps/cms/src/api/site-setting/routes/homepage.ts",
+      "bytes": 149,
+      "sha256": "7cd1c1f257dab5bc09310b994ee4b47c16d091e1d52b3a4f1e6c9cceace5f3ad"
+    },
+    {
+      "path": "apps/cms/src/api/site-setting/routes/site-setting.ts",
+      "bytes": 155,
+      "sha256": "82a211532ea6243308e7e920ea587fdd8016ec4ba7858b24d2389d40a13a452a"
+    },
+    {
+      "path": "apps/cms/src/api/technical-documents-electrical/content-types/technical-documents-electrical/schema.json",
+      "bytes": 876,
+      "sha256": "c4309831a53850ce24a04a5bd3f6a08dc94d20be3ee999dbf6ed57c603d5b2fb"
+    },
+    {
+      "path": "apps/cms/src/api/technical-documents-electrical/controllers/technical-documents-electrical.ts",
+      "bytes": 157,
+      "sha256": "3a46874fb90a672d21502f95732c2e31eb1cb45c9cd45d42a795f53d64b389b1"
+    },
+    {
+      "path": "apps/cms/src/api/technical-documents-electrical/routes/technical-documents-electrical.ts",
+      "bytes": 189,
+      "sha256": "bf6e642a3e6dd4ff9c1e4f0327021b7fb0ae58e78d7d0b79675c31e6822ae577"
+    },
+    {
+      "path": "apps/cms/src/api/technical-documents-housing/content-types/technical-documents-housing/schema.json",
+      "bytes": 854,
+      "sha256": "c8fd7d2aa62cf62a80f6bd841098670c287db7d94676b2d585dd9eb90018d250"
+    },
+    {
+      "path": "apps/cms/src/api/technical-documents-housing/controllers/technical-documents-housing.ts",
+      "bytes": 154,
+      "sha256": "c4cfbb52fe0727d782fee38d03b437b8674246171218a252767723a8aeba3c62"
+    },
+    {
+      "path": "apps/cms/src/api/technical-documents-housing/routes/technical-documents-housing.ts",
+      "bytes": 183,
+      "sha256": "62d1ddc980dd1632c1be34d76b64d8d1de467464a7e6ad3bdb43ca2a28a09a97"
+    },
+    {
+      "path": "apps/cms/src/components/documents/download.json",
+      "bytes": 399,
+      "sha256": "03f9ec52d38a7d94343d80ae8735e7d7d2dcaaf4cb71ee24a35111dc66bd7f4f"
+    },
+    {
+      "path": "apps/cms/src/data/demo-faqs.zh-Hans.json",
+      "bytes": 720,
+      "sha256": "baef6daf9e643c3e42cd9b2b1219ae830600cae97eaf64fc06039278cd60b862"
+    },
+    {
+      "path": "apps/cms/src/index.ts",
+      "bytes": 690,
+      "sha256": "2a680dfefb7ad8d0e59e855f98465efb5ff9fcfadbeaf40879cf0c478c8a07d8"
+    },
+    {
+      "path": "apps/cms/src/lib/admin-roles.ts",
+      "bytes": 4276,
+      "sha256": "193e1cf7f852436cf6c9630978fd37087fc940863bb6d9b7d04171cb399949f1"
+    },
+    {
+      "path": "apps/cms/src/lib/application-pages.ts",
+      "bytes": 380,
+      "sha256": "7d9333f06bd693a174f1028399f176c56bbe2443f58c06227cd938abfcc45102"
+    },
+    {
+      "path": "apps/cms/src/lib/auto-translation.ts",
+      "bytes": 6624,
+      "sha256": "1f45c0c12ebd06a8b69d98774ff58d5bfcb8d5612899d29942016996547a60b0"
+    },
+    {
+      "path": "apps/cms/src/lib/backfill-arabic.ts",
+      "bytes": 196,
+      "sha256": "6d8c90d0ff61a5f226691416833d583fe5b0a7b42e7ddae2049fb897a0f62a74"
+    },
+    {
+      "path": "apps/cms/src/lib/backfill-language.ts",
+      "bytes": 4549,
+      "sha256": "6258d15bd2d44ca182453e297f1cf90e0ad5becb86d840b5ef060ad80b9490ac"
+    },
+    {
+      "path": "apps/cms/src/lib/catalogue-import.ts",
+      "bytes": 6634,
+      "sha256": "3f63d0fc2412b65f062ad12f5981043799ef0b2d3e476dc4e5cb532972d6fc33"
+    },
+    {
+      "path": "apps/cms/src/lib/document-libraries.ts",
+      "bytes": 316,
+      "sha256": "53dcb4ff65302862dc577a9e45d48f4a4d476feb635bcb1ef3300e110a6146fd"
+    },
+    {
+      "path": "apps/cms/src/lib/inquiry-access.ts",
+      "bytes": 850,
+      "sha256": "0da40ed98dc3f20cc332278b1a719d54c07dc1bd7df53559296d4de9b93d963a"
+    },
+    {
+      "path": "apps/cms/src/lib/inquiry-challenge.ts",
+      "bytes": 1512,
+      "sha256": "ad1644d407cf67667fe8e5d56f064bb3e7ba2faa0c1d06d9c1c20b953b0c00e0"
+    },
+    {
+      "path": "apps/cms/src/lib/product-categories.ts",
+      "bytes": 6284,
+      "sha256": "2d51b79281a3c8ed935c3141642368c2a0cdd3eb2dbff2252a7d8fe62ceea122"
+    },
+    {
+      "path": "apps/cms/src/lib/product-content.ts",
+      "bytes": 358,
+      "sha256": "53ae73bdf1020fc97b6dbace64e727f8f2ac29b335c8bc9ba002686cf30d7219"
+    },
+    {
+      "path": "apps/cms/src/lib/project-content.ts",
+      "bytes": 944,
+      "sha256": "ad0ea8d5a651329f3ff57d5090eecd464fa5aa51997c77f060b74e243b66291c"
+    },
+    {
+      "path": "apps/cms/src/lib/public-content.ts",
+      "bytes": 9401,
+      "sha256": "61d274aa0f173f57f6ee908679e881f416966d870627046160834009553ea213"
+    },
+    {
+      "path": "apps/cms/src/lib/translation-client.ts",
+      "bytes": 4740,
+      "sha256": "f86fe669c07c4a5f6d18703763dd612cd340bdae4f3af2b3b94f6fe9d588e8f0"
+    },
+    {
+      "path": "apps/cms/src/policies/rate-limit-inquiry.ts",
+      "bytes": 793,
+      "sha256": "956dabeb73f42b2f740c536bdc7e6108f853f3c56edb2e966c8f1482ad51a90a"
+    },
+    {
+      "path": "apps/cms/src/seed.ts",
+      "bytes": 6279,
+      "sha256": "c6099a627116a15aa949659e9c61b4fb32dd1ed319ff0786278600dce046b37a"
+    },
+    {
+      "path": "apps/cms/tests/admin-roles.test.mjs",
+      "bytes": 11360,
+      "sha256": "6443e7dd7defdd88bac919b58fc73ce2e4d4158a44aa9eedb3c07cba6cb0d26c"
+    },
+    {
+      "path": "apps/cms/tests/arabic-content.test.mjs",
+      "bytes": 5859,
+      "sha256": "1f1f7158c14601cab8e4ddb37b4c57d04385101062e6e611c9a1090c2103409e"
+    },
+    {
+      "path": "apps/cms/tests/auto-translation.test.mjs",
+      "bytes": 21730,
+      "sha256": "3a669bc9733f2fcb2f148a6e2bf3af622309199c669a0a3b774dc47832bd64ad"
+    },
+    {
+      "path": "apps/cms/tests/catalogue-import.test.mjs",
+      "bytes": 6871,
+      "sha256": "8414c3a765df5c40bf217c66871555f92085f0810c69e2336c5fc07d9f67279b"
+    },
+    {
+      "path": "apps/cms/tests/company-products.test.mjs",
+      "bytes": 9348,
+      "sha256": "9c5fcb2bbaee1b835388c0725a1de65c4e0671446aa5133619edd2f9ae5f3895"
+    },
+    {
+      "path": "apps/cms/tests/inquiry-access.test.mjs",
+      "bytes": 843,
+      "sha256": "a65184c6a5238c247a73d378c0f8c8f8064dc34d56ecddec61b3a23c2044f797"
+    },
+    {
+      "path": "apps/cms/tests/inquiry-migration.test.mjs",
+      "bytes": 3903,
+      "sha256": "7dff8fc58f42de3ef381d63b9ea2de77a13c8a2df2f9997a2eaf16d081cbfbf4"
+    },
+    {
+      "path": "apps/cms/tests/inquiry-route.test.mjs",
+      "bytes": 9962,
+      "sha256": "ab716ea7a5c55556b739ac9ec14855d338143e9f369c73b6f8201ff801ccfd01"
+    },
+    {
+      "path": "apps/cms/tests/inquiry-validation.test.mjs",
+      "bytes": 2010,
+      "sha256": "92690b9c27eabffdc53249d6f7a83214bbf09113998408da195957c71ea8d657"
+    },
+    {
+      "path": "apps/cms/tests/product-categories.test.mjs",
+      "bytes": 6423,
+      "sha256": "11d83dbb01830c13039e02089bd4536ebd87e7491a010c7951176c38bb3ef6ab"
+    },
+    {
+      "path": "apps/cms/tests/product-editor.test.mjs",
+      "bytes": 4416,
+      "sha256": "69b614acf81086b9580e3130b563036a8f12cabd7a262968d505e25d410b360e"
+    },
+    {
+      "path": "apps/cms/tests/project-editor.test.mjs",
+      "bytes": 2546,
+      "sha256": "890d865dd23a900659abb8f73a5b74a31a91c7b0e5c8b2f5bdf860912a0c640c"
+    },
+    {
+      "path": "apps/cms/tests/public-content.test.mjs",
+      "bytes": 28978,
+      "sha256": "891936738eb3a59c7e7ec19dd1ab5fab55119ec91f6749716093765785e2978f"
+    },
+    {
+      "path": "apps/cms/tests/security-middleware.test.mjs",
+      "bytes": 2146,
+      "sha256": "de4fec535f0f35b2fd9e51d2d77f44050c010ce2815bb6b0cd4a8f00674cad91"
+    },
+    {
+      "path": "apps/cms/tests/seed-locales.test.mjs",
+      "bytes": 5466,
+      "sha256": "e4f01199522768aa210a7e91c0f714d2b942d132e7c336ed2f1100c2fa6e170f"
+    },
+    {
+      "path": "apps/cms/tsconfig.json",
+      "bytes": 489,
+      "sha256": "92f522dd335b3acbee75a7ce179136701b92a229c1b04af1e118a84ed627f630"
+    },
+    {
+      "path": "apps/web/Dockerfile",
+      "bytes": 973,
+      "sha256": "568dbd23b9cd257ff0b31c58fcd832bc78f175a4c12d51094da10d9dfaf9ea2b"
+    },
+    {
+      "path": "apps/web/README.md",
+      "bytes": 8072,
+      "sha256": "2610f2fcdd6a7a775c3b5a8495dcef8bc1473091cf2709835767ac618e29fa7d"
+    },
+    {
+      "path": "apps/web/app/[section]/[[...path]]/page.tsx",
+      "bytes": 1539,
+      "sha256": "79a26523c3ceb1669d4dba49b073aa7218f8dcda8b36d96ebeb8333d9669f9f3"
+    },
+    {
+      "path": "apps/web/app/api/documents/[group]/[documentId]/route.ts",
+      "bytes": 2288,
+      "sha256": "fdc065c0512d5cd6317f2bc885e130024af1b9c003ba35c0672099cd60cfcb5b"
+    },
+    {
+      "path": "apps/web/app/api/health/route.ts",
+      "bytes": 69,
+      "sha256": "93553d43e146ed98700c799a7aa2b34dfea56ae138a0cad29550055448d17503"
+    },
+    {
+      "path": "apps/web/app/api/inquiries/route.ts",
+      "bytes": 3135,
+      "sha256": "4bab288011c50c9b558bf801d5c1b1fa1cce2eda3ac89bbde493830cfaf9d86e"
+    },
+    {
+      "path": "apps/web/app/catalogue.css",
+      "bytes": 23375,
+      "sha256": "3e07607ce8f949eb9e106724b97ded5b68d1b3962a2a42ccf54c73868eb04547"
+    },
+    {
+      "path": "apps/web/app/error.tsx",
+      "bytes": 804,
+      "sha256": "e938dc437ec2e386ee6498da7d76a81bdc58a6c1ee4845bc748f44a67e4ebc13"
+    },
+    {
+      "path": "apps/web/app/fonts.css",
+      "bytes": 59718,
+      "sha256": "7117808732d9e30034b991ae2b5dfa7615806bd06ad5e5615d511d716450f89d"
+    },
+    {
+      "path": "apps/web/app/globals.css",
+      "bytes": 30477,
+      "sha256": "24918f1ebb7d0ea7bb1e843ebda52e9d8f35cf3bff1712fc7e0c84b4862dd48c"
+    },
+    {
+      "path": "apps/web/app/home-division-hero.css",
+      "bytes": 6564,
+      "sha256": "b504239c02b9250b6d9b9bb166b4ccfebfc9b62a9169154e645d29b6d0d26b4b"
+    },
+    {
+      "path": "apps/web/app/home-product-showcase.css",
+      "bytes": 7866,
+      "sha256": "725075b8d98fdc5afbc7da22a6da7e1cd04a4d0e983daa96a2c5274341718a99"
+    },
+    {
+      "path": "apps/web/app/icon.png",
+      "bytes": 3361,
+      "sha256": "9ba4395f91207655242395987b5fc68bb531aa4c065c5ea5e4e21c70ac8583bf"
+    },
+    {
+      "path": "apps/web/app/inquiry-direction.css",
+      "bytes": 4099,
+      "sha256": "4ad66d26e138679dfe06255f703b1b5a1e7327994a40673c6156a5528d6a7306"
+    },
+    {
+      "path": "apps/web/app/layout.tsx",
+      "bytes": 1102,
+      "sha256": "649d4d90bcb95a55dc5eeb8bd495cbacf5b60580078b9b67ef7dd0039b6030c2"
+    },
+    {
+      "path": "apps/web/app/not-found.tsx",
+      "bytes": 656,
+      "sha256": "77215a9a704ab779eff04a754f171c46dbefd4b9d2349e78b042801977d0e736"
+    },
+    {
+      "path": "apps/web/app/page.tsx",
+      "bytes": 715,
+      "sha256": "fbabf734b71a54a15e54642a27757101dc8431614765ea02912d57ef8cbf0ab6"
+    },
+    {
+      "path": "apps/web/app/preview/homepage/[section]/[[...path]]/page.tsx",
+      "bytes": 1506,
+      "sha256": "3d379865699bc50516c75eac58c3d49dbbfc1b6e2bb8c4509ad665c3ed4a0784"
+    },
+    {
+      "path": "apps/web/app/preview/homepage/page.tsx",
+      "bytes": 436,
+      "sha256": "d916de1c1419fdb8848a2e6f82becd440012fd670e07980878375b85571a190a"
+    },
+    {
+      "path": "apps/web/app/preview/layout.tsx",
+      "bytes": 351,
+      "sha256": "be8370f09c95c4ac683f73bdd9bf9327892192e47839ca685732aa53ad177af6"
+    },
+    {
+      "path": "apps/web/app/preview/loading.tsx",
+      "bytes": 388,
+      "sha256": "f8ad86546596dfeea6137be444db59f4286cf7f71eab89e393aa184af62a35b4"
+    },
+    {
+      "path": "apps/web/app/preview/page.tsx",
+      "bytes": 533,
+      "sha256": "08475afbef101b410c50de294608493eeb9b9147b8c76be5de445286279cffbb"
+    },
+    {
+      "path": "apps/web/app/preview/products/[division]/[[...category]]/page.tsx",
+      "bytes": 1584,
+      "sha256": "31f131672137e288307ee2656cf05b99f78950bd34d4622eb67c89221c5fe886"
+    },
+    {
+      "path": "apps/web/app/preview/projects/sample-project/page.tsx",
+      "bytes": 804,
+      "sha256": "b8ef9654c9b09749584643368fd03a69130a9a43df24243e1f9fec751585039a"
+    },
+    {
+      "path": "apps/web/app/preview/whiteboard/[[...path]]/page.tsx",
+      "bytes": 2099,
+      "sha256": "5fb6da3b864084b20897391a3ca17a50e3f1b786756335f7dd06a12f134b51c2"
+    },
+    {
+      "path": "apps/web/app/product-detail.css",
+      "bytes": 13455,
+      "sha256": "c1cf46e17de43c56aa33f9a3921c92c4d03cb8307cd92fa54e8b2e4fd99031cd"
+    },
+    {
+      "path": "apps/web/app/products/[division]/[[...category]]/page.tsx",
+      "bytes": 1441,
+      "sha256": "d786d56d4d8539eab01ba76ca78ea395ae72c738950c082df94f46d17615f48a"
+    },
+    {
+      "path": "apps/web/app/products/page.tsx",
+      "bytes": 390,
+      "sha256": "0c7af92fdd8070929052d4dde8779fe1a89e0b0801018fa5f932b76e756d20d4"
+    },
+    {
+      "path": "apps/web/app/rtl.css",
+      "bytes": 1780,
+      "sha256": "35aed2d38a0d073e26e8b34b9623af4387717983781bc57443598be962d62124"
+    },
+    {
+      "path": "apps/web/components/brand-logo.tsx",
+      "bytes": 152,
+      "sha256": "06275d219b111568b3473491b982646b46bd36abc38b0baf32223fa81283166d"
+    },
+    {
+      "path": "apps/web/components/catalogue/catalogue-category-link.tsx",
+      "bytes": 1316,
+      "sha256": "96771ec2d9621ebc45131590e0e5add50a57c50041acff2b67242353206b767c"
+    },
+    {
+      "path": "apps/web/components/catalogue/catalogue-info-dialog.tsx",
+      "bytes": 4148,
+      "sha256": "5d1bae2dafdc7cf618f51b4ecaca371612efbf20d58070d4ae6cdb4372eed237"
+    },
+    {
+      "path": "apps/web/components/catalogue/catalogue-shell.tsx",
+      "bytes": 8176,
+      "sha256": "7bcf8241a48abc94091cd2260959154aaa67f6b7eda61a7fcd69495048186705"
+    },
+    {
+      "path": "apps/web/components/catalogue/catalogue-view.tsx",
+      "bytes": 7725,
+      "sha256": "37132d27fa3d9364c0116f3e301a4bfd659d11e3c5e58cce821fa870a6492655"
+    },
+    {
+      "path": "apps/web/components/catalogue/product-detail-page.tsx",
+      "bytes": 13658,
+      "sha256": "a4e6cd2ee653700197d389912eed81bb24999443b69b51d9d2cb17d70c93b578"
+    },
+    {
+      "path": "apps/web/components/catalogue/product-navigation.tsx",
+      "bytes": 4638,
+      "sha256": "b7311d8e08920195d4701f5304f3ae951c7dcb95fdf2d1af06fa227c8e731ff6"
+    },
+    {
+      "path": "apps/web/components/home-copy.fr.json",
+      "bytes": 3598,
+      "sha256": "dec354592cfbc8e6eb063375e3bf6452b875d1d6eef5eec3d9f7ddadd6afba72"
+    },
+    {
+      "path": "apps/web/components/home-copy.ts",
+      "bytes": 12140,
+      "sha256": "0f2f47c6e77d5b2b5250ab5fa68960fa520b248964ded8ab32f0545b8a493b10"
+    },
+    {
+      "path": "apps/web/components/home-division-hero.tsx",
+      "bytes": 2106,
+      "sha256": "f1be3c7e7a2bffaf7bb977c9bef7fe4ad5f96a695c0cc1167599cc4a175fb51d"
+    },
+    {
+      "path": "apps/web/components/home-page.tsx",
+      "bytes": 14597,
+      "sha256": "2592eb50f5ba2b5bf2ad9f033880771377a27887dd47f296b00698b81c070e76"
+    },
+    {
+      "path": "apps/web/components/home-product-showcase.tsx",
+      "bytes": 6055,
+      "sha256": "d0a64621ce28725f45a5dd1fbe7761cb9989682ef9e73dc65c23c41be5a64d57"
+    },
+    {
+      "path": "apps/web/components/inquiry-form.tsx",
+      "bytes": 9303,
+      "sha256": "2b7d6c96c9e34820040c88fc87b28c309d280d021281ac3432aad5502bd68069"
+    },
+    {
+      "path": "apps/web/components/language-picker.tsx",
+      "bytes": 5682,
+      "sha256": "eeea8a0f9ff48926f75eacc2d83c9e717490498177e2f3d44d5d19e693f8a57a"
+    },
+    {
+      "path": "apps/web/components/localized-text.tsx",
+      "bytes": 677,
+      "sha256": "d979b0898b84311f5868d42d296bbcc19afcde5bb849ff5a8541f7b0b5621ea3"
+    },
+    {
+      "path": "apps/web/components/nav-dropdown.tsx",
+      "bytes": 3800,
+      "sha256": "34b4bf8607be4eaae906f21c21be5a3d975d223f619546abd7c2c3ebaefa6ee4"
+    },
+    {
+      "path": "apps/web/components/okki-form-context.tsx",
+      "bytes": 1013,
+      "sha256": "baabbc05487a7a463de69d3cbb4e43499be3829abe126e1e15ced5b8902a154e"
+    },
+    {
+      "path": "apps/web/components/okki-tracking.tsx",
+      "bytes": 1170,
+      "sha256": "41989139c97805eb23820b81a5a791d21d058e2a7f15f3908564b2cea1624a3c"
+    },
+    {
+      "path": "apps/web/components/product-direction-picker.tsx",
+      "bytes": 11532,
+      "sha256": "d7676c2f2fc549e027f1fd6665e638d13e45b41e356499e022b700b5f99daf7f"
+    },
+    {
+      "path": "apps/web/components/product-gallery.tsx",
+      "bytes": 1194,
+      "sha256": "84cbccf1d9a8b73c6bb5679ea27cf2bb85b1dbaceb80c053bd13a516ff3c5bcd"
+    },
+    {
+      "path": "apps/web/components/site/application-article.tsx",
+      "bytes": 1357,
+      "sha256": "7e74923c608520cc8a7054bf291655d5fd50e61f18cb65b319bb8f1c92cf76e1"
+    },
+    {
+      "path": "apps/web/components/site/architecture-context.tsx",
+      "bytes": 695,
+      "sha256": "668582d5eafd50108b2f8aed22a3fc591f03fe724f71eadc390bb489e32260b4"
+    },
+    {
+      "path": "apps/web/components/site/chatbox-copy.ts",
+      "bytes": 5418,
+      "sha256": "319549c5fd30dd29949e9c766bfed3e428c289983516852c38795d553ee9d596"
+    },
+    {
+      "path": "apps/web/components/site/chatbox.tsx",
+      "bytes": 10479,
+      "sha256": "58309d939cbebe9426dc2afd4823844d293cf0f52582fb0ec8757f935b059e79"
+    },
+    {
+      "path": "apps/web/components/site/company-sections.tsx",
+      "bytes": 2407,
+      "sha256": "fd0957ce594506f149d75ab97b64ad800bc7695bde2e70b65e32409c662cd3d9"
+    },
+    {
+      "path": "apps/web/components/site/copy.ts",
+      "bytes": 26195,
+      "sha256": "c453a601abd01193a9ab41cc0a6efb5d1c459af35213b5975724bad77c12ece1"
+    },
+    {
+      "path": "apps/web/components/site/count-up-number.tsx",
+      "bytes": 2239,
+      "sha256": "9ea7673cbe2ee9efc0a528b103546ed9eef01cdfec841ee86ea6c7002d75be1d"
+    },
+    {
+      "path": "apps/web/components/site/navigation.tsx",
+      "bytes": 4609,
+      "sha256": "277328f12ffdadd3c62fed362cd5e6c56a38ef527eed6ed81ecc2838fdcfa043"
+    },
+    {
+      "path": "apps/web/components/site/project-detail-page.tsx",
+      "bytes": 8121,
+      "sha256": "3406f45aa4cf539de9e51d0857652570ce6c22a3d6c690dcb7cb2024ec41ca67"
+    },
+    {
+      "path": "apps/web/components/site/project-detail.css",
+      "bytes": 6385,
+      "sha256": "b01817ce9c4a8d80f5d86635bef35b3e633c86b671167d3d2d63088484d86187"
+    },
+    {
+      "path": "apps/web/components/site/projects-page.tsx",
+      "bytes": 3856,
+      "sha256": "76af0e1f762557ebd6ad0b1b15676c85841e098361a6971fa84f5916105939b9"
+    },
+    {
+      "path": "apps/web/components/site/section-page.tsx",
+      "bytes": 10182,
+      "sha256": "ffba49d9fa58fcde0268f7d81d0df6517581963a6945b90fc0c3f6ac4093c9cc"
+    },
+    {
+      "path": "apps/web/components/site/site-page.tsx",
+      "bytes": 30084,
+      "sha256": "b26e1ffc3a858b782fd76050db72bbf86baa39b7cc304cbf59a23d1a5576a24e"
+    },
+    {
+      "path": "apps/web/components/site/site.css",
+      "bytes": 64950,
+      "sha256": "26462b8bca17d2e0950294a894807f445db6611ff3727107c371a6b17162ec5c"
+    },
+    {
+      "path": "apps/web/components/site/technical-documents.tsx",
+      "bytes": 1951,
+      "sha256": "8749f00b702f3899a814b86bcaefa87621d0db42233835f3e70d5016e70d52c9"
+    },
+    {
+      "path": "apps/web/components/whiteboard/copy.ts",
+      "bytes": 8620,
+      "sha256": "b89ce0609a2ca9da15a9390f702fb6d3083d48a4032bb2bf207bb2caa051781e"
+    },
+    {
+      "path": "apps/web/components/whiteboard/original/original-site.tsx",
+      "bytes": 23450,
+      "sha256": "0f3d7cd775f41afd59d722e0490a38ff34dc19a45d66424ce44a6a94291abc2e"
+    },
+    {
+      "path": "apps/web/components/whiteboard/original/provenance.json",
+      "bytes": 903,
+      "sha256": "c90ea686bb775bb96c086e80a0c645d18e8744215b73d66ec42bd90525901a31"
+    },
+    {
+      "path": "apps/web/components/whiteboard/original/reference.unscoped.css.txt",
+      "bytes": 265466,
+      "sha256": "d94df1cdf54a235ae7639045ec9dd83fdc0390373cadf8b1edbf087f9fea35c8"
+    },
+    {
+      "path": "apps/web/components/whiteboard/original/template.tsx",
+      "bytes": 1479,
+      "sha256": "c96489c55e591ea54ff8b98b9ac463997a001173563d95efdd1b41db9adbfdcb"
+    },
+    {
+      "path": "apps/web/components/whiteboard/original/templates.json",
+      "bytes": 55269,
+      "sha256": "2d841c597c2048ed1d933b12b036f4336cfb207cc17fde3c9d86aec142c4751e"
+    },
+    {
+      "path": "apps/web/components/whiteboard/original/visual-runtime.tsx",
+      "bytes": 1337,
+      "sha256": "00a6578553bc62d9619bacfda78f112955a058e43fdc512850cd0746b0bf419a"
+    },
+    {
+      "path": "apps/web/components/whiteboard/original/zhuduo-adapter.css",
+      "bytes": 13849,
+      "sha256": "59583e34dc405aeac689803d0de477b17368c2c0a0e5381dd67e2116a61a85d2"
+    },
+    {
+      "path": "apps/web/lib/application-content.ts",
+      "bytes": 2808,
+      "sha256": "67b97e7b42219bb451b33e0dfa04ea3290d2ed9ba8be745411d9f0af856a4213"
+    },
+    {
+      "path": "apps/web/lib/catalogue-scroll.ts",
+      "bytes": 472,
+      "sha256": "ea7bf4b3548157112199b4bf96db61597290483de86566aced7e9f5389a22c48"
+    },
+    {
+      "path": "apps/web/lib/catalogue.ts",
+      "bytes": 2746,
+      "sha256": "8d60a83a3466e3774c6a25b37d2f0a71e3de1f0d9120cce9f0283a5ed0c2abcc"
+    },
+    {
+      "path": "apps/web/lib/content.ts",
+      "bytes": 11933,
+      "sha256": "822f506449c8ef6fafb6443fe1daa1886639e0c0ae8ccf2c2dcfd67895b9238d"
+    },
+    {
+      "path": "apps/web/lib/document-library-content.ts",
+      "bytes": 3179,
+      "sha256": "1187091c75d9ec18cbfdbc92f0114cc8e4458a58011c2e144193914a591643bf"
+    },
+    {
+      "path": "apps/web/lib/document-library.ts",
+      "bytes": 1698,
+      "sha256": "bde57f3e78a911dd46f62ddab49c03a50f18ff0af56a154267f7b3a2c2c59f90"
+    },
+    {
+      "path": "apps/web/lib/inquiry-access.ts",
+      "bytes": 702,
+      "sha256": "2492d9ab0e4514dc9c70e82b0c3dfde91c47566ee8bbc10ad8f9b84a98057f74"
+    },
+    {
+      "path": "apps/web/lib/inquiry-directions.ts",
+      "bytes": 2175,
+      "sha256": "492431eda4ce44d4294f2413b8f76017afd5ff8da33211696c96f84c80cc73b9"
+    },
+    {
+      "path": "apps/web/lib/product-categories.ts",
+      "bytes": 2196,
+      "sha256": "cdce14f584bd9458399a85bb93a00a15b75bd3a96c861c73a56177a667ec9c0d"
+    },
+    {
+      "path": "apps/web/lib/product-category-content.ts",
+      "bytes": 1401,
+      "sha256": "06c03716d60ca0b8e0896796360f2eb92c7af3ca00acabaf84f3965ff709aaf9"
+    },
+    {
+      "path": "apps/web/lib/product-page.ts",
+      "bytes": 1146,
+      "sha256": "e9d79e7a51797da5ace53bcf3e22c3b36dda5f1e13ca10e5d9f595c2014e1b6d"
+    },
+    {
+      "path": "apps/web/lib/project-content.ts",
+      "bytes": 4120,
+      "sha256": "959ee293dcb9d92e3c6761e9ea6814af46cb8e8a022e1b94e1b40fb2dd1cffbe"
+    },
+    {
+      "path": "apps/web/lib/project-detail.ts",
+      "bytes": 4514,
+      "sha256": "fdcd524c93c86aee90bebf0b6e968e39d77fbdc8792ec957db9fae334b8de3ea"
+    },
+    {
+      "path": "apps/web/lib/project-sample.ts",
+      "bytes": 6701,
+      "sha256": "1ba1ac316fc81cbebbd33a5cdcef98b7164dd83933d9a011d7313752ee6ee8a7"
+    },
+    {
+      "path": "apps/web/lib/site-architecture.ts",
+      "bytes": 20612,
+      "sha256": "02c12ea23283138e507eaac11cb83f63f2b79bf6639736356ac5e1c5d33ef72f"
+    },
+    {
+      "path": "apps/web/lib/site-language.ts",
+      "bytes": 697,
+      "sha256": "f9c8b1938518a8025956b06dbd7de1a05a0ffac11e8ffa3defcfaad1b7bb6fc4"
+    },
+    {
+      "path": "apps/web/lib/site-messages.ar.json",
+      "bytes": 17919,
+      "sha256": "3b3d7be7e69398313c5f70bc2d84779ae9df0a1fe51e1dd1ec55e73f82b42258"
+    },
+    {
+      "path": "apps/web/lib/site-messages.fr.json",
+      "bytes": 18138,
+      "sha256": "24984fd9ef070b6b81f3371648b75c59b7299ebca9f954c35351f4adcf3c4dcd"
+    },
+    {
+      "path": "apps/web/lib/site-page.ts",
+      "bytes": 3588,
+      "sha256": "177863a4032e3491e0551d28f067eb15ae120ac32d95f6ab1d9108618272de03"
+    },
+    {
+      "path": "apps/web/lib/turnstile.ts",
+      "bytes": 1490,
+      "sha256": "41018e6b3c530c5c2d76bb91ef5ba99a19e61d33a4a563b10c03ea9884c8fb06"
+    },
+    {
+      "path": "apps/web/lib/whiteboard-preview-routes.ts",
+      "bytes": 313,
+      "sha256": "c3407a76af2b2f9eaec82298031db589c67f0b3916f2c9b53f8329fc9ae21c77"
+    },
+    {
+      "path": "apps/web/lib/whiteboard-preview.ts",
+      "bytes": 2190,
+      "sha256": "dc2989a4c7cc5590d5e041eb52a80e63a24f35291a79671897b5f4b555a0ff74"
+    },
+    {
+      "path": "apps/web/middleware.ts",
+      "bytes": 694,
+      "sha256": "a14ec3165f3707f571ef266c8fedab0bce0906b3b8a4369d78b288506c31da1d"
+    },
+    {
+      "path": "apps/web/next-env.d.ts",
+      "bytes": 268,
+      "sha256": "f4e8976c19fc926644d72610bf1058bd6bf52add97e46a02bc0b912a751625c0"
+    },
+    {
+      "path": "apps/web/next.config.ts",
+      "bytes": 346,
+      "sha256": "7ae33f4854408d7fa9a84c59365d355c7dbe0e93b5cd517ab16befddf936e100"
+    },
+    {
+      "path": "apps/web/package.json",
+      "bytes": 549,
+      "sha256": "537956e4a2b322b0efa2001f54983d49d427a29481475c7b48e97745ca1d1c49"
+    },
+    {
+      "path": "apps/web/public/brand/big-5-global-2026.png",
+      "bytes": 871011,
+      "sha256": "897bf7220bd684094e5bb68ea5e27d6f4ba0a1e16d274906e6ac22ea8e7f02a0"
+    },
+    {
+      "path": "apps/web/public/brand/contact-banner-placeholder.svg",
+      "bytes": 1554,
+      "sha256": "7940f0778afbfda8413efe6d1daf7b63a05b07b86ab0c6a2378dfdd0529470aa"
+    },
+    {
+      "path": "apps/web/public/brand/hero-electrical-equipment.webp",
+      "bytes": 98252,
+      "sha256": "31f258a5f0e2ebf80e345e5b0ed29b1d3c26bebb9fa3de7306ef8d0992815e21"
+    },
+    {
+      "path": "apps/web/public/brand/hero-transformer-clean.webp",
+      "bytes": 163120,
+      "sha256": "72470689d736873cc3af1d9c6f6a74892dbb188ece76b647b6a26018f7645abe"
+    },
+    {
+      "path": "apps/web/public/brand/hero-transformer.source.json",
+      "bytes": 398,
+      "sha256": "7fbb732495fdde7d2826a0a3335920e6e6c1ae976171bb60302ce41b7db20b13"
+    },
+    {
+      "path": "apps/web/public/brand/hero-transformer.webp",
+      "bytes": 155288,
+      "sha256": "4587f2dfce15d3dcae12a3928a794d9bd2514e3505bcedfd0a2b0d3c45c571f2"
+    },
+    {
+      "path": "apps/web/public/brand/logo.png",
+      "bytes": 3157,
+      "sha256": "4480318468ecf49b35388ac9a90abec2468f41b8c32ed6b5cc38c8ee001fb9ea"
+    },
+    {
+      "path": "apps/web/public/brand/zhuduo-wordmark.png",
+      "bytes": 3676,
+      "sha256": "b178ba471eaf2d9abd6b4e8bb3d30119583f0968c91a3365b890137c536bcc75"
+    },
+    {
+      "path": "apps/web/public/certifications/certification-2.png",
+      "bytes": 49011,
+      "sha256": "296a84bf052e4d398d2dcf2411db4b66d786658c6bbe0d222b64c9193b6cf0b7"
+    },
+    {
+      "path": "apps/web/public/certifications/certification-3.png",
+      "bytes": 19638,
+      "sha256": "6017dfcefc347d8a370be8f8b997d4f298dcfb273ae40f6b48a1e3847ae6c913"
+    },
+    {
+      "path": "apps/web/public/certifications/iso-14001.jpg",
+      "bytes": 18421,
+      "sha256": "311e15ed3be58155870c2c4ff3e574d1a3a7902eb1c8d0d3a438273b39857648"
+    },
+    {
+      "path": "apps/web/public/certifications/iso-45001.jpg",
+      "bytes": 18712,
+      "sha256": "b0a16d9113e05ebd373c55477e087531304f4aa2acded3cf9797066adcc80b03"
+    },
+    {
+      "path": "apps/web/public/certifications/iso-9001.jpg",
+      "bytes": 18237,
+      "sha256": "20e0ebfe6d9868021a8b9bd89ab7a89f92888fd506c62526f7f1c714a2bd6400"
+    },
+    {
+      "path": "apps/web/public/certifications/zjwl.png",
+      "bytes": 19157,
+      "sha256": "b0842df730f353eb830ad68b658c930bc5e5fc70e6c6eaca35b98270ce4c2ac3"
+    },
+    {
+      "path": "apps/web/public/flags/fr.svg",
+      "bytes": 191,
+      "sha256": "09645c97a47436337d63cd54625200542c65e0e1c83b774a58c9d28d0555b0e7"
+    },
+    {
+      "path": "apps/web/public/flags/gb.svg",
+      "bytes": 553,
+      "sha256": "42f04826dd7a76e4ecdc9a55fb4a774a26e03a425ca1363628bb1c6f6ea1a87e"
+    },
+    {
+      "path": "apps/web/public/flags/sa.svg",
+      "bytes": 24613,
+      "sha256": "7176d38f2e39fa7c96608f5ae85bb51ba964f1b9a972b33b0d04796fe4487f71"
+    },
+    {
+      "path": "apps/web/public/fonts/alibaba-puhuiti-3/bold-01.woff2",
+      "bytes": 217644,
+      "sha256": "da121dad896c5da3c3d627538f2e6c5229957ec4e9dff8a10e840c1e4dfa8851"
+    },
+    {
+      "path": "apps/web/public/fonts/alibaba-puhuiti-3/bold-02.woff2",
+      "bytes": 346288,
+      "sha256": "5c5d7f4f27cd5159035afb80dedbc8e7f41078bb3940814c21fc07e94193fbe8"
+    },
+    {
+      "path": "apps/web/public/fonts/alibaba-puhuiti-3/bold-03.woff2",
+      "bytes": 357896,
+      "sha256": "f1f3a9c67ca28a68c15c2d7a6700d0b3312acfd696bfb8e64a254bcb13c85efb"
+    },
+    {
+      "path": "apps/web/public/fonts/alibaba-puhuiti-3/bold-04.woff2",
+      "bytes": 351608,
+      "sha256": "7bbc33a7f633f9af2c6f1149ec7bdd3ccc9d1d38cbf552b895f7eba2591cbec9"
+    },
+    {
+      "path": "apps/web/public/fonts/alibaba-puhuiti-3/bold-05.woff2",
+      "bytes": 268240,
+      "sha256": "795f32d2736af4569e53b05c8a150fc8e092bdd44af2350871c7a5c690fbae75"
+    },
+    {
+      "path": "apps/web/public/fonts/alibaba-puhuiti-3/bold-06.woff2",
+      "bytes": 303648,
+      "sha256": "a4047db174bc185aef9ce41e7c19d2c5650a6a1748b4a13ac933628b691bb75b"
+    },
+    {
+      "path": "apps/web/public/fonts/alibaba-puhuiti-3/bold-07.woff2",
+      "bytes": 309348,
+      "sha256": "5a84edaad38f1bca4664df9e48a47e0bf3cac41a02370b5c84013b3e50d634d9"
+    },
+    {
+      "path": "apps/web/public/fonts/alibaba-puhuiti-3/bold-08.woff2",
+      "bytes": 352032,
+      "sha256": "d01ac9a23722c24ec810eec71e059bb6f3328bd22847d7560459d37c51fc1b1d"
+    },
+    {
+      "path": "apps/web/public/fonts/alibaba-puhuiti-3/bold-09.woff2",
+      "bytes": 314880,
+      "sha256": "4be3e0327f33b11f48a8fbb60e31e073ec2df20ddc8677948afa88d51fd08b7e"
+    },
+    {
+      "path": "apps/web/public/fonts/alibaba-puhuiti-3/bold-10.woff2",
+      "bytes": 374908,
+      "sha256": "476fdf2324aa6ee3d1020fbd88023595f0131a478b6caa05ffb50eb535ca99dd"
+    },
+    {
+      "path": "apps/web/public/fonts/alibaba-puhuiti-3/bold-11.woff2",
+      "bytes": 328636,
+      "sha256": "62149bed9cccf145907b567a45fb20200ab6fae0e1cdc4e58b2261a821cf5654"
+    },
+    {
+      "path": "apps/web/public/fonts/alibaba-puhuiti-3/bold-12.woff2",
+      "bytes": 323488,
+      "sha256": "c95fd7833a3e9f1f760d3c5ae1a9619e0c8b560568944df1527a29e735823478"
+    },
+    {
+      "path": "apps/web/public/fonts/alibaba-puhuiti-3/bold-13.woff2",
+      "bytes": 370520,
+      "sha256": "b2fab1345ec86816d2f24ee601237de726d7dbfff7e3e02988209f99140b8baf"
+    },
+    {
+      "path": "apps/web/public/fonts/alibaba-puhuiti-3/bold-14.woff2",
+      "bytes": 327180,
+      "sha256": "49a6a16a71d04167fc4dd0c61f07ab9b96bc47fde3892c03043cb597dd8665ab"
+    },
+    {
+      "path": "apps/web/public/fonts/alibaba-puhuiti-3/bold-common.woff2",
+      "bytes": 62508,
+      "sha256": "829bb07ac9b7375add6f438c412f2578c17c377ffee4eef2b3f2bc00a4c26e28"
+    },
+    {
+      "path": "apps/web/public/fonts/alibaba-puhuiti-3/bold-latin.woff2",
+      "bytes": 18268,
+      "sha256": "5b04fa94126387696982a1818a0915f2f6ac37c01f22559ca661d557558ab985"
+    },
+    {
+      "path": "apps/web/public/fonts/alibaba-puhuiti-3/medium-01.woff2",
+      "bytes": 215132,
+      "sha256": "fe052612b4353c984d219d619376994b5a43a0ca3eeb780935105aef8ebdc63a"
+    },
+    {
+      "path": "apps/web/public/fonts/alibaba-puhuiti-3/medium-02.woff2",
+      "bytes": 339000,
+      "sha256": "1710b8bcaf8c87777dee6470024451713842941c7987a07300eca161b063f4d7"
+    },
+    {
+      "path": "apps/web/public/fonts/alibaba-puhuiti-3/medium-03.woff2",
+      "bytes": 351248,
+      "sha256": "dd1c54676d22ddb4a5c20931e463701dec4ea9abb551778cf8a3ec36e86bc5b8"
+    },
+    {
+      "path": "apps/web/public/fonts/alibaba-puhuiti-3/medium-04.woff2",
+      "bytes": 344856,
+      "sha256": "143d77e30fc6ee136213333c371a69c7c4b755c92be9aee8eda1e94ba51b5d9c"
+    },
+    {
+      "path": "apps/web/public/fonts/alibaba-puhuiti-3/medium-05.woff2",
+      "bytes": 264356,
+      "sha256": "62f4b926457def94b5b649034c84e43a2daec1642b06564e670b0b0cc144a49a"
+    },
+    {
+      "path": "apps/web/public/fonts/alibaba-puhuiti-3/medium-06.woff2",
+      "bytes": 298772,
+      "sha256": "eecb2999adf6821c46094a6f1545eabad87d798531f7b5244806f0d4b2e8eb4e"
+    },
+    {
+      "path": "apps/web/public/fonts/alibaba-puhuiti-3/medium-07.woff2",
+      "bytes": 305140,
+      "sha256": "693a988b43f95444f31c8fd1581c7010abc7749085f14665d67d01554736ca7e"
+    },
+    {
+      "path": "apps/web/public/fonts/alibaba-puhuiti-3/medium-08.woff2",
+      "bytes": 343032,
+      "sha256": "329199ccdab5dfe4a03dbb0866493e9c2ebd2a1f8206b8d352d8f36310b1a48c"
+    },
+    {
+      "path": "apps/web/public/fonts/alibaba-puhuiti-3/medium-09.woff2",
+      "bytes": 310520,
+      "sha256": "23835686bcad023ecf70fbe69daa63d5aaa3f0e57ae88a028231b0856aeb848c"
+    },
+    {
+      "path": "apps/web/public/fonts/alibaba-puhuiti-3/medium-10.woff2",
+      "bytes": 367000,
+      "sha256": "346f08dde884e5ef8a41e7b51b46b75cbb5e312c73a0b248b494fdb70c7f5301"
+    },
+    {
+      "path": "apps/web/public/fonts/alibaba-puhuiti-3/medium-11.woff2",
+      "bytes": 324076,
+      "sha256": "31c561ccbdb90fe882db9800e9a8775fd9eafd182d758311336f74cafa979f43"
+    },
+    {
+      "path": "apps/web/public/fonts/alibaba-puhuiti-3/medium-12.woff2",
+      "bytes": 318860,
+      "sha256": "ad6c43217fa61a5c41f472f9ea2bd6584aee981042afd733e2800060fe649964"
+    },
+    {
+      "path": "apps/web/public/fonts/alibaba-puhuiti-3/medium-13.woff2",
+      "bytes": 363232,
+      "sha256": "f76c6f78a29657ac21948094c92f5b8a4a4ef64795087dd92371f64ae999132a"
+    },
+    {
+      "path": "apps/web/public/fonts/alibaba-puhuiti-3/medium-14.woff2",
+      "bytes": 322276,
+      "sha256": "5b3013846055d0e65c5a9b5b96c86d1e03fa1c8b6b756a126c053d1e2a8c5a3f"
+    },
+    {
+      "path": "apps/web/public/fonts/alibaba-puhuiti-3/medium-common.woff2",
+      "bytes": 61968,
+      "sha256": "5421ba4b582f2fab1f119bb7ba24352741c77d9b8b7bd614c5301f37de6d223d"
+    },
+    {
+      "path": "apps/web/public/fonts/alibaba-puhuiti-3/medium-latin.woff2",
+      "bytes": 18548,
+      "sha256": "a746c3c1e964d38ba60fdd2d382cf43ac63b901aa6c9c3f6fc72477aee5e05b8"
+    },
+    {
+      "path": "apps/web/public/fonts/alibaba-puhuiti-3/regular-01.woff2",
+      "bytes": 211044,
+      "sha256": "034a4f32c3165ea2a57adeeecd432dc15d2822440615335a958f68ace795712b"
+    },
+    {
+      "path": "apps/web/public/fonts/alibaba-puhuiti-3/regular-02.woff2",
+      "bytes": 323528,
+      "sha256": "4283b6c9f925e65b899ed649755c214161cda2858a93c75365cb1c03cbdb8631"
+    },
+    {
+      "path": "apps/web/public/fonts/alibaba-puhuiti-3/regular-03.woff2",
+      "bytes": 338504,
+      "sha256": "c57b7ac61660cfe2adccbcf92db9ed2efb9f241efa2e0b0a87d4f356882cbcc2"
+    },
+    {
+      "path": "apps/web/public/fonts/alibaba-puhuiti-3/regular-04.woff2",
+      "bytes": 336508,
+      "sha256": "2e6bf99a76971fde49cb27465fa115080c54771e3dc39652ff2a6070ca04caab"
+    },
+    {
+      "path": "apps/web/public/fonts/alibaba-puhuiti-3/regular-05.woff2",
+      "bytes": 260012,
+      "sha256": "0b8632293e84d5df7f3788a5ce09a66c9beeff904fb117bc5f7c1b1f628e02ed"
+    },
+    {
+      "path": "apps/web/public/fonts/alibaba-puhuiti-3/regular-06.woff2",
+      "bytes": 294564,
+      "sha256": "ec50e92e90b1659f9de522b6a5e432acbd9210221ccc97c667cf2c39b9ab1f01"
+    },
+    {
+      "path": "apps/web/public/fonts/alibaba-puhuiti-3/regular-07.woff2",
+      "bytes": 301368,
+      "sha256": "69030a9d8862c2b4eb80d3c2673ee15d663db3e2018f96e2cbe22cce52e72f0e"
+    },
+    {
+      "path": "apps/web/public/fonts/alibaba-puhuiti-3/regular-08.woff2",
+      "bytes": 330264,
+      "sha256": "0ac8b661f905bd1647fed081bcfc5cd7be6c3a14aff71db5cce556d1a21ae41c"
+    },
+    {
+      "path": "apps/web/public/fonts/alibaba-puhuiti-3/regular-09.woff2",
+      "bytes": 300132,
+      "sha256": "bfd35c4c2781a0842a67207c9d702b32fa9cfc4fefadfab8a39c66fc4e7e60d4"
+    },
+    {
+      "path": "apps/web/public/fonts/alibaba-puhuiti-3/regular-10.woff2",
+      "bytes": 340124,
+      "sha256": "6d50d763f722c7e8d4cc54199a683e994727fdcb5ee33143e9446d94cd7f981e"
+    },
+    {
+      "path": "apps/web/public/fonts/alibaba-puhuiti-3/regular-11.woff2",
+      "bytes": 319772,
+      "sha256": "65e0d6cf02d885b2ced6057303a322bb2e2832d546d24619ce159f4117ab783b"
+    },
+    {
+      "path": "apps/web/public/fonts/alibaba-puhuiti-3/regular-12.woff2",
+      "bytes": 305528,
+      "sha256": "cac825b29e02bf4afe59f83ca36e7d2ca020bb98f4873b6e6e859d8f7964bf52"
+    },
+    {
+      "path": "apps/web/public/fonts/alibaba-puhuiti-3/regular-13.woff2",
+      "bytes": 350372,
+      "sha256": "770057d8f1b9342647650f7d131721ee51a5883461d6e22e4065181ece18bd85"
+    },
+    {
+      "path": "apps/web/public/fonts/alibaba-puhuiti-3/regular-14.woff2",
+      "bytes": 317280,
+      "sha256": "3527a48bce39bfad76350d56412e531ceb9bec620a11889735d04efbcc9ffb3a"
+    },
+    {
+      "path": "apps/web/public/fonts/alibaba-puhuiti-3/regular-common.woff2",
+      "bytes": 62096,
+      "sha256": "e9e173859a849eb9b7d9f6d61731749e734fd5f1167040d84f1536182370bafa"
+    },
+    {
+      "path": "apps/web/public/fonts/alibaba-puhuiti-3/regular-latin.woff2",
+      "bytes": 19040,
+      "sha256": "7c800950333f0f78cad96be38611ed26016dff5a96af86edec1130535a529a6d"
+    },
+    {
+      "path": "apps/web/public/fonts/alibaba-puhuiti-3/semibold-01.woff2",
+      "bytes": 216532,
+      "sha256": "ea341df1ad35792d043e5182e176c391e0b0588947c45332cce1eb099a90f117"
+    },
+    {
+      "path": "apps/web/public/fonts/alibaba-puhuiti-3/semibold-02.woff2",
+      "bytes": 342148,
+      "sha256": "4b40202d24b7ebe40d117a6717a83e78ff804e870e1b80748ac5cd41259e6e65"
+    },
+    {
+      "path": "apps/web/public/fonts/alibaba-puhuiti-3/semibold-03.woff2",
+      "bytes": 353560,
+      "sha256": "2b5e99ea2c0f0b995fef0b412eb4c0c01b2cc6c6bec973d5b87a9d5655bf0a87"
+    },
+    {
+      "path": "apps/web/public/fonts/alibaba-puhuiti-3/semibold-04.woff2",
+      "bytes": 347868,
+      "sha256": "286550d71ab39cb8cf6e8d6ceeb05d8546116df2f16beb3779c07e349456da80"
+    },
+    {
+      "path": "apps/web/public/fonts/alibaba-puhuiti-3/semibold-05.woff2",
+      "bytes": 265700,
+      "sha256": "5e55468433c20aa590cc1b78166d31aa69651375b8979337d71a3b2a9d51f59e"
+    },
+    {
+      "path": "apps/web/public/fonts/alibaba-puhuiti-3/semibold-06.woff2",
+      "bytes": 300364,
+      "sha256": "3f2e0b8671da8f43446c88243a325a70d6c3d4165b238563236ed250a9b3c53f"
+    },
+    {
+      "path": "apps/web/public/fonts/alibaba-puhuiti-3/semibold-07.woff2",
+      "bytes": 307332,
+      "sha256": "a3aef9f1ccbb46de462dcaaf906ce6cc72adbbbb29b24711d43a209d1c0cbd57"
+    },
+    {
+      "path": "apps/web/public/fonts/alibaba-puhuiti-3/semibold-08.woff2",
+      "bytes": 348224,
+      "sha256": "c049cfff02825fb9c998411eca159f7c801de0aedcf8338ba05f42611c9cc6d8"
+    },
+    {
+      "path": "apps/web/public/fonts/alibaba-puhuiti-3/semibold-09.woff2",
+      "bytes": 312548,
+      "sha256": "f0561b7540bda612f85c70e563f58406d7de9aa36cb7d2490d9db42deccc36ed"
+    },
+    {
+      "path": "apps/web/public/fonts/alibaba-puhuiti-3/semibold-10.woff2",
+      "bytes": 370056,
+      "sha256": "e430000c0cda0fb45ad6a70103123183f88b261b71eb0545c008856627b7f045"
+    },
+    {
+      "path": "apps/web/public/fonts/alibaba-puhuiti-3/semibold-11.woff2",
+      "bytes": 325376,
+      "sha256": "8fad3602d0ec0fb9df2afab82081425e7e63ff2ba6494d130a947c9ddbe9dfc3"
+    },
+    {
+      "path": "apps/web/public/fonts/alibaba-puhuiti-3/semibold-12.woff2",
+      "bytes": 318632,
+      "sha256": "04daebadeba4c96ef3fc2105c2e293d210eda9d85ec10b6ce38fe956da13f733"
+    },
+    {
+      "path": "apps/web/public/fonts/alibaba-puhuiti-3/semibold-13.woff2",
+      "bytes": 365824,
+      "sha256": "b8bd11efce264c67b1250c6f44100c9085272ca93a118995519323abc0810605"
+    },
+    {
+      "path": "apps/web/public/fonts/alibaba-puhuiti-3/semibold-14.woff2",
+      "bytes": 323008,
+      "sha256": "0d450295ec3d9f68f152960fe1c3e470bb70fe1d7b4757babf7436c2ad52a5a6"
+    },
+    {
+      "path": "apps/web/public/fonts/alibaba-puhuiti-3/semibold-common.woff2",
+      "bytes": 62020,
+      "sha256": "a2bd0d292640d219770283377ebef9958bc17cc52e382b8707d9c0f016328b9e"
+    },
+    {
+      "path": "apps/web/public/fonts/alibaba-puhuiti-3/semibold-latin.woff2",
+      "bytes": 18904,
+      "sha256": "79d23d87519ad2d042e21af1ea2a8410dda26b62faa051ad8ee67f6eb9297077"
+    },
+    {
+      "path": "apps/web/public/fonts/noto-sans-arabic/OFL.txt",
+      "bytes": 4381,
+      "sha256": "df5143cdf3380169f2d03bf6d2cd243e85621fd097e608c3607cf7f9c9884ae6"
+    },
+    {
+      "path": "apps/web/public/fonts/noto-sans-arabic/arabic.woff2",
+      "bytes": 361584,
+      "sha256": "dd720f1e8b2935d70ab0fe5637d71d2cced80ecd10e71a69763bf4d437a1a1ab"
+    },
+    {
+      "path": "apps/web/public/living/OFL-display.txt",
+      "bytes": 4605,
+      "sha256": "a3e5cdd67d4571dd0a24fcc968de0efde7ae97ef752daf0906e4767619dd7231"
+    },
+    {
+      "path": "apps/web/public/living/OFL-sans.txt",
+      "bytes": 4482,
+      "sha256": "9af36190332437f5ecd09974de43c1f7c77a310a996cdd8ceb25628b458840e1"
+    },
+    {
+      "path": "apps/web/public/living/README.md",
+      "bytes": 903,
+      "sha256": "599ad806d5bef20e093662bc07bd01e2ba1a6dd23dae1460bbc292ea12a8e81b"
+    },
+    {
+      "path": "apps/web/public/living/cabin.jpg",
+      "bytes": 440208,
+      "sha256": "98c7c8984592fb5665eaee60b50115ce75ab87342b70c5456709cac92d548039"
+    },
+    {
+      "path": "apps/web/public/living/display-italic.ttf",
+      "bytes": 71208,
+      "sha256": "df74c0ac387baeaeb0fe4f2324e1668e6a3ed8c09cd9796fe162c71753e19e45"
+    },
+    {
+      "path": "apps/web/public/living/display.ttf",
+      "bytes": 76580,
+      "sha256": "8cc3643535edf039aa5d95440a8542735e9197e4f4b8d9303e980fefbf5ab616"
+    },
+    {
+      "path": "apps/web/public/living/landscape.jpg",
+      "bytes": 559964,
+      "sha256": "c3962e156d66dfd881019f06723fa8c5a4befab63df0b6b79d10ac4b03e6a2c7"
+    },
+    {
+      "path": "apps/web/public/living/retreat.jpg",
+      "bytes": 585521,
+      "sha256": "dad94fa26182152e46357b09656f1e03bfc67cefbd4e80977659e5730ee7e180"
+    },
+    {
+      "path": "apps/web/public/living/sans.ttf",
+      "bytes": 240164,
+      "sha256": "8cd08d97e89c24d0aa92edd2f0f4c8ee6195eee9b7c9f154865a58b02f0c1c0d"
+    },
+    {
+      "path": "apps/web/public/living/sources.json",
+      "bytes": 1042,
+      "sha256": "b767c8adfdb513474e90a1b35f697fa429575a93264b05208467e2bee986ebd8"
+    },
+    {
+      "path": "apps/web/public/living/studio.jpg",
+      "bytes": 655874,
+      "sha256": "1ee2d78ebd6980cf340e66992f96033e0402763f5d7cf9105565d2b74a84d43d"
+    },
+    {
+      "path": "apps/web/public/products/README.md",
+      "bytes": 898,
+      "sha256": "e645616a996d8c21467ce51ab776fd783205f4603b12106e7d8396c62a874a91"
+    },
+    {
+      "path": "apps/web/public/products/capsule-d7-exterior.webp",
+      "bytes": 113796,
+      "sha256": "d0ecb92806bcca2a553b0d1c2a453f65667eba9abfb5e20249c5e20abbc0080a"
+    },
+    {
+      "path": "apps/web/public/products/capsule-interior.webp",
+      "bytes": 88008,
+      "sha256": "0497a8893b4c6564a979de1ea1352fe15e988949ee151e41443efb4229ac2dd7"
+    },
+    {
+      "path": "apps/web/public/products/categories/distribution-transformer.png",
+      "bytes": 91643,
+      "sha256": "c533254b9710c4823a8c8b4e7b1a7be2fab1955f9037723bce8ca96dd28c1e37"
+    },
+    {
+      "path": "apps/web/public/products/categories/lv-switchgear.png",
+      "bytes": 84479,
+      "sha256": "f17db3a67b5ff7a69dff1c998003734ee7d87b472598fc98ad701d27c0c4c65b"
+    },
+    {
+      "path": "apps/web/public/products/categories/mv-switchgear.png",
+      "bytes": 101170,
+      "sha256": "8ca80786e1529af017dcaa308536eb87af71a91be27f2036207a346fd85a3621"
+    },
+    {
+      "path": "apps/web/public/products/categories/sources.json",
+      "bytes": 368,
+      "sha256": "60adc22aed9d5e98d5de31f2e5959048cc2bb5b27c95fe301731474ea6862f8a"
+    },
+    {
+      "path": "apps/web/public/products/categories/substation.png",
+      "bytes": 86021,
+      "sha256": "988f48093d3b76151865cdf1f98500f561c19ed9e24e7c12915d78638de50554"
+    },
+    {
+      "path": "apps/web/public/products/company/apple-ac01-27.webp",
+      "bytes": 64474,
+      "sha256": "7ec4657a14dbb249927449b098789b205745cb0f60aa7a87d36b5a506e043bd9"
+    },
+    {
+      "path": "apps/web/public/products/company/apple-ac01-28.webp",
+      "bytes": 88340,
+      "sha256": "96ddb533dc24a8f5bedb431441382d2519fdef847dcfccd776de2b169df3d913"
+    },
+    {
+      "path": "apps/web/public/products/company/apple-ac01.webp",
+      "bytes": 47650,
+      "sha256": "5fd923b75857ec6c5a05d727759bdc9f70f1159a9cd1a390beaa3b0810d96511"
+    },
+    {
+      "path": "apps/web/public/products/company/apple-ac02-49.webp",
+      "bytes": 58396,
+      "sha256": "3add3a67bcb8132adbaebb2b3358695b920068afd66f17b1050a076253a22a62"
+    },
+    {
+      "path": "apps/web/public/products/company/apple-ac02-50.webp",
+      "bytes": 46700,
+      "sha256": "5ff2785caf9b8f8b911912aca74eef7f98938b362858488b54612df963353fce"
+    },
+    {
+      "path": "apps/web/public/products/company/apple-ac02.webp",
+      "bytes": 47206,
+      "sha256": "740fa386b32c4404404055c5f2a065e88c7a0e817aec4904f734559537d40599"
+    },
+    {
+      "path": "apps/web/public/products/company/apple-ac03.webp",
+      "bytes": 62994,
+      "sha256": "9150a96b23104c9453a68282b6d4721744fa284435343ace4a5bcf28897af8ef"
+    },
+    {
+      "path": "apps/web/public/products/company/apple-ac04-67.webp",
+      "bytes": 178574,
+      "sha256": "5e936e26885a42abbde5b994c8afa3c04a101197b3e8806cd4269ee38d207951"
+    },
+    {
+      "path": "apps/web/public/products/company/apple-ac04.webp",
+      "bytes": 64248,
+      "sha256": "9a2a8d3d1ba31b96acf0fb86fbae844d3b6b1478587ff6b5e980c7edfb29382f"
+    },
+    {
+      "path": "apps/web/public/products/company/apple-ac05.webp",
+      "bytes": 56948,
+      "sha256": "86d81d500d226abb9f000a15067a91f41d72be26ef9a00555e2192b77eef29ad"
+    },
+    {
+      "path": "apps/web/public/products/company/apple-ac06.webp",
+      "bytes": 31310,
+      "sha256": "b9bfe66843a35295a2a67ab3602da992c8cd165139abcf9da16b43aac74ea5fd"
+    },
+    {
+      "path": "apps/web/public/products/company/apple-ae01-100.webp",
+      "bytes": 26730,
+      "sha256": "9c01c44cd6fb77ce264bdca5d75b7d04e7383704c5f4189fcedd1cc868607e40"
+    },
+    {
+      "path": "apps/web/public/products/company/apple-ae01-98.webp",
+      "bytes": 30324,
+      "sha256": "c7a3599b44525461ab1f0074adbbb24258331b3b7c11b2e3df5ba3c0404fd42b"
+    },
+    {
+      "path": "apps/web/public/products/company/apple-ae01-99.webp",
+      "bytes": 27986,
+      "sha256": "7ba7ae1877ae412b935eedcaafaec99054fc5977da07d77eed9fe781e5344ab1"
+    },
+    {
+      "path": "apps/web/public/products/company/apple-ae01.webp",
+      "bytes": 116858,
+      "sha256": "1ecdb3f66c401cd51332d77f11350393af7a44707a9626a244cd6f6a76722724"
+    },
+    {
+      "path": "apps/web/public/products/company/container-interior.webp",
+      "bytes": 74530,
+      "sha256": "7cf8a23d1042fa69bee05e13165132decfdd24523e94c96ceed9e92c56e1ea06"
+    },
+    {
+      "path": "apps/web/public/products/company/d7-exterior-setting.webp",
+      "bytes": 90130,
+      "sha256": "933d7ef7638eb77056f797e92960aa2ccecad94fed272c9489b3b2f49e0e9a22"
+    },
+    {
+      "path": "apps/web/public/products/company/d7-interior.webp",
+      "bytes": 62114,
+      "sha256": "8192f05caf8523d49cd49279d75a13e6af0602cd20a6a4c2cea4bc2ee5b4540d"
+    },
+    {
+      "path": "apps/web/public/products/company/d7-lounge.webp",
+      "bytes": 86650,
+      "sha256": "ce58596d83a8363384decc85bed6168c7f48d4c0165ea3ecefb04205c4992b26"
+    },
+    {
+      "path": "apps/web/public/products/company/detachable-house.webp",
+      "bytes": 10766,
+      "sha256": "c91d3e657b3e691de0c5373e273b57baff76a65d36c141c4bd3c4a404126d0f9"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-00c316cbc8796a70.webp",
+      "bytes": 60364,
+      "sha256": "74d049b961bc8b82facd1f824a28b3655fe5e0164e1208dfb2c7db4f93b46bfb"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-0110a3bccb2d1e29.webp",
+      "bytes": 47952,
+      "sha256": "a61e8cf6412dea0fa1dff99d270d33c2786c32d12ff2b817ac65d6fa3e69d411"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-03a06687a73f8719.webp",
+      "bytes": 83044,
+      "sha256": "0ee985f01ba0721052d7418340a54f5c5f83246875bacbb3c49cf16012dabe38"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-0588c1463130a2cc.webp",
+      "bytes": 82880,
+      "sha256": "19a5f4666d269b1dfac9fc1c2500d4df9b7eee56c3b5c45da7085bcd44a8bf30"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-0603929b6fccab02.webp",
+      "bytes": 69752,
+      "sha256": "e1adc922d153be69cb9d191b4dc0e4baaa5bd9da49662d797967606b9df344a4"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-069e38832683939a.webp",
+      "bytes": 73358,
+      "sha256": "5ed20b25bb57a6f808f65ecdfe5383d01a5cd640917d854792fced92c4fbb40d"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-10a1f8301ae86e09.webp",
+      "bytes": 53058,
+      "sha256": "ce03e15eb4c2df64e1268bb567ca5e8276cac337a082be376e047034b4525516"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-14cede70d0240b34.webp",
+      "bytes": 64180,
+      "sha256": "2fa3fdfcfaf80be1aa7c546025025222e5242ce94aaedc9b3fcc3e8376bd2838"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-158f9a4bdab3b7ea.webp",
+      "bytes": 82880,
+      "sha256": "19a5f4666d269b1dfac9fc1c2500d4df9b7eee56c3b5c45da7085bcd44a8bf30"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-1619e1b999d9f184.webp",
+      "bytes": 53776,
+      "sha256": "df9510e1053e60115bd65ab8f44208614cf7befad2f894a40be10d92de92d878"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-16f2c978963e43d6.webp",
+      "bytes": 53776,
+      "sha256": "df9510e1053e60115bd65ab8f44208614cf7befad2f894a40be10d92de92d878"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-1892647ac90aa0d7.webp",
+      "bytes": 90334,
+      "sha256": "4d053cff17e681a67e6701ee5279960f37a5c4690461c4623e5a1e7ce5f47176"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-1ae13fb660c7b9a5.webp",
+      "bytes": 82880,
+      "sha256": "19a5f4666d269b1dfac9fc1c2500d4df9b7eee56c3b5c45da7085bcd44a8bf30"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-1f82b974986ba267.webp",
+      "bytes": 64864,
+      "sha256": "5c66ab8f544858f9d24a3097f12dc1737d0c8fdf8ddc327e566d9b014f5ef052"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-2375c5a8dc79dfe9.webp",
+      "bytes": 154230,
+      "sha256": "d831f244e5404cdd51e9a576eb4cf17e55ee4fed06d1af05e2455a642b5f0d4f"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-24bbe68e3b82ffa2.webp",
+      "bytes": 61116,
+      "sha256": "d6381c816b1db796d2d64476cfe781a54576887f5de13f200779f2386a4f067b"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-2512bc716eb68366.webp",
+      "bytes": 90334,
+      "sha256": "4d053cff17e681a67e6701ee5279960f37a5c4690461c4623e5a1e7ce5f47176"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-25b2a1a443ea69bd.webp",
+      "bytes": 68566,
+      "sha256": "bf9a44f5cddf82c72a044dc8f5fc0aad5ccd2b786ab017e7afa959e9f9daca4d"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-275445682fb450e5.webp",
+      "bytes": 53808,
+      "sha256": "f967dd06f417b676c7b23f8d9b0cd1a4f1a0217d438c550f1017c958a8007281"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-287f59136513c033.webp",
+      "bytes": 46196,
+      "sha256": "528bc4720bdb73043a26dfddd24d9efa9da8583ca03ab6b1e3cf361d9b1d0722"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-29ef13a5bfccc28a.webp",
+      "bytes": 53776,
+      "sha256": "df9510e1053e60115bd65ab8f44208614cf7befad2f894a40be10d92de92d878"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-2a4f9277baeaaec6.webp",
+      "bytes": 53808,
+      "sha256": "f967dd06f417b676c7b23f8d9b0cd1a4f1a0217d438c550f1017c958a8007281"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-2b2d8d1687494fa0.webp",
+      "bytes": 131800,
+      "sha256": "2b8f50b0c73773c4533f462a8cb60dad9cd8f3807a29395b3b9780444e1ccc39"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-2d17bf8e22f2a5fc.webp",
+      "bytes": 60366,
+      "sha256": "4c7972831c2504867d573f4bfbd49fedf131744b24b0907b8b533353930a9e0f"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-2d3e1fcd2dd1db49.webp",
+      "bytes": 54950,
+      "sha256": "3d13341b9a9aeb1052b0f8a7c77b48e1baf2eb1cb23bd586e79907b903e8b0a8"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-2d4b45f0bbfa34c8.webp",
+      "bytes": 53776,
+      "sha256": "df9510e1053e60115bd65ab8f44208614cf7befad2f894a40be10d92de92d878"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-2e9f69adfd233e3e.webp",
+      "bytes": 128578,
+      "sha256": "cd856cf636cdef8eac32d31bb70e6e9177cedccc6fcfe9c90f7690e130e42161"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-2fba1aebad1107e5.webp",
+      "bytes": 141362,
+      "sha256": "da7868585f7bc98eacc52a980173d1b07a6a102f7af5fcb3202a14a094204663"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-302207a09f2f9f11.webp",
+      "bytes": 70364,
+      "sha256": "8b4bfb482b002ef4b610a649e7fb8f6569b9ac4d0301d6e9989b42b7824114d3"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-31f19655caebf5a5.webp",
+      "bytes": 64180,
+      "sha256": "2fa3fdfcfaf80be1aa7c546025025222e5242ce94aaedc9b3fcc3e8376bd2838"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-3268cf92ab42a8c5.webp",
+      "bytes": 90334,
+      "sha256": "4d053cff17e681a67e6701ee5279960f37a5c4690461c4623e5a1e7ce5f47176"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-37be6f2d5d04fc1a.webp",
+      "bytes": 41466,
+      "sha256": "74f30067244b0708bac3e195fa16ab42d1d320cd9275a18b17b061a37af79542"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-393d1cb2c782a71b.webp",
+      "bytes": 141210,
+      "sha256": "cd22a5b158f867bda9d9cfc9ee66bb52f60029d89c48ad9fe3068fd318f802b7"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-39a4b2884329be91.webp",
+      "bytes": 90334,
+      "sha256": "4d053cff17e681a67e6701ee5279960f37a5c4690461c4623e5a1e7ce5f47176"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-412a4e2fe644f898.webp",
+      "bytes": 82880,
+      "sha256": "19a5f4666d269b1dfac9fc1c2500d4df9b7eee56c3b5c45da7085bcd44a8bf30"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-48e6b909f726844b.webp",
+      "bytes": 107572,
+      "sha256": "27867a9a65736ca9bb0fc9fb7b68a3167463ede54e7cc3c4951faf4b24033871"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-4a6bb2c1bc56f88d.webp",
+      "bytes": 114854,
+      "sha256": "2ef32568b07ad4407bd32fb907be6efec4d1f9f374460e2b4052bfc62251bf6b"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-4b510fcb040d031b.webp",
+      "bytes": 82880,
+      "sha256": "19a5f4666d269b1dfac9fc1c2500d4df9b7eee56c3b5c45da7085bcd44a8bf30"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-4dd13dc4ae361517.webp",
+      "bytes": 67912,
+      "sha256": "3146e5551d51f25735c3c4900461929d45efb6378e0ec25bea6ac4bbad424fd3"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-507616465efae154.webp",
+      "bytes": 67260,
+      "sha256": "52b8afb82f553427d74e1f23145bd5d5a575a328e97737d3a85f943a352ab195"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-5828d0d368624d0a.webp",
+      "bytes": 90608,
+      "sha256": "45ea91cfaaf500a256ebe64db1ec2f991b7c6639a5a445b49e2a741326fded38"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-58e198ef55b25b16.webp",
+      "bytes": 34078,
+      "sha256": "896db823fe4aa9bf91b031f6f556d4aecbb1ce5600e820f8476722eda8173fef"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-5a09970fd6b2e630.webp",
+      "bytes": 62446,
+      "sha256": "d740f63ff9ec98d8d7ad717e2dff0168546de08acffbb3abf746a710a8223103"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-5a224ee1f03da3f6.webp",
+      "bytes": 82880,
+      "sha256": "19a5f4666d269b1dfac9fc1c2500d4df9b7eee56c3b5c45da7085bcd44a8bf30"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-5acbc0eb5df133f1.webp",
+      "bytes": 156152,
+      "sha256": "87af03e670f17e5e4a4c3916c35935ffbe365a7fc182ed8c6ab4ec091b3d91e2"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-5d5a31b53d04799c.webp",
+      "bytes": 117272,
+      "sha256": "6edd362d765ab22e183df6d36e06cedb2aac42060e60951eff6a524e0b1f6eda"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-6231d5d24c301a20.webp",
+      "bytes": 53776,
+      "sha256": "df9510e1053e60115bd65ab8f44208614cf7befad2f894a40be10d92de92d878"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-65821de631dcd49e.webp",
+      "bytes": 82880,
+      "sha256": "19a5f4666d269b1dfac9fc1c2500d4df9b7eee56c3b5c45da7085bcd44a8bf30"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-68536c1458f69af4.webp",
+      "bytes": 53776,
+      "sha256": "df9510e1053e60115bd65ab8f44208614cf7befad2f894a40be10d92de92d878"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-687ef3b2cf77e161.webp",
+      "bytes": 90334,
+      "sha256": "4d053cff17e681a67e6701ee5279960f37a5c4690461c4623e5a1e7ce5f47176"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-6a37dc80d1f9e0db.webp",
+      "bytes": 92534,
+      "sha256": "71de73f063357f7ea5bde2b10eb8becc934882dccdac847a75cce36d86e8088c"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-6ac27c079d375d22.webp",
+      "bytes": 23560,
+      "sha256": "92e86370aa8606281696ee823258acf8006ba9f4f1aca8322cfc6027399b5d36"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-6b5cc2c78f84c560.webp",
+      "bytes": 90334,
+      "sha256": "4d053cff17e681a67e6701ee5279960f37a5c4690461c4623e5a1e7ce5f47176"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-6c1ef49665450bb5.webp",
+      "bytes": 82880,
+      "sha256": "19a5f4666d269b1dfac9fc1c2500d4df9b7eee56c3b5c45da7085bcd44a8bf30"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-83a4445bdccd961e.webp",
+      "bytes": 90232,
+      "sha256": "41f3118050a3bb736408890c34f65a467b8c077b51b166fdaf571e1da71015d1"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-83a4acebaff1ea3e.webp",
+      "bytes": 88074,
+      "sha256": "d99471e1debae28b769f58f1fa429785b3e75fa61b1aacf39f00b5d83f6054d5"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-87509b0a5cd7d7b4.webp",
+      "bytes": 107572,
+      "sha256": "27867a9a65736ca9bb0fc9fb7b68a3167463ede54e7cc3c4951faf4b24033871"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-8ab73fc9eea0c30b.webp",
+      "bytes": 73358,
+      "sha256": "5ed20b25bb57a6f808f65ecdfe5383d01a5cd640917d854792fced92c4fbb40d"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-8b3ec160d14dfd47.webp",
+      "bytes": 125998,
+      "sha256": "24ee5e17542dbbef0c365eb3a2726ef2db7abe3d5b523defd12c94f3b0b40fb0"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-8c2efba329df9f1f.webp",
+      "bytes": 53776,
+      "sha256": "df9510e1053e60115bd65ab8f44208614cf7befad2f894a40be10d92de92d878"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-8d1f7ede219b1d7a.webp",
+      "bytes": 63404,
+      "sha256": "00fbb7377ad5a14ca1a7a26f017f56ae2ef5a51cdacb4582af1d3590731b9919"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-8de7152722ced1ae.webp",
+      "bytes": 53776,
+      "sha256": "df9510e1053e60115bd65ab8f44208614cf7befad2f894a40be10d92de92d878"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-8f454797d8d3c841.webp",
+      "bytes": 90334,
+      "sha256": "4d053cff17e681a67e6701ee5279960f37a5c4690461c4623e5a1e7ce5f47176"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-92eb3bb027514870.webp",
+      "bytes": 87316,
+      "sha256": "0fad9b03d303fa3d71fb190e12da2eed28496ec00d9d2eb28ae55e598442b5ac"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-94238429ff2fdeb5.webp",
+      "bytes": 107572,
+      "sha256": "27867a9a65736ca9bb0fc9fb7b68a3167463ede54e7cc3c4951faf4b24033871"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-94494329da356f0f.webp",
+      "bytes": 41466,
+      "sha256": "74f30067244b0708bac3e195fa16ab42d1d320cd9275a18b17b061a37af79542"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-94660459fe730374.webp",
+      "bytes": 104016,
+      "sha256": "7d585d60247938808059120c82307c09bf20e41da4ddf55418228f3e571da434"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-9afbc50133b93a91.webp",
+      "bytes": 53776,
+      "sha256": "df9510e1053e60115bd65ab8f44208614cf7befad2f894a40be10d92de92d878"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-9bf0064776bd4644.webp",
+      "bytes": 88980,
+      "sha256": "02708219a1b5425225d48583e8bf9aa3e2c570ae0a1d9c7579b4cf8b284af39f"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-9f1303a1096d65e2.webp",
+      "bytes": 82880,
+      "sha256": "19a5f4666d269b1dfac9fc1c2500d4df9b7eee56c3b5c45da7085bcd44a8bf30"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-a2ef458feb4a968b.webp",
+      "bytes": 59928,
+      "sha256": "93673b78421cb90551a1d52b207fbe7330ca1aacc75f5572c0546bb3b03546a7"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-a350bc733e98ba39.webp",
+      "bytes": 34078,
+      "sha256": "896db823fe4aa9bf91b031f6f556d4aecbb1ce5600e820f8476722eda8173fef"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-a3c9718a989f07fd.webp",
+      "bytes": 73358,
+      "sha256": "5ed20b25bb57a6f808f65ecdfe5383d01a5cd640917d854792fced92c4fbb40d"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-a50143acee152ff5.webp",
+      "bytes": 53776,
+      "sha256": "df9510e1053e60115bd65ab8f44208614cf7befad2f894a40be10d92de92d878"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-a55da95fc142731b.webp",
+      "bytes": 84800,
+      "sha256": "13b2d08541073214b121913a613c6cee9042d6a33815a6d1f397c7b07d175ae9"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-a82d59f8e2ef51db.webp",
+      "bytes": 97326,
+      "sha256": "347723947191b488a5357cb2de9c2e1bce50dfae998ec6ee6767f6a49474ec60"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-b006274bc814b76c.webp",
+      "bytes": 170900,
+      "sha256": "bdda2cf60cc495b143d9a167b6f432108d6722e89b0f8b458533885cfcc7f6dc"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-b621faea9c2cc55a.webp",
+      "bytes": 24332,
+      "sha256": "90ab14c00681ba0105e3d279c34ae478269b4a315dba9cb203049ebea70c7e43"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-b7cfeaa83654046c.webp",
+      "bytes": 90334,
+      "sha256": "4d053cff17e681a67e6701ee5279960f37a5c4690461c4623e5a1e7ce5f47176"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-b88235cd1cf7c870.webp",
+      "bytes": 60334,
+      "sha256": "70fe50bca02507b150c6641f077e9f3ef15f893c7a0d4f24ff8c71c0d3fbaa51"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-b95e4e89aefa0159.webp",
+      "bytes": 64864,
+      "sha256": "5c66ab8f544858f9d24a3097f12dc1737d0c8fdf8ddc327e566d9b014f5ef052"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-ba244ddf90d0255f.webp",
+      "bytes": 108808,
+      "sha256": "f38a71346f3148d3c39e99d391d78df4902e944294ba76d4e6f03d071214389c"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-ba27bdac959f02c9.webp",
+      "bytes": 39746,
+      "sha256": "e72547c4abfe28cdc3d47eec3781da77005aabb1d2fd54290fdd735954350828"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-bb1d98f7bdc416e7.webp",
+      "bytes": 34078,
+      "sha256": "896db823fe4aa9bf91b031f6f556d4aecbb1ce5600e820f8476722eda8173fef"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-bb2a8e84242cc9aa.webp",
+      "bytes": 24332,
+      "sha256": "90ab14c00681ba0105e3d279c34ae478269b4a315dba9cb203049ebea70c7e43"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-bd1ba09f63ad96ce.webp",
+      "bytes": 54950,
+      "sha256": "3d13341b9a9aeb1052b0f8a7c77b48e1baf2eb1cb23bd586e79907b903e8b0a8"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-c1a8b2a26959b7e1.webp",
+      "bytes": 61464,
+      "sha256": "09ceb0a540ed046c44b00b2423b129b28fede6b8251747590173e13bb1fb23dd"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-c2c509983d3a115d.webp",
+      "bytes": 61398,
+      "sha256": "6c2e6b339a2314bb04184195b75156cc4d30862dc87f61c9a05cc4d15274283b"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-c3fe3501964b7a09.webp",
+      "bytes": 64180,
+      "sha256": "2fa3fdfcfaf80be1aa7c546025025222e5242ce94aaedc9b3fcc3e8376bd2838"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-c5c4721f1a641d55.webp",
+      "bytes": 53808,
+      "sha256": "f967dd06f417b676c7b23f8d9b0cd1a4f1a0217d438c550f1017c958a8007281"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-c8a340ab9d0b4dd2.webp",
+      "bytes": 69752,
+      "sha256": "e1adc922d153be69cb9d191b4dc0e4baaa5bd9da49662d797967606b9df344a4"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-cae6dd2038e5c06a.webp",
+      "bytes": 24332,
+      "sha256": "90ab14c00681ba0105e3d279c34ae478269b4a315dba9cb203049ebea70c7e43"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-caf633dec5c5b9c2.webp",
+      "bytes": 63424,
+      "sha256": "5c5e6509b86157a16cf41e073bbb1b429c482cb0fefcf3006311f89d29a597ba"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-cbb6d35449e02c2b.webp",
+      "bytes": 127890,
+      "sha256": "32d183056dd47ce9efed197ababd3e3abeed2ce5eb582c20a4de7506a19807ca"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-cc9fd51b1cedca95.webp",
+      "bytes": 82880,
+      "sha256": "19a5f4666d269b1dfac9fc1c2500d4df9b7eee56c3b5c45da7085bcd44a8bf30"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-cd085c1f8de435f8.webp",
+      "bytes": 53776,
+      "sha256": "df9510e1053e60115bd65ab8f44208614cf7befad2f894a40be10d92de92d878"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-ceda9dcadb5bdc38.webp",
+      "bytes": 39746,
+      "sha256": "e72547c4abfe28cdc3d47eec3781da77005aabb1d2fd54290fdd735954350828"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-ceebc0df8faea4d0.webp",
+      "bytes": 70364,
+      "sha256": "8b4bfb482b002ef4b610a649e7fb8f6569b9ac4d0301d6e9989b42b7824114d3"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-d67f4867b6231db4.webp",
+      "bytes": 53776,
+      "sha256": "df9510e1053e60115bd65ab8f44208614cf7befad2f894a40be10d92de92d878"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-d6998426a87ff206.webp",
+      "bytes": 90334,
+      "sha256": "4d053cff17e681a67e6701ee5279960f37a5c4690461c4623e5a1e7ce5f47176"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-d7d5e82d7134c9e4.webp",
+      "bytes": 90334,
+      "sha256": "4d053cff17e681a67e6701ee5279960f37a5c4690461c4623e5a1e7ce5f47176"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-d92cb8d64f409ce3.webp",
+      "bytes": 47664,
+      "sha256": "071f4cba3d46e0f2f90ad340446c3b33099866c4884221fb32f794b7cb62e844"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-da333d0304620ed6.webp",
+      "bytes": 41466,
+      "sha256": "74f30067244b0708bac3e195fa16ab42d1d320cd9275a18b17b061a37af79542"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-da36f5c2ba0eb1b8.webp",
+      "bytes": 64864,
+      "sha256": "5c66ab8f544858f9d24a3097f12dc1737d0c8fdf8ddc327e566d9b014f5ef052"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-db9393a0401e5704.webp",
+      "bytes": 82880,
+      "sha256": "19a5f4666d269b1dfac9fc1c2500d4df9b7eee56c3b5c45da7085bcd44a8bf30"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-dffa9da84d727b87.webp",
+      "bytes": 90334,
+      "sha256": "4d053cff17e681a67e6701ee5279960f37a5c4690461c4623e5a1e7ce5f47176"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-e03336fbe226b8df.webp",
+      "bytes": 90334,
+      "sha256": "4d053cff17e681a67e6701ee5279960f37a5c4690461c4623e5a1e7ce5f47176"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-e11e3289da2753e0.webp",
+      "bytes": 90334,
+      "sha256": "4d053cff17e681a67e6701ee5279960f37a5c4690461c4623e5a1e7ce5f47176"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-e1411ffe7cc82e43.webp",
+      "bytes": 60366,
+      "sha256": "b61ec0c724823871559d5513b481619594b120910c743057405cf210a55f7fdb"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-e28220f17bd71fe1.webp",
+      "bytes": 82880,
+      "sha256": "19a5f4666d269b1dfac9fc1c2500d4df9b7eee56c3b5c45da7085bcd44a8bf30"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-e3667d69c089b346.webp",
+      "bytes": 139658,
+      "sha256": "f6f2c9cb7b1f0e8961cc6669ac32497e9fb5caa8cbfadf94658b828276545b90"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-e422883955d0066a.webp",
+      "bytes": 90334,
+      "sha256": "4d053cff17e681a67e6701ee5279960f37a5c4690461c4623e5a1e7ce5f47176"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-e60e583bcef4b668.webp",
+      "bytes": 69752,
+      "sha256": "e1adc922d153be69cb9d191b4dc0e4baaa5bd9da49662d797967606b9df344a4"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-e6bf688552bd1d6a.webp",
+      "bytes": 82880,
+      "sha256": "19a5f4666d269b1dfac9fc1c2500d4df9b7eee56c3b5c45da7085bcd44a8bf30"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-e716b53604a59616.webp",
+      "bytes": 76564,
+      "sha256": "459e62362d28aebb2742ffeffa71b59461186bf13a8f679f081f59783679d822"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-e84449f7e16f9725.webp",
+      "bytes": 53058,
+      "sha256": "ce03e15eb4c2df64e1268bb567ca5e8276cac337a082be376e047034b4525516"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-eb88089f29c28579.webp",
+      "bytes": 107572,
+      "sha256": "27867a9a65736ca9bb0fc9fb7b68a3167463ede54e7cc3c4951faf4b24033871"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-ed12b36c8b60f905.webp",
+      "bytes": 49332,
+      "sha256": "e15d8e18470de6381d062c8fd0531046f686b5d079a2a6522966f1bee46a5471"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-ee4b6dd54cf2c95d.webp",
+      "bytes": 53776,
+      "sha256": "df9510e1053e60115bd65ab8f44208614cf7befad2f894a40be10d92de92d878"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-f0ddce9a685e78b9.webp",
+      "bytes": 82880,
+      "sha256": "19a5f4666d269b1dfac9fc1c2500d4df9b7eee56c3b5c45da7085bcd44a8bf30"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-f23b48bab112fed3.webp",
+      "bytes": 90334,
+      "sha256": "4d053cff17e681a67e6701ee5279960f37a5c4690461c4623e5a1e7ce5f47176"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-f39b1a81afbd82b6.webp",
+      "bytes": 39746,
+      "sha256": "e72547c4abfe28cdc3d47eec3781da77005aabb1d2fd54290fdd735954350828"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-f3ff1fb140bf78e5.webp",
+      "bytes": 77942,
+      "sha256": "54ba77ffcd79ac6c706dc4d81ecd2da53a91632c48ee7bd38c206738804e4d17"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-f64a56d40e5e15dc.webp",
+      "bytes": 82880,
+      "sha256": "19a5f4666d269b1dfac9fc1c2500d4df9b7eee56c3b5c45da7085bcd44a8bf30"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-f738c28521967e0d.webp",
+      "bytes": 53776,
+      "sha256": "df9510e1053e60115bd65ab8f44208614cf7befad2f894a40be10d92de92d878"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-f801f907f68ac133.webp",
+      "bytes": 54950,
+      "sha256": "3d13341b9a9aeb1052b0f8a7c77b48e1baf2eb1cb23bd586e79907b903e8b0a8"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-f91286aea2b41f3c.webp",
+      "bytes": 53776,
+      "sha256": "df9510e1053e60115bd65ab8f44208614cf7befad2f894a40be10d92de92d878"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-f974fbca3fc049af.webp",
+      "bytes": 141680,
+      "sha256": "811a46cd4e3a7b4ed586782aab58d94f7e87e62eef1ca0088f29141839ecda9b"
+    },
+    {
+      "path": "apps/web/public/products/company/electrical-fa7c3d12a5468a8f.webp",
+      "bytes": 53058,
+      "sha256": "ce03e15eb4c2df64e1268bb567ca5e8276cac337a082be376e047034b4525516"
+    },
+    {
+      "path": "apps/web/public/products/company/expandable-20ft-interior.webp",
+      "bytes": 70212,
+      "sha256": "a3069f132edc3768d177636e974cd85cddd1436af93655cb022bd1106b685ff7"
+    },
+    {
+      "path": "apps/web/public/products/company/expandable-20ft.webp",
+      "bytes": 18642,
+      "sha256": "284de47611b1da7627a041436a73a7ade8e1a05b7197936fc2a88bcf46eba058"
+    },
+    {
+      "path": "apps/web/public/products/company/expandable-40ft-interior.webp",
+      "bytes": 75278,
+      "sha256": "c510fda0a94619d096140b8a8220da235f145b63c021d22e523bdde1fc606e67"
+    },
+    {
+      "path": "apps/web/public/products/company/expandable-40ft.webp",
+      "bytes": 16002,
+      "sha256": "1acbd1bbf0115a52369f46982c5b4679007c0f1eb55aa4b2ee6598d1805baa57"
+    },
+    {
+      "path": "apps/web/public/products/company/flat-pack-house.webp",
+      "bytes": 9328,
+      "sha256": "cbbd48374b5a7ac8b794d6519216cbc98f55d4376529b859b770a726e438bc59"
+    },
+    {
+      "path": "apps/web/public/products/company/folding-house-y.webp",
+      "bytes": 6762,
+      "sha256": "7ada2153eada69a44f6df3f203827d37a70d92e981b574b60caa600a953ab2b7"
+    },
+    {
+      "path": "apps/web/public/products/company/folding-house-z.webp",
+      "bytes": 4724,
+      "sha256": "ba0cd37689990269dbb5734fdfeb5c9a872f4fc4b17acb5adab8fe585c5970c2"
+    },
+    {
+      "path": "apps/web/public/products/company/solar-container-house.webp",
+      "bytes": 35818,
+      "sha256": "d5af6860b0e66583dfabff3783a57ecf6fcce3ee6ea05ab88f44016f49d32a3f"
+    },
+    {
+      "path": "apps/web/public/products/company/space-capsule-d7.webp",
+      "bytes": 30120,
+      "sha256": "f270a58034f8e7efc228f19cedcbcb9b2d6dde4aefd9002f73a6f842796fa445"
+    },
+    {
+      "path": "apps/web/public/products/expandable-20ft-mini.webp",
+      "bytes": 16506,
+      "sha256": "6ccc7cef0ba918f14411eb35025abce2c8b41d6033ceec75b90e691b93c6fc53"
+    },
+    {
+      "path": "apps/web/public/products/expandable-20ft.webp",
+      "bytes": 31268,
+      "sha256": "8469dffb7f301a7ec59ae339a44c6b61200cdd615a896afad9e6bcd8bcf0431c"
+    },
+    {
+      "path": "apps/web/public/products/expandable-30ft.webp",
+      "bytes": 16320,
+      "sha256": "6aab25cf2c25ed4beecd5caebe84b1de8db2d7f3a10c294b2dbdc27fc1e58c4c"
+    },
+    {
+      "path": "apps/web/public/products/expandable-40ft.webp",
+      "bytes": 37302,
+      "sha256": "cd77a8e22e36f1d34f3605c4fa56223854b5f317f61f85d6f38f2311a3434098"
+    },
+    {
+      "path": "apps/web/public/products/expandable-exterior.webp",
+      "bytes": 143682,
+      "sha256": "31dcaeb5c92b86f33e532686eecb44f625eefe972c1d1872840b0f2b00476e1b"
+    },
+    {
+      "path": "apps/web/public/products/sources.json",
+      "bytes": 1265,
+      "sha256": "50e8487b547f2cc8020d59cbbcb68c835ccd385b8228c2a99b2b3e961c9d14b6"
+    },
+    {
+      "path": "apps/web/public/products/space-capsule-d7.webp",
+      "bytes": 27078,
+      "sha256": "be1e9ddad3f991c55099d6b7f91c99862e186f796566266bae375c2a3fd8392f"
+    },
+    {
+      "path": "apps/web/public/projects/design-preview/README.md",
+      "bytes": 421,
+      "sha256": "2289eac7884feac9aab9135f2852a01bc0ac7444d7a85c345056ec25a0897e39"
+    },
+    {
+      "path": "apps/web/public/projects/design-preview/australia-project-cover.webp",
+      "bytes": 297176,
+      "sha256": "51b1908a273bc7990707f11879ca5bc6c49b7c267d18038b2a449f1ba6b7595d"
+    },
+    {
+      "path": "apps/web/public/projects/design-preview/expandable-40ft-exterior.webp",
+      "bytes": 241836,
+      "sha256": "e9f6079b6bab9646a20ae9686ce23e16e0546ec20a7acbec71e19a52efa29f15"
+    },
+    {
+      "path": "apps/web/public/projects/design-preview/expandable-40ft-interior.webp",
+      "bytes": 166122,
+      "sha256": "52b7eae505f6d14a9e7636165ae9dcd9203585a4962c5a6f6e0040c5627f048c"
+    },
+    {
+      "path": "apps/web/public/projects/design-preview/expandable-container-loading.webp",
+      "bytes": 216324,
+      "sha256": "9139548e2a2861122ff29f1c918a812e410d81b15762ff5348d4a9493339d769"
+    },
+    {
+      "path": "apps/web/public/projects/design-preview/expandable-container-transport.webp",
+      "bytes": 191726,
+      "sha256": "f171f83e66a078a7c5b8d5179ce80cb24a8ef31ad79ced02576ffa276978d74a"
+    },
+    {
+      "path": "apps/web/public/projects/design-preview/expandable-production-assembly.webp",
+      "bytes": 251534,
+      "sha256": "de5c0701a1448161180210c167f9dc7017c7f67b2217bc4c0909c8ac88f18e5b"
+    },
+    {
+      "path": "apps/web/public/projects/design-preview/expandable-production-finishing.webp",
+      "bytes": 248886,
+      "sha256": "a1cabd265a272264d8d783c92cbd12928b7b9f001d9662981887a0767b03ae64"
+    },
+    {
+      "path": "apps/web/public/projects/design-preview/expandable-production-frame.webp",
+      "bytes": 199892,
+      "sha256": "9232560fb3b16f1046bc6ddc9c529a5218d93f164854ac5426a6718fe7d310b6"
+    },
+    {
+      "path": "apps/web/public/projects/placeholder-certificate.svg",
+      "bytes": 850,
+      "sha256": "c461f727e82dbaa144fc980a1c31d4cc9712d094aadd3d90f705b3e93c2fe66a"
+    },
+    {
+      "path": "apps/web/public/videos/zhuduo-company-introduction-poster.webp",
+      "bytes": 76514,
+      "sha256": "a17b7c3a1edd52347948dd51aaf6f99c7c4f5c665064f607f47cfcee0cfc5eaf"
+    },
+    {
+      "path": "apps/web/public/videos/zhuduo-company-introduction.mp4",
+      "bytes": 9955206,
+      "sha256": "6b565ffa7ebb8569763d9382379d044dd986c0f326974f08d13a214b1e10a481"
+    },
+    {
+      "path": "apps/web/public/whiteboard-original/fonts/Apris-Light.woff2",
+      "bytes": 37256,
+      "sha256": "8de8bc9dae00f58b153e6a06faf31ac9b410716c17e35bcc97db0d43b04dfa50"
+    },
+    {
+      "path": "apps/web/public/whiteboard-original/fonts/Apris-LightItalic.woff2",
+      "bytes": 37996,
+      "sha256": "9871ffcf75cbb7674c33cd462439eed2052760c97d32c50ff70b91402d1d3b27"
+    },
+    {
+      "path": "apps/web/public/whiteboard-original/fonts/Apris-Medium.woff2",
+      "bytes": 41720,
+      "sha256": "2daf09026d1b86055182f327f3fc7a6bcbb4f7d8047ed729805cc6977ba074c7"
+    },
+    {
+      "path": "apps/web/public/whiteboard-original/fonts/Apris-MediumItalic.woff2",
+      "bytes": 42248,
+      "sha256": "d53de226844d48d763d56d38c49ded31c11038da618c9d07dae3daf65600c6e7"
+    },
+    {
+      "path": "apps/web/public/whiteboard-original/fonts/Apris-Regular.woff2",
+      "bytes": 36060,
+      "sha256": "cc98c271c25f9e925f6dad24d765a0ad5df253fd74e87dfa299aef0e7219b1c7"
+    },
+    {
+      "path": "apps/web/public/whiteboard-original/fonts/Apris-RegularItalic.woff2",
+      "bytes": 37048,
+      "sha256": "36fbda0c60c515231481db50521f7cfd8d30ebdc0a45d12328840de9c5b9e890"
+    },
+    {
+      "path": "apps/web/public/whiteboard-original/fonts/Apris-Thin.woff2",
+      "bytes": 35372,
+      "sha256": "a7ea4a72e39346e90485126b95d1ef46c2d3dd3438ad868b76b815a842e301db"
+    },
+    {
+      "path": "apps/web/public/whiteboard-original/fonts/Apris-ThinItalic.woff2",
+      "bytes": 37036,
+      "sha256": "83bcb88429ee593b4165cf8f1d18534716100c7c9a9cb8368b13052d354b4ecb"
+    },
+    {
+      "path": "apps/web/public/whiteboard-original/fonts/AtHauss-Medium.woff2",
+      "bytes": 39988,
+      "sha256": "2f9e705530ae439238a845b8b12204f35537cf8b4fa40ee59adc1a07ca6e7d1a"
+    },
+    {
+      "path": "apps/web/public/whiteboard-original/fonts/AtHauss-MediumItalic.woff2",
+      "bytes": 40548,
+      "sha256": "79d47f07b19e9f4e159e12886c06909c413e40fcc4a21109c8e9378a9abcd7c4"
+    },
+    {
+      "path": "apps/web/public/whiteboard-original/fonts/AtHauss-Retina.woff2",
+      "bytes": 40524,
+      "sha256": "d7a35dbfad1394cd4f8e93ae42128807d19a9b58b6874251d629c41fee33d5fd"
+    },
+    {
+      "path": "apps/web/public/whiteboard-original/fonts/AtHauss-RetinaItalic.woff2",
+      "bytes": 41528,
+      "sha256": "c7547bf9cd2bd31e55f21fb5711cf1b51dbf856e810e4a6268134f33ca42d320"
+    },
+    {
+      "path": "apps/web/public/whiteboard-original/fonts/AtHauss-Semibold.woff2",
+      "bytes": 41232,
+      "sha256": "b6d19a35964c4ce82e98c8cfa733219c26db26dd9bee8623a7274c1eda5166f2"
+    },
+    {
+      "path": "apps/web/public/whiteboard-original/fonts/AtHauss-SemiboldItalic.woff2",
+      "bytes": 41680,
+      "sha256": "78132ceec61c39e3a092d7d2c2bceb66952c95b184f803193d980ed6bd3784ee"
+    },
+    {
+      "path": "apps/web/public/whiteboard-original/fonts/ChatypeThin.woff2",
+      "bytes": 31968,
+      "sha256": "e2c42231ed272efe5c468a9079d5d89adcdb90b3bf9d4ab2a7f2831a65f3824b"
+    },
+    {
+      "path": "apps/web/public/whiteboard-original/js/Flip.min.js",
+      "bytes": 25534,
+      "sha256": "cbe3ca726350f8d230da38a14ce2384e7772e05a45cee6144dd7fe6dde868c2f"
+    },
+    {
+      "path": "apps/web/public/whiteboard-original/js/ScrollTrigger.min.js",
+      "bytes": 44575,
+      "sha256": "b0b14d67b55b0c43c756ac0b106cfcb09d0879945f6ead64451065b0672916a2"
+    },
+    {
+      "path": "apps/web/public/whiteboard-original/js/SplitText.min.js",
+      "bytes": 7732,
+      "sha256": "419f7027a5f086a12cb7988736d8fdd3a6ed2200229661de25b6628ca7ced344"
+    },
+    {
+      "path": "apps/web/public/whiteboard-original/js/gsap.min.js",
+      "bytes": 72927,
+      "sha256": "92bb9a96476f983d212a2bc4f54c889039c1696dd4461d40a736860938570fbb"
+    },
+    {
+      "path": "apps/web/public/whiteboard-original/js/lenis.min.js",
+      "bytes": 17722,
+      "sha256": "1375bb5f82062a5ba4ccb2ec5b420ee41578abf4ec04673a6bcfa6714b95f885"
+    },
+    {
+      "path": "apps/web/public/whiteboard-original/reference-runtime.js",
+      "bytes": 52455,
+      "sha256": "d6ed5fad3c271fe823291f2186e19951920b954ec74d4b6fe0a1fb6342ffd926"
+    },
+    {
+      "path": "apps/web/public/whiteboard-original/reference.css",
+      "bytes": 294760,
+      "sha256": "c061147135670a70c5b8b674d514c5133e2175a94f80c0fac80568a0f9763289"
+    },
+    {
+      "path": "apps/web/scripts/build-fonts.py",
+      "bytes": 4457,
+      "sha256": "219734f08df869f0369b18cc6e0e0ceb1111d2b49659c8b9530546292a425376"
+    },
+    {
+      "path": "apps/web/tests/application-content.test.mjs",
+      "bytes": 4106,
+      "sha256": "66e6a0f2b36cfce431cf8053f162658d175e321526be184fd2905f6f8995bce9"
+    },
+    {
+      "path": "apps/web/tests/application-markdown.test.mjs",
+      "bytes": 2621,
+      "sha256": "237777b1edd0e6a870048ae3b958210c959f712a4f4ddd08173915a1a5e23cfd"
+    },
+    {
+      "path": "apps/web/tests/arabic-content.test.mjs",
+      "bytes": 3665,
+      "sha256": "fe9af56c1f02d7f447eb0ba84f8cf9ee7df5070c8995433144a04b8a4354abd9"
+    },
+    {
+      "path": "apps/web/tests/catalogue.test.mjs",
+      "bytes": 6280,
+      "sha256": "8d24f0e978d03010f7e96f280d31502817422a958403cfd86dde638af65a46cb"
+    },
+    {
+      "path": "apps/web/tests/compiled-web.mjs",
+      "bytes": 2649,
+      "sha256": "32560b876fc89b4b3af738d715c4c1357b377b1184541d5e653d6947668ab622"
+    },
+    {
+      "path": "apps/web/tests/content-client.test.mjs",
+      "bytes": 8863,
+      "sha256": "bb00d12be9e1fe055e2a76064f2991f2328d034a62fc1722d1f1c0e0c0484dd6"
+    },
+    {
+      "path": "apps/web/tests/document-downloads.test.mjs",
+      "bytes": 6985,
+      "sha256": "05258f873f0271ffc6d4ac1ea3beaeb0596c40fb2285bfb4c04bd11f7d3d7bb9"
+    },
+    {
+      "path": "apps/web/tests/french-content.test.mjs",
+      "bytes": 4624,
+      "sha256": "7cd4d9a54f96bcfc82fbcc244e686020f57336c754f61aa4cd478febbc344bf6"
+    },
+    {
+      "path": "apps/web/tests/inquiry-directions.test.mjs",
+      "bytes": 3254,
+      "sha256": "8ea8561182985a9e072e54058078635cb20cf5203fd1c2469742b3cb3a96f2d1"
+    },
+    {
+      "path": "apps/web/tests/inquiry-route.test.mjs",
+      "bytes": 7210,
+      "sha256": "b6c1c7caf8b705434982e0be2e9805de2e0f0479ab4ccfa6ecdb9f13248707dc"
+    },
+    {
+      "path": "apps/web/tests/product-categories.test.mjs",
+      "bytes": 6652,
+      "sha256": "241d27a15eaccc92d7b0f408596c679aaad205f4b9a07a4fb68513e82dc6064f"
+    },
+    {
+      "path": "apps/web/tests/project-content.test.mjs",
+      "bytes": 4443,
+      "sha256": "c6174d93004380aa340b44fab57391c5e0eaa7bdea104222543fece104554ff3"
+    },
+    {
+      "path": "apps/web/tests/site-architecture.test.mjs",
+      "bytes": 4993,
+      "sha256": "a6b2deb42c889f04568df6d6c954e5614cf259c946428ad5385b17e67e0e69b6"
+    },
+    {
+      "path": "apps/web/tsconfig.json",
+      "bytes": 549,
+      "sha256": "c16db6515cdd61f54f849b9d0fbe95f9f391684b04c7e0a7470dac9752ffc7ba"
+    },
+    {
+      "path": "deploy/README.md",
+      "bytes": 13079,
+      "sha256": "150fc366e9265245606dda996d3266db0909a72ea35379fd3962b8ab98dfa5ca"
+    },
+    {
+      "path": "deploy/backup/backup.sh",
+      "bytes": 4117,
+      "sha256": "5e26c68b27420ba777fc4fcfc3887820d5dec7eb0397021944e2bf420cecb2df"
+    },
+    {
+      "path": "deploy/dev/init-storage.sh",
+      "bytes": 456,
+      "sha256": "092da145499728a71e3264f74bf2ce8d11ce2a08956835482196e221918d8a4c"
+    },
+    {
+      "path": "deploy/minio/Dockerfile",
+      "bytes": 1230,
+      "sha256": "110b9ae7212b44c900d73533cd6940d4eff73ec18696f0e913553d8e4a03868a"
+    },
+    {
+      "path": "deploy/minio/init-storage.sh",
+      "bytes": 2245,
+      "sha256": "9e4e6ca843dc724eb63a7cfb82c821f7666c944b46f9da28f4dcb20e6b3283ec"
+    },
+    {
+      "path": "deploy/nginx/conf.d/site.conf",
+      "bytes": 1453,
+      "sha256": "eaf3adbf2467e70f6c6e9f3e958cc328b6749f1e765eb150334a64231e4cbba9"
+    },
+    {
+      "path": "deploy/nginx/nginx.conf",
+      "bytes": 795,
+      "sha256": "13bd525ee2ded202501fb799c8af98796cdc0589ca025556479b0dcde78cd0e8"
+    },
+    {
+      "path": "deploy/nginx/proxy-common.conf",
+      "bytes": 360,
+      "sha256": "0e40bc068b312afa4fe8799325953fba1eb4cad0b36891c040ed23f6719ae941"
+    },
+    {
+      "path": "deploy/nginx/security-headers.conf",
+      "bytes": 188,
+      "sha256": "b57f3d666b634863b79b0f0148fc042d92b2434f648c16279d52e9491478657d"
+    },
+    {
+      "path": "design-qa.md",
+      "bytes": 7601,
+      "sha256": "562c5af341760dfecc35d6852c5c0feb12fd75acacd084955da51b22e79e1b74"
+    },
+    {
+      "path": "docker-compose.dev.yml",
+      "bytes": 2178,
+      "sha256": "4aa84c7240d8b115b76dc83dc028cd6fddce8989ee27a2cbde746430a1a8850a"
+    },
+    {
+      "path": "docker-compose.minio.yml",
+      "bytes": 2323,
+      "sha256": "7f4d0dd566dca942f35ff88ff06bc7297f6d194797c19b3985fed2f0db5a5ef6"
+    },
+    {
+      "path": "docker-compose.vm-dev.yml",
+      "bytes": 6770,
+      "sha256": "189e41b4402da2fe47a6c3a7814cbdd9e18130e8ff4a72e782b5c4fe8e4d6fda"
+    },
+    {
+      "path": "docker-compose.yml",
+      "bytes": 4944,
+      "sha256": "cd8ff2ab610949a3428c47c6e25cb7102fc987458dbdb45d8da0e2ea91f5695a"
+    },
+    {
+      "path": "docs/content/applications-placeholders.json",
+      "bytes": 22410,
+      "sha256": "5091e687607e2cb079e2ec23dfaae2cf9eae9b41fbbe157620e6e884dc8a848a"
+    },
+    {
+      "path": "docs/content/australia-40ft-media.json",
+      "bytes": 10280,
+      "sha256": "e24fccc280ef9bfc77d593f1edb7f04cdda4f62da11a24a4f4cfee12bc2adec7"
+    },
+    {
+      "path": "docs/content/australia-40ft-project.json",
+      "bytes": 12397,
+      "sha256": "976223645bcd95f45f547bfb468685a1a63a2788d2d1e33eb9d822b172118f3d"
+    },
+    {
+      "path": "docs/content/housing-catalogue-import.md",
+      "bytes": 4932,
+      "sha256": "1ce9daf2121b43f25e263cf007aae829a13383ab55f14199344ed5a7164c0cba"
+    },
+    {
+      "path": "docs/content/housing-products-2026-11.json",
+      "bytes": 177113,
+      "sha256": "198052faaf0cf100fe7f4eb614c0b692229a7608195601d93a459699ddcee9e5"
+    },
+    {
+      "path": "docs/operations/aliyun-ecs-bjzdbuilding.md",
+      "bytes": 56266,
+      "sha256": "314358b6cb1cf4c853cd78b2de51580ad0fe4db2874d58dc3c7e7620ddbe4a58"
+    },
+    {
+      "path": "docs/operations/application-pages.md",
+      "bytes": 2698,
+      "sha256": "172ce0db710db75f02872a6b76269794bff9ab1126548e2f10ae4aabdcf349e5"
+    },
+    {
+      "path": "docs/operations/australia-project.md",
+      "bytes": 3424,
+      "sha256": "1c3542e823c9099ea39974fc3e139977ba38224b21078c5e9f47d3413442947e"
+    },
+    {
+      "path": "docs/operations/auto-translation.md",
+      "bytes": 4539,
+      "sha256": "114a3a9b3ec2b7a4c684ae0c042ee57b8fcea065de5952789d7549661d5d8401"
+    },
+    {
+      "path": "docs/operations/company-product-import.md",
+      "bytes": 5330,
+      "sha256": "4ff72d08c0ea67cfb8d509a1f58c7eff4fa008adfd9729904f8da735df3ba2ee"
+    },
+    {
+      "path": "docs/operations/homepage-design.md",
+      "bytes": 2868,
+      "sha256": "95946c92cf618cf062e09f0b5043aa67b9d25e9442c3766bed8075e992202221"
+    },
+    {
+      "path": "docs/operations/inquiry-workflow.md",
+      "bytes": 10457,
+      "sha256": "1d8ac21004ee5e99dcbb5e7be434417564dd16b326bdd50d5cae858812216ce8"
+    },
+    {
+      "path": "docs/operations/okki-inquiries.md",
+      "bytes": 4406,
+      "sha256": "94633eb43906aefefb6556c3d6bf08c1f2ca55320031763d48eefc23ca40310a"
+    },
+    {
+      "path": "docs/operations/product-categories.md",
+      "bytes": 3874,
+      "sha256": "35ecf49f64e846ee96454341f34f9185b85c8669d1bd61431df3ea6d7fbc51d6"
+    },
+    {
+      "path": "docs/operations/product-centre.md",
+      "bytes": 6052,
+      "sha256": "c8bb1965aad01956f1e906760401e1d87951373f11969c55bfea7db57c9189c9"
+    },
+    {
+      "path": "docs/operations/product-editing.md",
+      "bytes": 2734,
+      "sha256": "62a9e79beb876d7b503174613597b849ca65a36c8e79586be1c3f1b677ba8992"
+    },
+    {
+      "path": "docs/operations/project-pages.md",
+      "bytes": 4363,
+      "sha256": "484a359b03874782e6ff9d1b1057c1ef1364cef6cb302670c736e7081191d42e"
+    },
+    {
+      "path": "docs/operations/site-fonts.md",
+      "bytes": 2019,
+      "sha256": "7dfa67bcdf798229a75f0f66cd657975d5b39560e1ac5f94e145fc4690bd03fc"
+    },
+    {
+      "path": "docs/operations/site-languages.md",
+      "bytes": 3773,
+      "sha256": "4757f21d79661bb8d6844a17216c5368e90d6e06f465c74b8478289fa8b0ea7c"
+    },
+    {
+      "path": "docs/operations/strapi-content-workflow.md",
+      "bytes": 8478,
+      "sha256": "49c50a552ea8e32dd2ec7c072efbe2a009aece701d9000b42c5202743e963138"
+    },
+    {
+      "path": "docs/operations/technical-documents.md",
+      "bytes": 2492,
+      "sha256": "fbc7bc48e69dd1d34dfa8f479d35a3d1575c4bd0bd8b474235b641c754cf4c06"
+    },
+    {
+      "path": "docs/operations/vm-development.md",
+      "bytes": 11152,
+      "sha256": "ab072e629868e6aa6c85a12f529f88a2fc6deba3a789988606f7b107fcb7e6e5"
+    },
+    {
+      "path": "docs/operations/whiteboard-preview.md",
+      "bytes": 3796,
+      "sha256": "153f051af80dedaae6332ba1b7d0b851ca531715c98f0e64100bf0b703e10ef6"
+    },
+    {
+      "path": "docs/superpowers/plans/2026-10-10-strapi-modular-housing-site.md",
+      "bytes": 21939,
+      "sha256": "0dcdcda0b2260748787422b406d2824c2dcfb1fd9b26a56627e777a1a844f772"
+    },
+    {
+      "path": "docs/superpowers/plans/2026-10-12-auto-translation.md",
+      "bytes": 6135,
+      "sha256": "b0e0bf8a497c16692940278b3374b89c1b461a6daf745469a2226cdf2b5cec86"
+    },
+    {
+      "path": "docs/superpowers/specs/2026-10-09-modular-housing-design.md",
+      "bytes": 12219,
+      "sha256": "372f93e8e967ce9bc2f4e770107d644faa6c73161787ddfadfbe291811389b08"
+    },
+    {
+      "path": "docs/superpowers/specs/2026-10-12-auto-translation-design.md",
+      "bytes": 2978,
+      "sha256": "2db3690e6c911179a8cfaec3bed903ec4ee14cbe379243b382a35be1bb204bc5"
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 875551,
+      "sha256": "b37eace800b1f2487e6106ab274a2d1ee7c8ccf057c8216b4f46ffbe219a57d0"
+    },
+    {
+      "path": "package.json",
+      "bytes": 1043,
+      "sha256": "4f2905c6896c13f8bcfd6103af2a83d7c44466720294ec0f8b7173eabe5b3bd6"
+    },
+    {
+      "path": "packages/contracts/company-products.ar.json",
+      "bytes": 89357,
+      "sha256": "30fc834c2be97194cf91b5b6b70b9a6a32bfe06b48b6ac56f96d920fe0faf7db"
+    },
+    {
+      "path": "packages/contracts/company-products.fr.json",
+      "bytes": 81001,
+      "sha256": "f4de5ce9f1e37f3dddf479bc724ed5cc1df61a55aaf4392bf98264471ea67f75"
+    },
+    {
+      "path": "packages/contracts/company-products.json",
+      "bytes": 250428,
+      "sha256": "2daa3878600b2ca41b952bd1a7b18053efc983c51c5213edf773d367d71b2660"
+    },
+    {
+      "path": "packages/contracts/demo-content.json",
+      "bytes": 2380,
+      "sha256": "3d6e7773b6f6a9888c6039c1fbe2e27fbb289e95c97c9f27d17025c353778c13"
+    },
+    {
+      "path": "packages/contracts/managed-product-categories.json",
+      "bytes": 5439,
+      "sha256": "37187fc2b7e3528069439f9da0c56b6bb5b9c408a22c3849c5b9ad40c6825ad8"
+    },
+    {
+      "path": "packages/contracts/package.json",
+      "bytes": 675,
+      "sha256": "af285930e98ea5401b25e2ffa09ca5b024511ee09ca25f7b98512fcfe1bbfc47"
+    },
+    {
+      "path": "packages/contracts/product-taxonomy.json",
+      "bytes": 7956,
+      "sha256": "d0ec8cd987c1d99b0eaa974f0f566d7e67bbb4727a3afd1f732d9d2ce698b0bb"
+    },
+    {
+      "path": "packages/contracts/site-content.ar.json",
+      "bytes": 1220,
+      "sha256": "485f127a62e64437f75348549769f398f1e33ac3c08a6befa9c61eab20a8790d"
+    },
+    {
+      "path": "packages/contracts/site-content.fr.json",
+      "bytes": 1037,
+      "sha256": "ea1344952161a21c4dc2a892b5e4444b647538df740c5d93b3cebb4cbe8e22f8"
+    },
+    {
+      "path": "packages/contracts/src/index.d.ts",
+      "bytes": 538,
+      "sha256": "dbc93a1253cd23377cb7c0d3a66dc2ab3f38566b711f8684d26c337c42708f8a"
+    },
+    {
+      "path": "packages/contracts/src/index.js",
+      "bytes": 2215,
+      "sha256": "0ec0f4f94e6e7a785442ac663e4c55b7863e7863b421f6a1b220f549a1e4a7a2"
+    },
+    {
+      "path": "tests/contracts/company-catalogue.test.mjs",
+      "bytes": 1749,
+      "sha256": "9fa7443439f24419910bc346c254ce90eb47f4d72077de43a7d7ee0215cc7d7a"
+    },
+    {
+      "path": "tests/contracts/content-contract.test.mjs",
+      "bytes": 3128,
+      "sha256": "df3b1e3a2154c3ca16d8cb5250e7f3a637a8069c8a4db7b6de5b38f5ba5b06af"
+    },
+    {
+      "path": "tests/deployment/backup.test.mjs",
+      "bytes": 5782,
+      "sha256": "c432eec90cb5921a6b8b0d5d5b89447480e51515432e8cc3f5b850c803bfe4a0"
+    },
+    {
+      "path": "tests/deployment/compose-config.test.mjs",
+      "bytes": 10991,
+      "sha256": "6d806eff0fd4512fafa270b90e2306c9c0a1603833e35356de9e0b971c6c5e67"
+    },
+    {
+      "path": "tests/deployment/minio-init.test.mjs",
+      "bytes": 4076,
+      "sha256": "a4fab461245d502b39a64e00efcf32cbe7c29e88ba9187567e8124e30875d101"
+    },
+    {
+      "path": "tests/integration/company-catalogue.cjs",
+      "bytes": 5079,
+      "sha256": "0202d812bebba13d679ca6680a511f1ef66f4e0b35359d8278f190b01030c471"
+    },
+    {
+      "path": "tests/smoke/application-pages-browser.mjs",
+      "bytes": 6090,
+      "sha256": "22f26a72a3d9dbe46bc0c21c13a72a675dc293df60c753da08b4f9d1aaeb58a2"
+    },
+    {
+      "path": "tests/smoke/arabic-browser.mjs",
+      "bytes": 17841,
+      "sha256": "43f30c427288e3a2c29ec9675415895588252d1fb6c28a66eaba92aeeee1299e"
+    },
+    {
+      "path": "tests/smoke/brochure-products-browser.mjs",
+      "bytes": 6077,
+      "sha256": "22f52c36a5741739653448f94d6f25d6efd4aad68be280cfc49070105f775351"
+    },
+    {
+      "path": "tests/smoke/catalogue-browser.mjs",
+      "bytes": 13273,
+      "sha256": "11c20f0347bb771fb02a79f3dd921e13eeca562419837575617774cbb21f36b3"
+    },
+    {
+      "path": "tests/smoke/company-products-browser.mjs",
+      "bytes": 6800,
+      "sha256": "971563e6b5ff366d25c08cabe8f5840785673d2ee9b132e88a42932be91252b1"
+    },
+    {
+      "path": "tests/smoke/homepage-browser.mjs",
+      "bytes": 20165,
+      "sha256": "d207facd631db0456983c7fc19353105d67b0ca92eb335fa2f1c0bff9e18e9db"
+    },
+    {
+      "path": "tests/smoke/okki-browser.mjs",
+      "bytes": 16119,
+      "sha256": "0dcc8908851ece03b10d0870a224e71e595fc3768a84d9fa62aebacfad19d41b"
+    },
+    {
+      "path": "tests/smoke/site-browser.mjs",
+      "bytes": 20906,
+      "sha256": "3f5b051d4c15cfc2385fd5d9dc532920b35865bad90ee80ffc34536583f1a8b1"
+    },
+    {
+      "path": "tests/smoke/web-smoke.mjs",
+      "bytes": 4456,
+      "sha256": "5f7b9760301d7919c9a449bce80e512e56ec48575908eb6871a2bd8c92f17443"
+    },
+    {
+      "path": "tools/package-company-products.mjs",
+      "bytes": 2232,
+      "sha256": "408aa51369be0359b359a122f3dd9e111f1bb3f0bf39509968c9924b796372a7"
+    },
+    {
+      "path": "tools/prepare-company-products.py",
+      "bytes": 17077,
+      "sha256": "0316285040b3e5e0eaa36d7d4b35e5730244d0a046a40082fcd80a2b1a6954e1"
+    },
+    {
+      "path": "tools/whiteboard-preview/import-runtime.py",
+      "bytes": 10799,
+      "sha256": "9362bb3ed087ec226f6d67148877604f7ed10b454e88240f67439b289bff4209"
+    },
+    {
+      "path": "tools/whiteboard-preview/import-template.py",
+      "bytes": 14478,
+      "sha256": "35bdd29f575eaf98d3bd3099d6832864b4f4b18de1996de6f49a2a6b99093acd"
+    },
+    {
+      "path": "tools/whiteboard-preview/scope-css.cjs",
+      "bytes": 1695,
+      "sha256": "ac685f71814a728b45b615e6977f168b1a2f3d2d53098e388ea58c7a4ca472a8"
+    }
+  ]
+}

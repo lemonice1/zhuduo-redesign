@@ -1,0 +1,9 @@
+{
+  "collectionName": "components_documents_downloads",
+  "info": { "displayName": "Download document", "description": "A document title, description and downloadable file." },
+  "attributes": {
+    "title": { "type": "string", "required": true },
+    "description": { "type": "text" },
+    "file": { "type": "media", "multiple": false, "required": true, "allowedTypes": ["files", "images"] }
+  }
+}

@@ -1,93 +1,68 @@
-# zhuduo-redesign
+# 集装箱房 / 模块化建筑独立站
 
+当前交付是一套中英文首页与内容、询盘后台的开发版本：Next.js 前台、Strapi 5 后台、PostgreSQL 数据库、MinIO 图片存储。Ubuntu 22.04 本地 VM 用 Docker Compose 启动。
 
+正式上线到 `43.110.24.91`、配置 `bjzdbuilding.com` 与自建 MinIO，请使用 [阿里云 ECS 部署教程](docs/operations/aliyun-ecs-bjzdbuilding.md)；该方案保留现有 GitLab Nginx 入口。
 
-## Getting started
+## 在 VM 启动
 
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
+将整个项目复制到 VM，例如 `~/projects/modular-housing`，保留 `package-lock.json`，无需复制 Windows 的 `node_modules`、`.next` 和 `dist`。
 
-Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
-
-## Add your files
-
-* [Create](https://docs.gitlab.com/user/project/repository/web_editor/#create-a-file) or [upload](https://docs.gitlab.com/user/project/repository/web_editor/#upload-a-file) files
-* [Add files using the command line](https://docs.gitlab.com/topics/git/add_files/#add-files-to-a-git-repository) or push an existing Git repository with the following command:
-
-```
-cd existing_repo
-git remote add origin http://43.110.24.91/wyh/zhuduo-redesign.git
-git branch -M main
-git push -uf origin main
+```bash
+cd ~/projects/modular-housing
+cp .env.vm-dev.example .env
+nano .env
 ```
 
-## Integrate with your tools
+将 `VM_HOST` 改成 Windows 浏览器可访问的 VM IP，并修改开发密码与密钥。随后执行：
 
-* [Set up project integrations](http://43.110.24.91/wyh/zhuduo-redesign/-/settings/integrations)
+```bash
+docker compose -f docker-compose.vm-dev.yml --env-file .env config --quiet
+docker compose -f docker-compose.vm-dev.yml --env-file .env pull
+docker compose -f docker-compose.vm-dev.yml --env-file .env up -d
+docker compose -f docker-compose.vm-dev.yml --env-file .env ps -a
+```
 
-## Collaborate with your team
+首次启动会安装依赖、创建图片桶并初始化示例内容，速度取决于 VM 资源和下载速度。`deps`、`minio-init` 显示 `Exited (0)` 属于正常完成。
 
-* [Invite team members and collaborators](https://docs.gitlab.com/user/project/members/)
-* [Create a new merge request](https://docs.gitlab.com/user/project/merge_requests/creating_merge_requests/)
-* [Automatically close issues from merge requests](https://docs.gitlab.com/user/project/issues/managing_issues/#closing-issues-automatically)
-* [Enable merge request approvals](https://docs.gitlab.com/user/project/merge_requests/approvals/)
-* [Set auto-merge](https://docs.gitlab.com/user/project/merge_requests/auto_merge/)
+开发图片存储使用 Net Insight 保留的上游 MinIO 服务端和客户端固定版本镜像，通过 [1Panel 镜像缓存](https://1panel.pro/docs/v2/user_manual/containers/setting/) 拉取，避免 VM 直连 Docker Hub。已有 `.env` 中的 `MINIO_IMAGE` / `MC_IMAGE` 会覆盖 Compose 默认值，拉取新代码后按 [VM 开发指南](docs/operations/vm-development.md#更新旧版本的镜像配置) 更新这两项。
 
-## Test and Deploy
+| 功能 | 地址 |
+| --- | --- |
+| 首页（支持中英文切换） | `http://VM_IP:3000` |
+| Strapi 后台 | `http://VM_IP:1337/admin` |
+| MinIO 控制台 | `http://VM_IP:9001` |
 
-Use the built-in continuous integration in GitLab.
+完整步骤、排错和日常命令见 [VM 开发指南](docs/operations/vm-development.md)。
 
-* [Get started with GitLab CI/CD](https://docs.gitlab.com/ci/quick_start/)
-* [Analyze your code for known vulnerabilities with Static Application Security Testing (SAST)](https://docs.gitlab.com/user/application_security/sast/)
-* [Deploy to Kubernetes, Amazon EC2, or Amazon ECS using Auto Deploy](https://docs.gitlab.com/topics/autodevops/requirements/)
-* [Use pull-based deployments for improved Kubernetes management](https://docs.gitlab.com/user/clusters/agent/)
-* [Set up protected environments](https://docs.gitlab.com/ci/environments/protected_environments/)
+## 已实现的功能
 
-***
+- 首页：绿色 / 米白的摄影式布局、轮播图、CMS 分类筛选与产品详情弹窗、应用场景、FAQ、手机菜单、中英文切换、产品文字目录下载和真实询盘表单。
+- 产品中心：电气设备、模块化房屋两大类菜单，独立分类页与产品详情页；后台 Collection Types → 产品分类可增删分类、编辑多语言名称、排序和菜单显示，产品选择已发布分类。见[产品分类操作说明](docs/operations/product-categories.md)和[产品编辑说明](docs/operations/product-editing.md)。
+- 内容：Strapi 管理产品、FAQ、网站名称与联系邮箱；已发布内容通过只读 `/api/homepage` 提供给前台。
+- 媒体：Strapi 上传图片至 MinIO，产品的 `image` 字段用于首页图片。
+- 询盘：浏览器 → Next.js 服务端 → Strapi → PostgreSQL；必填校验、长度限制、蜜罐与每分钟提交限制；保存回执成功后才提示已收到。
+- 隐私：浏览器不接触服务间密钥；询盘不开放匿名列表、详情、更新与删除 API；销售在 Strapi 后台查看和跟进。
 
-# Editing this README
+`STRAPI_SERVER_TOKEN` 是前台服务与后台服务共用的自定义密钥，直接在 `.env` 设置即可，无需在 Strapi 后台创建 API Token。MinIO 图片桶由初始化容器自动创建。
 
-When you're ready to make this README your own, just edit this file and use the handy template below (or feel free to structure it however you want - this is just a starting point!). Thanks to [makeareadme.com](https://www.makeareadme.com/) for this template.
+示例品牌 `ZhuDuo`、邮箱和产品文案需要替换。未提供产品图片时使用带“参考摄影”标签的建筑照片，场景图片不代表已完成客户项目。当前未提供独立产品详情页、案例页面或邮件通知。后台已有案例内容模型，生产部署配置见部署文档。新版交互与更新方法见 [首页改版说明](docs/operations/homepage-design.md)。
 
-## Suggestions for a good README
+## 开发与验证
 
-Every project is different, so consider which of these sections apply to yours. The sections used in the template are suggestions for most open source projects. Also keep in mind that while a README can be too long and detailed, too long is better than too short. If you think your README is too long, consider utilizing another form of documentation rather than cutting out information.
+使用 Node.js 24。整套 VM 服务不要求在 VM 宿主机安装 Node.js；Docker 中会安装依赖。直接在宿主机开发时先执行 `npm ci`：
 
-## Name
-Choose a self-explaining name for your project.
+```bash
+npm run dev:web
+npm run dev:cms
+npm test
+npm run build:web
+npm run build:cms
+npm run test:smoke
+```
 
-## Description
-Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
+直接启动 CMS 需要 PostgreSQL、S3 与 Strapi 环境变量，推荐使用上述 VM Compose。仅直接预览前台且不设置 CMS 地址时，会使用开发示例内容；询盘接口未配置时返回错误，不会假报保存成功。
 
-## Badges
-On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
+`test:smoke` 启动已构建的 Next.js，通过 HTTP CMS 测试替身验证内容加载、询盘代理、异常和限流；它不证明真实数据库或 MinIO 已连通。实测范围见 [验证记录](design-qa.md)。
 
-## Visuals
-Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
-
-## Installation
-Within a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew. However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually, also add a Requirements subsection.
-
-## Usage
-Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
-
-## Support
-Tell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc.
-
-## Roadmap
-If you have ideas for releases in the future, it is a good idea to list them in the README.
-
-## Contributing
-State if you are open to contributions and what your requirements are for accepting them.
-
-For people who want to make changes to your project, it's helpful to have some documentation on how to get started. Perhaps there is a script that they should run or some environment variables that they need to set. Make these steps explicit. These instructions could also be useful to your future self.
-
-You can also document commands to lint the code or run tests. These steps help to ensure high code quality and reduce the likelihood that the changes inadvertently break something. Having instructions for running tests is especially helpful if it requires external setup, such as starting a Selenium server for testing in a browser.
-
-## Authors and acknowledgment
-Show your appreciation to those who have contributed to the project.
-
-## License
-For open source projects, say how it is licensed.
-
-## Project status
-If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
+旧 `docker-compose.dev.yml` / `.env.dev.example` 保留为仅启动基础设施的选项；完整 VM 开发使用 `docker-compose.vm-dev.yml` / `.env.vm-dev.example`。

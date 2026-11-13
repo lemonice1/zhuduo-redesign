@@ -1,0 +1,62 @@
+[
+  {
+    "file": "expandable-20ft.webp",
+    "source": "Container House.pdf",
+    "page": 3,
+    "kind": "product image"
+  },
+  {
+    "file": "expandable-30ft.webp",
+    "source": "Container House.pdf",
+    "page": 4,
+    "kind": "product image"
+  },
+  {
+    "file": "expandable-40ft.webp",
+    "source": "Container House.pdf",
+    "page": 5,
+    "kind": "product image"
+  },
+  {
+    "file": "expandable-20ft-mini.webp",
+    "source": "Container House.pdf",
+    "page": 6,
+    "kind": "product image"
+  },
+  {
+    "file": "expandable-exterior.webp",
+    "source": "Container House.pdf",
+    "page": 2,
+    "kind": "exterior illustration"
+  },
+  {
+    "file": "space-capsule-d7.webp",
+    "source": "TSBD Capsul house-HGB .pdf",
+    "page": 21,
+    "kind": "product render",
+    "crop": [
+      0.05,
+      0.14,
+      0.49,
+      0.5
+    ]
+  },
+  {
+    "file": "capsule-d7-exterior.webp",
+    "source": "TSBD Capsul house-HGB .pdf",
+    "page": 27,
+    "kind": "brochure illustration"
+  },
+  {
+    "file": "capsule-interior.webp",
+    "source": "TSBD Capsul house-HGB .pdf",
+    "page": 22,
+    "kind": "brochure illustration",
+    "crop": [
+      0.075,
+      0.16,
+      0.98,
+      0.99
+    ]
+  }
+]

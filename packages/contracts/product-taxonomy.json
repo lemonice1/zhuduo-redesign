@@ -1,0 +1,228 @@
+{
+  "divisions": [
+    {
+      "slug": "electrical",
+      "name": {
+        "zh": "电气设备",
+        "en": "Electrical Equipment",
+        "ar": "المعدات الكهربائية",
+        "fr": "Équipements électriques"
+      },
+      "description": {
+        "zh": "从变压器到配电设备，按产品方向探索电力系统所需的设备与配置。",
+        "en": "Explore transformers, substations and distribution equipment for your power project.",
+        "ar": "اكتشف المحولات ومحطات التحويل ومعدات التوزيع المناسبة لمشروعك الكهربائي.",
+        "fr": "Découvrez les transformateurs, les postes de transformation et les équipements de distribution pour votre projet électrique."
+      },
+      "categories": [
+        {
+          "slug": "distribution-transformers",
+          "name": {
+            "zh": "配电变压器",
+            "en": "Distribution Transformers",
+            "ar": "محولات التوزيع",
+            "fr": "Transformateurs de distribution"
+          },
+          "image": "/products/categories/distribution-transformer.png",
+          "imageReference": true
+        },
+        {
+          "slug": "power-transformers",
+          "name": {
+            "zh": "主变压器",
+            "en": "Power Transformers",
+            "ar": "محولات القدرة",
+            "fr": "Transformateurs de puissance"
+          }
+        },
+        {
+          "slug": "substations",
+          "name": {
+            "zh": "箱式变电站",
+            "en": "Compact Substations",
+            "ar": "محطات تحويل مدمجة",
+            "fr": "Postes de transformation compacts"
+          },
+          "image": "/products/categories/substation.png",
+          "imageReference": true
+        },
+        {
+          "slug": "mv-distribution",
+          "name": {
+            "zh": "中压配电设备",
+            "en": "MV Distribution",
+            "ar": "معدات توزيع الجهد المتوسط",
+            "fr": "Distribution moyenne tension"
+          },
+          "image": "/products/categories/mv-switchgear.png",
+          "imageReference": true
+        },
+        {
+          "slug": "lv-distribution",
+          "name": {
+            "zh": "低压配电与控制",
+            "en": "LV Distribution & Control",
+            "ar": "توزيع وتحكم الجهد المنخفض",
+            "fr": "Distribution et commande basse tension"
+          },
+          "image": "/products/categories/lv-switchgear.png",
+          "imageReference": true
+        },
+        {
+          "slug": "dry-type-transformers",
+          "name": {
+            "zh": "干式变压器",
+            "en": "Dry-Type Transformers",
+            "ar": "المحولات الجافة",
+            "fr": "Transformateurs secs"
+          }
+        },
+        {
+          "slug": "special-transformers",
+          "name": {
+            "zh": "特种变压器",
+            "en": "Special Transformers",
+            "ar": "المحولات الخاصة",
+            "fr": "Transformateurs spéciaux"
+          }
+        },
+        {
+          "slug": "mv-switchgear",
+          "name": {
+            "zh": "中压开关设备",
+            "en": "MV Switchgear",
+            "ar": "لوحات الجهد المتوسط",
+            "fr": "Appareillage moyenne tension"
+          }
+        },
+        {
+          "slug": "lv-switchgear",
+          "name": {
+            "zh": "低压开关设备",
+            "en": "LV Switchgear",
+            "ar": "لوحات الجهد المنخفض",
+            "fr": "Appareillage basse tension"
+          }
+        },
+        {
+          "slug": "compact-substations",
+          "name": {
+            "zh": "紧凑型变电站",
+            "en": "Compact Substations",
+            "ar": "محطات التحويل المدمجة",
+            "fr": "Postes compacts"
+          }
+        },
+        {
+          "slug": "prefabricated-substations",
+          "name": {
+            "zh": "预制舱变电站",
+            "en": "Prefabricated Substations",
+            "ar": "محطات التحويل مسبقة الصنع",
+            "fr": "Postes préfabriqués"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "modular-housing",
+      "name": {
+        "zh": "模块化房屋",
+        "en": "Modular Housing",
+        "ar": "المنازل المعيارية",
+        "fr": "Habitat modulaire"
+      },
+      "description": {
+        "zh": "从扩展式集装箱房到太空舱，探索适合居住、休闲与项目配套的模块化空间。",
+        "en": "Discover expandable container homes and space capsules for living, hospitality and project spaces.",
+        "ar": "اكتشف منازل الحاويات القابلة للتوسعة والكبسولات السكنية للسكن والضيافة ومرافق المشاريع.",
+        "fr": "Découvrez les maisons conteneurs extensibles et les capsules habitables pour le logement, l’hébergement et les espaces de projet."
+      },
+      "categories": [
+        {
+          "slug": "expandable-homes",
+          "name": {
+            "zh": "扩展式集装箱房",
+            "en": "Expandable Container Houses",
+            "ar": "منازل حاويات قابلة للتوسعة",
+            "fr": "Maisons conteneurs extensibles"
+          },
+          "image": "/products/expandable-20ft.webp",
+          "legacyProductSlugs": [
+            "expandable-20ft",
+            "expandable-20ft-mini",
+            "expandable-30ft",
+            "expandable-40ft"
+          ]
+        },
+        {
+          "slug": "folding-homes",
+          "name": {
+            "zh": "折叠式集装箱房",
+            "en": "Folding Container Houses",
+            "ar": "منازل حاويات قابلة للطي",
+            "fr": "Maisons conteneurs pliables"
+          }
+        },
+        {
+          "slug": "steel-structures",
+          "name": {
+            "zh": "钢结构建筑",
+            "en": "Steel Structure Buildings",
+            "ar": "مبانٍ بهياكل فولاذية",
+            "fr": "Bâtiments à ossature métallique"
+          }
+        },
+        {
+          "slug": "flat-pack-homes",
+          "name": {
+            "zh": "平板集装箱房",
+            "en": "Flat Pack Container Houses",
+            "ar": "منازل حاويات مسطحة التعبئة",
+            "fr": "Maisons conteneurs en kit"
+          }
+        },
+        {
+          "slug": "detachable-homes",
+          "name": {
+            "zh": "可拆卸集装箱房",
+            "en": "Detachable Container Houses",
+            "ar": "منازل حاويات قابلة للفك",
+            "fr": "Maisons conteneurs démontables"
+          }
+        },
+        {
+          "slug": "solar-homes",
+          "name": {
+            "zh": "太阳能集装箱房",
+            "en": "Solar Container Houses",
+            "ar": "منازل حاويات بالطاقة الشمسية",
+            "fr": "Maisons conteneurs solaires"
+          }
+        },
+        {
+          "slug": "space-capsules",
+          "name": {
+            "zh": "太空舱",
+            "en": "Space Capsules",
+            "ar": "كبسولات سكنية",
+            "fr": "Capsules habitables"
+          },
+          "image": "/products/space-capsule-d7.webp",
+          "legacyProductSlugs": [
+            "space-capsule-d7"
+          ]
+        },
+        {
+          "slug": "apple-cabins",
+          "name": {
+            "zh": "苹果舱",
+            "en": "Apple Cabins",
+            "ar": "كابينات آبل",
+            "fr": "Cabines Apple"
+          }
+        }
+      ]
+    }
+  ]
+}

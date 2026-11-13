@@ -1,0 +1,30 @@
+@font-face{font-family:"Noto Sans Arabic";src:url("/fonts/noto-sans-arabic/arabic.woff2") format("woff2");font-style:normal;font-weight:100 900;font-display:swap}
+html[lang=ar]{--font-site:"Noto Sans Arabic","Alibaba PuHuiTi 3",Tahoma,Arial,sans-serif}
+html[lang=ar] body{line-height:1.8;text-align:left}
+
+/* Keep the original LTR layout. Only text gets Arabic paragraph direction;
+   never apply RTL to navigation, flex/grid containers, galleries or dialogs. */
+html[lang=ar] :is(h1,h2,h3,p,span,b,small,em,a,button,summary,label,li){unicode-bidi:plaintext}
+html[lang=ar] :is(h1,h2,h3,p,.photo-tag,.pill,.category,.project-title,.localized-text){direction:rtl;unicode-bidi:isolate}
+html[lang=ar] :is(h1,h2,h3,.eyebrow,.photo-tag,.direction-section-title){letter-spacing:0}
+html[lang=ar] :is(.brand,.carousel,#slide-count,a[href^="mailto:"],input[type=email]){direction:ltr;unicode-bidi:isolate}
+html[lang=ar] .hero h1{line-height:1.5;font-size:clamp(44px,4.5vw,66px)}
+html[lang=ar] .hero-actions{flex-wrap:wrap;gap:18px}
+html[lang=ar] .pv-info-copy h2{font-size:27px;line-height:1.8}
+html[lang=ar] .pv-card-copy h3{line-height:1.9}
+.loading-ar,.loading-fr{display:none}
+html[lang=ar] .loading-en{display:none}
+html[lang=ar] .loading-ar{display:inline}
+html[lang=fr] .loading-en{display:none}
+html[lang=fr] .loading-fr{display:inline}
+html[lang=fr] .hero h1{font-size:clamp(42px,4.3vw,66px);line-height:1.17}
+html[lang=fr] .hero-actions{flex-wrap:wrap}
+.faq-grid summary:focus:not(:focus-visible){outline:none}
+.faq-grid summary:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+@media(max-width:850px){
+  html[lang=ar] .hero h1{font-size:46px}
+}
+@media(max-width:600px){
+  html[lang=ar] .hero h1{font-size:42px}
+  html[lang=ar] .pv-info-copy h2{font-size:24px}
+}

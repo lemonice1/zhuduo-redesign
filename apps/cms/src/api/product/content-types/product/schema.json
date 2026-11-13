@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "products",
+  "info": { "singularName": "product", "pluralName": "products", "displayName": "Product" },
+  "options": { "draftAndPublish": true },
+  "pluginOptions": { "i18n": { "localized": true } },
+  "attributes": {
+    "slug": { "type": "uid", "targetField": "title", "required": true, "unique": true },
+    "title": { "type": "string", "required": true, "pluginOptions": { "i18n": { "localized": true } } },
+    "summary": { "type": "text", "required": true, "pluginOptions": { "i18n": { "localized": true } } },
+    "category": { "type": "string", "required": true, "pluginOptions": { "i18n": { "localized": true } } },
+    "categoryKey": { "type": "string" },
+    "detail": { "type": "richtext", "pluginOptions": { "i18n": { "localized": true } } },
+    "customizableOptions": { "type": "json", "pluginOptions": { "i18n": { "localized": true } } },
+    "productFaqs": { "type": "json", "pluginOptions": { "i18n": { "localized": true } } },
+    "imageUrl": { "type": "string" },
+    "image": { "type": "media", "multiple": false, "allowedTypes": ["images"] },
+    "gallery": { "type": "media", "multiple": true, "allowedTypes": ["images"] },
+    "brochure": { "type": "media", "multiple": false, "allowedTypes": ["files"] },
+    "sourceReference": { "type": "text" },
+    "catalogueImportState": { "type": "json", "private": true, "visible": false, "configurable": false, "pluginOptions": { "i18n": { "localized": true } } },
+    "sortOrder": { "type": "integer", "default": 0 },
+    "featured": { "type": "boolean", "default": false }
+  }
+}

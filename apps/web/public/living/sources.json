@@ -1,0 +1,30 @@
+[
+  {
+    "file": "cabin.jpg",
+    "author": "Clay Banks",
+    "source": "https://unsplash.com/photos/6LSKem6Fkt4",
+    "license": "https://unsplash.com/license",
+    "usage": "Architecture inspiration only, not ZhuDuo product photography or completed projects"
+  },
+  {
+    "file": "retreat.jpg",
+    "author": "Clay Banks",
+    "source": "https://unsplash.com/photos/5PclUXShx30",
+    "license": "https://unsplash.com/license",
+    "usage": "Architecture inspiration only, not ZhuDuo product photography or completed projects"
+  },
+  {
+    "file": "studio.jpg",
+    "author": "Clay Banks",
+    "source": "https://unsplash.com/photos/kiv1ggvkgQk",
+    "license": "https://unsplash.com/license",
+    "usage": "Architecture inspiration, not completed ZhuDuo projects"
+  },
+  {
+    "file": "landscape.jpg",
+    "author": "Clay Banks",
+    "source": "https://unsplash.com/photos/pPhjlD9U4mA",
+    "license": "https://unsplash.com/license",
+    "usage": "Architecture inspiration, not completed ZhuDuo projects"
+  }
+]

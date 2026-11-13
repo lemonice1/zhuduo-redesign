@@ -1,0 +1,67 @@
+.home-division-hero{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);isolation:isolate;background:#10191e;min-height:clamp(560px,calc(100svh - 125px),760px);direction:ltr;transition:grid-template-columns .7s cubic-bezier(.22,1,.36,1)}
+.division-hero-heading{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+.division-hero-panel{position:relative;isolation:isolate;display:flex;align-items:flex-end;min-width:0;overflow:hidden;color:#fff;text-align:left;background:#28332e}
+.division-hero-panel+.division-hero-panel{border-left:1px solid rgb(255 255 255 / .2)}
+.division-hero-panel:before{content:"";position:absolute;z-index:0;inset:0;pointer-events:none;background:#070d10;opacity:0;transition:opacity .55s ease}
+.division-hero-panel:after{content:"";position:absolute;z-index:-1;inset:0;pointer-events:none;background:linear-gradient(180deg,rgb(13 16 14 / .03) 18%,rgb(13 16 14 / .12) 35%,rgb(13 16 14 / .78) 72%,#10110fec 100%)}
+.division-hero-image{position:absolute;z-index:-2;inset:0;width:100%;height:100%;object-fit:cover;object-position:52% 46%;transition:transform .8s cubic-bezier(.2,.6,.2,1)}
+.division-hero-copy{position:relative;z-index:1;width:100%;padding:clamp(32px,4vw,72px);padding-top:210px}
+.division-hero-copy>h2,.division-hero-copy>p{transition:opacity .45s ease,translate .6s cubic-bezier(.22,1,.36,1)}
+.division-hero-eyebrow{display:flex;align-items:center;gap:12px;color:#e8d6bc;font-size:10px;font-weight:500;line-height:1.7;letter-spacing:2.5px;transition:opacity .45s ease}
+.division-hero-copy h2{margin:20px 0 17px;font-size:clamp(32px,3.5vw,58px);font-weight:500;line-height:1.13;letter-spacing:-1.3px;text-wrap:balance;overflow-wrap:break-word}
+.division-hero-copy p{max-width:490px;min-height:3.6em;color:rgb(255 255 255 / .8);font-size:14px;line-height:1.8;text-wrap:pretty}
+.division-hero-action{display:inline-flex;align-items:center;justify-content:space-between;gap:25px;max-width:100%;min-height:49px;margin-top:24px;padding:13px 23px;border:1px solid rgb(255 255 255 / .75);border-radius:100px;background:#fff;color:var(--ink);font-size:12px;font-weight:500;line-height:1.5;transition:background .2s,color .2s,border-color .2s,opacity .45s ease,translate .6s cubic-bezier(.22,1,.36,1)}
+.division-hero-arrow{flex-shrink:0;font-size:18px;line-height:1;direction:ltr;transition:transform .25s}
+.division-hero-electrical{background:radial-gradient(ellipse at 65% 0%,#adc0cc 0%,#6f8797 42%,#243944 78%,#13232c 100%)}
+.division-hero-electrical .division-hero-image{inset:3% 8% auto;width:84%;height:65%;object-fit:contain;object-position:center;filter:drop-shadow(0 24px 22px rgb(2 12 19 / .3))}
+.division-hero-electrical:after{background:linear-gradient(180deg,transparent 23%,rgb(9 19 25 / .05) 38%,rgb(9 19 25 / .88) 74%,#091319 100%)}
+.division-hero-electrical .division-hero-eyebrow{color:#c1d6e4}
+.division-hero-panel:focus-visible{z-index:1;outline:3px solid #fff;outline-offset:-9px}
+.division-hero-panel:focus-visible .division-hero-action{background:var(--accent);border-color:var(--accent);color:#fff}
+html[lang=ar] .division-hero-copy h2{line-height:1.55;letter-spacing:0;font-size:clamp(30px,3.2vw,52px)}
+html[lang=ar] .division-hero-copy p{line-height:1.95;min-height:3.9em}
+html[lang=ar] .division-hero-eyebrow{letter-spacing:0}
+html[lang=fr] .division-hero-copy h2{font-size:clamp(30px,3.2vw,52px)}
+@media(hover:hover){
+  .division-hero-panel:hover .division-hero-image{transform:scale(1.035)}
+  .division-hero-panel:hover .division-hero-action{background:var(--accent);border-color:var(--accent);color:#fff}
+  .division-hero-panel:hover .division-hero-arrow{transform:translate(2px,-2px)}
+}
+/* Keep copy width stable so headings do not rewrap while the divider moves. */
+@media(min-width:1001px){
+  .division-hero-copy{width:50vw;flex-shrink:0}
+}
+@media(min-width:1001px) and (hover:hover) and (pointer:fine){
+  .home-division-hero:has(.division-hero-modular-housing:hover),
+  .home-division-hero:not(:has(.division-hero-panel:hover)):has(.division-hero-modular-housing:focus-visible){grid-template-columns:minmax(0,1.2fr) minmax(0,.8fr)}
+  .home-division-hero:has(.division-hero-electrical:hover),
+  .home-division-hero:not(:has(.division-hero-panel:hover)):has(.division-hero-electrical:focus-visible){grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr)}
+  .home-division-hero:has(.division-hero-panel:hover) .division-hero-panel:not(:hover):before,
+  .home-division-hero:not(:has(.division-hero-panel:hover)):has(.division-hero-panel:focus-visible) .division-hero-panel:not(:focus-visible):before{opacity:.45}
+  .home-division-hero:has(.division-hero-panel:hover) .division-hero-panel:not(:hover) .division-hero-copy>:not(.division-hero-eyebrow),
+  .home-division-hero:not(:has(.division-hero-panel:hover)):has(.division-hero-panel:focus-visible) .division-hero-panel:not(:focus-visible) .division-hero-copy>:not(.division-hero-eyebrow){opacity:.12;translate:0 14px}
+  .home-division-hero:has(.division-hero-panel:hover) .division-hero-panel:not(:hover) .division-hero-eyebrow,
+  .home-division-hero:not(:has(.division-hero-panel:hover)):has(.division-hero-panel:focus-visible) .division-hero-panel:not(:focus-visible) .division-hero-eyebrow{opacity:.5}
+}
+@media(max-width:1000px){
+  .division-hero-copy{padding:36px 30px;padding-top:210px}
+  .division-hero-copy h2{font-size:36px}
+  .division-hero-copy p{font-size:13px;min-height:5.4em}
+  html[lang=ar] .division-hero-copy h2,html[lang=fr] .division-hero-copy h2{font-size:34px}
+}
+@media(max-width:700px){
+  .home-division-hero{grid-template-columns:minmax(0,1fr);min-height:0}
+  .division-hero-panel{min-height:470px}
+  .division-hero-panel+.division-hero-panel{border-left:0;border-top:1px solid rgb(255 255 255 / .2)}
+  .division-hero-copy{padding:32px 24px;padding-top:210px}
+  .division-hero-copy h2{margin:15px 0 12px;font-size:36px;letter-spacing:-.8px}
+  .division-hero-copy p{max-width:460px;min-height:0;font-size:13px}
+  .division-hero-action{margin-top:20px;min-height:46px;padding:11px 20px;font-size:11px}
+  .division-hero-eyebrow{font-size:9px;letter-spacing:2px}
+  .division-hero-electrical .division-hero-image{inset:0 8% auto;height:62%}
+  html[lang=ar] .division-hero-copy h2,html[lang=fr] .division-hero-copy h2{font-size:33px}
+  html[lang=ar] .division-hero-copy p{min-height:0}
+}
+@media(prefers-reduced-motion:reduce){
+  .home-division-hero,.division-hero-panel:before,.division-hero-image,.division-hero-copy>*,.division-hero-arrow{transition:none}
+}

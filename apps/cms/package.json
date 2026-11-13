@@ -1,0 +1,32 @@
+{
+  "name": "@modular/cms",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi",
+    "import:products": "node scripts/import-company-products.cjs",
+    "backfill:arabic": "node scripts/backfill-arabic.cjs",
+    "backfill:french": "node scripts/backfill-language.cjs --locale=fr"
+  },
+  "dependencies": {
+    "@modular/contracts": "*",
+    "@strapi/provider-upload-aws-s3": "5.57.0",
+    "@strapi/strapi": "5.57.0",
+    "pg": "^8.16.3",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "react-router-dom": "6.30.6",
+    "styled-components": "6.5.3"
+  },
+  "devDependencies": {
+    "@types/node": "^24.7.2",
+    "typescript": "^5.9.2"
+  },
+  "engines": {
+    "node": ">=20.0.0 <=26.x.x",
+    "npm": ">=6.0.0"
+  }
+}

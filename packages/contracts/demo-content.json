@@ -1,0 +1,14 @@
+{
+  "products": [
+    { "slug": "folding-home", "eyebrow": "01 / FOLDING HOME", "title": "A finished room, folded for the journey.", "category": "Folding Home", "summary": "A compact building system for accommodation, offices and fast-moving sites.", "detail": "Folded transport keeps the footprint efficient. On site, the structure opens into a room that can be finished around your brief.", "options": ["Room layout", "Insulated envelope", "Kitchen and bathroom packs"], "tone": "sunset", "imageUrl": "" },
+    { "slug": "flat-pack-home", "eyebrow": "02 / FLAT-PACK HOME", "title": "A clean kit for repeatable builds.", "category": "Flat-pack Home", "summary": "Panels, frames and services arrive organized for projects that need a clear sequence.", "detail": "A flat-pack approach keeps components accessible and makes it easier to repeat a proven layout across a site, region or portfolio.", "options": ["Flexible room modules", "Facade finishes", "Service-ready panels"], "tone": "slate", "imageUrl": "" },
+    { "slug": "detachable-office", "eyebrow": "03 / DETACHABLE OFFICE", "title": "A productive room that can move with the plan.", "category": "Detachable Office", "summary": "A modular workspace for construction sites, campuses and growing teams.", "detail": "This standalone module can support a temporary site today and a new use tomorrow with a considered fit-out.", "options": ["Open-plan or cellular", "Data and power planning", "Relocatable base"], "tone": "copper", "imageUrl": "" }
+  ],
+  "faqs": [
+    ["What can be customized?", "We can discuss layouts, openings, insulation, finishes, electrical plans, plumbing packs and the site conditions that shape the right module."],
+    ["Can you support a project outside your home market?", "Start with your country, site use and target quantity. We will confirm the information needed to scope a responsible next step."],
+    ["How do we begin?", "Send a short brief with your intended use, approximate quantity and any drawings or references. Our team will respond with clarifying questions."],
+    ["Do you provide installation?", "Installation and local coordination depend on the project location and scope. We will define the handover boundary in the quotation stage."]
+  ],
+  "settings": { "siteName": "ZhuDuo", "contactEmail": "", "footerNote": "Configurable spaces for changing plans." }
+}

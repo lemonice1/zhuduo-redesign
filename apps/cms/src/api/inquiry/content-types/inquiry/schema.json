@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "inquiries",
+  "info": { "singularName": "inquiry", "pluralName": "inquiries", "displayName": "Inquiry" },
+  "options": { "draftAndPublish": false },
+  "attributes": {
+    "name": { "type": "string", "required": true },
+    "email": { "type": "email" },
+    "whatsapp": { "type": "string" },
+    "country": { "type": "string", "required": true },
+    "productType": { "type": "string" },
+    "quantity": { "type": "string" },
+    "message": { "type": "text", "required": true },
+    "source": { "type": "string" },
+    "followUpStatus": { "type": "enumeration", "enum": ["new", "qualified", "quoted", "won", "lost"], "default": "new" },
+    "internalNotes": { "type": "text", "private": true }
+  }
+}

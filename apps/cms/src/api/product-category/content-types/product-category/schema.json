@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "product_categories",
+  "info": { "singularName": "product-category", "pluralName": "product-categories", "displayName": "产品分类", "description": "管理产品菜单、分类页面和产品所属分类" },
+  "options": { "draftAndPublish": true },
+  "attributes": {
+    "nameEn": { "type": "string", "required": true },
+    "nameFr": { "type": "string" },
+    "nameAr": { "type": "string" },
+    "nameZh": { "type": "string" },
+    "slug": { "type": "uid", "targetField": "nameEn", "required": true, "unique": true },
+    "key": { "type": "string", "unique": true, "visible": false, "configurable": false },
+    "division": { "type": "enumeration", "enum": ["modular-buildings", "electrical"], "required": true },
+    "group": { "type": "enumeration", "enum": ["none", "transformers", "switchgear", "substations"], "default": "none", "required": true },
+    "sortOrder": { "type": "integer", "default": 0 },
+    "visible": { "type": "boolean", "default": true }
+  }
+}
