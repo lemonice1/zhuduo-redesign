@@ -30,6 +30,10 @@ type Architecture = ReturnType<typeof createSiteArchitecture>;
 const projectImage = "/projects/design-preview/australia-project-cover.webp";
 const electricalImage = "/brand/hero-electrical-equipment.webp";
 const housingMenuImage = "/brand/modular-housing-menu.webp";
+const companyMenuImages: Record<string, string> = {
+  projects: "/brand/projects-menu.webp",
+  about: "/brand/about-menu.webp"
+};
 const companyAddress = "Floor 30, Block C, Tower 2, Wangjing SOHO\nNo. 1 Futong East Street, Chaoyang District\nBeijing 100102, China";
 
 function Spacer({ large = false }: { large?: boolean }) {
@@ -252,7 +256,7 @@ export default function OriginalWhiteboardSite(props: Props) {
     <div className="page-wrapper">
     <Template name="nav" values={{ homeHref: whiteboardHref("", language), email, productLabel: t.collection, companyLabel: "ZHUDUO", allProducts: t.collection, catalogueHref: whiteboardHref("products", language), tagline: t.heroNote, menuNote: t.menuNote, inquiryLabel: t.request, menuLabel: t.menu, closeLabel: t.close }} slots={{
       navProducts: architecture.divisions.map(division => <Template name="navProduct" key={division.slug} values={{ title: division.name[language], image: division.slug === "electrical" ? electricalImage : housingMenuImage, href: `${whiteboardHref("products", language)}&collection=${division.slug}` }}/>),
-      navCompany: companyNavigation.map(item => <Template name="navCompany" key={item.slug} values={{ title: item.name[language], image: item.slug === "projects" ? project.gallery[0]?.url || projectImage : "/videos/zhuduo-company-introduction-poster.webp", href: ["projects", "about"].includes(item.slug) ? whiteboardHref(item.slug, language) : siteHref(item.slug, language) }}/>),
+      navCompany: companyNavigation.map(item => <Template name="navCompany" key={item.slug} values={{ title: item.name[language], image: companyMenuImages[item.slug] || "/videos/zhuduo-company-introduction-poster.webp", href: ["projects", "about"].includes(item.slug) ? whiteboardHref(item.slug, language) : siteHref(item.slug, language) }}/>),
       language: <LanguagePicker language={language} openOnHover onChange={next => { const url = new URL(window.location.href); url.searchParams.set("lang", next); window.location.assign(url.href); }}/>
     }}/>
     <main className="page-wrap" id="zd-main"><div className="page-main">
